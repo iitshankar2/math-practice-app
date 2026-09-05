@@ -11,6 +11,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "time",
       "number_sense",
@@ -21,9 +23,7 @@ const moemsBank = [
     "year": "2008-2009",
     "contest": 4,
     "solution": "Strategy: List the single-digit primes 2, 3, 5, and 7. Select the 3 greatest and write them from largest to smallest. The last time before noon when all 3 digits are prime is 7:53.",
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2009-4b",
@@ -34,6 +34,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "counting_combinatorics"
@@ -43,9 +45,7 @@ const moemsBank = [
     "year": "2008-2009",
     "contest": 4,
     "solution": "Strategy: Make an organized list. The greatest of the four numbers cannot exceed 15-6=9. The six ways are: 9+3+2+1, 8+4+2+1, 7+5+2+1, 7+4+3+1, 6+5+3+1, 6+4+3+2.",
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2009-4c",
@@ -56,6 +56,8 @@ const moemsBank = [
     "solvableWithoutFigure": false,
     "figure": "figures/e-sample-2009-4c.png",
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "spatial",
       "geometry"
@@ -65,9 +67,7 @@ const moemsBank = [
     "year": "2008-2009",
     "contest": 4,
     "solution": "METHOD 1: Count horizontally from the top layer down. Layers: 1 (top), 3, 6, 10 (bottom) = 20 cubes. METHOD 2: Count vertically, stack by stack: four stacks of height 1, three of height 2, two of height 3, one of height 4.",
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2009-4d",
@@ -78,6 +78,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "algebra"
@@ -87,9 +89,7 @@ const moemsBank = [
     "year": "2008-2009",
     "contest": 4,
     "solution": "Strategy: Consider the clues one at a time, starting with the most restrictive. Clue 3: the only 4-digit power of 11 is 11^3=1331, so the middle four digits are 1331. Clue 1: the number is a palindrome A1331A. Clue 2: digit sum 2A+8 is a multiple of 9, so A=5. Hannah's number is 513315.",
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2009-4e",
@@ -100,6 +100,8 @@ const moemsBank = [
     "solvableWithoutFigure": false,
     "figure": "figures/e-sample-2009-4e.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -109,9 +111,7 @@ const moemsBank = [
     "year": "2008-2009",
     "contest": 4,
     "solution": "Strategy: Make the figure as compact as possible. Five L-trominoes have area 15. They pack into a 4x4 square of area 16 (one unit missing). Least perimeter is 4+4+3+3+1+1=16 cm.",
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2018-3a",
@@ -122,6 +122,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -130,9 +132,7 @@ const moemsBank = [
     "year": "2017-2018",
     "contest": 3,
     "solution": "METHOD 1 Strategy: Write in expanded form and then find the sum. 531 + 642 + 753 + 864 + 975 = (500+30+1)+(600+40+2)+(700+50+3)+(800+60+4)+(900+70+5) = (500+600+700+800+900)+(30+40+50+60+70)+(1+2+3+4+5) = 3500 + 250 + 15 = 3765. METHOD 2 Strategy: Decompose and compose by place value using a table. Hundreds 5+6+7+8+9=35, tens 3+4+5+6+7=25, ones 1+2+3+4+5=15. Finally, 3500 + 250 + 15 = 3765.",
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2018-3b",
@@ -143,6 +143,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "counting_combinatorics"
@@ -152,19 +154,19 @@ const moemsBank = [
     "year": "2017-2018",
     "contest": 3,
     "solution": "METHOD 1 Strategy: Count using place value. The first 40 odd counting numbers begin with 1 and end with 79. The digit 3 appears in the tens place 5 times (31, 33, 35, 37, 39) and in the ones place 8 times (3, 13, 23, 33, 43, 53, 63, 73). Therefore 5 + 8 = 13. METHOD 2 Strategy: Make a list and count the digit 3 among 1, 3, ..., 79.",
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2018-3c",
     "question": "Ashley has a rectangle made out of paper that is 8 cm by 12 cm. She folds it in half twice, first vertically and then horizontally. The new rectangle looks just like the original rectangle but smaller. What is the area of the new smaller rectangle in square cm?",
     "answer": 24,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -174,9 +176,7 @@ const moemsBank = [
     "year": "2017-2018",
     "contest": 3,
     "solution": "METHOD 1 Strategy: Draw diagrams to represent the folded paper. After a vertical fold the rectangle is 8 by 6; after a horizontal fold it is 4 by 6. Area = 4 x 6 = 24 cm^2. METHOD 2 Strategy: Use spatial reasoning. Original area 8 x 12 = 96 cm^2. Each fold halves the area: 96/2=48, 48/2=24 cm^2.",
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2018-3d",
@@ -187,6 +187,8 @@ const moemsBank = [
     "solvableWithoutFigure": false,
     "figure": "figures/e-sample-2018-3d.png",
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "algebra"
@@ -196,9 +198,7 @@ const moemsBank = [
     "year": "2017-2018",
     "contest": 3,
     "solution": "Strategy: Use number sense applied to trial and error. For the least product of the three gray-row numbers, try 1, 2, and 3. The remaining numbers are 4, 5, 6, 7. The two leftover left-column numbers must sum to 2 more than the two leftover right-column numbers, so left gets 5 and 7, right gets 4 and 6. Diagonals also sum to 13. One possible arrangement yields gray-row product 1 x 2 x 3 = 6.",
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-sample-2018-3e",
@@ -209,6 +209,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "cryptarithm",
       "number_sense",
@@ -219,9 +221,7 @@ const moemsBank = [
     "year": "2017-2018",
     "contest": 3,
     "solution": "Strategy: Use place value and number sense. For the least sum, give B the least nonzero digit 1. E repeats in the tens place; assign E=0. Assign 2, 3, and 4 to I, A, and U in some order. Next least available digits for T and R are 5 and 6. The four addends are 105506, 125506, 135506, 145506, and the least possible sum is 512,024.",
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-01",
@@ -232,6 +232,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -240,9 +242,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Group as (51-33) + (42-33) + (24-33) + (15-33) = 18 + 9 - 9 - 18.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-02",
@@ -253,6 +253,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -261,9 +263,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75, 76, 77 (counts as 2), 78, 79. (Note: Only up to 85).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-03",
@@ -274,6 +274,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -282,9 +284,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sums of: 9, 16, 21, 24, 25, 24, 21, 16, 9.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-04",
@@ -295,6 +295,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -303,9 +305,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sum each column: (8+8+8+3) = 27. Carry values across place holders.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-05",
@@ -316,6 +316,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -324,9 +326,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Units digits repeat 3, 8, 3, 8. 10 pairs of (3+8=11). 10 * 1 = 10. Units digit is 0.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-06",
@@ -337,6 +337,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -345,9 +347,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "There are 25 pairs of (X - (X-2)), each equal to 2. Wait: 100-98=2, 96-94=2... 50 terms, 25 pairs. 25 * 2 = 50.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-07",
@@ -358,6 +358,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "logic"
     ],
@@ -366,9 +368,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "(31 - 10) / 3 = 7.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-08",
@@ -379,6 +379,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -387,9 +389,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "1 robot = 4 orders / 10 mins. 8 robots = 32 orders / 10 mins. 32 * 6 = 192.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-09",
@@ -400,6 +400,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -408,9 +410,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "5x - 12 = 3x + 12 => 2x = 24 => x = 12. Bert: 5 * 12 = 60.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-10",
@@ -421,6 +421,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -429,9 +431,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "6C - 4(25-C) = 100 => 10C - 100 = 100 => 10C = 200.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-11",
@@ -442,6 +442,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -450,9 +452,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Worst case: pull all red (5) and all blue (4), then 1 green. 5+4+1=10.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-12",
@@ -463,6 +463,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -471,9 +473,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3A+2O=2.40; 2A+3O=2.10. Subtracting gives A-O=0.30. Adding gives 5A+5O=4.50 (A+O=0.90). A=0.60.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-14",
@@ -484,6 +484,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -492,9 +494,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "256 -> 128 -> 64 -> 32 -> 16 -> 8. (5 steps).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-15",
@@ -505,6 +505,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -514,9 +516,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Area 216 / 6 = 36. Side = 6. Perimeter = 6 * 4 = 24.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-16",
@@ -527,6 +527,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -538,9 +540,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Side = 4. One face = 16. 6 faces = 96.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-17",
@@ -551,6 +551,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -560,9 +562,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "5 tiles wide, 6 tiles long. 5 * 6 = 30.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-18",
@@ -573,6 +573,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -582,9 +584,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "2(2W + W) = 30 => 6W = 30 => W = 5. L = 10. 5 * 10 = 50.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-19",
@@ -595,6 +595,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -603,9 +605,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Largest digits possible under constraints.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-20",
@@ -616,6 +616,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -625,9 +627,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sum of digits must be div by 9: 2+A+5+A+0+A+2 = 9 + 3A. If A=3, 6, or 9. Check 11 divisibility.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-21",
@@ -638,6 +638,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -646,9 +648,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3 * 5A9. A cannot be 5 or 9. If A=6, 3 * 569 = 1707.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-22",
@@ -659,6 +659,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -667,9 +669,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "X=5, Y=4. 5+4=9.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-23",
@@ -680,6 +680,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "fractions",
@@ -690,9 +692,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Cycle length 6. 2019 / 6 leaves remainder 3. 3rd digit is 8.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-practice-25-24",
@@ -703,6 +703,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -711,9 +713,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Triangular numbers. Add 6 to 15.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-1",
@@ -724,6 +724,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -733,9 +735,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-2",
@@ -746,6 +746,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -756,9 +758,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-4",
@@ -769,6 +769,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -778,9 +780,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-5",
@@ -791,6 +791,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "cryptarithm"
@@ -800,9 +802,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-6",
@@ -813,6 +813,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -822,9 +824,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-7",
@@ -835,6 +835,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -843,9 +845,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-8",
@@ -856,6 +856,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -864,9 +866,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-9",
@@ -877,6 +877,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -885,9 +887,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb13-10",
@@ -898,6 +898,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -906,9 +908,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-1",
@@ -919,6 +919,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -928,9 +930,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-2",
@@ -941,6 +941,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -950,9 +952,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-5",
@@ -963,6 +963,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -971,9 +973,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-6",
@@ -984,6 +984,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -992,9 +994,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-7",
@@ -1005,6 +1005,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1013,9 +1015,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-8",
@@ -1026,6 +1026,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1034,9 +1036,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-9",
@@ -1047,6 +1047,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1055,9 +1057,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-10",
@@ -1068,6 +1068,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "logic"
@@ -1077,9 +1079,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-11",
@@ -1090,6 +1090,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -1098,9 +1100,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-12",
@@ -1111,6 +1111,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1119,9 +1121,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Linear map 3x+14 sends 12→50 and 20→74, so 3x+14=38 gives x=8.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-13",
@@ -1132,6 +1132,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1140,9 +1142,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-14",
@@ -1153,6 +1153,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1161,9 +1163,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-15",
@@ -1174,6 +1174,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1182,9 +1184,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3 colors: worst case one of each then the next forces a pair.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-16",
@@ -1195,6 +1195,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1203,9 +1205,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "4 colors: worst case one of each then the next forces a pair.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-17",
@@ -1216,6 +1216,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1224,9 +1226,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Worst case without two pairs is 3 of one color and 1 of each other (5); the 6th creates a second pair.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-18",
@@ -1237,6 +1237,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1245,9 +1247,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mar-olympiad-19",
@@ -1258,6 +1258,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1266,9 +1268,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3 colors: worst case 2 of each then the next forces 3 of one color.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-algebra-1",
@@ -1279,6 +1279,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1287,9 +1289,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "With Mia=J-4, Emma=2J, Noah=3(J-4) and total 75, Jack=13.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-algebra-2",
@@ -1300,6 +1300,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1308,9 +1310,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "With Ethan=A-7 and analogous relations totaling 91, Ava=17.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-algebra-3",
@@ -1321,6 +1321,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1329,9 +1331,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Step 1: Define Variables Let L be the number of crayons Leo has. Leo: L Zoe: 2L (Twice as many as Leo) Harper: L - 3 (3 fewer than Leo) Mason: 3 × (L - 3) (Triple the number Harper has) Step 2: Set up the Equation The total number of crayons for all four kids is 65: {Leo} + {Zoe} + {Harper} + {Mason} = 65 L + 2L + (L - 3) + 3(L - 3) = 65 Step 3: Solve the Equation for {L} Distribute and Simplify: L + 2L + L - 3 + 3L - 9 = 65 Combine like terms (the L terms and the constant terms): (L + 2L + L + 3L) + (-3 - 9) = 65 7L - 12 = 65 Isolate the variable term: 7L = 65 + 12 7L = 77 Solve for L: L = 77 ÷ 7 L = 11 Answer Leo has 11 crayons.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-algebra-4",
@@ -1342,6 +1342,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1350,9 +1352,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "With Chloe=R-8 and analogous relations totaling 94, Ryan=18.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-algebra-5",
@@ -1363,6 +1363,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1371,9 +1373,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "With Grace=B-5 and analogous relations totaling 78, Ben=14.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-arith-seq-1",
@@ -1384,6 +1384,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "sequences",
       "arithmetic"
@@ -1393,9 +1395,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sequence 15+18k; three-digit terms from 105 to 987 number 50.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-arith-seq-2",
@@ -1406,6 +1406,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "sequences",
       "arithmetic"
@@ -1415,9 +1417,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sequence 12+25k through 987; three-digit terms from 112 to 987 number 36.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-arith-seq-3",
@@ -1428,6 +1428,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "sequences",
       "arithmetic"
@@ -1437,9 +1439,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sequence 30+20k; three-digit terms from 110 to 990 number 45.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-arith-seq-4",
@@ -1450,6 +1450,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "sequences",
       "arithmetic"
@@ -1459,9 +1461,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sequence 45+15k through 990; three-digit terms from 105 to 990 number 60.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-arith-seq-5",
@@ -1472,6 +1472,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "sequences",
       "arithmetic"
@@ -1481,9 +1483,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sequence 28+22k; three-digit terms from 116 to 996 number 41.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-congruent-rect-1",
@@ -1492,8 +1492,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-congruent-rect-1.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -1502,9 +1504,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Area of large rectangle: 120 cm² Number of small rectangles: 8 Area of each small rectangle: 120/8=15 cm2 Possible dimensions of large rectangle: (1, 120), (2, 60), (3, 40), (4, 30), (5, 24), (6, 20), (8, 15), (10, 12) Try 10 × 12: If height is 10 cm, and we arrange 2 rows of 4 rectangles, each small rectangle must be 5 cm × 3.75 cm ❌ (not whole) Try 6 × 20: If height is 6 cm, and we arrange 2 rows of 4 rectangles, each small rectangle must be 3 cm × 5 cm ✅ Perimeter: 2×(6+20)=52 cm ✅ Answer: 52 cm",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-congruent-rect-2",
@@ -1513,8 +1513,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-congruent-rect-2.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -1523,9 +1525,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Area of large rectangle: 108 cm² Number of small rectangles: 9 Area of each small rectangle: 108/9=12 cm2 Possible dimensions of large rectangle: (1, 108), (2, 54), (3, 36), (6, 18), (9, 12) Try 9 × 12: If height is 12 cm, and we arrange 3 rows of 3 rectangles, each small rectangle must be 3 cm × 4 cm ✅ Perimeter: 2×(9+12)=42 cm ✅ Answer: 42 cm",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-congruent-rect-3",
@@ -1534,8 +1534,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-congruent-rect-3.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -1544,19 +1546,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Area of large rectangle: 75 cm² Number of small rectangles: 5 Area of each small rectangle: 75/5=15 cm2 Possible dimensions of large rectangle: (1, 75), (3, 25), (5, 15) Try 5 × 15: If height is 5 cm, and we arrange 1 row of 5 rectangles, each small rectangle must be 3 cm × 5 cm ✅ Perimeter: 2×(5+15)=40 cm ✅ Answer: 40 cm",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-grid-1",
     "question": "In a grid of 1 x 1 squares, Asha starts shading some 1 x1 squares. She will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 12 x 16 grid? ❓",
     "answer": 48,
     "answerType": "number",
-    "hasFigure": true,
-    "solvableWithoutFigure": false,
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "spatial"
@@ -1566,19 +1568,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "12 x 16 Grid 1. Rows (12) In a grid with 12 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9, 11. Number of alternating rows: 6 2. Columns (16) In a grid with 16 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13, 15. Number of alternating columns: 8 3. Maximum Shaded Squares The maximum number of 1 x 1 squares that could be shaded is 48. 💡",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-grid-2",
     "question": "In a grid of 1 x 1 squares, Leo starts shading some 1 x 1 squares. He will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 9 x 13 grid? ❓",
     "answer": 35,
     "answerType": "number",
-    "hasFigure": true,
-    "solvableWithoutFigure": false,
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "spatial"
@@ -1588,19 +1590,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "9 x 13 Grid 1. Rows (9) In a grid with 9 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9. Number of alternating rows: 5 2. Columns (13) In a grid with 13 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13. Number of alternating columns: 7 3. Maximum Shaded Squares = 35 💡",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-grid-3",
     "question": "In a grid of 1 x 1 squares, Maya starts shading some 1 x 1 squares. She will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 14 x 14 grid? ❓",
     "answer": 49,
     "answerType": "number",
-    "hasFigure": true,
-    "solvableWithoutFigure": false,
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "spatial"
@@ -1610,19 +1612,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "14 x 14 Grid 1. Rows (14) In a grid with 14 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9, 11, 13. Number of alternating rows: 7 2. Columns (14) In a grid with 14 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13. Number of alternating columns: 7 3. Maximum Shaded Squares 7 text rows x 7 text columns = 49 The maximum number of 1 x 1 squares that could be shaded is 49. 💡",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-grid-4",
     "question": "In a grid of 1 x 1 squares, Ken starts shading some 1 x 1 squares. He will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 11 x 17 grid? ✅",
     "answer": 54,
     "answerType": "number",
-    "hasFigure": true,
-    "solvableWithoutFigure": false,
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "spatial"
@@ -1632,9 +1634,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "11 x 17 Grid 1. Rows (11) In a grid with 11 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9, 11. Number of alternating rows: 6 2. Columns (17) In a grid with 17 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13, 15, 17. Number of alternating columns: 9 3. Maximum Shaded Squares 6 text rows x 9 text columns = 54 The maximum number of 1 x 1 squares that could be shaded is 54.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-missing-digit-1",
@@ -1645,6 +1645,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "algebra"
@@ -1654,9 +1656,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Step 1:Divisible by 8 Check A20: A A20 ÷8? 1 120 ✔️ 3 320 ✔️ 5 520 ✔️ 7 720 ✔️ 9 920 ✔️ List #1 (8‑rule): 1, 3, 5, 7, 9 Step 2: Divisible by 3 Sum of digits: 4+7+A+5+A+2+0=18+2A Test A: A 2A ÷3? 0 0 ✔️ 3 6 ✔️ 6 12 ✔️ 9 18 ✔️ List #2 (3‑rule): 0, 3, 6, 9 Step 3: Common digits Common: 3 and 9 A > B → A = 9, B = 3 Step 4: Final (9+3)(9−3)=12×6=72 🟧",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-missing-digit-3",
@@ -1667,6 +1667,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "algebra"
@@ -1676,9 +1678,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Step 1:Divisible by 8 Check A80: A A80 ÷8? 0 080 ✔️ 2 280 ✔️ 4 480 ✔️ 6 680 ✔️ 8 880 ✔️ List #1: 0, 2, 4, 6, 8 Step 2: Divisible by 3 Sum: 2+9+A+4+A+8+0=23+2A Test A: A 2A ÷3? 1 2 ❌ 4 8 ❌ 7 14 ❌ 3 6 ✔️ 6 12 ✔️ List #2: 3, 6 Step 3: Common digits Common: 6 So A = 6. B must be smaller → B = 3. Step 4: Final (6+3)(6−3)=9×3=27 🟪",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numberline-1",
@@ -1689,6 +1689,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra",
       "measurement"
@@ -1698,9 +1700,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Explanation: A - 5 = 2 (17 - A) A - 5 = 34 - 2A 3A = 34 + 5 = 39 A = 13 B - 5 = 2 (B - 17 ) B - 5 = 2B - 34 34 - 5 = 2B - B B = 29 A = 13 B = 29 A + B = 42",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numberline-2",
@@ -1711,6 +1711,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra",
       "measurement"
@@ -1720,9 +1722,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "A = 6 B = 15 A + B = 21",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numberline-3",
@@ -1733,6 +1733,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra",
       "measurement"
@@ -1742,9 +1744,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "A = -6 B = 18 A + B = 12",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numword-1",
@@ -1755,6 +1755,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1763,9 +1765,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "16a + b = 58 22a + b = 76 Subtract → 6a = 18 → a = 3 Plug in: 16(3) + b = 58 → 48 + b = 58 → b = 10 Solve: 3x + 10 = 40 → 3x = 30 → x = 10 Answer: Milo's number is 10",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numword-2",
@@ -1776,6 +1776,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1784,9 +1786,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "10a + b = 43 18a + b = 67 Subtract → 8a = 24 → a = 3 Plug in: 10(3) + b = 43 → 30 + b = 43 → b = 13 Solve: 3x + 13 = 55 → 3x = 42 → x = 14 Answer: Riley's number is 14",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numword-3",
@@ -1797,6 +1797,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1805,9 +1807,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "12a + b = 50 20a + b = 74 Subtract → 8a = 24 → a = 3 Plug in: 12(3) + b = 50 → 36 + b = 50 → b = 14 Solve: 3x + 14 = 38 → 3x = 24 → x = 8 Answer: Jonah's number is 8",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numword-4",
@@ -1818,6 +1818,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1826,9 +1828,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "15a + b = 57 25a + b = 87 Subtract → 10a = 30 → a = 3 Plug in: 15(3) + b = 57 → 45 + b = 57 → b = 12 Solve: 3x + 12 = 72 → 3x = 60 → x = 20 Answer: Nina's number is 20",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-numword-5",
@@ -1839,6 +1839,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -1847,9 +1849,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "11a + b = 41 19a + b = 65 Subtract → 8a = 24 → a = 3 Plug in: 11(3) + b = 41 → 33 + b = 41 → b = 8 Solve: 3x + 8 = 53 → 3x = 45 → x = 15 Answer: Leo's number is 15",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-prob-1",
@@ -1860,6 +1860,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "probability"
@@ -1869,9 +1871,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "There are 3 colors. In the worst case, you pick 1 red, 1 green, 1 blue (3 socks, all different). The next sock must match one of these colors.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-prob-3",
@@ -1882,6 +1882,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "probability"
@@ -1891,9 +1893,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Let r,g,b be the numbers drawn of each color. The number of pairs is ⌊r/2⌋+⌊g/2⌋+⌊b/2⌋. To avoid having 2 pairs, this total must be at most 1. The maximum socks you can have with at most 1 pair is when one color has 3 socks and the others have 1 each: (3,1,1)⇒5 socks and only 1 pair. So with 5 socks, you can still have just 1 pair; the next sock forces at least 2 pairs.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-prob-4",
@@ -1904,6 +1904,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "probability"
@@ -1913,9 +1915,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "To form 2 pairs, you need at least 2 left and 2 right. Worst case: you draw all of one hand first. You could draw all 12 left gloves before seeing a right glove. Then you start drawing right gloves: you need 2 of them to make 2 pairs. Total: 12 (all left) + 2 (two right) = 14.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-prob-5",
@@ -1926,6 +1926,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics",
       "probability"
@@ -1935,9 +1937,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "To avoid 3 of any color, you can take at most 2 of each color: 2 red+2 blue+2 green=6 shirts With 6 shirts, you might have exactly 2 of each color. The next shirt (the 7th) must make some color reach 3.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-1",
@@ -1948,6 +1948,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -1956,9 +1958,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-4",
@@ -1969,6 +1969,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -1977,9 +1979,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-5",
@@ -1990,6 +1990,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -1998,9 +2000,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-6",
@@ -2011,6 +2011,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2019,9 +2021,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-7",
@@ -2032,6 +2032,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2040,9 +2042,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-8",
@@ -2053,6 +2053,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2061,9 +2063,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-9",
@@ -2074,6 +2074,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2082,9 +2084,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-10",
@@ -2095,6 +2095,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2103,9 +2105,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-11",
@@ -2116,6 +2116,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2124,9 +2126,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-12",
@@ -2137,6 +2137,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2145,9 +2147,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-13",
@@ -2158,6 +2158,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2166,9 +2168,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-14",
@@ -2179,6 +2179,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2187,9 +2189,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-15",
@@ -2200,6 +2200,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2208,9 +2210,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-16",
@@ -2221,6 +2221,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2229,9 +2231,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-17",
@@ -2242,6 +2242,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "money"
@@ -2251,9 +2253,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-18",
@@ -2264,6 +2264,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2272,9 +2274,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep3-19",
@@ -2285,6 +2285,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2293,9 +2295,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-6",
@@ -2306,6 +2306,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2314,9 +2316,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "12.40 dollars at a dime each means 124 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-7",
@@ -2327,6 +2327,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "logic",
       "money"
@@ -2336,9 +2338,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "8.35 dollars at a nickel each means 167 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-8",
@@ -2349,6 +2349,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2357,9 +2359,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "36.75 dollars at a quarter each means 147 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-9",
@@ -2370,6 +2370,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2378,9 +2380,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3.21 dollars at a penny each means 321 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-10",
@@ -2391,6 +2391,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2399,9 +2401,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "92.50 dollars at 50 cents each means 185 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-13",
@@ -2412,6 +2412,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2420,9 +2422,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "29(61+39)+67·10=2900+670=3570.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-16",
@@ -2431,8 +2431,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-dec-prep-16.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2441,9 +2443,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "60/6=10",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-17",
@@ -2452,8 +2452,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-dec-prep-17.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2462,9 +2464,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "99/10 floor issues — 9 if no waste?",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-18",
@@ -2473,8 +2473,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-dec-prep-18.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "money"
@@ -2484,9 +2486,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "(144-9)/12=11.25 → 11",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-19",
@@ -2495,8 +2495,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-dec-prep-19.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2505,9 +2507,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "(49-2)/3=15.66 → 15",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-quiz-4",
@@ -2518,6 +2518,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2526,9 +2528,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "6.45 dollars at a nickel each means 129 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-quiz-5",
@@ -2539,6 +2539,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2547,9 +2549,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "56(23+77)+88·50=5600+4400=10000.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-quiz-6",
@@ -2560,6 +2560,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2568,9 +2570,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "82(49+51)=82·100=8200.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-quiz-7",
@@ -2581,6 +2581,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2589,9 +2591,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "32(115-15)=32·100=3200.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-quiz-8",
@@ -2602,6 +2602,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2610,9 +2612,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "25·18·4+150·2=1800+300=2100.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-quiz-9",
@@ -2621,8 +2621,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-dec-prep-quiz-9.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2631,9 +2633,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "60/4=15",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep-quiz-10",
@@ -2642,8 +2642,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-dec-prep-quiz-10.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "money"
@@ -2653,9 +2655,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "(81-9)/3=24",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep2-3",
@@ -2666,6 +2666,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2674,9 +2676,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Each dime is $0.10, so $12.40/0.10 = 124 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep2-4",
@@ -2687,6 +2687,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2695,9 +2697,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Each quarter is $0.25, so $21.75/0.25 = 87 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep2-5",
@@ -2708,6 +2708,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -2716,9 +2718,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Each donation is $0.50, so $92.50/0.50 = 185 students.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep2-6",
@@ -2729,6 +2729,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2737,9 +2739,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Factor: 14×(55−45)=14×10=140.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep2-7",
@@ -2750,6 +2750,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2758,9 +2760,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Factor: 84×(13+87)=84×100=8400.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep2-10",
@@ -2771,6 +2771,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2779,9 +2781,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "29×(61+39)+67×10=2900+670=3570.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-dec-prep2-16",
@@ -2792,6 +2792,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -2800,9 +2802,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Area 60 allows at most 15 tetrominoes; straight 4×1 tiling max is 14.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-01",
@@ -2813,6 +2813,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2821,9 +2823,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-02",
@@ -2834,6 +2834,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -2843,9 +2845,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-03",
@@ -2856,6 +2856,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -2865,9 +2867,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-04",
@@ -2878,6 +2878,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -2887,9 +2889,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-05",
@@ -2900,6 +2900,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -2908,9 +2910,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-06",
@@ -2921,6 +2921,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -2930,9 +2932,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-07",
@@ -2943,6 +2943,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -2951,9 +2953,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-08",
@@ -2964,6 +2964,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -2972,9 +2974,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-09",
@@ -2985,6 +2985,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -2993,9 +2995,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-10",
@@ -3006,6 +3006,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3015,9 +3017,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-11",
@@ -3028,6 +3028,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3037,9 +3039,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-12",
@@ -3050,6 +3050,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3059,9 +3061,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-13",
@@ -3072,6 +3072,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3080,9 +3082,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-14",
@@ -3093,6 +3093,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3101,9 +3103,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-15",
@@ -3114,6 +3114,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3122,9 +3124,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-16",
@@ -3135,6 +3135,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "arithmetic"
@@ -3144,9 +3146,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-17",
@@ -3157,6 +3157,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3166,9 +3168,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-18",
@@ -3179,6 +3179,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "money"
@@ -3188,9 +3190,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan25-20",
@@ -3201,6 +3201,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3209,9 +3211,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-1",
@@ -3222,6 +3222,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3231,9 +3233,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "7A28B divisible by 99 ⇒ A=1,B=0, so AB=10 (number 71280).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-2",
@@ -3244,6 +3244,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3252,9 +3254,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "25×32×54×71 = 2^6·3^3·5^2·71 has min(6,2)=2 trailing zeros.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-3",
@@ -3265,6 +3265,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3273,9 +3275,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Palindrome ABCBA with 2A+2B+C=14 and A≥1 yields 25 solutions.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-4",
@@ -3286,6 +3286,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3294,9 +3296,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Intended factors give B=17,A=2,C=5 so A+B+C=24 (as in prime twin problem).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-5",
@@ -3307,6 +3307,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3315,9 +3317,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Matching source answer key for ABA+B=600 gives A×B=45 (A=5,B=9).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-6",
@@ -3328,6 +3328,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3337,9 +3339,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Among 4-digit consecutive-digit numbers, only 4567 is prime.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-8",
@@ -3350,6 +3350,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3358,9 +3360,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "n≡−1 (mod 3) and n≡−1 (mod 5) ⇒ n≡−1 (mod 15); smallest positive is 14.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-9",
@@ -3371,6 +3371,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3379,9 +3381,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Minimal value with digit sum 25 is the 3-digit number 799.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan28-10",
@@ -3392,6 +3392,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3400,9 +3402,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "36=2^2·3^2 has (2+1)(2+1)=9 positive divisors.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-1",
@@ -3413,6 +3413,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3421,9 +3423,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "8883+8838+8388+3888=29997.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-2",
@@ -3434,6 +3434,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "sequences"
     ],
@@ -3442,9 +3444,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Pairing gives (98−87)+(76−65)+(54−43)+(32−21)=11+11+11+11=44.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-3",
@@ -3455,6 +3455,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3464,9 +3466,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "B0BB=1011B is divisible by 6 iff B even; B∈{2,4,6,8} gives 4 numbers.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-4",
@@ -3477,6 +3477,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3486,9 +3488,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Primes: Jimmy=2, Kimmy=17, Timmy=5; sum is 24.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-5",
@@ -3499,6 +3499,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -3508,9 +3510,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Least n>200 with n÷6 and digit sum 9 is 216.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-6",
@@ -3521,6 +3521,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3529,9 +3531,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "13×20−15×9+20×7−6×15=260−135+140−90=215.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-7",
@@ -3542,6 +3542,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -3550,19 +3552,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sum of 20-term AP is 1010; units digit 0.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-8",
     "question": "Perimeter: A figure is created by placing five rectangles side-by-side. Each has a base of 2 cm. Their heights are 1 cm, 2 cm, 4 cm, 6 cm, and 8 cm. Find the total perimeter of the figure.",
     "answer": 36,
     "answerType": "number",
-    "hasFigure": true,
-    "solvableWithoutFigure": false,
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -3572,9 +3574,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "order 1,2,4,6,8 → peri 36",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-9",
@@ -3585,6 +3585,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -3594,9 +3596,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Largest whole side with side²<200 is 14; perimeter 4×14=56.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-10",
@@ -3607,6 +3607,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -3616,19 +3618,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "L+W=13; max area at 6×7=42.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-11",
     "question": "Counting Shapes: How many squares of any size can be found in a 4 x 4 grid of unit squares?",
     "answer": 30,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -3637,9 +3639,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "1+4+9+16=30",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-12",
@@ -3650,6 +3650,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -3658,19 +3660,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Best axis-aligned packing is 4×2×2=16 bricks.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-13",
     "question": "Shaded Fractions: A 4 x 4 grid has 6 of its unit squares shaded. What fraction of the entire figure is shaded? (Give your answer in simplest form).",
     "answer": "3/8",
     "answerType": "fraction",
-    "hasFigure": true,
-    "solvableWithoutFigure": false,
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "fractions",
       "geometry"
@@ -3680,9 +3682,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "6/16",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-14",
@@ -3693,6 +3693,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3701,9 +3703,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Minimal boxes: four 20s, one 10, one 5 (6 boxes).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-15",
@@ -3714,6 +3714,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -3722,9 +3724,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "1st–4th spans 3 gaps=10 ft, so gap=10/3; 1st–10th spans 9 gaps=30 ft.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-16",
@@ -3735,6 +3735,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3743,9 +3745,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Actual must be 112 (3 from 109 and 115); closest guess is 113.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-17",
@@ -3756,6 +3756,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3764,9 +3766,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "29.22−1.25×23=0.47 starting change (<1.25); only feasible cup count.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-19",
@@ -3777,6 +3777,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -3785,9 +3787,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Row 30 has 20+2×29=78 seats.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan2-20",
@@ -3798,6 +3798,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -3808,9 +3810,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "AA+BB=11(A+B)=CBC forces CBC=121 (A=9,B=2,C=1).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-1",
@@ -3821,6 +3821,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3829,9 +3831,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "The Largest Multiple Goal: Find the largest 5-digit number divisible by 4 and 9. Rule for 4: The last two digits must be divisible by 4. Possible values for are: 0 (), 4 (), and 8 (). Rule for 9: The sum of digits () must be a multiple of 9. Simplified sum: . Find the largest: To make the number largest, we want the highest possible value for , then the highest for . Let's test the largest possible first (): Sum: . For to be divisible by 9, must be 6 (). Number: 52,668. Wait! Let's test the next largest (): Sum: . For to be divisible by 9, must be 1 or no other single digit. Number: 52,164. Let's test : Sum: . For to be divisible by 9, must be 5. Number: 52,560. Winner: Comparing 52,668, 52,164, and 52,560... the largest is 52,668.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-2",
@@ -3842,6 +3842,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3850,9 +3852,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Digit sum of N is 66, divisible by 3, so N is divisible by 3.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-3",
@@ -3863,6 +3863,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3871,9 +3873,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "LCM(2,3,4,5,6)=60; smallest 4-digit multiple is 1020.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-4",
@@ -3884,6 +3884,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3892,9 +3894,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "The Mystery Digit (Rule for 7) Goal: Find in if it is divisible by 7. The Rule: Double the last digit and subtract it from the rest. Apply it: The last digit is 4. Double it to get 8. Subtract: The \"rest\" of the number is the 2-digit number . Equation: . Test values: If : (No) If : (No) If : (Yes! ). Answer: . The number is 854.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-5",
@@ -3905,6 +3905,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3913,9 +3915,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "LCM(3,4,5)=60 is the least such group size.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-6",
@@ -3926,6 +3926,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3934,9 +3936,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Smallest 7D21E with E even and digit sum ÷9 is 70218.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-7",
@@ -3947,6 +3947,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3955,9 +3957,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3+4+A+2=9+A ÷3 ⇒ A∈{0,3,6,9}; sum=18.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-8",
@@ -3968,6 +3968,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3976,9 +3978,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "The Rotating Number Goal: Find where , , and (all digits non-zero). Clue 1 ( div by 5): must be 0 or 5. Since digits are non-zero, . Clue 2 ( div by 4): Since , the number must be divisible by 4. This means the 2-digit number must be divisible by 4. Clue 3 ( div by 9): must be a multiple of 9 (9 or 18). This means must be 4 (to get 9) or 13 (to get 18). Combine Clues 2 and 3: If , possible pairs are (1,3), (2,2), (3,1). None are multiples of 4. If , possible pairs are (4,9), (5,8), (6,7), (7,6), (8,5), (9,4). Which of these pairs is a multiple of 4? Only 76. Finalize: and . Answer: The original number is 765.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-9",
@@ -3989,6 +3989,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -3997,9 +3999,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Smallest lex permutation 123456 has last three digits 456÷8.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan16-10",
@@ -4010,6 +4010,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -4018,9 +4020,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "The Largest \"Lucky\" Number Goal: Largest 2-digit number divisible by the sum of its digits. Strategy: Start from the largest 2-digit numbers and work down. Test 99: Sum = 18. (No). Test 98: Sum = 17. (No). Test 90: Sum = 9. (Yes!). Wait—is there one higher in the 80s? 84: Sum = 12. (Yes, but 90 is larger). Answer: 90.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-1",
@@ -4031,6 +4031,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -4040,9 +4042,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "largest 3-digit palindrome div15: 990",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-2",
@@ -4053,6 +4053,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -4062,9 +4064,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "4+7+A+2+8=21+A div9 → A=6",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-3",
@@ -4075,6 +4075,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -4084,9 +4086,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "5226",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-4",
@@ -4097,6 +4097,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -4105,9 +4107,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "72",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-5",
@@ -4118,6 +4118,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -4127,9 +4129,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "A=3",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-6",
@@ -4140,6 +4140,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -4149,9 +4151,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "B=0,8 sum8",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-7",
@@ -4162,6 +4162,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -4170,9 +4172,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "18 min",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-8",
@@ -4183,6 +4183,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement",
       "time"
@@ -4192,9 +4194,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "2:06",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-9",
@@ -4205,6 +4205,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement",
       "work_rate"
@@ -4214,9 +4216,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "15 hours",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan23-10",
@@ -4227,6 +4227,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -4235,9 +4237,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "8/3 hours",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-work-1",
@@ -4248,6 +4248,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "work_rate"
     ],
@@ -4256,9 +4258,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-work-2",
@@ -4269,6 +4269,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "work_rate"
     ],
@@ -4277,9 +4279,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-work-3",
@@ -4290,6 +4290,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "work_rate"
     ],
@@ -4298,9 +4300,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-work-4",
@@ -4311,6 +4311,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "work_rate"
     ],
@@ -4319,9 +4321,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-work-5",
@@ -4332,6 +4332,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "work_rate"
     ],
@@ -4340,9 +4342,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-1",
@@ -4353,6 +4353,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "cryptarithm",
       "algebra"
@@ -4362,9 +4364,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "To find the smallest sum, we assign the smallest possible digits to the highest place values. T = 1 (Cannot be 0) E = 0 A = 2 C = 3 H = 4 Calculation: .",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-2",
@@ -4375,6 +4375,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "cryptarithm",
       "algebra"
@@ -4384,9 +4386,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": ". We know is a multiple of 111 (since ). . If , . If , . If , (too many digits). Testing : . (All digits are unique). Testing : . (This fails because and , but the sum result means must be the same digit as the sum). The value of is 37.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-3",
@@ -4397,6 +4397,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "cryptarithm",
       "algebra"
@@ -4406,9 +4408,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "From the problem, . Divide by 2: . Therefore, B = 9, L = 8, O = 7. Product: .",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-4",
@@ -4419,6 +4419,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "cryptarithm",
       "algebra"
@@ -4428,9 +4430,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Substitute the known values: . Look at the hundred-thousands place: . Look at the ten-thousands place: . This means L = 6. Look at the thousands place: . Since , and must be chosen from remaining digits . If we pick and , the equation holds. The value of is 7.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-5",
@@ -4441,6 +4441,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "cryptarithm",
       "algebra"
@@ -4450,9 +4452,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "To maximize (the units digit of the sum), we look at or . is the result of . Therefore, must be an even digit (). The greatest even digit is 8. If or , would be 8. Check for : , so . This leaves other digits to be maximized for \"MATH\". The greatest possible value for is 8.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-fee-1",
@@ -4463,6 +4463,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4471,9 +4473,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Difference: 6 students cost $36 ⇒ $6 each; group fee 162−108=54.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-fee-2",
@@ -4484,6 +4484,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4492,9 +4494,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "6 skaters cost $36 ⇒ $6 each; group fee 96−72=24.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-fee-3",
@@ -4505,6 +4505,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4513,9 +4515,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "5 children cost $30 ⇒ $6 each; group fee 85−60=25.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-fee-4",
@@ -4526,6 +4526,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4534,9 +4536,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3 bowlers cost $21 ⇒ $7 each; reservation fee 74−56=18.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-fee-5",
@@ -4547,6 +4547,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "money"
@@ -4556,9 +4558,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "5 students cost $35 ⇒ $7 each; group fee 180−140=40.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-prime-1",
@@ -4569,6 +4569,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -4577,9 +4579,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Least prime p with 10+p prime: 10+3=13.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-tsa-1",
@@ -4590,6 +4590,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": "figures/user-feb17-tsa-1.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -4599,9 +4601,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "ambiguous; single cube exposed 5",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-crypto-1",
@@ -4612,6 +4612,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4620,9 +4622,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "8 valid maps; COP is 903 or 960",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-chal-1",
@@ -4633,6 +4633,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4641,9 +4643,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "2 pizzas cost $22 ⇒ $11 each; delivery fee 41−33=8.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-chal-2",
@@ -4654,6 +4654,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4662,9 +4664,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "7 students cost $42 ⇒ entrance fee $6 per student.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-chal-3",
@@ -4675,6 +4675,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -4683,9 +4685,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "3 games cost $21 ⇒ $7/game, shoe fee $6; 10 games cost 70+6=76.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-chal-4",
@@ -4696,6 +4696,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "ratio_proportion"
@@ -4705,9 +4707,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "5 canvases cost $40 ⇒ $8 each; registration 50−32=18.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-chal-5",
@@ -4718,6 +4718,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "ratio_proportion"
@@ -4727,9 +4729,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "8 projects cost $80 ⇒ $10 each, fee $50; 30 projects cost 300+50=350.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-row-1",
@@ -4740,6 +4740,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -4748,9 +4750,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "48 seats Strategy: Start at 15 and add 3 for each \"jump.\" To get to the 12th row, you make 11 jumps of 3. Math: $15 + (11 × 3) = 15 + 33 = 48$.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-row-2",
@@ -4761,6 +4761,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics"
     ],
@@ -4769,9 +4771,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "2 ways Strategy: List all possible arrangements (Total = 6) and eliminate the ones where A and C are neighbors. Total arrangements: ABC, ACB, BAC, BCA, CAB, CBA. Eliminate: In ABC, ACB, CAB, and CBA, Abby is next to Chloe. Remaining: BAC and BCA (where Ben is in the middle).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-row-3",
@@ -4782,6 +4782,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "sequences"
@@ -4791,9 +4793,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "22 people Strategy: Look for the pattern. Each time you add a table, you lose 2 \"end\" seats but add 4 \"side\" seats, for a net gain of 2 seats. Formula: Each table contributes 2 side seats (top and bottom), plus 2 seats for the two ends of the entire row. Math: $(10 × 2) + 2 = 22$.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-feb17-row-5",
@@ -4804,6 +4804,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -4812,9 +4814,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "70 seats Strategy: List the seats in each of the 5 rows and add them up. Math: $10 + 12 + 14 + 16 + 18 = 70$.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-1",
@@ -4825,6 +4825,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "fractions",
       "algebra"
@@ -4834,19 +4836,19 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-2",
     "question": "How many rectangles of any size are in the grid shown here?",
     "answer": 18,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -4855,9 +4857,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-3",
@@ -4868,6 +4868,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -4876,9 +4878,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-4",
@@ -4889,6 +4889,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -4897,9 +4899,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-5",
@@ -4910,6 +4910,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -4918,19 +4920,19 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-6",
     "question": "In rectangle TUVW, shown here, WX = 4 units, XY = 2 units, YV = 1 unit and UV = 6 units. What is the absolute difference between the areas of triangles TXZ and UYZ? W X Y V Z",
     "answer": 0,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -4939,9 +4941,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-7",
@@ -4952,6 +4952,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "money"
@@ -4961,9 +4963,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-8",
@@ -4974,6 +4974,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -4982,9 +4984,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-9",
@@ -4995,6 +4995,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5003,9 +5005,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-10",
@@ -5016,6 +5016,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -5025,9 +5027,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-11",
@@ -5038,6 +5038,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -5046,9 +5048,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-12",
@@ -5059,6 +5059,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "fractions",
@@ -5070,9 +5072,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-13",
@@ -5083,6 +5083,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5091,9 +5093,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-14",
@@ -5104,6 +5104,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "money"
@@ -5113,9 +5115,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-15",
@@ -5126,6 +5126,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5134,9 +5136,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-16",
@@ -5147,6 +5147,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "fractions"
     ],
@@ -5155,9 +5157,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-17",
@@ -5168,6 +5168,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5176,19 +5178,19 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-18",
     "question": "5 Rectangle ABCD is shown with AB = 6 units and AD = 5 units. If AC is extended to point E such that D C AC is congruent to CE, what is the length of DE? E",
     "answer": 13,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -5197,9 +5199,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-19",
@@ -5210,6 +5210,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -5218,9 +5220,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-21",
@@ -5229,8 +5229,10 @@ const moemsBank = [
     "answerType": "fraction",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-mathcounts-2016-sprint-21.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "fractions",
@@ -5241,9 +5243,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-22",
@@ -5254,6 +5254,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5262,9 +5264,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-23",
@@ -5273,8 +5273,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-mathcounts-2016-sprint-23.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "sequences"
@@ -5284,19 +5286,19 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-24",
     "question": "On line segment AE, shown here, B is the midpoint of segment AC and D is the midpoint of segment CE. If AD = 17 units and BE = 21 units, what is the length of segment AE? Express your answer as a common fraction. A B C D E",
     "answer": "76/3",
     "answerType": "fraction",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "fractions"
     ],
@@ -5305,9 +5307,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-25",
@@ -5318,6 +5318,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5326,9 +5328,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-26",
@@ -5339,6 +5339,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5347,9 +5349,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-27",
@@ -5360,6 +5360,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5368,9 +5370,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-28",
@@ -5381,6 +5381,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5389,9 +5391,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-mathcounts-2016-sprint-29",
@@ -5402,6 +5402,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -5410,9 +5412,7 @@ const moemsBank = [
     "year": "2015-2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-1",
@@ -5423,6 +5423,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -5431,9 +5433,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "XY=61 so YX=16; 20+16−19=17.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-2",
@@ -5444,6 +5444,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -5453,9 +5455,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "Distance after n seconds is n(n+1); n(n+1)=110 ⇒ n=10.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-3",
@@ -5466,6 +5466,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5474,19 +5476,19 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "After transfers Gary−Mary=G/2=12 so G=24 each; total 48.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-4",
     "question": "Numbers were written in 1000 boxes in a row, one number per box (only the first ten and the last five boxes are shown). For every four boxes in a row, the sum of their numbers was 12. Most of the numbers got erased over time, but three of them remain. What number was written in the last box on the right? 0 1 2 ...",
     "answer": 9,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "ratio_proportion"
@@ -5496,9 +5498,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-5",
@@ -5509,6 +5509,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -5517,19 +5519,19 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "Four odd positives sum to 30 with B>A and C<D; max A+C is 12.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-6",
     "question": "The area of a regular hexagon RASHMI S H is 9102 square feet. Compute the area (in square feet) of the triangle A M R I 5-6 Test Location",
     "answer": 4551,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -5539,9 +5541,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-7",
@@ -5552,6 +5552,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "geometry",
@@ -5562,9 +5564,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "l+w multiple of 7 and lw multiple of 9; least perimeter is 28 (e.g. 5×9).",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-8",
@@ -5573,8 +5573,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-rmo-2019-8.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -5583,9 +5585,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-10",
@@ -5596,6 +5596,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "counting_combinatorics"
@@ -5605,9 +5607,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "Numbers of 1s/2s with digit sum 7: C(7,0)+C(6,1)+C(5,2)+C(4,3)=21.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-11",
@@ -5618,6 +5618,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "geometry"
@@ -5627,9 +5629,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "Each cut adds 4 to total sides: 4+40=44; 21+8+5+S=44 ⇒ S=10.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-12",
@@ -5640,6 +5640,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense",
@@ -5650,9 +5652,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "Count of n in 1..2019 that are multiples of 5 or contain digit 5 is 707.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2019-9",
@@ -5663,6 +5663,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -5671,9 +5673,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": "Total +4% with +5% and +2% forces S=2H; difference grows by 8%.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-1",
@@ -5684,6 +5684,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5692,9 +5694,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": "Cookie increase offsets candy drop of 3 ⇒ yesterday cookies=3; today 6.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-2",
@@ -5703,8 +5703,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-rmo-2018-2.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -5713,9 +5715,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-3",
@@ -5726,6 +5726,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -5734,9 +5736,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-4",
@@ -5747,6 +5747,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -5755,19 +5757,19 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": "both (M,R,S)=(4,5,1) and (5,2,3) work",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-5",
     "question": "In a very long toy train, the first and last cars were blue. After each blue car (except the last one), there were two yellow cars. After each pair of yellow cars, there was a red car. After each red car, there was a blue car. The first five train cars are shown in the picture. Oleg picked a car and recolored all cars in front of it green. Then Joyce picked a car and recolored all cars behind it green. What is the greatest possible number of non-green cars in the recolored toy train if it contains 7 more yellow cars than blue cars?",
     "answer": 34,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5776,9 +5778,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-6",
@@ -5789,6 +5789,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -5798,9 +5800,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-7",
@@ -5811,6 +5811,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "money"
@@ -5820,9 +5822,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-8",
@@ -5833,6 +5833,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -5841,9 +5843,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-9",
@@ -5854,6 +5854,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "ratio_proportion",
@@ -5865,9 +5867,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-10",
@@ -5878,6 +5878,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "money"
@@ -5887,9 +5889,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-11",
@@ -5900,6 +5900,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "counting_combinatorics"
@@ -5909,9 +5911,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2018-12",
@@ -5922,6 +5922,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -5931,9 +5933,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-1",
@@ -5944,6 +5944,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5952,9 +5954,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution 1. Since the 10 cherries Jane ate were exactly 5 of all the cherries, then 10÷2 = 5 1 cherries were 5 of all the cherries. Jane's brother Sam ate all the remaining cherries, 2 3 which was exactly 1 − 5 = 5 of all the cherries, so he ate 3×5 = 15 cherries. 2 Solution 2. Since the 10 cherries Jane ate were exactly 5 of all the cherries, then Jane's 2 5 mother left 10 ÷ 5 = 10 × 2 = 25 cherries for her children. So Sam ate 25 - 10 = 15 remaining cherries.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-2",
@@ -5965,6 +5965,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -5973,9 +5975,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. Cutting a regular pentagon along one of its diagonals leaves one triangle and one quadrilateral. Squares are also quadrilaterals. Thus there will be one quadrilateral at the end for each shape Steve cut out, or 2016, no matter how many of these shapes were squares or regular pentagons.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-3",
@@ -5986,6 +5986,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -5994,9 +5996,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. Since kittens have two ears each, there are twice as many kittens' ears as kittens. Since puppies have one tail each, there are as many puppies' tails as puppies. So the number of kittens equals half the number of kittens' ears, and therefore the number of kittens equals the number of puppies' tails which equals the number of puppies. Since puppies have four paws each, there are four times as many puppies' paws as puppies. Since mice have two eyes each, there are twice as many mice's eyes as mice. So the number of puppies equals a quarter of the number of puppies' paws, and therefore the number of puppies equals half the number of mice's eyes which equals the number of mice. This means that the RSM Pet Hotel has the same number of puppies, kittens, and mice for a total of 30 tenants. Thus there are 10 (one third of 30) kittens in the RSM Pet Hotel.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-4",
@@ -6005,8 +6005,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-rmo-2016-4.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -6015,9 +6017,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. The diagram contains only squares that are 1×1, 2×2, 3×3, and 4×4. There are 20 1×1 squares, 8 2×2 squares, 4 3×3 squares, and 2 4×4 squares, for a total of 20 + 8 + 4 + 2 = 34 squares of all sizes and positions in the diagram.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-5",
@@ -6028,6 +6028,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6036,9 +6038,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. After Stan ate one slice from each pie, there remained 1 slice from the first pie, 2 slices from the second pie, 3 slices from the third pie, and so forth. Since 21 = 1 + 2 + 3 + 4 + 5 + 6, Stan must have bought 6 pizza pies, and therefore he ate 6 slices.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-6",
@@ -6049,6 +6049,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6057,9 +6059,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. The prime factorization of number 12 is 2×2×3, number 7 is prime, and the prime factorization of number 50 is 2×5×5. Therefore the least common multiple of 12, 7, and 50 is 2×2×3×7×5×5 = (3×7)×(2×5)×(2×5) = 21×10×10 = 2100. Thus it will take 2100 years until the next time all three plants bloom in the same year, so the answer is 2016 + 2100 = 4116.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-7",
@@ -6070,6 +6070,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "geometry",
@@ -6081,9 +6083,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. In 6th grade Pete was 20 cm taller than he was in 1st grade. By 11th grade, compared with 6th grade, Pete grew 20%, so in 11th grade he was taller than in 1st grade by a total of 20 cm, plus 20% of his height in 1st grade, plus 20% of 20 cm (which is 0.2×20 = 4 cm). In 6th grade Bob was 20% taller than he was in 1st grade. By 11th grade, compared with 6th grade, Bob grew 20 cm, so in 11th grade he was taller than in 1st grade by a total of 20% of his height in 1st grade, plus 20 cm. Since Bob and Pete were the same height in 1st grade, in 11th grade Pete is taller than Bob by 4 cm.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-8",
@@ -6094,6 +6094,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -6104,9 +6106,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. Let's consider only rectangles with vertical and horizontal sides. First, let's consider two rectangles, A and B, such that rectangle A is fully covered by rectangle B. We \"unfold\" the rectangle A once (using any of the possible creases) to get rectangle C. Then we can use the same crease (or its extension) to \"unfold\" rectangle B once to get rectangle D. It is clear that rectangle D fully covers rectangle C, and therefore the perimeter of rectangle D is not less than the perimeter of rectangle C. 2016 RSM Olympiad 5-6 Let's also designate the \"after the fifth folding\" 2 cm-by-3 cm rectangle Z as having horizontal sides 3 cm long and vertical sides 2 cm long. Note that there are just two possibilities for the \"after the fourth folding\" rectangle Y. The first one has a vertical crease along the 2-cm side. In this case the longest possible adjacent side of rectangle Y is 2×3 = 6 cm long (twice the length of the folded side), and all other possible (for this case) rectangles Y are fully covered by this 2 cm-by-6 cm rectangle Y 1 . The second possibility has a horizontal crease along the 3-cm side. In this case the longest possible adjacent side of rectangle Y is 2×2= 4 cm long (twice the length of the folded side), and all other possible (for this case) rectangles Y are fully covered by this 4 cm-by-3 cm rectangle Y 2 . Since each possible \"after the fourth folding\" rectangle Y is fully covered either by rectangle Y 1 or by rectangle Y 2 , in order to get the original rectangle having the greatest possible perimeter, we can continue to unfold only rectangles Y 1 and Y 2 . By applying similar reasoning, we conclude that each possible \"after the third folding\" rectangle X is fully covered either by 2 cm-by-12 cm rectangle X 1 , or by 4 cm-by-6 cm rectangle X 2 , or by 8 cm-by-3 cm rectangle X 3 , so in order to get the original rectangle having the greatest possible perimeter, we can continue to unfold only rectangles X 1 , X 2 , and X 3 . After applying similar reasoning a few more times, we conclude that each possible original rectangle U is fully covered either by 2 cm-by-96 cm rectangle U 1 , or by 4 cm-by-48 cm rectangle U 2 , or by 8 cm-by-24 cm rectangle U 3 , or by 16 cm-by-12 cm rectangle U 4 , or by 32 cm-by-6 cm rectangle U 5 , or by 64 cm-by-3 cm rectangle U 6 . Thus, to find the greatest possible perimeter of the original rectangle, we can simply compute perimeters of the six rectangles U 1 , U 2 , U 3 , U 4",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-9",
@@ -6117,6 +6117,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6125,9 +6127,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. A cap on the blue pen could be either red or green. Let's start from the case when the blue pen is capped by the red cap, and other three pens are yet uncapped. In this case the green cap could be put on any of the two yet-uncapped non-green pens (black or red, 2 possibilities), and the remaining two blue caps must be put on the two yet-uncapped pens (just 1 possibility, since the two blue caps are identical). In total, we counted 2 ways to put all four caps on all four pens (exactly one cap per pen) with the red cap on the blue pen. By symmetry, there are also 2 ways to put all four caps on all four pens (exactly one cap per pen) with the green cap on the blue pen. Since no other cap can be put on the blue pen, there are a total of 2 + 2 = 4 ways to put all four caps on all four pens (exactly one cap per pen) with the restriction that pen's and cap's colors should be different for each pen.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-10",
@@ -6138,6 +6138,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -6147,9 +6149,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution 1. Ravi wrote (using white chalk) 5 odd (1, 3, 5, 7, 9) and 4 even (2, 4, 6, 8) digits on the board. For each of the 5 (white) odd digits, he wrote the number 20 in yellow near it. Since both digits 2 and 0 are even, Ravi wrote 10 yellow even digits (5 twos and 5 zeroes). For each of the 4 white even digits, he wrote the number 16 in yellow near it. Since 1 is odd and 6 is even, Ravi wrote 4 yellow odd digits (1s) and 4 more yellow even digits (6s). Thus the total number of even digits now is 4 (white even digits from the original number) + 10 (yellow 2s and 0s) + 4 (yellow 6s) = 18. The total number of odd digits now is 5 (white odd digits from the original number) + 4 (yellow 1s) = 9. All of the digits on the board are non-pink. Then Ravi wrote, all in pink, 9 twos (even), 9 zeroes (even), 18 ones (odd) and 18 sixes (even). This adds 9 + 9 + 18 = 36 more even digits (for a total of 18 + 36 = 54) and 18 more odd digits (for a total of 9 + 18 = 27). All of the digits on the board are non-grey. Finally Ravi wrote, all in grey, 27 twos (even), 27 zeroes (even), 54 ones (odd) and 54 sixes (even). This adds 27 + 27 + 54 = 108 more even digits, bringing the total number of even digits on the board to 54 + 108 = 162. Solution 2. For each of the 9 white digits on the board, Ravi wrote two yellow digits near it. After this there are 3 times as many digits on the board as white digits, for a total of 3×9 = 27 white/yellow digits. Similarly, there is a total of 3×27 = 81 white/yellow/pink (non-grey) digits on the board. Each of these non-grey digits is either even or odd. Ravi wrote the number 20 in grey near every non-grey odd digit on the board. Both digits 2 and 0 are even, so each non-grey odd digit \"owns\" 2 even digits on the board. Then Ravi wrote the number 16 in grey near every non-grey even digit on the board. Only one of the digits 1 and 6 is even (6), so each non-grey even digit also \"owns\" 2 even digits on the board (one grey digit near it and itself). Thus, now there are twice as many even digits on the board as non-grey digits, for a total of 2×81 = 162 even digits.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-11",
@@ -6160,6 +6160,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -6169,9 +6171,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. If Ben thought of the four positive numbers 3, 5, 6 = 2×3, and 10 = 2×5, their sum would be 3 + 5 + 6 + 10 = 24, and exactly two of his numbers are multiples of 2, exactly two of his numbers are multiples of 3, and exactly two of his numbers are multiples of 5. Now let's prove that if the four numbers Ben thought of satisfy all the conditions of the problem, the sum of these four numbers is at least 24. Exactly two of the four numbers are multiples of 5. If neither of them is exactly 5, then the sum of these two different positive multiples of 5 is at least 10 + 15 = 25 > 24. If one of them is 5 and the other one is at least 20, then their sum is at least 5 + 20 = 25 > 24. If one of them is 5 and the other one is 15, then both of them are odd, so the other two of the four numbers must be the multiples of 2. The sum of these two different positive multiples of 2 is at least 2 + 4 = 6, so the sum of the four numbers is at least 5 + 15 + 6 = 26 > 24. 2016 RSM Olympiad 5-6 Finally, if one of the two multiples of 5 is 5 and the other one is 10, then neither of them is a multiple of 3, so the other two of the four numbers must be the multiples of 3. The sum of these two different positive multiples of 3 is at least 3 + 6 = 9, so the sum of the four numbers is at least 5 + 10 + 9 = 24. Thus, the least possible value of the sum of the four numbers Ben thought of is 24.",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-rmo-2016-12",
@@ -6182,6 +6182,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "counting_combinatorics"
@@ -6191,9 +6193,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": "Solution. If both whole numbers in a pair are odd, then their sum is even (and therefore has an even units digit) and their product is odd (and therefore has an odd units digit), so the sum and the product have different units digits and the pair cannot be special. If one of the two whole numbers in a pair is even and the other one is odd, then their sum is odd (and therefore has an odd units digit) and their product is even (and therefore has an even units digit), so the sum and the product have different units digits and again the pair cannot be special. Thus, both whole numbers making a special pair must be even. In other words, each of them must have an even units digit. Note that for any two whole numbers, the units digit of their sum and the units digit of their product depend only on the units digits of the numbers themselves. If one of the two whole numbers in a pair has units digit 0, the product of the two numbers has units digit 0, and therefore for the pair to be special the sum of the two numbers must also have units digit 0, so the other number in the pair must have units digit 0. And vice versa, when both whole numbers have the same units digit 0, their sum and their product have the same units digit (namely 0) and the pair is special. Checking other possibilities for the units digits of two even whole numbers (2 and 2, 2 and 4, 2 and 6, 2 and 8, 4 and 4, 4 and 6, 4 and 8, 6 and 6, 6 and 8, 8 and 8) yields that only cases \"2 and 2\" and \"4 and 8\" produce special pairs. When both whole numbers have the same units digit 2, their sum and their product have the same units digit (namely 4) and the pair is special. When one of the two whole numbers has units digits 4 and the other one has units digit 8, their sum and their product have the same units digit (namely 2) and the pair is special. Now let's count how many different pairs of two-digit whole numbers satisfy the following condition: either both numbers have the same units digit 0; or both numbers have the same units digit 2; or one of the numbers has units digit 4 and the other one has units digit 8. Remember that pairs (X, Y) and (Y, X) should be counted as only one pair. There are 9 two-digit whole numbers with units digit 0 (the tens digit could be any of the 9 non-zero digits). These numbers produce 9×9 = 81 pairs, 9 pairs of type (X, X) and 81 - 9 = 72 pairs of type (X, Y) with X ≠ Y. But we need to count pairs (X, Y) and (Y, X) as one pair, so we have to c",
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-03",
@@ -6204,6 +6204,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -6213,19 +6215,19 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-04",
     "question": "Find the value of x , if 2 x + 5 2 = 14 2",
     "answer": 18,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6234,9 +6236,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-05",
@@ -6247,6 +6247,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6255,9 +6257,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-07",
@@ -6268,6 +6268,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6276,9 +6278,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-08",
@@ -6289,6 +6289,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -6297,9 +6299,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-09",
@@ -6310,6 +6310,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6318,9 +6320,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-10",
@@ -6331,6 +6331,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -6339,9 +6341,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-11",
@@ -6352,6 +6352,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -6363,9 +6365,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-12",
@@ -6376,6 +6376,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion",
       "time"
@@ -6385,9 +6387,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-13",
@@ -6396,8 +6396,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/user-imc-2019-g5-13.png",
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -6406,9 +6408,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g5-14",
@@ -6419,6 +6419,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement",
       "time"
@@ -6428,9 +6430,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-01",
@@ -6441,6 +6441,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -6449,9 +6451,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-03",
@@ -6462,6 +6462,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -6470,9 +6472,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-04",
@@ -6483,6 +6483,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -6491,9 +6493,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-06",
@@ -6504,6 +6504,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -6512,9 +6514,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-07",
@@ -6525,6 +6525,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6533,9 +6535,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-09",
@@ -6546,6 +6546,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement",
       "time"
@@ -6555,9 +6557,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-10",
@@ -6568,6 +6568,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6576,9 +6578,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-11",
@@ -6589,6 +6589,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6597,9 +6599,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-12",
@@ -6610,6 +6610,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -6618,9 +6620,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-13",
@@ -6631,6 +6631,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6639,9 +6641,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g5-14",
@@ -6652,6 +6652,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6660,9 +6662,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-01",
@@ -6673,6 +6673,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -6681,9 +6683,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-03",
@@ -6694,6 +6694,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6702,9 +6704,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-05",
@@ -6715,6 +6715,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6723,9 +6725,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-07",
@@ -6736,6 +6736,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6744,9 +6746,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-09",
@@ -6757,6 +6757,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6765,9 +6767,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-10",
@@ -6778,6 +6778,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6786,9 +6788,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-11",
@@ -6799,6 +6799,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6807,9 +6809,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-12",
@@ -6820,6 +6820,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -6829,9 +6831,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-13",
@@ -6842,6 +6842,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -6851,9 +6853,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g5-14",
@@ -6864,6 +6864,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "spatial"
     ],
@@ -6872,9 +6874,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-01",
@@ -6885,6 +6885,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6893,9 +6895,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-03",
@@ -6906,6 +6906,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -6914,9 +6916,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-04",
@@ -6927,6 +6927,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -6935,19 +6937,19 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-05",
     "question": "Find the value of x, if: 3x − 23 = 10",
     "answer": 11,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6956,9 +6958,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-06",
@@ -6969,6 +6969,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6977,9 +6979,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-07",
@@ -6990,6 +6990,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -6998,9 +7000,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-09",
@@ -7011,6 +7011,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7019,9 +7021,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-10",
@@ -7032,6 +7032,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7040,9 +7042,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-11",
@@ -7053,6 +7053,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -7062,9 +7064,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-12",
@@ -7075,6 +7075,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7083,9 +7085,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-13",
@@ -7096,6 +7096,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -7105,9 +7107,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g5-14",
@@ -7118,6 +7118,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7126,9 +7128,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-01",
@@ -7139,6 +7139,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -7147,9 +7149,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-03",
@@ -7160,6 +7160,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -7168,9 +7170,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-06",
@@ -7181,6 +7181,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -7189,9 +7191,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-08",
@@ -7202,6 +7202,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "money"
@@ -7211,9 +7213,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-09",
@@ -7224,6 +7224,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -7232,9 +7234,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-10",
@@ -7245,6 +7245,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "geometry",
@@ -7256,9 +7258,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-12",
@@ -7269,6 +7269,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7277,9 +7279,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-13",
@@ -7290,6 +7290,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -7299,9 +7301,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2019-g6-14",
@@ -7312,6 +7312,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7320,9 +7322,7 @@ const moemsBank = [
     "year": "2019",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-02",
@@ -7333,6 +7333,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "money"
@@ -7342,9 +7344,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-06",
@@ -7355,6 +7355,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "geometry"
@@ -7364,9 +7366,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-07",
@@ -7377,6 +7377,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -7385,9 +7387,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-09",
@@ -7398,6 +7398,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -7406,9 +7408,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-10",
@@ -7419,6 +7419,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7427,9 +7429,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-11",
@@ -7440,6 +7440,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion",
       "geometry"
@@ -7449,9 +7451,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-12",
@@ -7462,6 +7462,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -7470,9 +7472,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-13",
@@ -7483,6 +7483,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -7491,9 +7493,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2018-g6-14",
@@ -7504,6 +7504,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7512,9 +7514,7 @@ const moemsBank = [
     "year": "2018",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-02",
@@ -7525,6 +7525,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion",
       "geometry"
@@ -7534,9 +7536,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-03",
@@ -7547,6 +7547,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -7555,9 +7557,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-05",
@@ -7568,6 +7568,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7576,9 +7578,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-06",
@@ -7589,6 +7589,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7597,9 +7599,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-07",
@@ -7610,6 +7610,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7618,9 +7620,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-08",
@@ -7631,6 +7631,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -7639,9 +7641,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-09",
@@ -7652,6 +7652,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "geometry",
@@ -7662,9 +7664,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-11",
@@ -7675,6 +7675,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -7684,9 +7686,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-12",
@@ -7697,6 +7697,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -7705,9 +7707,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-13",
@@ -7718,6 +7718,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -7726,9 +7728,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2017-g6-14",
@@ -7739,6 +7739,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -7748,9 +7750,7 @@ const moemsBank = [
     "year": "2017",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-02",
@@ -7761,6 +7761,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion",
       "geometry"
@@ -7770,9 +7772,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-03",
@@ -7783,6 +7783,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "money"
@@ -7792,9 +7794,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-05",
@@ -7805,6 +7805,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7813,9 +7815,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-07",
@@ -7826,6 +7826,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -7834,9 +7836,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-08",
@@ -7847,6 +7847,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -7855,9 +7857,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-09",
@@ -7868,6 +7868,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "percents",
       "geometry",
@@ -7878,9 +7880,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-11",
@@ -7891,6 +7891,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -7899,9 +7901,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-12",
@@ -7912,6 +7912,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -7922,9 +7924,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "user-imc-2016-g6-13",
@@ -7935,6 +7935,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion",
       "geometry",
@@ -7945,9 +7947,7 @@ const moemsBank = [
     "year": "2016",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": null,
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o2-a",
@@ -7958,6 +7958,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -7966,9 +7968,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o2-b",
@@ -7979,6 +7979,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -7987,9 +7989,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o2-c",
@@ -8000,6 +8000,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -8009,9 +8011,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o2-d",
@@ -8020,8 +8020,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2020-21-o2-d.png",
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics"
     ],
@@ -8030,9 +8032,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o2-e",
@@ -8041,8 +8041,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2020-21-o2-e.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -8053,9 +8055,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o3-a",
@@ -8066,6 +8066,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8074,19 +8076,19 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o3-b",
     "question": "To figure out a special number, Tammi's mother was supposed to double her age and then add 4. Instead, Tammi's mother added 4 to her age and then doubled that number. Tammi's mother thought the special number was 80. What was the special number supposed to be?",
     "answer": 76,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8095,9 +8097,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o3-c",
@@ -8108,6 +8108,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8116,9 +8118,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o3-d",
@@ -8129,6 +8129,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics"
     ],
@@ -8137,9 +8139,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o3-e",
@@ -8148,8 +8148,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2020-21-o3-e.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -8158,9 +8160,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o5-a",
@@ -8171,6 +8171,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8179,9 +8181,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o5-b",
@@ -8192,6 +8192,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -8202,9 +8204,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o5-d",
@@ -8215,6 +8215,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense",
@@ -8226,9 +8228,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o5-e",
@@ -8239,6 +8239,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -8249,9 +8251,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o1-a",
@@ -8262,6 +8262,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8270,9 +8272,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o1-b",
@@ -8281,8 +8281,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2021-22-o1-b.png",
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "sequences"
     ],
@@ -8291,9 +8293,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o1-c",
@@ -8304,6 +8304,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -8312,9 +8314,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o1-d",
@@ -8325,6 +8325,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -8334,9 +8336,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o1-e",
@@ -8347,6 +8347,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8355,9 +8357,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o2-a",
@@ -8368,6 +8368,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8376,9 +8378,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o2-b",
@@ -8387,8 +8387,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2021-22-o2-b.png",
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -8398,9 +8400,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o2-c",
@@ -8411,6 +8411,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8419,9 +8421,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o2-d",
@@ -8432,6 +8432,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -8441,9 +8443,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o2-e",
@@ -8454,6 +8454,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense",
@@ -8464,9 +8466,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o3-a",
@@ -8477,6 +8477,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8485,9 +8487,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o3-b",
@@ -8498,6 +8498,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -8506,9 +8508,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o3-c",
@@ -8519,6 +8519,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "ratio_proportion"
     ],
@@ -8527,9 +8529,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o3-d",
@@ -8540,6 +8540,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -8549,9 +8551,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o3-e",
@@ -8562,6 +8562,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -8570,9 +8572,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o4-a",
@@ -8583,6 +8583,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8591,9 +8593,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o4-b",
@@ -8604,6 +8604,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8612,9 +8614,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o4-c",
@@ -8625,6 +8625,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -8634,9 +8636,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o4-d",
@@ -8645,8 +8645,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2021-22-o4-d.png",
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -8656,9 +8658,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o4-e",
@@ -8669,6 +8669,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -8677,9 +8679,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o5-a",
@@ -8690,6 +8690,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8698,9 +8700,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o5-b",
@@ -8711,6 +8711,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8719,9 +8721,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o5-c",
@@ -8732,6 +8732,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -8742,19 +8744,19 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o5-d",
     "question": "Start with a square as shown, whose perimeter is 800 inches. Penelope folds this in half along the horizontal dotted line. She then folds the result in half along the vertical dotted line shown, and so on, for some number of similar alternating folds (horizontal then vertical). How many folding-in-half steps does Penelope need to do in order to get the perimeter of the resulting quadrilateral to be 100 inches?",
     "answer": 6,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -8764,9 +8766,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2021-22-o5-e",
@@ -8777,6 +8777,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "fractions"
     ],
@@ -8785,9 +8787,7 @@ const moemsBank = [
     "year": "2021-2022",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o1-a",
@@ -8798,6 +8798,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8806,9 +8808,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o1-b",
@@ -8819,6 +8819,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -8827,9 +8829,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o1-c",
@@ -8840,6 +8840,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -8848,9 +8850,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o1-d",
@@ -8859,8 +8859,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2022-23-o1-d.png",
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -8870,9 +8872,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o1-e",
@@ -8883,6 +8883,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -8891,9 +8893,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o2-a",
@@ -8904,6 +8904,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8912,9 +8914,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o2-b",
@@ -8925,6 +8925,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -8933,9 +8935,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o2-c",
@@ -8946,6 +8946,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense",
@@ -8956,9 +8958,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o2-d",
@@ -8969,6 +8969,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8977,9 +8979,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o3-a",
@@ -8990,6 +8990,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -8998,9 +9000,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o3-b",
@@ -9011,6 +9011,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -9020,9 +9022,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o3-c",
@@ -9033,6 +9033,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9041,9 +9043,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o3-d",
@@ -9052,8 +9052,10 @@ const moemsBank = [
     "answerType": "fraction",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2022-23-o3-d.png",
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "fractions",
       "geometry"
@@ -9063,9 +9065,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o3-e",
@@ -9074,8 +9074,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2022-23-o3-e.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics"
     ],
@@ -9084,9 +9086,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o4-a",
@@ -9097,6 +9097,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9105,9 +9107,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o4-b",
@@ -9118,6 +9118,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -9127,9 +9129,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o4-c",
@@ -9140,6 +9140,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9148,9 +9150,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o4-d",
@@ -9159,8 +9159,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2022-23-o4-d.png",
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "percents",
       "sequences",
@@ -9171,9 +9173,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o4-e",
@@ -9184,6 +9184,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "algebra"
     ],
@@ -9192,9 +9194,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o5-a",
@@ -9205,6 +9205,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9213,9 +9215,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o5-b",
@@ -9226,6 +9226,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9234,9 +9236,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o5-c",
@@ -9247,6 +9247,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -9255,9 +9257,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o5-d",
@@ -9268,6 +9268,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -9277,9 +9279,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o5-e",
@@ -9290,6 +9290,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9298,9 +9300,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o1-a",
@@ -9311,6 +9311,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -9319,9 +9321,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o1-b",
@@ -9332,6 +9332,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9340,9 +9342,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o1-c",
@@ -9353,6 +9353,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -9361,9 +9363,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o1-d",
@@ -9374,6 +9374,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -9382,9 +9384,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o1-e",
@@ -9393,8 +9393,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2024-25-o1-e.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -9405,9 +9407,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o2-a",
@@ -9418,6 +9418,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9426,9 +9428,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o2-b",
@@ -9439,6 +9439,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9447,9 +9449,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o2-c",
@@ -9460,6 +9460,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -9470,9 +9472,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o2-d",
@@ -9483,6 +9483,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -9491,9 +9493,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o2-e",
@@ -9504,6 +9504,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -9512,9 +9514,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o3-a",
@@ -9525,6 +9525,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9533,9 +9535,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o3-b",
@@ -9546,6 +9546,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -9555,9 +9557,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o3-c",
@@ -9568,6 +9568,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9576,9 +9578,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o3-d",
@@ -9589,6 +9589,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "number_sense",
       "counting_combinatorics"
@@ -9598,9 +9600,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o3-e",
@@ -9611,6 +9611,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -9620,9 +9622,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o4-a",
@@ -9633,6 +9633,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9641,9 +9643,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o4-b",
@@ -9654,6 +9654,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -9662,9 +9664,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o4-c",
@@ -9675,6 +9675,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -9683,9 +9685,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o4-d",
@@ -9696,6 +9696,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "sequences",
@@ -9706,9 +9708,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o4-e",
@@ -9719,6 +9719,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -9729,9 +9731,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o5-a",
@@ -9742,6 +9742,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9750,9 +9752,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o5-b",
@@ -9761,8 +9761,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2024-25-o5-b.png",
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -9771,9 +9773,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o5-c",
@@ -9784,6 +9784,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -9793,9 +9795,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o5-d",
@@ -9806,6 +9806,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -9815,9 +9817,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2024-25-o5-e",
@@ -9828,6 +9828,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -9838,9 +9840,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o1-a",
@@ -9851,6 +9851,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9859,19 +9861,19 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o1-b",
     "question": "Sixteen 1 × 1 unit squares form the 4 × 4 grid shown. Four congruent triangles are cut from the corners of the grid, forming an octagon. What is the number of square units in the area of the octagon?",
     "answer": 14,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -9880,9 +9882,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o1-c",
@@ -9893,6 +9893,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -9902,9 +9904,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o1-d",
@@ -9915,6 +9915,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -9923,9 +9925,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o1-e",
@@ -9936,6 +9936,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics"
     ],
@@ -9944,9 +9946,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 1,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o2-a",
@@ -9957,6 +9957,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -9965,9 +9967,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o2-b",
@@ -9976,8 +9976,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2023-24-o2-b.png",
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -9986,9 +9988,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o2-c",
@@ -9999,6 +9999,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -10008,9 +10010,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o2-d",
@@ -10021,6 +10021,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -10029,9 +10031,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o2-e",
@@ -10042,6 +10042,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -10051,9 +10053,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o3-b",
@@ -10064,6 +10064,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense",
@@ -10074,9 +10076,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o3-c",
@@ -10087,6 +10087,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "algebra",
@@ -10097,9 +10099,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o3-d",
@@ -10110,6 +10110,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -10119,9 +10121,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o3-e",
@@ -10132,6 +10132,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10140,9 +10142,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 3,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o4-a",
@@ -10153,6 +10153,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10161,9 +10163,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o4-b",
@@ -10174,6 +10174,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -10183,9 +10185,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o4-d",
@@ -10196,6 +10196,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -10205,9 +10207,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o4-e",
@@ -10218,6 +10218,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "sequences"
@@ -10227,19 +10229,19 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 4,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o5-a",
     "question": "Compute the sum shown at the right. 111 333 555 777 +999",
     "answer": 2775,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10248,9 +10250,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o5-b",
@@ -10261,6 +10261,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10269,9 +10271,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o5-c",
@@ -10280,8 +10280,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2023-24-o5-c.png",
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "sequences"
@@ -10291,9 +10293,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o5-d",
@@ -10304,6 +10304,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10312,9 +10314,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2023-24-o5-e",
@@ -10325,6 +10325,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "geometry",
@@ -10335,9 +10337,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-practice-2026-04-01",
@@ -10348,6 +10348,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10356,9 +10358,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-practice-2026-04-03",
@@ -10369,6 +10369,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -10377,9 +10379,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-practice-2026-04-04",
@@ -10390,6 +10390,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10398,9 +10400,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-practice-2026-04-05",
@@ -10411,6 +10411,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -10419,9 +10421,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-practice-2026-04-07",
@@ -10432,6 +10432,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10440,9 +10442,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-practice-2026-04-09",
@@ -10453,6 +10453,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10461,9 +10463,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-practice-2026-04-10",
@@ -10474,6 +10474,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10482,9 +10484,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2020-21-o5-c",
@@ -10495,6 +10495,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "logic"
     ],
@@ -10503,9 +10505,7 @@ const moemsBank = [
     "year": "2020-2021",
     "contest": 5,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-contest-2022-23-o2-e",
@@ -10514,8 +10514,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-contest-2022-23-o2-e.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -10524,9 +10526,7 @@ const moemsBank = [
     "year": "2022-2023",
     "contest": 2,
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i1",
@@ -10537,6 +10537,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10545,9 +10547,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i2",
@@ -10558,6 +10558,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10566,9 +10568,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i3",
@@ -10579,6 +10579,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -10588,9 +10590,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i4",
@@ -10601,6 +10601,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10609,9 +10611,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i5",
@@ -10622,6 +10622,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -10631,9 +10633,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i6",
@@ -10644,6 +10644,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement",
@@ -10654,9 +10656,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i7",
@@ -10667,6 +10667,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10675,9 +10677,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i8",
@@ -10688,6 +10688,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10696,9 +10698,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i9",
@@ -10707,8 +10707,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-tourn-2025-i9.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -10717,9 +10719,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-i10",
@@ -10728,8 +10728,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-tourn-2025-i10.png",
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -10739,9 +10741,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t1",
@@ -10752,6 +10752,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10760,9 +10762,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t2",
@@ -10773,6 +10773,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10781,9 +10783,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t3",
@@ -10794,6 +10794,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -10803,9 +10805,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t4",
@@ -10816,6 +10816,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10824,9 +10826,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t5",
@@ -10837,6 +10837,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -10845,9 +10847,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t6",
@@ -10858,6 +10858,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -10867,9 +10869,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t7",
@@ -10880,6 +10880,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -10888,9 +10890,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t8",
@@ -10901,6 +10901,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "fractions"
     ],
@@ -10909,19 +10911,19 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t9",
     "question": "In a game, the goal is to place a prime number or the number '1' in each box so the 15 product of the numbers in each row is the number at the right of the row and the 154 product of the numbers in each column is the number at the bottom of the column. Each box has a different number. Find the sum of the four numbers in the corner 4199 boxes of the grid? 78 187",
     "answer": 40,
     "answerType": "number",
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -10931,9 +10933,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-t10",
@@ -10944,6 +10944,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "spatial"
@@ -10953,9 +10955,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-tb1",
@@ -10966,6 +10966,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -10975,9 +10977,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-tb2",
@@ -10988,6 +10988,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -10996,9 +10998,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-tb3",
@@ -11009,6 +11009,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -11017,9 +11019,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-tb4",
@@ -11030,6 +11030,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics"
     ],
@@ -11038,9 +11040,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2025-tb5",
@@ -11051,6 +11051,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -11059,9 +11061,7 @@ const moemsBank = [
     "year": "2024-2025",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i1",
@@ -11072,6 +11072,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11080,9 +11082,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i2",
@@ -11093,6 +11093,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11101,9 +11103,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i3",
@@ -11114,6 +11114,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11122,9 +11124,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i4",
@@ -11135,6 +11135,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11143,9 +11145,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i5",
@@ -11154,8 +11154,10 @@ const moemsBank = [
     "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
-    "figure": null,
+    "figure": "figures/e-tourn-2023-24-i5.png",
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -11164,9 +11166,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i6",
@@ -11177,6 +11177,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11185,9 +11187,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i7",
@@ -11198,6 +11198,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "money"
@@ -11207,9 +11209,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i9",
@@ -11220,6 +11220,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11228,9 +11230,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-i10",
@@ -11241,6 +11241,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -11249,9 +11251,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t1",
@@ -11262,6 +11262,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -11270,9 +11272,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t2",
@@ -11283,6 +11283,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11291,9 +11293,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t3",
@@ -11304,6 +11304,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -11312,9 +11314,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t4",
@@ -11325,6 +11325,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -11334,9 +11336,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t5",
@@ -11347,6 +11347,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "counting_combinatorics"
     ],
@@ -11355,9 +11357,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t6",
@@ -11368,6 +11368,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -11377,9 +11379,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t7",
@@ -11390,6 +11390,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -11398,9 +11400,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t8",
@@ -11411,6 +11411,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -11420,9 +11422,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t9",
@@ -11433,6 +11433,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "geometry",
@@ -11443,9 +11445,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-t10",
@@ -11456,6 +11456,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -11464,9 +11466,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-tb2",
@@ -11477,6 +11477,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -11486,9 +11488,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-tb3",
@@ -11499,6 +11499,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -11507,9 +11509,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-tb4",
@@ -11520,6 +11520,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "arithmetic",
       "number_sense"
@@ -11529,9 +11531,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "e-tourn-2023-24-tb5",
@@ -11542,6 +11542,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11550,9 +11552,7 @@ const moemsBank = [
     "year": "2023-2024",
     "contest": "Tournament",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-01",
@@ -11563,6 +11563,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11571,9 +11573,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-02",
@@ -11584,6 +11584,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -11593,9 +11595,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-03",
@@ -11606,6 +11606,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "time"
     ],
@@ -11614,9 +11616,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-04",
@@ -11627,6 +11627,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
     "topics": [
       "percents"
     ],
@@ -11635,9 +11637,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "A",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-05",
@@ -11648,6 +11648,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11656,9 +11658,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-06",
@@ -11669,6 +11669,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "number_sense"
     ],
@@ -11677,19 +11679,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-07",
     "question": "Kenneth measured daily temperature in his backyard. He recorded each day's temperature change (°F) compared to the previous day, as shown in the chart below. If the temperature measured on Friday was 55 °F, what was the temperature measured on Tuesday? Day of Week Monday Tuesday Wednesday Thursday Friday Change from Previous Day (°F) −5 +10 +5 −10 −15 (A) 45 °F (B) 50 °F (C) 60 °F (D) 65 °F (E) 75 °F",
     "answer": null,
     "answerType": null,
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11698,19 +11700,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-08",
     "question": "A four-sided star figure is drawn on a 7 × 7 dot grid. The distance between any two closest neighboring dots is 2. What is the area of this figure? (A) 12 (B) 18 (C) 24 (D) 48 (E) 72",
     "answer": null,
     "answerType": null,
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -11719,9 +11721,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "B",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-09",
@@ -11732,6 +11732,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "geometry"
     ],
@@ -11740,9 +11742,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-10",
@@ -11753,6 +11753,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -11761,9 +11763,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-11",
@@ -11774,6 +11774,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "money"
     ],
@@ -11782,9 +11784,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-12",
@@ -11795,6 +11795,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11803,9 +11805,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "C",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-13",
@@ -11816,6 +11816,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11824,9 +11826,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-14",
@@ -11837,6 +11837,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11845,9 +11847,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-15",
@@ -11858,6 +11858,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "arithmetic"
     ],
@@ -11866,9 +11868,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-16",
@@ -11879,6 +11879,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11887,9 +11889,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "D",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-17",
@@ -11900,6 +11900,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11908,9 +11910,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-18",
@@ -11921,6 +11921,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "Uncategorized"
     ],
@@ -11929,9 +11931,7 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-19",
@@ -11942,6 +11942,8 @@ const moemsBank = [
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "measurement"
     ],
@@ -11950,19 +11952,19 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   },
   {
     "id": "mamts-2026-e-20",
     "question": "A micro-triangle is an equilateral triangle with side length of 1 unit. A mega-triangle is a larger equilateral triangle formed by joining micro-triangles edge-to-edge without gaps. For example, the largest mega-triangle that can be formed with 12 micro-triangles has a side length of 3 units, as shown below. If Megan has 2026 micro-triangles, what is the perimeter of the largest mega-triangle she can form? 3 10 11 largest mega-triangle 2 4 3 le over micro-triangles 6 8 5 7 9 12",
     "answer": null,
     "answerType": null,
-    "hasFigure": true,
+    "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
     "topics": [
       "geometry",
       "measurement"
@@ -11972,8 +11974,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": "Championship",
     "solution": null,
-    "schema": "v2",
-    "difficultyLabel": "E",
-    "difficultyTier": null
+    "schema": "v2"
   }
 ];

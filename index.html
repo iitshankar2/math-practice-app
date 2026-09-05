@@ -37,6 +37,7 @@
             <label><input type="radio" name="mode" value="text" checked> Text-only</label>
             <label><input type="radio" name="mode" value="figures"> With figures</label>
             <label><input type="radio" name="mode" value="all"> All</label>
+            <label title="When off, problems that need a diagram but have no image are left out of practice"><input type="checkbox" id="include-missing-fig"> Include missing-figure problems</label>
         </div>
         <div class="source-row">
             <label for="source-filter">Source</label>
@@ -127,9 +128,17 @@
                 q && q.question && q.answer !== null && q.answer !== undefined && String(q.answer).trim() !== ""
             );
             pool = pool.filter(q => matchesSource(q, src));
+            const includeMissing = document.getElementById("include-missing-fig")?.checked;
+            function isMissingFigure(q) {
+                return !!(q.hasFigure && !q.figure && q.solvableWithoutFigure === false);
+            }
+            // Default practice pool excludes missing-diagram problems unless toggle is on
+            if (!includeMissing) {
+                pool = pool.filter(q => !isMissingFigure(q));
+            }
             if (mode === "text") {
-                // Prefer problems kids can solve without a missing diagram
-                pool = pool.filter(q => q.solvableWithoutFigure !== false);
+                // Text-only: solvable without needing a diagram image
+                pool = pool.filter(q => q.solvableWithoutFigure !== false && !(q.hasFigure && !q.figure));
             } else if (mode === "figures") {
                 pool = pool.filter(q => q.figure);
             }
@@ -164,7 +173,7 @@
                 wrap.style.display = "none";
                 img.removeAttribute("src");
                 note.style.display = "block";
-                note.textContent = "This problem has a diagram in the original source, but no image is attached yet.";
+                note.textContent = "Missing diagram — this problem needs a figure that is not attached yet.";
             } else {
                 wrap.style.display = "none";
                 img.removeAttribute("src");
@@ -375,6 +384,9 @@
                     if (rebuildPool()) loadNextQuestion();
                 });
             });
+            document.getElementById("include-missing-fig").addEventListener("change", () => {
+                if (rebuildPool()) loadNextQuestion();
+            });
             document.getElementById("source-filter").addEventListener("change", () => {
                 if (rebuildPool()) loadNextQuestion();
             });
@@ -419,7 +431,7 @@
                 bits.push(pick.topics[0]);
             }
             if (pick.figure) bits.push("diagram");
-            else if (pick.hasFigure) bits.push("diagram missing");
+            else if (pick.hasFigure) bits.push("missing diagram");
             document.getElementById("meta-line").textContent = bits.join(" · ");
 
             showFigure(pick);

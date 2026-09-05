@@ -260,7 +260,7 @@
 
     moemsBank.forEach((item, i) => {
       const hasImg = !!item.figure;
-      const needsFig = item.hasFigure && !item.figure;
+      const needsFig = item.hasFigure && !item.figure && item.solvableWithoutFigure === false;
       const textSafe = item.solvableWithoutFigure !== false;
       const fam = sourceFamily(item.id);
       const answered = hasAnswer(item);
@@ -305,7 +305,8 @@
         badges.push(`<span class="badge topic">Uncategorized</span>`);
       }
       if (hasImg) badges.push(`<span class="badge fig">figure</span>`);
-      else if (item.hasFigure) badges.push(`<span class="badge warn">figure missing</span>`);
+      else if (item.hasFigure && item.solvableWithoutFigure === false) badges.push(`<span class="badge missing">missing diagram</span>`);
+      else if (item.hasFigure) badges.push(`<span class="badge warn">figure noted</span>`);
       if (!answered) badges.push(`<span class="badge missing">no answer</span>`);
 
       let figHtml = "";
