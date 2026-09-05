@@ -8,16 +8,22 @@
   :root { --bg:#f4f4f9; --card:#fff; --border:#e2e5ea; --muted:#667085; --accent:#007bff; }
   * { box-sizing: border-box; }
   body { font-family: Arial, sans-serif; background: var(--bg); color: #222; margin: 0; padding: 20px; }
-  header { max-width: 900px; margin: 0 auto 16px; background: var(--card); padding: 18px 22px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,.06); }
-  h1 { margin: 0 0 8px; font-size: 1.4rem; }
+  header { max-width: 960px; margin: 0 auto 16px; background: var(--card); padding: 18px 22px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,.06); }
+  h1 { margin: 0 0 4px; font-size: 1.4rem; }
+  .sub { color: var(--muted); font-size: 0.88em; margin-bottom: 4px; }
   .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; }
   .toolbar input[type="search"] { flex: 1; min-width: 180px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 1em; }
   .toolbar select, .toolbar label { font-size: 0.95em; }
-  .toolbar label { display: flex; align-items: center; gap: 4px; background: #f8f9fa; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--border); }
+  .toolbar > label { display: flex; align-items: center; gap: 4px; background: #f8f9fa; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--border); }
+  .topic-panel { width: 100%; background: #f8f9fa; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+  .topic-panel summary { cursor: pointer; font-weight: 600; color: #334155; }
+  .topic-actions { display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap; }
+  .topic-actions button { padding: 4px 10px; font-size: 0.85em; border-radius: 6px; border: 1px solid var(--border); background: #fff; cursor: pointer; }
+  .topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 6px 10px; max-height: 180px; overflow: auto; }
+  .topic-grid label { display: flex; align-items: center; gap: 6px; background: #fff; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--border); font-size: 0.88em; }
   #stats { color: var(--muted); font-size: 0.9em; margin-top: 8px; line-height: 1.45; }
-  #list { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+  #list { max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
   .card { background: var(--card); border-radius: 10px; padding: 16px 18px; box-shadow: 0 2px 6px rgba(0,0,0,.05); border: 1px solid var(--border); }
-  .card.hidden { display: none; }
   .meta { font-size: 0.82em; color: var(--muted); margin-bottom: 8px; display: flex; flex-wrap: wrap; gap: 8px; }
   .badge { background: #eef2ff; color: #3730a3; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
   .badge.fig { background: #ecfdf5; color: #065f46; }
@@ -25,6 +31,7 @@
   .badge.level { background: #f1f5f9; color: #334155; }
   .badge.source { background: #ede9fe; color: #5b21b6; }
   .badge.missing { background: #fef2f2; color: #991b1b; }
+  .badge.topic { background: #ecfeff; color: #155e75; }
   .qnum { font-weight: 700; color: #111; }
   .question { font-size: 1.05em; line-height: 1.45; margin: 0 0 10px; white-space: pre-wrap; }
   .figure { margin: 8px 0 12px; }
@@ -34,19 +41,21 @@
   .answer.missing-ans { background: #fef2f2; border-color: #fecaca; }
   .answer.missing-ans strong { color: #991b1b; }
   .topics { margin-top: 8px; font-size: 0.85em; color: var(--muted); }
+  .prov { margin-top: 6px; font-size: 0.8em; color: var(--muted); }
   @media print {
     body { background: #fff; padding: 0; }
     header { box-shadow: none; border: 1px solid #ccc; }
     .card { break-inside: avoid; box-shadow: none; }
-    .toolbar { display: none; }
+    .toolbar, .topic-panel { display: none; }
   }
 </style>
 </head>
 <body>
 <header>
   <h1>MOEMS question bank — review</h1>
+  <div class="sub">Bank exported from schema v2 · 559 problems · keep next to <code>moemsBank.js</code> + <code>figures/</code></div>
   <div class="toolbar">
-    <input type="search" id="search" placeholder="Search question text, id, answer, source…">
+    <input type="search" id="search" placeholder="Search question text, id, answer, source, topics…">
     <label>Filter
       <select id="filter">
         <option value="all">All</option>
@@ -73,7 +82,7 @@
         <option value="missing">Missing answer</option>
       </select>
     </label>
-    <label>Level
+    <label>Difficulty
       <select id="level">
         <option value="all">All</option>
         <option value="A">A</option>
@@ -81,19 +90,35 @@
         <option value="C">C</option>
         <option value="D">D</option>
         <option value="E">E</option>
-        <option value="none">No level</option>
+        <option value="tier1">Tier 1</option>
+        <option value="tier2">Tier 2</option>
+        <option value="tier3">Tier 3</option>
+        <option value="tier4">Tier 4</option>
+        <option value="tier5">Tier 5</option>
+        <option value="none">Unset / unknown</option>
       </select>
     </label>
     <label><input type="checkbox" id="show-figs" checked> Show images</label>
   </div>
+  <details class="topic-panel" open>
+    <summary>Topics <span id="topic-summary">(all)</span></summary>
+    <div class="topic-actions">
+      <button type="button" id="topics-all">Select all</button>
+      <button type="button" id="topics-none">Clear</button>
+    </div>
+    <div class="topic-grid" id="topic-grid"></div>
+  </details>
   <div id="stats">Loading…</div>
 </header>
 <div id="list"></div>
 
+<!-- Bank rebuilt from problems.v2.json (schema v2) via rebuild_bank_from_v2.py -->
 <script src="moemsBank.js"></script>
 <script>
   const listEl = document.getElementById("list");
   const statsEl = document.getElementById("stats");
+  const topicGrid = document.getElementById("topic-grid");
+  const topicSummary = document.getElementById("topic-summary");
 
   function sourceFamily(id) {
     const s = String(id || "");
@@ -114,6 +139,37 @@
     if (src === "all") return true;
     if (src === "Practice+Samples") return fam === "Practice" || fam === "Samples";
     return fam === src;
+  }
+
+  function difficultyLabel(item) {
+    return item.difficultyLabel || item.difficulty || null;
+  }
+
+  function difficultyTier(item) {
+    const t = item.difficultyTier;
+    if (t === null || t === undefined || t === "") return null;
+    const n = Number(t);
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function matchesDifficulty(item, level) {
+    if (level === "all") return true;
+    const label = difficultyLabel(item);
+    const tier = difficultyTier(item);
+    if (level === "none") return !label && tier === null;
+    if (level.startsWith("tier")) {
+      const want = Number(level.slice(4));
+      return tier === want;
+    }
+    // A–E letter label from v2 classification.difficulty_label
+    return label === level;
+  }
+
+  function itemTopics(item) {
+    const raw = item.topics;
+    if (Array.isArray(raw) && raw.length) return raw.map(String);
+    if (item.primary_topic) return [String(item.primary_topic)];
+    return ["Uncategorized"];
   }
 
   function esc(s) {
@@ -140,6 +196,50 @@
     return counts;
   }
 
+  function collectTopics() {
+    const set = new Set();
+    if (typeof moemsBank === "undefined") return [];
+    moemsBank.forEach(item => itemTopics(item).forEach(t => set.add(t)));
+    return Array.from(set).sort((a, b) => {
+      if (a === "Uncategorized") return 1;
+      if (b === "Uncategorized") return -1;
+      return a.localeCompare(b);
+    });
+  }
+
+  function buildTopicChecks() {
+    const topics = collectTopics();
+    topicGrid.innerHTML = "";
+    topics.forEach(t => {
+      const id = "topic-" + t.replace(/[^a-zA-Z0-9_-]/g, "_");
+      const lab = document.createElement("label");
+      lab.innerHTML = `<input type="checkbox" class="topic-cb" value="${esc(t)}" id="${esc(id)}" checked> ${esc(t)}`;
+      topicGrid.appendChild(lab);
+    });
+    updateTopicSummary();
+  }
+
+  function selectedTopics() {
+    return Array.from(document.querySelectorAll(".topic-cb:checked")).map(el => el.value);
+  }
+
+  function updateTopicSummary() {
+    const all = document.querySelectorAll(".topic-cb");
+    const sel = document.querySelectorAll(".topic-cb:checked");
+    if (!all.length || sel.length === all.length) topicSummary.textContent = "(all)";
+    else if (!sel.length) topicSummary.textContent = "(none)";
+    else topicSummary.textContent = `(${sel.length} of ${all.length})`;
+  }
+
+  function matchesTopicFilter(item, selected) {
+    const allCbs = document.querySelectorAll(".topic-cb");
+    if (!allCbs.length) return true;
+    if (selected.length === allCbs.length) return true; // all selected = no filter
+    if (!selected.length) return false;
+    const topics = itemTopics(item);
+    return topics.some(t => selected.includes(t));
+  }
+
   function render() {
     if (typeof moemsBank === "undefined") {
       statsEl.textContent = "Could not load moemsBank.js — keep this file next to moemsBank.js and figures/.";
@@ -152,6 +252,8 @@
     const answerFilter = document.getElementById("answer-filter").value;
     const level = document.getElementById("level").value;
     const showFigs = document.getElementById("show-figs").checked;
+    const selected = selectedTopics();
+    updateTopicSummary();
 
     let shown = 0;
     const frag = document.createDocumentFragment();
@@ -162,22 +264,26 @@
       const textSafe = item.solvableWithoutFigure !== false;
       const fam = sourceFamily(item.id);
       const answered = hasAnswer(item);
+      const label = difficultyLabel(item);
+      const tier = difficultyTier(item);
+      const topics = itemTopics(item);
 
       if (filter === "figures" && !hasImg) return;
       if (filter === "needs-fig" && !needsFig) return;
       if (filter === "text" && !textSafe) return;
 
       if (!matchesSourceFilter(fam, source)) return;
+      if (!matchesTopicFilter(item, selected)) return;
 
       if (answerFilter === "has" && !answered) return;
       if (answerFilter === "missing" && answered) return;
 
-      if (level === "none" && item.difficulty) return;
-      if (level !== "all" && level !== "none" && item.difficulty !== level) return;
+      if (!matchesDifficulty(item, level)) return;
 
       const hay = [
         item.id, item.question, String(item.answer ?? ""),
-        (item.topics || []).join(" "), item.difficulty, fam
+        topics.join(" "), label || "", tier != null ? String(tier) : "",
+        fam, item.sourceTitle || "", item.sourceType || "", item.year || ""
       ].join(" ").toLowerCase();
       if (q && !hay.includes(q)) return;
 
@@ -190,7 +296,14 @@
       badges.push(`<span class="badge qnum">#${i + 1}</span>`);
       if (item.id) badges.push(`<span class="badge">${esc(item.id)}</span>`);
       badges.push(`<span class="badge source">${esc(fam)}</span>`);
-      if (item.difficulty) badges.push(`<span class="badge level">Level ${esc(item.difficulty)}</span>`);
+      if (label) badges.push(`<span class="badge level">Level ${esc(label)}</span>`);
+      else if (tier != null) badges.push(`<span class="badge level">Tier ${esc(tier)}</span>`);
+      else badges.push(`<span class="badge level">Difficulty unset</span>`);
+      if (topics[0] && topics[0] !== "Uncategorized") {
+        badges.push(`<span class="badge topic">${esc(topics[0])}</span>`);
+      } else if (topics.includes("Uncategorized")) {
+        badges.push(`<span class="badge topic">Uncategorized</span>`);
+      }
       if (hasImg) badges.push(`<span class="badge fig">figure</span>`);
       else if (item.hasFigure) badges.push(`<span class="badge warn">figure missing</span>`);
       if (!answered) badges.push(`<span class="badge missing">no answer</span>`);
@@ -200,8 +313,16 @@
         figHtml = `<div class="figure"><img src="${esc(item.figure)}" alt="Figure for ${esc(item.id || "problem")}" loading="lazy"></div>`;
       }
 
-      const topics = (item.topics && item.topics.length)
-        ? `<div class="topics">Topics: ${esc(item.topics.join(", "))}</div>`
+      const topicsHtml = topics.length
+        ? `<div class="topics">Topics: ${esc(topics.join(", "))}</div>`
+        : "";
+
+      const provBits = [];
+      if (item.year) provBits.push(String(item.year));
+      if (item.contest != null && item.contest !== "") provBits.push("Contest " + item.contest);
+      if (item.sourceTitle) provBits.push(item.sourceTitle);
+      const provHtml = provBits.length
+        ? `<div class="prov">${esc(provBits.join(" · "))}</div>`
         : "";
 
       const ansClass = answered ? "answer" : "answer missing-ans";
@@ -210,7 +331,8 @@
         <div class="question">${esc(item.question)}</div>
         ${figHtml}
         <div class="${ansClass}"><strong>Answer:</strong> ${formatAnswer(item.answer)}</div>
-        ${topics}
+        ${topicsHtml}
+        ${provHtml}
       `;
       frag.appendChild(card);
     });
@@ -221,13 +343,23 @@
     const counts = bankBreakdown();
     const order = ["User", "Contests", "Tournaments", "MAMTS", "Samples", "Practice", "Other"];
     const parts = order.filter(k => counts[k]).map(k => `${k} ${counts[k]}`);
-    statsEl.textContent = `Showing ${shown} of ${moemsBank.length} · ` + parts.join(" · ");
+    statsEl.textContent = `Showing ${shown} of ${moemsBank.length} · schema v2 export · ` + parts.join(" · ");
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    buildTopicChecks();
     ["search", "filter", "source", "answer-filter", "level", "show-figs"].forEach(id => {
       document.getElementById(id).addEventListener("input", render);
       document.getElementById(id).addEventListener("change", render);
+    });
+    topicGrid.addEventListener("change", render);
+    document.getElementById("topics-all").addEventListener("click", () => {
+      document.querySelectorAll(".topic-cb").forEach(cb => { cb.checked = true; });
+      render();
+    });
+    document.getElementById("topics-none").addEventListener("click", () => {
+      document.querySelectorAll(".topic-cb").forEach(cb => { cb.checked = false; });
+      render();
     });
     render();
   });

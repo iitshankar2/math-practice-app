@@ -1,11 +1,12 @@
 // MOEMS Elementary structured practice bank
-// desktop contest ingest
+// exported from schema v2 (problems.v2.json) · source of truth
 // generated 2026-09-05 · 559 problems
 const moemsBank = [
   {
     "id": "e-sample-2009-4a",
     "question": "A digital clock shows 2:35. This is the first time after midnight when all three digits are different prime numbers. What is the last time before noon when all three digits on the clock are different prime numbers?",
     "answer": 753,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -14,12 +15,21 @@ const moemsBank = [
       "time",
       "number_sense",
       "prime"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (February 3, 2009 Contest 4); older sample PDF",
+    "year": "2008-2009",
+    "contest": 4,
+    "solution": "Strategy: List the single-digit primes 2, 3, 5, and 7. Select the 3 greatest and write them from largest to smallest. The last time before noon when all 3 digits are prime is 7:53.",
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2009-4b",
     "question": "The only way that 10 can be written as the sum of 4 different counting numbers is 1 + 2 + 3 + 4. In how many different ways can 15 be written as the sum of 4 different counting numbers?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -27,12 +37,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (February 3, 2009 Contest 4); older sample PDF",
+    "year": "2008-2009",
+    "contest": 4,
+    "solution": "Strategy: Make an organized list. The greatest of the four numbers cannot exceed 15-6=9. The six ways are: 9+3+2+1, 8+4+2+1, 7+5+2+1, 7+4+3+1, 6+5+3+1, 6+4+3+2.",
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2009-4c",
     "question": "The tower shown is made of congruent cubes stacked on top of each other. Some of the cubes are not visible. How many cubes in all are used to form the tower?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": "figures/e-sample-2009-4c.png",
@@ -40,12 +59,21 @@ const moemsBank = [
     "topics": [
       "spatial",
       "geometry"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (February 3, 2009 Contest 4); older sample PDF",
+    "year": "2008-2009",
+    "contest": 4,
+    "solution": "METHOD 1: Count horizontally from the top layer down. Layers: 1 (top), 3, 6, 10 (bottom) = 20 cubes. METHOD 2: Count vertically, stack by stack: four stacks of height 1, three of height 2, two of height 3, one of height 4.",
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2009-4d",
     "question": "Hannah gives clues about her six-digit secret number: Clue 1: It is the same number if you read it from right to left. Clue 2: The number is a multiple of 9. Clue 3: Cross off the first and last digits. The only prime factor of the remaining four-digit number is 11. What is Hannah's six-digit number?",
     "answer": 513315,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -53,12 +81,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "algebra"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (February 3, 2009 Contest 4); older sample PDF",
+    "year": "2008-2009",
+    "contest": 4,
+    "solution": "Strategy: Consider the clues one at a time, starting with the most restrictive. Clue 3: the only 4-digit power of 11 is 11^3=1331, so the middle four digits are 1331. Clue 1: the number is a palindrome A1331A. Clue 2: digit sum 2A+8 is a multiple of 9, so A=5. Hannah's number is 513315.",
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2009-4e",
     "question": "The L-shape pictured is formed from three squares, each 1 cm on a side. Five of these L-shapes are placed next to each other to form a figure. What is the least possible perimeter of the figure they form, in cm?",
     "answer": 16,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": "figures/e-sample-2009-4e.png",
@@ -66,24 +103,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (February 3, 2009 Contest 4); older sample PDF",
+    "year": "2008-2009",
+    "contest": 4,
+    "solution": "Strategy: Make the figure as compact as possible. Five L-trominoes have area 15. They pack into a 4x4 square of area 16 (one unit missing). Least perimeter is 4+4+3+3+1+1=16 cm.",
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2018-3a",
     "question": "Add: 531 + 642 + 753 + 864 + 975.",
     "answer": 3765,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (January 16, 2018 Contest 3)",
+    "year": "2017-2018",
+    "contest": 3,
+    "solution": "METHOD 1 Strategy: Write in expanded form and then find the sum. 531 + 642 + 753 + 864 + 975 = (500+30+1)+(600+40+2)+(700+50+3)+(800+60+4)+(900+70+5) = (500+600+700+800+900)+(30+40+50+60+70)+(1+2+3+4+5) = 3500 + 250 + 15 = 3765. METHOD 2 Strategy: Decompose and compose by place value using a table. Hundreds 5+6+7+8+9=35, tens 3+4+5+6+7=25, ones 1+2+3+4+5=15. Finally, 3500 + 250 + 15 = 3765.",
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2018-3b",
     "question": "The first 40 odd counting numbers are written. How many times does '3' appear as a digit?",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -91,12 +146,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (January 16, 2018 Contest 3)",
+    "year": "2017-2018",
+    "contest": 3,
+    "solution": "METHOD 1 Strategy: Count using place value. The first 40 odd counting numbers begin with 1 and end with 79. The digit 3 appears in the tens place 5 times (31, 33, 35, 37, 39) and in the ones place 8 times (3, 13, 23, 33, 43, 53, 63, 73). Therefore 5 + 8 = 13. METHOD 2 Strategy: Make a list and count the digit 3 among 1, 3, ..., 79.",
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2018-3c",
     "question": "Ashley has a rectangle made out of paper that is 8 cm by 12 cm. She folds it in half twice, first vertically and then horizontally. The new rectangle looks just like the original rectangle but smaller. What is the area of the new smaller rectangle in square cm?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -104,12 +168,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (January 16, 2018 Contest 3)",
+    "year": "2017-2018",
+    "contest": 3,
+    "solution": "METHOD 1 Strategy: Draw diagrams to represent the folded paper. After a vertical fold the rectangle is 8 by 6; after a horizontal fold it is 4 by 6. Area = 4 x 6 = 24 cm^2. METHOD 2 Strategy: Use spatial reasoning. Original area 8 x 12 = 96 cm^2. Each fold halves the area: 96/2=48, 48/2=24 cm^2.",
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2018-3d",
     "question": "In the figure, the whole numbers from 1 through 7 are to be placed, one per square. The sum of the numbers in the left column, the sum of the numbers in the right column, and the sum of the numbers in each diagonal are the same. What is the least possible product of the numbers across the gray row?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": "figures/e-sample-2018-3d.png",
@@ -117,12 +190,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "algebra"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (January 16, 2018 Contest 3)",
+    "year": "2017-2018",
+    "contest": 3,
+    "solution": "Strategy: Use number sense applied to trial and error. For the least product of the three gray-row numbers, try 1, 2, and 3. The remaining numbers are 4, 5, 6, 7. The two leftover left-column numbers must sum to 2 more than the two leftover right-column numbers, so left gets 5 and 7, right gets 4 and 6. Diagonals also sum to 13. One possible arrangement yields gray-row product 1 x 2 x 3 = 6.",
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-sample-2018-3e",
     "question": "In the following cryptarithm, each different letter represents a different digit in the 6-digit numbers. If B != 0, what is the least sum possible? BETTER BITTER BATTER + BUTTER",
     "answer": 512024,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -131,156 +213,294 @@ const moemsBank = [
       "cryptarithm",
       "number_sense",
       "algebra"
-    ]
+    ],
+    "sourceType": "official_sample",
+    "sourceTitle": "MOEMS official sample contest — Division E (January 16, 2018 Contest 3)",
+    "year": "2017-2018",
+    "contest": 3,
+    "solution": "Strategy: Use place value and number sense. For the least sum, give B the least nonzero digit 1. E repeats in the tens place; assign E=0. Assign 2, 3, and 4 to I, A, and U in some order. Next least available digits for T and R are 5 and 6. The four addends are 105506, 125506, 135506, 145506, and the least possible sum is 512,024.",
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-01",
     "question": "Evaluate the following sum: 51 − 33 + 42 − 33 + 24 − 33 + 15 − 33.",
     "answer": 0,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Group as (51-33) + (42-33) + (24-33) + (15-33) = 18 + 9 - 9 - 18.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-02",
     "question": "Sarah wrote the whole numbers from 1 to 85. How many times did she write the digit 7?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75, 76, 77 (counts as 2), 78, 79. (Note: Only up to 85).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-03",
     "question": "Find the sum of the following nine products: 1 × (10 − 1), 2 × (10 − 2), 3 × (10 − 3), ..., 9 × (10 − 9).",
     "answer": 165,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sums of: 9, 16, 21, 24, 25, 24, 21, 16, 9.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-04",
     "question": "Calculate: 8883 + 8838 + 8388 + 3888.",
     "answer": 29997,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sum each column: (8+8+8+3) = 27. Carry values across place holders.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-05",
     "question": "What is the units digit of the total sum of the sequence 3, 8, 13, 18, ..., 98? (There are 20 numbers in the sequence).",
     "answer": 0,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Units digits repeat 3, 8, 3, 8. 10 pairs of (3+8=11). 10 * 1 = 10. Units digit is 0.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-06",
     "question": "Find the value of 100 − 98 + 96 − 94 + ... + 4 − 2.",
     "answer": 50,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "There are 25 pairs of (X - (X-2)), each equal to 2. Wait: 100-98=2, 96-94=2... 50 terms, 25 pairs. 25 * 2 = 50.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-07",
     "question": "A certain number is multiplied by 3, then 10 is added to the result. The final answer is 31. What was the original number?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "logic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "(31 - 10) / 3 = 7.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-08",
     "question": "In 10 minutes, 5 identical robots can fill 20 orders. If 8 robots worked at that same rate for an hour, how many orders would they fill?",
     "answer": 192,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "1 robot = 4 orders / 10 mins. 8 robots = 32 orders / 10 mins. 32 * 6 = 192.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-09",
     "question": "Bert has 5 paper clips for every 3 Ernie has. If Bert gives Ernie 12 clips, they will have the same amount. How many did Bert have originally?",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "5x - 12 = 3x + 12 => 2x = 24 => x = 12. Bert: 5 * 12 = 60.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-10",
     "question": "In a 25-question contest, 6 points are earned for correct answers and 4 points are deducted for incorrect ones. Joshua answered all questions and scored 100. How many were correct?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "6C - 4(25-C) = 100 => 10C - 100 = 100 => 10C = 200.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-11",
     "question": "A bag contains 5 red marbles, 4 blue marbles, and 3 green marbles. What is the smallest number of marbles you must pull out (without looking) to be certain you have at least one of each color?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Worst case: pull all red (5) and all blue (4), then 1 green. 5+4+1=10.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-12",
     "question": "Anik bought 3 apples and 2 oranges for $2.40. Later, he bought 2 apples and 3 oranges for $2.10. What is the cost of one apple?",
     "answer": 0.6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3A+2O=2.40; 2A+3O=2.10. Subtracting gives A-O=0.30. Adding gives 5A+5O=4.50 (A+O=0.90). A=0.60.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-14",
     "question": "A square tablecloth with an area of 256 sq in. is folded in half repeatedly until it covers 8 sq in. How many times was it folded?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "256 -> 128 -> 64 -> 32 -> 16 -> 8. (5 steps).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-15",
     "question": "A rectangle measures 12 inches by 18 inches. It is cut into 6 identical squares. What is the perimeter of one square?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -288,12 +508,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Area 216 / 6 = 36. Side = 6. Perimeter = 6 * 4 = 24.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-16",
     "question": "A cube has a volume of 64 cubic centimeters. What is the total surface area of the cube?",
     "answer": 96,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -303,12 +532,21 @@ const moemsBank = [
       "measurement",
       "money",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Side = 4. One face = 16. 6 faces = 96.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-17",
     "question": "A rectangular floor is 10 feet by 12 feet. It is being tiled with square tiles that are 2 feet on each side. How many tiles are needed?",
     "answer": 30,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -316,12 +554,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "5 tiles wide, 6 tiles long. 5 * 6 = 30.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-18",
     "question": "The perimeter of a rectangle is 30 cm. If the length is twice the width, what is the area of the rectangle?",
     "answer": 50,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -329,24 +576,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "2(2W + W) = 30 => 6W = 30 => W = 5. L = 10. 5 * 10 = 50.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-19",
     "question": "Suppose WARM − COLD = 6591, and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM?",
     "answer": 7643,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Largest digits possible under constraints.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-20",
     "question": "The number 2A5A0A2 is divisible by 99. What is the digit A?",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -354,34 +619,63 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sum of digits must be div by 9: 2+A+5+A+0+A+2 = 9 + 3A. If A=3, 6, or 9. Check 11 divisibility.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-21",
     "question": "In the problem 5A9 + 5A9 + 5A9 = PLAN, each letter is a different digit (none are 5 or 9). Determine the sum PLAN.",
     "answer": 1647,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3 * 5A9. A cannot be 5 or 9. If A=6, 3 * 569 = 1707.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-22",
     "question": "If 3X + 7 = 22 and 4Y − 5 = 11, what is the value of X + Y?",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "X=5, Y=4. 5+4=9.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-23",
     "question": "The fraction 5/13 is 0.384615... repeating. What is the 2019th digit to the right of the decimal point?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -390,22 +684,42 @@ const moemsBank = [
       "arithmetic",
       "fractions",
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Cycle length 6. 2019 / 6 leaves remainder 3. 3rd digit is 8.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-practice-25-24",
     "question": "What is the next number in the sequence: 1, 3, 6, 10, 15, ...?",
     "answer": 21,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Triangular numbers. Add 6 to 15.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-1",
     "question": "A 3-digit number has digits in increasing order. The sum of the digits is 9, and the number is a multiple of 15. What is the number?",
     "answer": 135,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -413,12 +727,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-2",
     "question": "In the cryptarithm 5A9 + 5A9 + 5A9 = PLAN, each letter is a different digit. None of the letters can be 5 or 9. Find the sum PLAN.",
     "answer": 1647,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -427,12 +750,21 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-4",
     "question": "Kayla's 3-digit palindrome is divisible by 18 and is one less than a multiple of 5. What is the number?",
     "answer": 414,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -440,12 +772,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-5",
     "question": "In the problem 3 x FUN = HFUN, where different letters represent different digits, find the 3-digit number FUN.",
     "answer": 450,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -453,12 +794,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-6",
     "question": "A large cube is painted red on all faces and then cut into 27 smaller equal-sized cubes. How many of the small cubes have exactly two red faces?",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -466,54 +816,105 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-7",
     "question": "In a class of 30 students, 18 like Math and 15 like Science. If 5 students like neither, how many students like both Math and Science?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-8",
     "question": "Adam is older than Beth. Carol is younger than Beth. Adam's age is the sum of Beth's and Carol's ages. David is the twin of the second oldest. If Carol is 5 and Adam is 13, how old is David?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-9",
     "question": "Find the next number in this sequence: 1, 3, 7, 15, 31, ...",
     "answer": 63,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb13-10",
     "question": "Three apples and two bananas weigh 28 ounces. Two apples and three bananas weigh 27 ounces. What is the weight of one apple? Page 1 MATH OLYMPIADS (Division E) - Practice Set",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-1",
     "question": "The 7-digit numbers 47A5A20 and 47B5B20 are divisible by 24. Given that A > B, find the value of (A+B)(A-B).",
     "answer": 72,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -521,12 +922,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-2",
     "question": "The 7-digit numbers 29A4A80 and 29B4B80 are divisible by 24. Given that A > B, find the value of (A+B)(A-B).",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -534,62 +944,126 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-5",
     "question": "The distance from A to 5 is twice the distance from A to 17. The distance from B to 5 is also twice the distance from B to 17. If A is to the left of B, find A + B.",
     "answer": 42,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-6",
     "question": "The distance from A to -3 is three times the distance from A to 9. The distance from B to -3 is three times the distance from B to 9. If A is to the left of B, find A + B.",
     "answer": 21,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-7",
     "question": "The distance from A to 12 is half the distance from A to 30. The distance from B to 12 is half the distance from B to 30. If A is to the left of B, find A + B.",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-8",
     "question": "The distance from A to 2 is three times the distance from A to 8. The distance from B to 2 is three times the distance from B to 8. If A is to the left of B, find A + B.",
     "answer": "35/2",
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-9",
     "question": "The distance from A to 4 is twice the distance from A to 10. The distance from B to 4 is twice the distance from B to 10. If A is to the left of B, find A + B.",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-10",
     "question": "Harper takes a number, multiplies it by a one-digit number, then adds a two-digit number. 16 becomes 58 and 22 becomes 76. What is Milo's number if Harper turns it into 40?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -597,164 +1071,315 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "logic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-11",
     "question": "Evan uses his favorite one-digit and two-digit numbers to transform inputs. 10 becomes 43 and 18 becomes 67. What is Riley's number if Evan turns it into 55?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-12",
     "question": "Sofia transforms 12 into 50 and 20 into 74. What is Jonah's number if Sofia turns it into 38?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Linear map 3x+14 sends 12→50 and 20→74, so 3x+14=38 gives x=8.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-13",
     "question": "Caleb transforms 15 into 57 and 25 into 87. What is Nina's number if Caleb turns it into 72?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-14",
     "question": "Maya transforms 11 into 41 and 19 into 65. What is Leo's number if Maya turns it into 53?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-15",
     "question": "A drawer has 8 red, 6 green, and 10 blue socks. What is the least number of socks you must pull to guarantee at least one matching pair?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3 colors: worst case one of each then the next forces a pair.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-16",
     "question": "A drawer contains 5 black, 7 white, 9 gray, and 4 brown socks. What is the least number of socks you must pull to guarantee at least one matching pair?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "4 colors: worst case one of each then the next forces a pair.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-17",
     "question": "A drawer has 14 red, 10 green, and 20 blue socks. What is the least number of socks you must pull to guarantee you have 2 matching pairs?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Worst case without two pairs is 3 of one color and 1 of each other (5); the 6th creates a second pair.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-18",
     "question": "A drawer has 12 left-hand and 12 right-hand gloves. What is the least number of gloves you must pull to guarantee at least 2 complete pairs (one left and one right each)?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mar-olympiad-19",
     "question": "A closet has 9 red, 11 blue, and 7 green shirts. What is the least number of shirts you must grab to guarantee you have at least 3 shirts of the same color?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3 colors: worst case 2 of each then the next forces 3 of one color.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-algebra-1",
     "question": "Emma has twice as many pencils as Jack. Jack has 4 more pencils than Mia. Noah has triple the number of pencils that Mia has. Together, the four kids have 75 pencils. How many pencils does Jack have?",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Algebra word problems (four-person linear systems)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "With Mia=J-4, Emma=2J, Noah=3(J-4) and total 75, Jack=13.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-algebra-2",
     "question": "Carlos has twice as many books as Ava. Ava has 7 more books than Ethan. Lily has triple the number of books that Ethan has. Together, the four children have 91 books. How many books does Ava have?",
     "answer": 17,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Algebra word problems (four-person linear systems)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "With Ethan=A-7 and analogous relations totaling 91, Ava=17.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-algebra-3",
     "question": "Zoe has twice as many crayons as Leo. Leo has 3 more crayons than Harper. Mason has triple the number of crayons that Harper has. Together, the four kids have 65 crayons. How many crayons does Leo have?",
     "answer": 11,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Algebra word problems (four-person linear systems)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Step 1: Define Variables Let L be the number of crayons Leo has. Leo: L Zoe: 2L (Twice as many as Leo) Harper: L - 3 (3 fewer than Leo) Mason: 3 × (L - 3) (Triple the number Harper has) Step 2: Set up the Equation The total number of crayons for all four kids is 65: {Leo} + {Zoe} + {Harper} + {Mason} = 65 L + 2L + (L - 3) + 3(L - 3) = 65 Step 3: Solve the Equation for {L} Distribute and Simplify: L + 2L + L - 3 + 3L - 9 = 65 Combine like terms (the L terms and the constant terms): (L + 2L + L + 3L) + (-3 - 9) = 65 7L - 12 = 65 Isolate the variable term: 7L = 65 + 12 7L = 77 Solve for L: L = 77 ÷ 7 L = 11 Answer Leo has 11 crayons.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-algebra-4",
     "question": "Ella has twice as many apples as Ryan. Ryan has 8 more apples than Chloe. Oliver has triple the number of apples that Chloe has. Together, the four children have 94 apples. How many apples does Ryan have?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Algebra word problems (four-person linear systems)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "With Chloe=R-8 and analogous relations totaling 94, Ryan=18.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-algebra-5",
     "question": "Isla has twice as many coins as Ben. Ben has 5 more coins than Grace. Henry has triple the number of coins that Grace has. Together, the four kids have 78 coins. How many coins does Ben have?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Algebra word problems (four-person linear systems)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "With Grace=B-5 and analogous relations totaling 78, Ben=14.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-arith-seq-1",
     "question": "A list of numbers begins with 15, and each following number is 18 more than the previous number: 15, 33, 51, 69, and so on. The last number is 999. How many three-digit numbers are in the list?",
     "answer": 50,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -762,12 +1387,21 @@ const moemsBank = [
     "topics": [
       "sequences",
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Arithmetic sequences, three-digit terms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sequence 15+18k; three-digit terms from 105 to 987 number 50.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-arith-seq-2",
     "question": "A sequence starts at 12, and each term increases by 25: 12, 37, 62, 87, and so on. The last term is 987. How many three-digit numbers are in the sequence?",
     "answer": 36,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -775,12 +1409,21 @@ const moemsBank = [
     "topics": [
       "sequences",
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Arithmetic sequences, three-digit terms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sequence 12+25k through 987; three-digit terms from 112 to 987 number 36.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-arith-seq-3",
     "question": "A list of numbers begins with 30, and each following number is 20 more than the previous number: 30, 50, 70, 90, and so on. The last number is 1010. How many three-digit numbers are in the list?",
     "answer": 45,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -788,12 +1431,21 @@ const moemsBank = [
     "topics": [
       "sequences",
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Arithmetic sequences, three-digit terms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sequence 30+20k; three-digit terms from 110 to 990 number 45.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-arith-seq-4",
     "question": "A sequence starts at 45, and each term increases by 15: 45, 60, 75, 90, and so on. The last term is 990. How many three-digit numbers are in the sequence?",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -801,12 +1453,21 @@ const moemsBank = [
     "topics": [
       "sequences",
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Arithmetic sequences, three-digit terms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sequence 45+15k through 990; three-digit terms from 105 to 990 number 60.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-arith-seq-5",
     "question": "A list of numbers begins with 28, and each following number is 22 more than the previous number: 28, 50, 72, 94, and so on. The last number is 1012. How many three-digit numbers are in the list?",
     "answer": 41,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -814,48 +1475,84 @@ const moemsBank = [
     "topics": [
       "sequences",
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Arithmetic sequences, three-digit terms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sequence 28+22k; three-digit terms from 116 to 996 number 41.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-congruent-rect-1",
     "question": "Eight congruent rectangles are arranged to form a large rectangle with an area of 120 square cm, as shown in the diagram. The dimensions of each small rectangle are whole numbers. What is the number of centimeters in the perimeter of the large given rectangle?",
     "answer": 52,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Congruent rectangles",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Area of large rectangle: 120 cm² Number of small rectangles: 8 Area of each small rectangle: 120/8=15 cm2 Possible dimensions of large rectangle: (1, 120), (2, 60), (3, 40), (4, 30), (5, 24), (6, 20), (8, 15), (10, 12) Try 10 × 12: If height is 10 cm, and we arrange 2 rows of 4 rectangles, each small rectangle must be 5 cm × 3.75 cm ❌ (not whole) Try 6 × 20: If height is 6 cm, and we arrange 2 rows of 4 rectangles, each small rectangle must be 3 cm × 5 cm ✅ Perimeter: 2×(6+20)=52 cm ✅ Answer: 52 cm",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-congruent-rect-2",
     "question": "Nine congruent rectangles are arranged to form a large rectangle with an area of 108 square cm, as shown in the diagram. The dimensions of each small rectangle are whole numbers. What is the number of centimeters in the perimeter of the large given rectangle?",
     "answer": 42,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Congruent rectangles",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Area of large rectangle: 108 cm² Number of small rectangles: 9 Area of each small rectangle: 108/9=12 cm2 Possible dimensions of large rectangle: (1, 108), (2, 54), (3, 36), (6, 18), (9, 12) Try 9 × 12: If height is 12 cm, and we arrange 3 rows of 3 rectangles, each small rectangle must be 3 cm × 4 cm ✅ Perimeter: 2×(9+12)=42 cm ✅ Answer: 42 cm",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-congruent-rect-3",
     "question": "Five congruent rectangles are arranged to form a large rectangle with an area of 75 square cm, as shown in the diagram. The dimensions of each small rectangle are whole numbers. What is the number of centimeters in the perimeter of the large given rectangle?",
     "answer": 40,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Congruent rectangles",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Area of large rectangle: 75 cm² Number of small rectangles: 5 Area of each small rectangle: 75/5=15 cm2 Possible dimensions of large rectangle: (1, 75), (3, 25), (5, 15) Try 5 × 15: If height is 5 cm, and we arrange 1 row of 5 rectangles, each small rectangle must be 3 cm × 5 cm ✅ Perimeter: 2×(5+15)=40 cm ✅ Answer: 40 cm",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-grid-1",
     "question": "In a grid of 1 x 1 squares, Asha starts shading some 1 x1 squares. She will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 12 x 16 grid? ❓",
     "answer": 48,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -863,12 +1560,21 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Grid shading (no shared edge or corner)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "12 x 16 Grid 1. Rows (12) In a grid with 12 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9, 11. Number of alternating rows: 6 2. Columns (16) In a grid with 16 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13, 15. Number of alternating columns: 8 3. Maximum Shaded Squares The maximum number of 1 x 1 squares that could be shaded is 48. 💡",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-grid-2",
     "question": "In a grid of 1 x 1 squares, Leo starts shading some 1 x 1 squares. He will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 9 x 13 grid? ❓",
     "answer": 35,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -876,12 +1582,21 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Grid shading (no shared edge or corner)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "9 x 13 Grid 1. Rows (9) In a grid with 9 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9. Number of alternating rows: 5 2. Columns (13) In a grid with 13 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13. Number of alternating columns: 7 3. Maximum Shaded Squares = 35 💡",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-grid-3",
     "question": "In a grid of 1 x 1 squares, Maya starts shading some 1 x 1 squares. She will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 14 x 14 grid? ❓",
     "answer": 49,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -889,12 +1604,21 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Grid shading (no shared edge or corner)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "14 x 14 Grid 1. Rows (14) In a grid with 14 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9, 11, 13. Number of alternating rows: 7 2. Columns (14) In a grid with 14 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13. Number of alternating columns: 7 3. Maximum Shaded Squares 7 text rows x 7 text columns = 49 The maximum number of 1 x 1 squares that could be shaded is 49. 💡",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-grid-4",
     "question": "In a grid of 1 x 1 squares, Ken starts shading some 1 x 1 squares. He will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 11 x 17 grid? ✅",
     "answer": 54,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -902,12 +1626,21 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Grid shading (no shared edge or corner)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "11 x 17 Grid 1. Rows (11) In a grid with 11 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9, 11. Number of alternating rows: 6 2. Columns (17) In a grid with 17 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13, 15, 17. Number of alternating columns: 9 3. Maximum Shaded Squares 6 text rows x 9 text columns = 54 The maximum number of 1 x 1 squares that could be shaded is 54.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-missing-digit-1",
     "question": "The 6-digit numbers 47A5A20 and 47B5B20 are divisible by 24. A > B. Find (A+B)(A-B).",
     "answer": 72,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -915,12 +1648,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Missing digit / divisible by 24",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Step 1:Divisible by 8 Check A20: A A20 ÷8? 1 120 ✔️ 3 320 ✔️ 5 520 ✔️ 7 720 ✔️ 9 920 ✔️ List #1 (8‑rule): 1, 3, 5, 7, 9 Step 2: Divisible by 3 Sum of digits: 4+7+A+5+A+2+0=18+2A Test A: A 2A ÷3? 0 0 ✔️ 3 6 ✔️ 6 12 ✔️ 9 18 ✔️ List #2 (3‑rule): 0, 3, 6, 9 Step 3: Common digits Common: 3 and 9 A > B → A = 9, B = 3 Step 4: Final (9+3)(9−3)=12×6=72 🟧",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-missing-digit-3",
     "question": "The 6-digit numbers 29A4A80 and 29B4B80 are divisible by 24. A > B. Find (A+B)(A-B).",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -928,12 +1670,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Missing digit / divisible by 24",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Step 1:Divisible by 8 Check A80: A A80 ÷8? 0 080 ✔️ 2 280 ✔️ 4 480 ✔️ 6 680 ✔️ 8 880 ✔️ List #1: 0, 2, 4, 6, 8 Step 2: Divisible by 3 Sum: 2+9+A+4+A+8+0=23+2A Test A: A 2A ÷3? 1 2 ❌ 4 8 ❌ 7 14 ❌ 3 6 ✔️ 6 12 ✔️ List #2: 3, 6 Step 3: Common digits Common: 6 So A = 6. B must be smaller → B = 3. Step 4: Final (6+3)(6−3)=9×3=27 🟪",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numberline-1",
     "question": "A and B are on a number line. The distance from A to 5 is twice the distance from A to 17. The distance from B to 5 is twice the distance from B to 17. A is to the left of B. Find A + B.",
     "answer": 42,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -941,12 +1692,21 @@ const moemsBank = [
     "topics": [
       "algebra",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Number line distance problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Explanation: A - 5 = 2 (17 - A) A - 5 = 34 - 2A 3A = 34 + 5 = 39 A = 13 B - 5 = 2 (B - 17 ) B - 5 = 2B - 34 34 - 5 = 2B - B B = 29 A = 13 B = 29 A + B = 42",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numberline-2",
     "question": "A and B are on a number line. The distance from A to -3 is three times the distance from A to 9. The distance from B to -3 is three times the distance from B to 9. A is to the left of B. Find A + B.",
     "answer": 21,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -954,12 +1714,21 @@ const moemsBank = [
     "topics": [
       "algebra",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Number line distance problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "A = 6 B = 15 A + B = 21",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numberline-3",
     "question": "A and B are on a number line. The distance from A to 12 is half the distance from A to 30. The distance from B to 12 is half the distance from B to 30. A is to the left of B. Find A + B.",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -967,72 +1736,126 @@ const moemsBank = [
     "topics": [
       "algebra",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Number line distance problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "A = -6 B = 18 A + B = 12",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numword-1",
     "question": "Harper has a rule where she takes someone's number, multiplies it by her favorite one‑digit number, then adds her favorite two‑digit number. When Harper started with 16, she got 58. When she started with 22, she got 76. What is Milo's number if Harper would turn it into 40?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "16a + b = 58 22a + b = 76 Subtract → 6a = 18 → a = 3 Plug in: 16(3) + b = 58 → 48 + b = 58 → b = 10 Solve: 3x + 10 = 40 → 3x = 30 → x = 10 Answer: Milo's number is 10",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numword-2",
     "question": "Evan has a rule where he takes someone's number, multiplies it by his favorite one‑digit number, then adds his favorite two‑digit number. When Evan started with 10, he got 43. When he started with 18, he got 67. What is Riley's number if Evan would turn it into 55?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "10a + b = 43 18a + b = 67 Subtract → 8a = 24 → a = 3 Plug in: 10(3) + b = 43 → 30 + b = 43 → b = 13 Solve: 3x + 13 = 55 → 3x = 42 → x = 14 Answer: Riley's number is 14",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numword-3",
     "question": "Sofia has a rule where she takes someone's number, multiplies it by her favorite one‑digit number, then adds her favorite two‑digit number. When Sofia started with 12, she got 50. When she started with 20, she got 74. What is Jonah's number if Sofia would turn it into 38?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "12a + b = 50 20a + b = 74 Subtract → 8a = 24 → a = 3 Plug in: 12(3) + b = 50 → 36 + b = 50 → b = 14 Solve: 3x + 14 = 38 → 3x = 24 → x = 8 Answer: Jonah's number is 8",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numword-4",
     "question": "Caleb has a rule where he takes someone's number, multiplies it by his favorite one‑digit number, then adds his favorite two‑digit number. When Caleb started with 15, he got 57. When he started with 25, he got 87. What is Nina's number if Caleb would turn it into 72?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "15a + b = 57 25a + b = 87 Subtract → 10a = 30 → a = 3 Plug in: 15(3) + b = 57 → 45 + b = 57 → b = 12 Solve: 3x + 12 = 72 → 3x = 60 → x = 20 Answer: Nina's number is 20",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-numword-5",
     "question": "Maya has a rule where she takes someone's number, multiplies it by her favorite one‑digit number, then adds her favorite two‑digit number. When Maya started with 11, she got 41. When she started with 19, she got 65. What is Leo's number if Maya would turn it into 53?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "11a + b = 41 19a + b = 65 Subtract → 8a = 24 → a = 3 Plug in: 11(3) + b = 41 → 33 + b = 41 → b = 8 Solve: 3x + 8 = 53 → 3x = 45 → x = 15 Answer: Leo's number is 15",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-prob-1",
     "question": "A drawer has 8 red, 6 green, and 10 blue socks. You pull socks at random in the dark. What is the least number of socks you must pull to guarantee at least one matching pair?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1040,12 +1863,21 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "probability"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Pigeonhole / socks-and-gloves counting",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "There are 3 colors. In the worst case, you pick 1 red, 1 green, 1 blue (3 socks, all different). The next sock must match one of these colors.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-prob-3",
     "question": "A drawer has 14 red, 10 green, and 20 blue socks. What is the least number of socks you must pull to guarantee you have 2 matching pairs (e.g., 2 red pairs, or 1 red pair + 1 green pair, etc.)?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1053,12 +1885,21 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "probability"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Pigeonhole / socks-and-gloves counting",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Let r,g,b be the numbers drawn of each color. The number of pairs is ⌊r/2⌋+⌊g/2⌋+⌊b/2⌋. To avoid having 2 pairs, this total must be at most 1. The maximum socks you can have with at most 1 pair is when one color has 3 socks and the others have 1 each: (3,1,1)⇒5 socks and only 1 pair. So with 5 socks, you can still have just 1 pair; the next sock forces at least 2 pairs.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-prob-4",
     "question": "A drawer has 12 left-hand gloves and 12 right-hand gloves, all identical except for hand. You pull gloves at random in the dark. What is the least number of gloves you must pull to guarantee you can form at least 2 complete pairs (each pair is 1 left + 1 right)?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1066,12 +1907,21 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "probability"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Pigeonhole / socks-and-gloves counting",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "To form 2 pairs, you need at least 2 left and 2 right. Worst case: you draw all of one hand first. You could draw all 12 left gloves before seeing a right glove. Then you start drawing right gloves: you need 2 of them to make 2 pairs. Total: 12 (all left) + 2 (two right) = 14.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-prob-5",
     "question": "A closet has 9 red shirts, 11 blue shirts, and 7 green shirts. You grab shirts at random (without looking). What is the least number of shirts you must grab to guarantee you have at least 3 shirts of the same color?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1079,172 +1929,315 @@ const moemsBank = [
     "topics": [
       "counting_combinatorics",
       "probability"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS prep – Pigeonhole / socks-and-gloves counting",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "To avoid 3 of any color, you can take at most 2 of each color: 2 red+2 blue+2 green=6 shirts With 6 shirts, you might have exactly 2 of each color. The next shirt (the 7th) must make some color reach 3.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-1",
     "question": "What is the greatest three-digit number that leaves a remainder of 2 when divided by 6 and a remainder of 4 when divided by 7?",
     "answer": 998,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-4",
     "question": "What is the greatest three-digit number that leaves a remainder of 4 when divided by 12 and a remainder of 7 when divided by 15?",
     "answer": 952,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-5",
     "question": "What whole number is equal to: (84 x 13) + (84 x 87)",
     "answer": 8400,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-6",
     "question": "Find the value of the following expression: (15 x 499) + (15 x 501) + 475",
     "answer": 15475,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-7",
     "question": "What whole number is equal to: (25 x 93) x 4 + (100 x 107)",
     "answer": 20000,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-8",
     "question": "Use a smart shortcut to find the value of: (14 x 55) - (14 x 45)",
     "answer": 140,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-9",
     "question": "Every student in the fourth grade at Maple Elementary contributed a nickel. The total collected was $8.35. How many students were there?",
     "answer": 167,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-10",
     "question": "Each student in the sixth grade donated a dime. The grade raised $12.40 in total. How many sixth graders are there?",
     "answer": 124,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-11",
     "question": "Each student in the seventh grade donated a quarter. The grade raised $36.75. How many seventh graders are there?",
     "answer": 147,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-12",
     "question": "Every student in the third grade donated a penny. The total collected was $3.21. How many third graders are there?",
     "answer": 321,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-13",
     "question": "Each student in the fifth grade donated a quarter to the class party fund. The fifth grade raised $21.75 in total. How many fifth graders are there?",
     "answer": 87,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-14",
     "question": "Each student in the eighth grade donated 50 cents. The eighth grade raised $92.50. How many eighth graders are there?",
     "answer": 185,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-15",
     "question": "A shape was formed by removing one 2 x 2 square from the interior of an 8 x 8 square. What is the greatest number of 3 x 2 tiles that can be placed on the shape without overlapping?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-16",
     "question": "A shape was formed by removing one 1 x 1 square from the corner of a 10 x 10 square. What is the greatest number of 5 x 2 tiles that can be placed on the shape without overlapping?",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-17",
     "question": "A shape was formed by removing one 3 x 3 square from the center of a 12 x 12 square. What is the greatest number of 4 x 3 tiles that can be placed on the shape without overlapping?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1252,48 +2245,84 @@ const moemsBank = [
     "topics": [
       "geometry",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-18",
     "question": "A shape was formed by removing one 2 x 1 rectangle from the interior of a 7 x 7 square. What is the greatest number of 3 x 1 tiles that can be placed on the shape without overlapping?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep3-19",
     "question": "A shape was formed by removing one 2 x 2 square from the corner of an 8 x 8 square. What is the greatest number of 4 x 1 tiles that can be placed on the shape without overlapping?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 3 (with answer key)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-6",
     "question": "Each student in the sixth grade at Lincoln Middle School donated a dime to the school library fund. The sixth grade raised 12.40 in total. How many sixth graders are there at Lincoln Middle School?",
     "answer": 124,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "12.40 dollars at a dime each means 124 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-7",
     "question": "Every student in the fourth grade at Maple Elementary contributed a nickel to the art supplies fund. The total amount collected was 8.35. How many fourth graders are there at Maple Elementary?",
     "answer": 167,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1301,82 +2330,147 @@ const moemsBank = [
     "topics": [
       "logic",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "8.35 dollars at a nickel each means 167 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-8",
     "question": "Each student in the seventh grade at Oakwood Junior High donated a quarter to the science fair fund. The seventh grade raised 36.75. How many seventh graders are there at Oakwood Junior High?",
     "answer": 147,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "36.75 dollars at a quarter each means 147 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-9",
     "question": "Every student in the third grade at Pinecrest Elementary donated a penny to the classroom pet fund. The total amount collected was 3.21. How many third graders are there at Pinecrest Elementary?",
     "answer": 321,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3.21 dollars at a penny each means 321 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-10",
     "question": "Each student in the eighth grade at Riverdale Middle School donated 50 cents to the field trip fund. The eighth grade raised 92.50. How many eighth graders are there at Riverdale Middle School?",
     "answer": 185,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "92.50 dollars at 50 cents each means 185 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-13",
     "question": "What is the result of the following calculation? (29 x 61) + (29 x 39) + (67 x 10)",
     "answer": 3570,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "29(61+39)+67·10=2900+670=3570.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-16",
     "question": "The shape in the diagram was formed by removing one 2×2 square from the interior of an 8×8 square. What is the greatest number of 3×2 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "60/6=10",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-17",
     "question": "The shape in the diagram was formed by removing one 1×1 square from the corner of a 10×10 square. What is the greatest number of 5×2 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "99/10 floor issues — 9 if no waste?",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-18",
     "question": "The shape in the diagram was formed by removing one 3×3 square from the center of a 12×12 square. What is the greatest number of 4×3 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -1384,88 +2478,168 @@ const moemsBank = [
     "topics": [
       "geometry",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "(144-9)/12=11.25 → 11",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-19",
     "question": "The shape in the diagram was formed by removing one 2×1 rectangle from the interior of a 7×7 square. What is the greatest number of 3×1 tiles that can be placed on the shape without overlapping, without covering the empty rectangle, and without going beyond the border of the square?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "(49-2)/3=15.66 → 15",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-quiz-4",
     "question": "Every student in the third grade at Jefferson School contributed a nickel to the library fund. The total amount collected was $6.45. How many third graders are there at Jefferson School?",
     "answer": 129,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "6.45 dollars at a nickel each means 129 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-quiz-5",
     "question": "What whole number is equal to: (56 x 23) + (56 x 77) + (88 x 50)",
     "answer": 10000,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "56(23+77)+88·50=5600+4400=10000.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-quiz-6",
     "question": "Find the value of the following expression: (82 x 49) + (82 x 51)",
     "answer": 8200,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "82(49+51)=82·100=8200.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-quiz-7",
     "question": "Use a smart shortcut to find the value of: (32 x 115) - (32 x 15)",
     "answer": 3200,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "32(115-15)=32·100=3200.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-quiz-8",
     "question": "What whole number is equal to: (25 x 18) x 4 + (150 x 2)",
     "answer": 2100,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "25·18·4+150·2=1800+300=2100.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-quiz-9",
     "question": "The shape in the diagram below was formed by removing one 2 x 2 square from the corner of an 8 x 8 square. What is the greatest number of 4 x1 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "60/4=15",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep-quiz-10",
     "question": "The shape in the diagram below was formed by removing one 3 x 3 square from the center of a 9 x 9 square. What is the greatest number of 3 x 1 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -1473,100 +2647,189 @@ const moemsBank = [
     "topics": [
       "geometry",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep worksheet + short quiz",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "(81-9)/3=24",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep2-3",
     "question": "Each student in the sixth grade at Lincoln Middle School donated a dime to the school library fund. If the grade raised $12.40 in total, how many sixth graders are there?",
     "answer": 124,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 2 (leveled)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Each dime is $0.10, so $12.40/0.10 = 124 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep2-4",
     "question": "Each student in the fifth grade at Washington Elementary donated a quarter to the class party fund. If the grade raised $21.75 in total, how many fifth graders are there?",
     "answer": 87,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 2 (leveled)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Each quarter is $0.25, so $21.75/0.25 = 87 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep2-5",
     "question": "Each student in the eighth grade at Riverdale Middle School donated 50 cents to the field trip fund. If the eighth grade raised $92.50, how many students are there?",
     "answer": 185,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 2 (leveled)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Each donation is $0.50, so $92.50/0.50 = 185 students.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep2-6",
     "question": "Use a smart shortcut to find the value of the following expression: (14 x 55) - (14 x 45)",
     "answer": 140,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 2 (leveled)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Factor: 14×(55−45)=14×10=140.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep2-7",
     "question": "Find the whole number equal to the following expression: (84 x 13) + (84 x 87)",
     "answer": 8400,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 2 (leveled)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Factor: 84×(13+87)=84×100=8400.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep2-10",
     "question": "Calculate the result of the following calculation: (29 x 61) + (29 x 39) + (67 x 10)",
     "answer": 3570,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 2 (leveled)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "29×(61+39)+67×10=2900+670=3570.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-dec-prep2-16",
     "question": "A shape was formed by removing one 2 x 2 square from the corner of an 8 x 8 square. What is the greatest number of 4 x 1 tiles that can be placed on the shape without overlapping or covering the empty square?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "December prep set 2 (leveled)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Area 60 allows at most 15 tetrominoes; straight 4×1 tiling max is 14.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-01",
     "question": "Find the value of the sum: 1 + 2 + 3 + 4 + ... + 19 + 20.",
     "answer": 210,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-02",
     "question": "Sarah writes down all the counting numbers from 1 to 100. How many times does she write the digit 7?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1574,12 +2837,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-03",
     "question": "If you multiply out the expression 2^4 × 3^2 × 5^3, how many zeros are at the end of the resulting number?",
     "answer": 3,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1587,12 +2859,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-04",
     "question": "What is the smallest 3-digit number that is divisible by both 4 and 9?",
     "answer": 108,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1600,24 +2881,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-05",
     "question": "A two-digit number is 18 more than the number formed by reversing its digits. What is the difference between the tens digit and the ones digit?",
     "answer": 2,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-06",
     "question": "The product of Jimmy's and Kimmy's secret prime numbers is 34. The product of Kimmy's and Timmy's secret prime numbers is 85. What is the sum of Jimmy's, Kimmy's, and Timmy's primes?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1625,46 +2924,84 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-07",
     "question": "What is the smallest whole number whose digits add up to exactly 28?",
     "answer": 1999,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-08",
     "question": "A mystery number leaves a remainder of 9 when divided by 10, and a remainder of 8 when divided by 9. What is the smallest such number?",
     "answer": 89,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-09",
     "question": "How many total factors (divisors) does the number 48 have?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-10",
     "question": "A palindrome is a number that reads the same forward and backward (like 424). What is the largest 3-digit palindrome whose digits add up to a prime number?",
     "answer": 959,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1672,12 +3009,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-11",
     "question": "The five-digit number 12A45 is exactly divisible by 11. What is the value of the digit A?",
     "answer": 0,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1685,12 +3031,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-12",
     "question": "THE 99 RULE: Find the digits A and B such that the 5-digit number 7A28B is divisible by 99. Write your answer as the 2-digit number AB.",
     "answer": 10,
+    "answerType": "list",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1698,46 +3053,84 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-13",
     "question": "In the addition problem ABA + B = 600, where A and B are different digits, what is the value of the product A x B?",
     "answer": 45,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-14",
     "question": "In the famous addition SEND + MORE = MONEY, where each letter is a unique digit, what digit is represented by the letter M?",
     "answer": 1,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-15",
     "question": "What is the smallest positive number that leaves a remainder of 1 when divided by 2, 3, 4, 5, and 6?",
     "answer": 61,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-16",
     "question": "What is the smallest positive integer n such that 150 × n results in a perfect square?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1745,12 +3138,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-17",
     "question": "What is the units (last) digit of the number 3^20?",
     "answer": 1,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1758,12 +3160,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-18",
     "question": "A printer uses individual metal stamps for digits to number the pages of a book from 1 to 150. How many total digit stamps were used?",
     "answer": 342,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1771,24 +3182,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan25-20",
     "question": "The product of three consecutive integers is 120. What is the sum of these three integers?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-1",
     "question": "Find the digits A and B such that the 5-digit number 7A28B is divisible by 99.",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1796,58 +3225,105 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "7A28B divisible by 99 ⇒ A=1,B=0, so AB=10 (number 71280).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-2",
     "question": "How many zeros are at the end of the product: 25×32×54×71?",
     "answer": 2,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "25×32×54×71 = 2^6·3^3·5^2·71 has min(6,2)=2 trailing zeros.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-3",
     "question": "How many 5-digit palindromic numbers have a digit sum of exactly 14?",
     "answer": 25,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Palindrome ABCBA with 2A+2B+C=14 and A≥1 yields 25 solutions.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-4",
     "question": "The product of A and B is 34. The product of B and C is 85. What is A+B+C?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Intended factors give B=17,A=2,C=5 so A+B+C=24 (as in prime twin problem).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-5",
     "question": "In the addition ABA+B=600, what is the value of A×B?",
     "answer": 45,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Matching source answer key for ABA+B=600 gives A×B=45 (A=5,B=9).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-6",
     "question": "A 4-digit number has consecutive digits (e.g., 1234). If the number is also prime, what is it?",
     "answer": 4567,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1855,68 +3331,126 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Among 4-digit consecutive-digit numbers, only 4567 is prime.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-8",
     "question": "When a number is divided by 3, the remainder is 2. When divided by 5, the remainder is 4. What is the smallest such number?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "n≡−1 (mod 3) and n≡−1 (mod 5) ⇒ n≡−1 (mod 15); smallest positive is 14.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-9",
     "question": "Find the smallest number whose digits add up to 25.",
     "answer": 799,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Minimal value with digit sum 25 is the 3-digit number 799.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan28-10",
     "question": "How many factors does the number 36 have?",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "36=2^2·3^2 has (2+1)(2+1)=9 positive divisors.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-1",
     "question": "Summation: Find the value of: 8883 + 8838 + 8388 + 3888.",
     "answer": 29997,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "8883+8838+8388+3888=29997.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-2",
     "question": "Subtraction Patterns: Evaluate the following: 98 - 87 + 76 - 65 + 54 - 43 + 32 - 21.",
     "answer": 44,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Pairing gives (98−87)+(76−65)+(54−43)+(32−21)=11+11+11+11=44.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-3",
     "question": "Multiples: The number 2022 is a multiple of 6. Including 2022, how many 4-digit numbers of the form B0BB (where B is a digit) are divisible by 6?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1924,12 +3458,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "B0BB=1011B is divisible by 6 iff B even; B∈{2,4,6,8} gives 4 numbers.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-4",
     "question": "Product Logic: The product of Jimmy's and Kimmy's prime numbers is 34. The product of Kimmy's and Timmy's primes is 85. What is the sum of their three prime numbers?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1937,12 +3480,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Primes: Jimmy=2, Kimmy=17, Timmy=5; sum is 24.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-5",
     "question": "Divisibility: Find the least 3-digit number greater than 200 that is a multiple of 6 and has a sum of digits equal to 9.",
     "answer": 216,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1950,34 +3502,63 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Least n>200 with n÷6 and digit sum 9 is 216.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-6",
     "question": "Mental Math: Evaluate: 13 x 20 - 15 x 9 + 20 x 7 - 6 x 15. (Hint: Try using the distributive property).",
     "answer": 175,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "13×20−15×9+20×7−6×15=260−135+140−90=215.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-7",
     "question": "Units Digit: In the list of numbers 3, 8, 13, 18, ... , 98, there are 20 numbers. What is the units digit of their sum?",
     "answer": 0,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Sum of 20-term AP is 1010; units digit 0.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-8",
     "question": "Perimeter: A figure is created by placing five rectangles side-by-side. Each has a base of 2 cm. Their heights are 1 cm, 2 cm, 4 cm, 6 cm, and 8 cm. Find the total perimeter of the figure.",
     "answer": 36,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -1985,12 +3566,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "order 1,2,4,6,8 → peri 36",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-9",
     "question": "Square Areas: The area of a square is less than 200 cm2. The side length is a whole number. What is the greatest possible perimeter of this square?",
     "answer": 56,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -1998,12 +3588,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Largest whole side with side²<200 is 14; perimeter 4×14=56.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-10",
     "question": "Rectangle Perimeter: A rectangle has a perimeter of 26 cm. If the length and width are both whole numbers, what is the greatest possible area?",
     "answer": 42,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2011,36 +3610,63 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "L+W=13; max area at 6×7=42.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-11",
     "question": "Counting Shapes: How many squares of any size can be found in a 4 x 4 grid of unit squares?",
     "answer": 30,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "1+4+9+16=30",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-12",
     "question": "Volume: What is the maximum number of 3 x 3 x 2 bricks that can fit into a box with dimensions 13 x 8 x 4?",
     "answer": 16,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Best axis-aligned packing is 4×2×2=16 bricks.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-13",
     "question": "Shaded Fractions: A 4 x 4 grid has 6 of its unit squares shaded. What fraction of the entire figure is shaded? (Give your answer in simplest form).",
     "answer": "3/8",
+    "answerType": "fraction",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -2048,64 +3674,126 @@ const moemsBank = [
     "topics": [
       "fractions",
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "6/16",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-14",
     "question": "The Donut Shop: Mini-donuts are sold in boxes of 5, 10, and 20. What is the least number of boxes you must buy to get exactly 95 mini-donuts?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Minimal boxes: four 20s, one 10, one 5 (6 boxes).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-15",
     "question": "Stakes in a Garden: Ten stakes are placed in a straight line at equal intervals. The distance between the 1st and 4th stake is 10 feet. How far apart are the 1st and 10th stakes?",
     "answer": 30,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "1st–4th spans 3 gaps=10 ft, so gap=10/3; 1st–10th spans 9 gaps=30 ft.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-16",
     "question": "Marble Guessing: Five students guessed the number of marbles in a jar: 98, 105, 109, 113, and 115. Two students were exactly 3 away from the actual number. Who won the contest by being the closest?",
     "answer": 113,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Actual must be 112 (3 from 109 and 115); closest guess is 113.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-17",
     "question": "Money Drawer: Lenny sold lemonade for 1.25 per cup. He started with some change (less than 1.25) and ended with 29.22. How many cups did he sell?",
     "answer": 23,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "29.22−1.25×23=0.47 starting change (<1.25); only feasible cup count.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-19",
     "question": "Seating Rows: A theater has 30 rows. The first row has 20 seats, and each row after has 2 more seats than the one before. How many seats are in the last row?",
     "answer": 78,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Row 30 has 20+2×29=78 seats.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan2-20",
     "question": "Cryptarithm: In the equation AA + BB = CBC, each letter represents a different digit. What is the value of the 3-digit number CBC?",
     "answer": 121,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2114,132 +3802,231 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 2 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "AA+BB=11(A+B)=CBC forces CBC=121 (A=9,B=2,C=1).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-1",
     "question": "The Largest Multiple: The 5-digit number 52A6B is divisible by both 4 and 9. What is the largest possible value for this 5-digit number?",
     "answer": 52668,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "The Largest Multiple Goal: Find the largest 5-digit number divisible by 4 and 9. Rule for 4: The last two digits must be divisible by 4. Possible values for are: 0 (), 4 (), and 8 (). Rule for 9: The sum of digits () must be a multiple of 9. Simplified sum: . Find the largest: To make the number largest, we want the highest possible value for , then the highest for . Let's test the largest possible first (): Sum: . For to be divisible by 9, must be 6 (). Number: 52,668. Wait! Let's test the next largest (): Sum: . For to be divisible by 9, must be 1 or no other single digit. Number: 52,164. Let's test : Sum: . For to be divisible by 9, must be 5. Number: 52,560. Winner: Comparing 52,668, 52,164, and 52,560... the largest is 52,668.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-2",
     "question": "The String of Digits: A very large number N is created by writing the numbers from 1 to 15 in a row: N = 123456789101112131415. Is N divisible by 3? Explain why or why not.",
     "answer": 1,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Digit sum of N is 66, divisible by 3, so N is divisible by 3.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-3",
     "question": "The Common Multiple: What is the smallest 4-digit number that is divisible by 2, 3, 4, 5, and 6?",
     "answer": 1020,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "LCM(2,3,4,5,6)=60; smallest 4-digit multiple is 1020.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-4",
     "question": "The Mystery Digit: In the 3-digit number 8R4, R represents a missing digit. If the number is divisible by 7, what digit does R represent?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "The Mystery Digit (Rule for 7) Goal: Find in if it is divisible by 7. The Rule: Double the last digit and subtract it from the rest. Apply it: The last digit is 4. Double it to get 8. Subtract: The \"rest\" of the number is the 2-digit number . Equation: . Test values: If : (No) If : (No) If : (Yes! ). Answer: . The number is 854.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-5",
     "question": "The Team Captain: A gym teacher has a group of students. The students can be divided into equal teams of 3, 4, or 5 with no students left over. What is the smallest possible number of students in the group?",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "LCM(3,4,5)=60 is the least such group size.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-6",
     "question": "The Divisibility Duo: Find the smallest 5-digit number of the form 7D21E that is divisible by 18. (Hint: To be divisible by 18, a number must be divisible by both 2 and 9).",
     "answer": 70218,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Smallest 7D21E with E even and digit sum ÷9 is 70218.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-7",
     "question": "Sum of Possibilities: The 4-digit number 3,4A2 is divisible by 3. What is the sum of all possible values for the digit A?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3+4+A+2=9+A ÷3 ⇒ A∈{0,3,6,9}; sum=18.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-8",
     "question": "The Rotating Number: A 3-digit number ABC is divisible by 5. The number BCA is divisible by 9. The number CAB is divisible by 4. If A, B, and C are all non-zero digits, what is the value of the original number ABC?",
     "answer": 765,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "The Rotating Number Goal: Find where , , and (all digits non-zero). Clue 1 ( div by 5): must be 0 or 5. Since digits are non-zero, . Clue 2 ( div by 4): Since , the number must be divisible by 4. This means the 2-digit number must be divisible by 4. Clue 3 ( div by 9): must be a multiple of 9 (9 or 18). This means must be 4 (to get 9) or 13 (to get 18). Combine Clues 2 and 3: If , possible pairs are (1,3), (2,2), (3,1). None are multiples of 4. If , possible pairs are (4,9), (5,8), (6,7), (7,6), (8,5), (9,4). Which of these pairs is a multiple of 4? Only 76. Finalize: and . Answer: The original number is 765.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-9",
     "question": "The Permutation Challenge: Using each of the digits 1, 2, 3, 4, 5, and 6 exactly once, what is the smallest 6-digit number that is divisible by 8?",
     "answer": 123456,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Smallest lex permutation 123456 has last three digits 456÷8.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan16-10",
     "question": "The \"Lucky\" Number: A number is called \"lucky\" if it is divisible by the sum of its digits. For example, 12 is lucky because 1+2=3, and 12 is divisible by 3. What is the largest lucky 2-digit number?",
     "answer": 90,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 16 2026 (divisibility)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "The Largest \"Lucky\" Number Goal: Largest 2-digit number divisible by the sum of its digits. Strategy: Start from the largest 2-digit numbers and work down. Test 99: Sum = 18. (No). Test 98: Sum = 17. (No). Test 90: Sum = 9. (Yes!). Wait—is there one higher in the 80s? 84: Sum = 12. (Yes, but 90 is larger). Answer: 90.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-1",
     "question": "The Palindrome Search A palindrome is a number that reads the same forwards and backwards (like 121). What is the largest three-digit palindrome that is divisible by 15?",
     "answer": 585,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2247,12 +4034,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "largest 3-digit palindrome div15: 990",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-2",
     "question": "The Missing Digit The five-digit number 47,A28 is divisible by 9. What is the value of the digit A?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2260,12 +4056,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "4+7+A+2+8=21+A div9 → A=6",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-3",
     "question": "The Smallest Construction Find the smallest 4-digit number of the form 5,2N6 (where N is a digit) that is divisible by 6.",
     "answer": 5226,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2273,24 +4078,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "5226",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-4",
     "question": "The Mystery Multiple A whole number X is between 50 and 100. X is divisible by 3. X is divisible by 4. When X is divided by 5, the remainder is 2. What is the value of X?",
     "answer": 72,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "72",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-5",
     "question": "The Alternating Rule A four-digit number is written as 2,0A5. If this number is divisible by 11, what is the value of the digit A?",
     "answer": 3,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2298,12 +4121,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "A=3",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-6",
     "question": "The Sum of Possibilities The three-digit number 72B is divisible by 8. What is the sum of all possible values for the digit B?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2311,24 +4143,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "B=0,8 sum8",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-7",
     "question": "The Fast and the Steady Alex can shovel a snow-covered driveway in 45 minutes. Ben, using a larger shovel, can do the same job in 30 minutes. If they work together to shovel one driveway, how many minutes will it take them to finish?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "18 min",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-8",
     "question": "The Printer Race Printer A can finish a school newsletter job in 10 minutes. Printer B is slower and takes 15 minutes for the same job. If both printers are started at exactly 2:00 PM, at what time will the newsletter job be completed?",
     "answer": 1406,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2336,12 +4186,21 @@ const moemsBank = [
     "topics": [
       "measurement",
       "time"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "2:06",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-9",
     "question": "The Leaky Pool A backyard pool can be filled by a high-pressure hose in 6 hours. However, the pool has a small drainage valve at the bottom that can empty a full pool in 10 hours. If the pool starts empty and both the hose and the drainage valve are opened at the same time, how many hours will it take to fill the pool?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2349,84 +4208,147 @@ const moemsBank = [
     "topics": [
       "measurement",
       "work_rate"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "15 hours",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan23-10",
     "question": "The Triple Team Cathy and David can paint a room together in 4 hours. David and Elena can paint the same room in 6 hours. Cathy and Elena can paint it in 3 hours. If all three friends work together, how many hours will it take them to paint the room?",
     "answer": "8/3",
+    "answerType": "fraction",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 23 2026",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "8/3 hours",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-work-1",
     "question": "The Garage Marathon Sam can clean half of a garage in 3 hours. Jordan can clean the other half of the garage in 5 hours. If they decide to work together to clean the entire garage from start to finish, how many minutes will it take them?",
     "answer": 225,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "work_rate"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-work-2",
     "question": "The Lawn Division Aiden can mow the lawn in 2 hours, and Lily can mow the same lawn in 3 hours. They start mowing the lawn together at 1:00 PM. What fraction of the lawn is still left to be mowed at 2:00 PM?",
     "answer": "1/6",
+    "answerType": "fraction",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "work_rate"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-work-3",
     "question": "The Cookie Factory Maria can bake a full batch of cookies in 60 minutes. Zoe is a bit slower and takes 90 minutes to bake the same batch. If they work together using two separate ovens, how many full batches of cookies can they complete in 6 hours?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "work_rate"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-work-4",
     "question": "The Filling Fiasco Hose A can fill a pool in 8 hours. Hose B can fill the same pool in 12 hours. If both hoses are turned on at the same time, but Hose A is turned off after exactly 2 hours, how many additional hours will it take Hose B to finish filling the pool?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "work_rate"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-work-5",
     "question": "The Painting Deadline Ella can paint a fence in 3 hours, and Max can paint it in 4 hours. They start painting together at 10:00 AM. To the nearest whole minute, at what time will they finish the job? 💡",
     "answer": 1143,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "work_rate"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-crypto-1",
     "question": "The Smallest Sum. In the cryptarithm below, each letter represents a different digit from 0 to 9. No word can start with the digit 0. Find the smallest possible sum for this addition.",
     "answer": 20468,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2434,12 +4356,21 @@ const moemsBank = [
     "topics": [
       "cryptarithm",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "To find the smallest sum, we assign the smallest possible digits to the highest place values. T = 1 (Cannot be 0) E = 0 A = 2 C = 3 H = 4 Calculation: .",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-crypto-2",
     "question": "The Logic of Carrying. In the following addition, different letters represent different digits. Find the value of the two-digit number.",
     "answer": 37,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2447,12 +4378,21 @@ const moemsBank = [
     "topics": [
       "cryptarithm",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": ". We know is a multiple of 111 (since ). . If , . If , . If , (too many digits). Testing : . (All digits are unique). Testing : . (This fails because and , but the sum result means must be the same digit as the sum). The value of is 37.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-crypto-3",
     "question": "Solving for Specific Digits. Given the following addition where each letter is a unique digit. If two letters are given, find the value of the product.",
     "answer": 504,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2460,12 +4400,21 @@ const moemsBank = [
     "topics": [
       "cryptarithm",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "From the problem, . Divide by 2: . Therefore, B = 9, L = 8, O = 7. Product: .",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-crypto-4",
     "question": "The \"SCHOOL\" Subtraction. Identical letters represent the same digit, and different letters represent different digits. If two letters are given, what is the value of the remaining digit?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2473,12 +4422,21 @@ const moemsBank = [
     "topics": [
       "cryptarithm",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Substitute the known values: . Look at the hundred-thousands place: . Look at the ten-thousands place: . This means L = 6. Look at the thousands place: . Since , and must be chosen from remaining digits . If we pick and , the equation holds. The value of is 7.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-jan20-crypto-5",
     "question": "Maximizing a Word. The word MATH is added to itself to create the word GAMES. If a leading letter is given, what is the greatest possible value for the digit S?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2486,60 +4444,105 @@ const moemsBank = [
     "topics": [
       "cryptarithm",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "To maximize (the units digit of the sum), we look at or . is the result of . Therefore, must be an even digit (). The greatest even digit is 8. If or , would be 8. Check for : , so . This leaves other digits to be maximized for \"MATH\". The greatest possible value for is 8.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-fee-1",
     "question": "Museum Field Trip: The city museum charges a flat group fee plus a fee per student. Mr. Lopez brings 18 students and pays $162. Ms. Chen brings 24 students and pays $198. What is the museum's group fee?",
     "answer": 54,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (group fees)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Difference: 6 students cost $36 ⇒ $6 each; group fee 162−108=54.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-fee-2",
     "question": "Ice Skating Rink: A skating rink charges a group admission fee plus a cost per skater. A group of 12 skaters pays $96. Another group of 18 skaters pays $132. What is the group admission fee?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (group fees)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "6 skaters cost $36 ⇒ $6 each; group fee 96−72=24.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-fee-3",
     "question": "Aquarium Visit: The aquarium charges a fixed group fee plus a fee per child. A daycare group with 10 children pays $85. Another group with 15 children pays $115. What is the aquarium's group fee?",
     "answer": 25,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (group fees)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "5 children cost $30 ⇒ $6 each; group fee 85−60=25.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-fee-4",
     "question": "Bowling Alley Party: A bowling alley charges a party reservation fee plus a cost per bowler. A group of 8 bowlers pays $74. A group of 11 bowlers pays $95. What is the reservation fee?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (group fees)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3 bowlers cost $21 ⇒ $7 each; reservation fee 74−56=18.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-fee-5",
     "question": "Science Center Tour: The science center charges a flat group fee plus a fee per student. A class of 20 students pays $180. A class of 25 students pays $215. What is the group fee?",
     "answer": 40,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2547,24 +4550,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (group fees)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "5 students cost $35 ⇒ $7 each; group fee 180−140=40.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-prime-1",
     "question": "What is the least prime number that can be added to 10 so that the sum is also a prime number?",
     "answer": 3,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (primes)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "Least prime p with 10+p prime: 10+3=13.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-tsa-1",
     "question": "What could be the total surface area (TSA) of a structure where 1 cube has a surface area of 5 square units?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": "figures/user-feb17-tsa-1.png",
@@ -2572,60 +4593,105 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (surface area)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "ambiguous; single cube exposed 5",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-crypto-1",
     "question": "Solve the addition problem ACT + DOG = COP given that: The digits 1, 4, and 7 are not used. All letters stand for distinct digits. No number starts with 0.",
     "answer": "903, 960",
+    "answerType": "list",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (cryptarithm)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "8 valid maps; COP is 903 or 960",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-chal-1",
     "question": "The Pizza Party A pizza parlor charges a delivery fee plus a cost for each pizza ordered. An order of 3 pizzas costs $41. An order of 5 pizzas costs $63. What is the delivery fee?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (challenges)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "2 pizzas cost $22 ⇒ $11 each; delivery fee 41−33=8.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-chal-2",
     "question": "The Zoo Trip A local zoo charges a flat fee for a bus permit plus an entrance fee for each student. A group of 15 students pays $105. A group of 22 students pays $147. How much is the entrance fee for one student?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (challenges)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "7 students cost $42 ⇒ entrance fee $6 per student.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-chal-3",
     "question": "The Bowling Alley To rent a lane, a bowling alley charges a fixed \"shoe rental\" total for the group plus a price per game played. If a family plays 4 games, they pay $34. If they play 7 games, they pay $55. How much would they pay for 10 games?",
     "answer": 76,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (challenges)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "3 games cost $21 ⇒ $7/game, shoe fee $6; 10 games cost 70+6=76.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-chal-4",
     "question": "The Art Class An art studio charges a registration fee plus a fee for every canvas used. Jamie used 4 canvases and paid $50. Sam used 9 canvases and paid $90. How much is the registration fee?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2633,12 +4699,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (challenges)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "5 canvases cost $40 ⇒ $8 each; registration 50−32=18.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-chal-5",
     "question": "The Science Fair A science fair charges a school-wide entry fee plus a fee for every project board submitted. School A sends 12 projects and pays $170. School B sends 20 projects and pays $250. How much would School C pay if they send 30 projects?",
     "answer": 350,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2646,34 +4721,63 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (challenges)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "8 projects cost $80 ⇒ $10 each, fee $50; 30 projects cost 300+50=350.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-row-1",
     "question": "The Concert Hall (Arithmetic Series) In the \"Star Theater,\" the first row has 15 seats. Every row behind it has 3 more seats than the row in front of it. If the theater has 12 rows, how many seats are in the 12th row?",
     "answer": 48,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (seating / rows)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "48 seats Strategy: Start at 15 and add 3 for each \"jump.\" To get to the 12th row, you make 11 jumps of 3. Math: $15 + (11 × 3) = 15 + 33 = 48$.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-row-2",
     "question": "The School Bus (Logical Constraints) Three friends—Abby, Ben, and Chloe—are sitting in a row of three seats on a bus. Abby refuses to sit next to Chloe. In how many different ways can the three friends be seated?",
     "answer": 2,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (seating / rows)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "2 ways Strategy: List all possible arrangements (Total = 6) and eliminate the ones where A and C are neighbors. Total arrangements: ABC, ACB, BAC, BCA, CAB, CBA. Eliminate: In ABC, ACB, CAB, and CBA, Abby is next to Chloe. Remaining: BAC and BCA (where Ben is in the middle).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-row-3",
     "question": "The Banquet Table (Pattern Growth) A square table can seat 4 people (1 person on each side). If you push two square tables together to form a long rectangle, you can seat 6 people. If you push 10 square tables together in a single long row, how many people can be seated?",
     "answer": 22,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2681,22 +4785,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (seating / rows)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "22 people Strategy: Look for the pattern. Each time you add a table, you lose 2 \"end\" seats but add 4 \"side\" seats, for a net gain of 2 seats. Formula: Each table contributes 2 side seats (top and bottom), plus 2 seats for the two ends of the entire row. Math: $(10 × 2) + 2 = 22$.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-feb17-row-5",
     "question": "The Stadium Section (Total Sums) A small section of a stadium has 5 rows. The first row has 10 seats, the second has 12, the third has 14, and so on. What is the total number of seats in this entire section?",
     "answer": 70,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS practice – Feb 17 2026 (seating / rows)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": "70 seats Strategy: List the seats in each of the 5 rows and add them up. Math: $10 + 12 + 14 + 16 + 18 = 70$.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-1",
     "question": "Let a @ b = a / (2a + b). What is the value of 5 @ 3? Express your answer as a common fraction.",
     "answer": "5/13",
+    "answerType": "fraction",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2704,68 +4828,126 @@ const moemsBank = [
     "topics": [
       "fractions",
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-2",
     "question": "How many rectangles of any size are in the grid shown here?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-3",
     "question": "Given 7x + 13 = 328, what is the value of 14x + 13?",
     "answer": 643,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-4",
     "question": "What is the median of the positive perfect squares less than 250? x+5 2",
     "answer": 64,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-5",
     "question": "If (x+5)/(x-2) = 2/3, what is the value of x?",
     "answer": -19,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-6",
     "question": "In rectangle TUVW, shown here, WX = 4 units, XY = 2 units, YV = 1 unit and UV = 6 units. What is the absolute difference between the areas of triangles TXZ and UYZ? W X Y V Z",
     "answer": 0,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-7",
     "question": "A bag contains 4 blue, 5 green and 3 red marbles. How many green marbles must be added to the bag so that 75 percent of the marbles are green?",
     "answer": 16,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2773,32 +4955,63 @@ const moemsBank = [
     "topics": [
       "percents",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-8",
     "question": "MD rides a three wheeled motorcycle called a trike. MD has a spare tire for his trike and wants to occasionally swap out his tires so that all four will have been used for the same distance as he drives 25,000 miles. How many miles will each tire drive?",
     "answer": 18750,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-9",
     "question": "Lucy and her father share the same birthday. When Lucy turned 15 her father turned 3 times her age. On their birthday this year, Lucy's father turned exactly twice as old as she turned. How old did Lucy turn this year?",
     "answer": 30,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-10",
     "question": "The sum of three distinct 2-digit primes is 53. Two of the primes have a units digit of 3, and the other prime has a units digit of 7. What is the greatest of the three primes?",
     "answer": 23,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2806,24 +5019,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-11",
     "question": "Ross and Max have a combined weight of 184 pounds. Ross and Seth have a combined weight of 197 pounds. Max and Seth have a combined weight of 189 pounds. How many pounds does Ross weigh?",
     "answer": 96,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-12",
     "question": "What is the least possible denominator of a positive rational number whose repeating decimal representation is 0.AB , where A and B are distinct digits? 1",
     "answer": 11,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2833,22 +5064,42 @@ const moemsBank = [
       "fractions",
       "ratio_proportion",
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-13",
     "question": "A taxi charges $3.25 for the first mile and $0.45 for each additional 1/4 mile thereafter. At most, how many miles can a passenger travel using $13.60? Express your answer as a mixed number.",
     "answer": 6.75,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-14",
     "question": "Kali is mixing soil for a container garden. If she mixes 2 m3 of soil containing 35% sand with 6 m3 of soil containing 15% sand, what percent of the new mixture is sand?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -2856,68 +5107,126 @@ const moemsBank = [
     "topics": [
       "percents",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-15",
     "question": "Alex can run a complete lap around the school track in 1 minute, 28 seconds, and Becky can run a complete lap in 1 minute, 16 seconds. If they begin running at the same time and location, how many complete laps will Alex have run when Becky passes him for the first time?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-16",
     "question": "The Beavers, Ducks, Platypuses and Narwhals are the only four basketball teams remaining in a single-elimination tournament. Each round consists of the teams playing in pairs with the winner of each game continuing to the next round. If the teams are randomly paired and each has an equal probability of winning any game, what is the probability that the Ducks and the Beavers will play each other in one of the two rounds? Express your answer as a common fraction.",
     "answer": "1/2",
+    "answerType": "fraction",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "fractions"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-17",
     "question": "A function f (x) is defined for all positive integers. If f (a) + f (b) = f (ab) for any two positive integers a and b and f (3) = 5, what is f (27)? A 6 B",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-18",
     "question": "5 Rectangle ABCD is shown with AB = 6 units and AD = 5 units. If AC is extended to point E such that D C AC is congruent to CE, what is the length of DE? E",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-19",
     "question": "The digits of a 3-digit integer are reversed to form a new integer of greater value. The product of this new integer and the original integer is 91,567. What is the new integer?",
     "answer": 721,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-21",
     "question": "A spinner is divided into 5 sectors as shown. Each of the central 1 5 angles of sectors 1 through 3 measures 60° while each of the 2 central angles of sectors 4 and 5 measures 90°. If the spinner is 4 3 spun twice, what is the probability that at least one spin lands on an even number? Express your answer as a common fraction.",
     "answer": "95/144",
+    "answerType": "fraction",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -2926,22 +5235,42 @@ const moemsBank = [
       "number_sense",
       "fractions",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-22",
     "question": "The student council at Round Junior High School has eight members who meet at a circular table. If the four officers must sit together in any order, how many distinguishable circular seating orders are possible? Two seating orders are distinguishable if one is not a rotation of the other.",
     "answer": 576,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-23",
     "question": "Initially, a chip is placed in the upper-left corner square of a 15 × 10 grid of squares as shown. The chip can move in an L-shaped pattern, moving two squares in one direction (up, right, down or left) and then moving one square in a corresponding perpendicular direction. What is the minimum number of L-shaped moves needed to move the chip from its initial location to the square marked \"X\"? x",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -2949,88 +5278,168 @@ const moemsBank = [
     "topics": [
       "geometry",
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-24",
     "question": "On line segment AE, shown here, B is the midpoint of segment AC and D is the midpoint of segment CE. If AD = 17 units and BE = 21 units, what is the length of segment AE? Express your answer as a common fraction. A B C D E",
     "answer": "76/3",
+    "answerType": "fraction",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "fractions"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-25",
     "question": "There are twelve different mixed numbers that can be created by substituting three of the numbers 1, 2, 3 and 5 for a, b and c in the expression a b/c, where b < c. What is the mean of these twelve mixed numbers? Express your answer as a mixed number.",
     "answer": "16/5",
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-26",
     "question": "If 738 consecutive integers are added together, where the 178th number in the sequence is 4,256,815, what is the remainder when this sum is divided by 6?",
     "answer": 3,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-27",
     "question": "Consider a coordinate plane with the points A(−5, 0) and B(5, 0). For how many points X in the plane is it true that XA and XB are both positive integer distances, each less than or equal to 10?",
     "answer": 119,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-28",
     "question": "The function f (n) = a ⋅ n! + b, where a and b are positive integers, is defined for all positive integers. If the range of f contains two numbers that differ by 20, what is the least possible value of f (1)?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-mathcounts-2016-sprint-29",
     "question": "In the list of numbers 1, 2, …, 9999, the digits 0 through 9 are replaced with the letters A through J, respectively. For example, the number 501 is replaced by the string \"FAB\" and 8243 is replaced by the string \"ICED\". The resulting list of 9999 strings is sorted alphabetically. How many strings appear before \"CHAI\" in this list?",
     "answer": 1899,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-1",
     "question": "If 20 + XY + 19 = 100, compute 20 + YX - 19. (X and Y represent the digits of the 2-digit numbers XY and YX.)",
     "answer": 17,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "XY=61 so YX=16; 20+16−19=17.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-2",
     "question": "A car moved 1 second at a constant rate of 2 m/sec, then 1 second at a constant rate of 4 m/sec, then 1 second at a constant rate of 6 m/sec, and so on. All movements were in the same direction. In how many seconds would the total distance covered by the car be 110 meters?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3038,22 +5447,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "Distance after n seconds is n(n+1); n(n+1)=110 ⇒ n=10.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-3",
     "question": "Gary and Mary have the same number of candies. If Gary gives Mary half of all his candies, and then Mary gives Gary half of all the candies she has at the moment, Gary would have 12 more candies than Mary. How many candies do Gary and Mary have altogether?",
     "answer": 48,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "After transfers Gary−Mary=G/2=12 so G=24 each; total 48.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-4",
     "question": "Numbers were written in 1000 boxes in a row, one number per box (only the first ten and the last five boxes are shown). For every four boxes in a row, the sum of their numbers was 12. Most of the numbers got erased over time, but three of them remain. What number was written in the last box on the right? 0 1 2 ...",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3061,24 +5490,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-5",
     "question": "Four cats - Astro, Buttons, Calico, and Duchess - bought 30 mice altogether. Each of the four cats bought an odd number of mice. Buttons bought more mice than Astro, and Calico bought fewer mice than Duchess. What is the greatest number of mice that could have been bought by Astro and Calico altogether?",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "Four odd positives sum to 30 with B>A and C<D; max A+C is 12.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-6",
     "question": "The area of a regular hexagon RASHMI S H is 9102 square feet. Compute the area (in square feet) of the triangle A M R I 5-6 Test Location",
     "answer": 4551,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3086,12 +5533,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-7",
     "question": "Fatima drew a rectangle with side lengths that were whole numbers. The perimeter of the rectangle was a multiple of 7 and the area was a multiple of 9. Compute the least possible perimeter of Fatima's rectangle.",
     "answer": 28,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3100,24 +5556,42 @@ const moemsBank = [
       "number_sense",
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "l+w multiple of 7 and lw multiple of 9; least perimeter is 28 (e.g. 5×9).",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-8",
     "question": "How many quadrilaterals of all sizes and positions are there in the diagram, including quadrilaterals that are made up of more than one shape? 9 Stretch and Shorty are friends. Every January 1st they get measured and they write down the date, Stretch's height, Shorty's height, their total height, and their height difference (the amount by which Stretch is taller than Shorty). From January 1st, 2018, to January 1st, 2019, Stretch grew 5%, Shorty grew 2%, their total height increased by 4%, and their height difference increased by X%. Compute the value of X.",
     "answer": 52,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-10",
     "question": "How many different whole numbers are there containing only the digits 1 and/or 2 (each of these digits can be used one or more times or not at all) such that for each of these numbers, the sum of all of its digits equals seven?",
     "answer": 21,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3125,12 +5599,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "Numbers of 1s/2s with digit sum 7: C(7,0)+C(6,1)+C(5,2)+C(4,3)=21.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-11",
     "question": "A teacher gave her students a paper square. The first student cut this square into two shapes, using one straight cut not through any of the paper's corners. The second student cut one of the resulting shapes, using one straight cut not through any of that shape's corners, and so on. After ten students had made their cuts, there were eleven shapes, including seven triangles, two quadrilaterals, and a pentagon. How many sides were in the remaining shape?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3138,12 +5621,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "Each cut adds 4 to total sides: 4+40=44; 21+8+5+S=44 ⇒ S=10.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-12",
     "question": "Say that a whole number is \"five-important\" if it is a multiple of 5 and/or contains the digit 5. For instance, the numbers 55, 120, and 456 are five-important, but the number 2019 is not. How many different five-important numbers are there between 1 and 2019?",
     "answer": 707,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3152,80 +5644,147 @@ const moemsBank = [
       "arithmetic",
       "number_sense",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "Count of n in 1..2019 that are multiples of 5 or contain digit 5 is 707.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2019-9",
     "question": "Stretch and Shorty are friends. Every January 1st they get measured and they write down the date, Stretch's height, Shorty's height, their total height, and their height difference (the amount by which Stretch is taller than Shorty). From January 1st, 2018, to January 1st, 2019, Stretch grew 5%, Shorty grew 2%, their total height increased by 4%, and their height difference increased by X%. Compute the value of X.",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
+    "year": "2019",
+    "contest": null,
+    "solution": "Total +4% with +5% and +2% forces S=2H; difference grows by 8%.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-1",
     "question": "Today Alice ate 3 fewer candies than yesterday, and twice as many cookies as yesterday. But the total number of candies and cookies she ate today was the same as yesterday. How many cookies did Alice eat today?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": "Cookie increase offsets candy drop of 3 ⇒ yesterday cookies=3; today 6.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-2",
     "question": "A ring is a flat shape formed by an inner circle and an outer circle, as shown in the first diagram. How many rings of all sizes and types are there in the second diagram containing five circles?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-3",
     "question": "John took two different digits and using them wrote two different 2-digit numbers (each number uses both digits). The sum of these 2-digit numbers is also a 2-digit number. What is the greatest possible value of the smaller of the written numbers?",
     "answer": 45,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-4",
     "question": "A metal letter R weighs 2 pounds, a metal letter S weighs 1 pound, and a metal letter M weighs 4 pounds. A certain 10-letter \"word\" containing only the metal letters R, S, and M can be split into three groups of letters weighing 9 pounds per group. How many letters M are in this word?",
     "answer": 5,
+    "answerType": "list",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": "both (M,R,S)=(4,5,1) and (5,2,3) work",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-5",
     "question": "In a very long toy train, the first and last cars were blue. After each blue car (except the last one), there were two yellow cars. After each pair of yellow cars, there was a red car. After each red car, there was a blue car. The first five train cars are shown in the picture. Oleg picked a car and recolored all cars in front of it green. Then Joyce picked a car and recolored all cars behind it green. What is the greatest possible number of non-green cars in the recolored toy train if it contains 7 more yellow cars than blue cars?",
     "answer": 34,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-6",
     "question": "Find the largest 6-digit multiple of 11 such that the sum of all its digits equals 40. 5-6",
     "answer": 999922,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3233,12 +5792,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-7",
     "question": "The Treasury wants to reduce usage of coins and is considering several silly proposals: devalue a quarter by X% compared to a penny, raise a dollar by X% compared to a penny, and make a dollar worth 6 quarters. If it decides to implement all three proposals, without any other explicit changes (so a penny is still worth 1 cent, and a dime is still worth 10 cents), how many dimes would be in a dollar?",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3246,24 +5814,42 @@ const moemsBank = [
     "topics": [
       "percents",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-8",
     "question": "Anna really likes numbers and decided to collect them. She started her collection from the number 1001, which was a birthday gift from more new number to the collection by selecting the smallest counting number not yet in the collection that was relatively prime to all the numbers already in the collection. What number was added to Anna's collection on week 10? Note that after 10 weeks the collection contained 11 different numbers.",
     "answer": 37,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-9",
     "question": "How many different ways are there to place six different digits from 1 to 6 inside the six square cells of a 2-by-3 grid (one digit per cell) such that for every pair of consecutive digits (such as 3 and 4) their square cells share a side?",
     "answer": 16,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3273,12 +5859,21 @@ const moemsBank = [
       "ratio_proportion",
       "geometry",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-10",
     "question": "All possible diagonals drawn from the two adjacent vertices A and B of a regular hectogon divide the hectogon's interior into a number of non-overlapping shapes - triangles and quadrilaterals (without any part of a line inside them). How many of these shapes are triangles? (A hectogon is a polygon with 100 sides.)",
     "answer": 292,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3286,12 +5881,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-11",
     "question": "There are eight different cards (four red and four blue) with the digits 2, 0, 1, 7 on them. Each card has exactly one digit, and each of these digits is on exactly two cards (one red and one blue). How many different ways are there to put all eight cards in a row with digits face up and right-side up such that every card appears right next to another card with the same digit?",
     "answer": 384,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3299,12 +5903,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2018-12",
     "question": "A teacher asked her students to find a 2-digit whole number which has as many as possible different positive factors. Jen realized that there was more than one such number, and listed each of them once. Find the sum of all of Jen's numbers.",
     "answer": 402,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3312,76 +5925,147 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-1",
     "question": "Jane's mother left some cherries for her children. Jane ate 10 cherries, which was exactly 2/5 of all the cherries that her mother left. Her brother Sam ate all the remaining cherries. How many cherries did he eat?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution 1. Since the 10 cherries Jane ate were exactly 5 of all the cherries, then 10÷2 = 5 1 cherries were 5 of all the cherries. Jane's brother Sam ate all the remaining cherries, 2 3 which was exactly 1 − 5 = 5 of all the cherries, so he ate 3×5 = 15 cherries. 2 Solution 2. Since the 10 cherries Jane ate were exactly 5 of all the cherries, then Jane's 2 5 mother left 10 ÷ 5 = 10 × 2 = 25 cherries for her children. So Sam ate 25 - 10 = 15 remaining cherries.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-2",
     "question": "From a big piece of paper Steve cut out 2016 shapes - squares and regular pentagons. Then Michael cut each pentagon along one of its diagonals. How many quadrilaterals were there at the end? (A regular pentagon has five equal sides and five equal angles. A diagonal of a pentagon is a segment which connects two corners that are not already connected by a side.)",
     "answer": 2016,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. Cutting a regular pentagon along one of its diagonals leaves one triangle and one quadrilateral. Squares are also quadrilaterals. Thus there will be one quadrilateral at the end for each shape Steve cut out, or 2016, no matter how many of these shapes were squares or regular pentagons.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-3",
     "question": "There are 30 puppies, kittens, and mice altogether in the Pet Hotel. There are twice as many kittens' ears as puppies' tails. There are twice as many puppies' paws as mice's eyes. How many kittens are there?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. Since kittens have two ears each, there are twice as many kittens' ears as kittens. Since puppies have one tail each, there are as many puppies' tails as puppies. So the number of kittens equals half the number of kittens' ears, and therefore the number of kittens equals the number of puppies' tails which equals the number of puppies. Since puppies have four paws each, there are four times as many puppies' paws as puppies. Since mice have two eyes each, there are twice as many mice's eyes as mice. So the number of puppies equals a quarter of the number of puppies' paws, and therefore the number of puppies equals half the number of mice's eyes which equals the number of mice. This means that the RSM Pet Hotel has the same number of puppies, kittens, and mice for a total of 30 tenants. Thus there are 10 (one third of 30) kittens in the RSM Pet Hotel.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-4",
     "question": "The diagram shows a 4-by-7 rectangle composed of unit squares, where parts of some lines have been erased. How many squares of all sizes and positions are there in this diagram, including squares that are made up of other squares?",
     "answer": 34,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. The diagram contains only squares that are 1×1, 2×2, 3×3, and 4×4. There are 20 1×1 squares, 8 2×2 squares, 4 3×3 squares, and 2 4×4 squares, for a total of 20 + 8 + 4 + 2 = 34 squares of all sizes and positions in the diagram.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-5",
     "question": "Stan bought several pizza pies. He cut the first pie into 2 slices, the second pie into 3 slices, the third pie into 4 slices, and so forth. Then he ate one slice from each pie and counted that only 21 slices were left. How many slices did Stan eat?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. After Stan ate one slice from each pie, there remained 1 slice from the first pie, 2 slices from the second pie, 3 slices from the third pie, and so forth. Since 21 = 1 + 2 + 3 + 4 + 5 + 6, Stan must have bought 6 pizza pies, and therefore he ate 6 slices.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-6",
     "question": "The ose, which blooms every 12 years; the Seldom Sunflower, which blooms every 7 years; and the Miracle Magnolia, which blooms every 50 years. If all three plants bloom in 2016, in what year will all three of them bloom again the next time? 5-6",
     "answer": 4116,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. The prime factorization of number 12 is 2×2×3, number 7 is prime, and the prime factorization of number 50 is 2×5×5. Therefore the least common multiple of 12, 7, and 50 is 2×2×3×7×5×5 = (3×7)×(2×5)×(2×5) = 21×10×10 = 2100. Thus it will take 2100 years until the next time all three plants bloom in the same year, so the answer is 2016 + 2100 = 4116.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-7",
     "question": "In 1st grade Bob and Pete were the same height. By 6th grade, Bob grew 20% whereas Pete grew 20 cm. By 11th grade, compared with 6th grade, Pete grew 20% whereas Bob grew 20 cm. By how many centimeters is Pete taller than Bob in 11th grade?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3391,12 +6075,21 @@ const moemsBank = [
       "geometry",
       "measurement",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. In 6th grade Pete was 20 cm taller than he was in 1st grade. By 11th grade, compared with 6th grade, Pete grew 20%, so in 11th grade he was taller than in 1st grade by a total of 20 cm, plus 20% of his height in 1st grade, plus 20% of 20 cm (which is 0.2×20 = 4 cm). In 6th grade Bob was 20% taller than he was in 1st grade. By 11th grade, compared with 6th grade, Bob grew 20 cm, so in 11th grade he was taller than in 1st grade by a total of 20% of his height in 1st grade, plus 20 cm. Since Bob and Pete were the same height in 1st grade, in 11th grade Pete is taller than Bob by 4 cm.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-8",
     "question": "On Monday, Matthew folded a paper rectangle once to get another rectangle. On Tuesday, he folded this new rectangle once to get another rectangle. Mattew continued to do so daily until he got (after the fifth folding) a 2 cm-by-3 cm rectangle on Friday. What is the greatest possible perimeter (in centimeters) of the original rectangle?",
     "answer": 196,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3405,22 +6098,42 @@ const moemsBank = [
       "geometry",
       "measurement",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. Let's consider only rectangles with vertical and horizontal sides. First, let's consider two rectangles, A and B, such that rectangle A is fully covered by rectangle B. We \"unfold\" the rectangle A once (using any of the possible creases) to get rectangle C. Then we can use the same crease (or its extension) to \"unfold\" rectangle B once to get rectangle D. It is clear that rectangle D fully covers rectangle C, and therefore the perimeter of rectangle D is not less than the perimeter of rectangle C. 2016 RSM Olympiad 5-6 Let's also designate the \"after the fifth folding\" 2 cm-by-3 cm rectangle Z as having horizontal sides 3 cm long and vertical sides 2 cm long. Note that there are just two possibilities for the \"after the fourth folding\" rectangle Y. The first one has a vertical crease along the 2-cm side. In this case the longest possible adjacent side of rectangle Y is 2×3 = 6 cm long (twice the length of the folded side), and all other possible (for this case) rectangles Y are fully covered by this 2 cm-by-6 cm rectangle Y 1 . The second possibility has a horizontal crease along the 3-cm side. In this case the longest possible adjacent side of rectangle Y is 2×2= 4 cm long (twice the length of the folded side), and all other possible (for this case) rectangles Y are fully covered by this 4 cm-by-3 cm rectangle Y 2 . Since each possible \"after the fourth folding\" rectangle Y is fully covered either by rectangle Y 1 or by rectangle Y 2 , in order to get the original rectangle having the greatest possible perimeter, we can continue to unfold only rectangles Y 1 and Y 2 . By applying similar reasoning, we conclude that each possible \"after the third folding\" rectangle X is fully covered either by 2 cm-by-12 cm rectangle X 1 , or by 4 cm-by-6 cm rectangle X 2 , or by 8 cm-by-3 cm rectangle X 3 , so in order to get the original rectangle having the greatest possible perimeter, we can continue to unfold only rectangles X 1 , X 2 , and X 3 . After applying similar reasoning a few more times, we conclude that each possible original rectangle U is fully covered either by 2 cm-by-96 cm rectangle U 1 , or by 4 cm-by-48 cm rectangle U 2 , or by 8 cm-by-24 cm rectangle U 3 , or by 16 cm-by-12 cm rectangle U 4 , or by 32 cm-by-6 cm rectangle U 5 , or by 64 cm-by-3 cm rectangle U 6 . Thus, to find the greatest possible perimeter of the original rectangle, we can simply compute perimeters of the six rectangles U 1 , U 2 , U 3 , U 4",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-9",
     "question": "There are four pens (black, blue, red, and green) and four pen caps (blue, blue, red, and green). How many ways are there to put all four caps on all four pens (exactly one cap per pen) with the restriction that pen's and cap's colors should be different for each pen? Note that the two blue caps are identical.",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. A cap on the blue pen could be either red or green. Let's start from the case when the blue pen is capped by the red cap, and other three pens are yet uncapped. In this case the green cap could be put on any of the two yet-uncapped non-green pens (black or red, 2 possibilities), and the remaining two blue caps must be put on the two yet-uncapped pens (just 1 possibility, since the two blue caps are identical). In total, we counted 2 ways to put all four caps on all four pens (exactly one cap per pen) with the red cap on the blue pen. By symmetry, there are also 2 ways to put all four caps on all four pens (exactly one cap per pen) with the green cap on the blue pen. Since no other cap can be put on the blue pen, there are a total of 2 + 2 = 4 ways to put all four caps on all four pens (exactly one cap per pen) with the restriction that pen's and cap's colors should be different for each pen.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-10",
     "question": "Ravi wrote (using white chalk) the number 123,456,789 on the board. Then he wrote (using yellow chalk) the number 20 near every white odd digit on the board, and the number 16 near every white even digit on the board. Then he wrote (using pink chalk) the number 20 near every non-pink odd digit on the board, and the number 16 near every non-pink even digit on the board. Finally, he wrote (using grey chalk) the number 20 near every non-grey odd digit on the board, and the number 16 near every non-grey even digit on the board. How many even digits are on the board now?",
     "answer": 162,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3428,12 +6141,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution 1. Ravi wrote (using white chalk) 5 odd (1, 3, 5, 7, 9) and 4 even (2, 4, 6, 8) digits on the board. For each of the 5 (white) odd digits, he wrote the number 20 in yellow near it. Since both digits 2 and 0 are even, Ravi wrote 10 yellow even digits (5 twos and 5 zeroes). For each of the 4 white even digits, he wrote the number 16 in yellow near it. Since 1 is odd and 6 is even, Ravi wrote 4 yellow odd digits (1s) and 4 more yellow even digits (6s). Thus the total number of even digits now is 4 (white even digits from the original number) + 10 (yellow 2s and 0s) + 4 (yellow 6s) = 18. The total number of odd digits now is 5 (white odd digits from the original number) + 4 (yellow 1s) = 9. All of the digits on the board are non-pink. Then Ravi wrote, all in pink, 9 twos (even), 9 zeroes (even), 18 ones (odd) and 18 sixes (even). This adds 9 + 9 + 18 = 36 more even digits (for a total of 18 + 36 = 54) and 18 more odd digits (for a total of 9 + 18 = 27). All of the digits on the board are non-grey. Finally Ravi wrote, all in grey, 27 twos (even), 27 zeroes (even), 54 ones (odd) and 54 sixes (even). This adds 27 + 27 + 54 = 108 more even digits, bringing the total number of even digits on the board to 54 + 108 = 162. Solution 2. For each of the 9 white digits on the board, Ravi wrote two yellow digits near it. After this there are 3 times as many digits on the board as white digits, for a total of 3×9 = 27 white/yellow digits. Similarly, there is a total of 3×27 = 81 white/yellow/pink (non-grey) digits on the board. Each of these non-grey digits is either even or odd. Ravi wrote the number 20 in grey near every non-grey odd digit on the board. Both digits 2 and 0 are even, so each non-grey odd digit \"owns\" 2 even digits on the board. Then Ravi wrote the number 16 in grey near every non-grey even digit on the board. Only one of the digits 1 and 6 is even (6), so each non-grey even digit also \"owns\" 2 even digits on the board (one grey digit near it and itself). Thus, now there are twice as many even digits on the board as non-grey digits, for a total of 2×81 = 162 even digits.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-11",
     "question": "Ben thought of four different positive numbers. Exactly two of his numbers are multiples of 2, exactly two of his numbers are multiples of 3, and exactly two of his numbers are multiples of 5. What is the least possible value of the sum of the four numbers Ben thought of?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3441,12 +6163,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. If Ben thought of the four positive numbers 3, 5, 6 = 2×3, and 10 = 2×5, their sum would be 3 + 5 + 6 + 10 = 24, and exactly two of his numbers are multiples of 2, exactly two of his numbers are multiples of 3, and exactly two of his numbers are multiples of 5. Now let's prove that if the four numbers Ben thought of satisfy all the conditions of the problem, the sum of these four numbers is at least 24. Exactly two of the four numbers are multiples of 5. If neither of them is exactly 5, then the sum of these two different positive multiples of 5 is at least 10 + 15 = 25 > 24. If one of them is 5 and the other one is at least 20, then their sum is at least 5 + 20 = 25 > 24. If one of them is 5 and the other one is 15, then both of them are odd, so the other two of the four numbers must be the multiples of 2. The sum of these two different positive multiples of 2 is at least 2 + 4 = 6, so the sum of the four numbers is at least 5 + 15 + 6 = 26 > 24. 2016 RSM Olympiad 5-6 Finally, if one of the two multiples of 5 is 5 and the other one is 10, then neither of them is a multiple of 3, so the other two of the four numbers must be the multiples of 3. The sum of these two different positive multiples of 3 is at least 3 + 6 = 9, so the sum of the four numbers is at least 5 + 10 + 9 = 24. Thus, the least possible value of the sum of the four numbers Ben thought of is 24.",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-rmo-2016-12",
     "question": "Say that a pair of numbers X and Y (X may equal Y) is \"special\" if their sum and their product have the same units digit. How many different special pairs of two-digit whole numbers are there? Count pairs (X, Y) and (Y, X) as one pair.",
     "answer": 171,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3454,12 +6185,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "RSM Olympiad Grades 5–6 2016 (problems + solutions)",
+    "year": "2016",
+    "contest": null,
+    "solution": "Solution. If both whole numbers in a pair are odd, then their sum is even (and therefore has an even units digit) and their product is odd (and therefore has an odd units digit), so the sum and the product have different units digits and the pair cannot be special. If one of the two whole numbers in a pair is even and the other one is odd, then their sum is odd (and therefore has an odd units digit) and their product is even (and therefore has an even units digit), so the sum and the product have different units digits and again the pair cannot be special. Thus, both whole numbers making a special pair must be even. In other words, each of them must have an even units digit. Note that for any two whole numbers, the units digit of their sum and the units digit of their product depend only on the units digits of the numbers themselves. If one of the two whole numbers in a pair has units digit 0, the product of the two numbers has units digit 0, and therefore for the pair to be special the sum of the two numbers must also have units digit 0, so the other number in the pair must have units digit 0. And vice versa, when both whole numbers have the same units digit 0, their sum and their product have the same units digit (namely 0) and the pair is special. Checking other possibilities for the units digits of two even whole numbers (2 and 2, 2 and 4, 2 and 6, 2 and 8, 4 and 4, 4 and 6, 4 and 8, 6 and 6, 6 and 8, 8 and 8) yields that only cases \"2 and 2\" and \"4 and 8\" produce special pairs. When both whole numbers have the same units digit 2, their sum and their product have the same units digit (namely 4) and the pair is special. When one of the two whole numbers has units digits 4 and the other one has units digit 8, their sum and their product have the same units digit (namely 2) and the pair is special. Now let's count how many different pairs of two-digit whole numbers satisfy the following condition: either both numbers have the same units digit 0; or both numbers have the same units digit 2; or one of the numbers has units digit 4 and the other one has units digit 8. Remember that pairs (X, Y) and (Y, X) should be counted as only one pair. There are 9 two-digit whole numbers with units digit 0 (the tens digit could be any of the 9 non-zero digits). These numbers produce 9×9 = 81 pairs, 9 pairs of type (X, X) and 81 - 9 = 72 pairs of type (X, Y) with X ≠ Y. But we need to count pairs (X, Y) and (Y, X) as one pair, so we have to c",
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-03",
     "question": "Mary cut a rectangular piece of paper into two triangles with sides 9, 40, and 41 cm. Find the area of the rectangular piece of paper before cutting. 1 1 1",
     "answer": 360,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3467,76 +6207,147 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-04",
     "question": "Find the value of x , if 2 x + 5 2 = 14 2",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-05",
     "question": "Adam the Ant and Anna the Ant dared each other to grab a moving bicycle wheel. Adam the Ant hung on for 20 seconds, in which time the wheel made 30 turns; then, he fell off. Anna the Ant hung on 12 seconds longer than Adam the Ant. How many times did she spin around on the bicycle wheel?",
     "answer": 48,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-07",
     "question": "Fifteen elves made some identical cakes for a party. Each elf ate half of a cake, one-fifth of a cake, and a third piece, which was six times smaller than the second piece. Three cakes were left untouched. How many cakes did the elves make?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-08",
     "question": "One chocolate bar can be used to create one chocolate rabbit with some chocolate left over. The leftovers of seven bars can be used to create two chocolate rabbits without any chocolate left over. How many chocolate rabbits can be created from 35 chocolate bars?",
     "answer": 45,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-09",
     "question": "All cabins on the Giant Ferris Wheel are numbered in order starting from the number 1. Jack came and sat in cabin 48. Jim skipped the next 15 cabins and sat in cabin 2. How many cabins are there?",
     "answer": 62,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-10",
     "question": "Mother Goose's twin sons, Winken and Blinken, were born on the same day of the year as their mom. Two years ago, the sum of all their ages was 19. Today, Mother Goose is 3 times as old as Winken. How old is Blinken today?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-11",
     "question": "Alice used 9 cm × 9 cm × 9 cm cubes to build a tower which is 12 cubes tall, 4 cubes wide and 3 cubes long. Then, she decided to make her tower taller by taking apart one of the side layers to build a few more layers on the top of the tower. What is the smallest possible height, in centimeters, of the new tower?",
     "answer": 144,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3546,12 +6357,21 @@ const moemsBank = [
       "measurement",
       "money",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-12",
     "question": "All the unicorns on Rainbow Island are either green or yellow. Every time the clock strikes midnight, some of the unicorns change their color. Yesterday, there were 6 green unicorns for every 5 yellow ones. Today, there are 3 green ones for every 4 yellow ones. What is the smallest possible number of unicorns living on Rainbow Island?",
     "answer": 77,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3559,24 +6379,42 @@ const moemsBank = [
     "topics": [
       "ratio_proportion",
       "time"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-13",
     "question": "As a present for Mother's Day, Mary wants to decorate a 1-inch-wide frame around a 6-inch by 9-inch photo of her mom. Mary paints each square inch with alternating striped and solid triangles, as shown. How many striped triangles will Mary paint?",
     "answer": 68,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g5-14",
     "question": "The Ancient Wizard Albus owns 3 ancient Clocks of Perpetual Motion. Every day, Clock #1 runs 20 minutes fast; Clock #2 runs 30 minutes fast, and Clock #3 runs 40 minutes fast. He sets all three clocks to the correct time and leaves to visit his friend. After many days, he returns home and, to his surprise, finds all 3 clocks showing the correct time again! What is the fewest possible number of days Albus could have spent away from home?",
     "answer": 72,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3584,70 +6422,126 @@ const moemsBank = [
     "topics": [
       "measurement",
       "time"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-01",
     "question": "Rachel has four cards marked 2, 0, 1, and 8. What is the greatest four digit number that Rachel can make with her cards?",
     "answer": 8210,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-03",
     "question": "How long is the rectangle if its width is 6 inches and its area is 42 square inches?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-04",
     "question": "A very hungry hippo can eat 25 kilograms of grass in 50 minutes. How many minutes will it take the hippo to eat 60 kilograms of grass?",
     "answer": 120,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-06",
     "question": "Emily is playing a game where she receives 2 points as soon as she solves three puzzles correctly. For every ten correctly solved puzzles, Emily earns 3 additional points. How many points did Emily receive if she solved 30 puzzles in all?",
     "answer": 29,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-07",
     "question": "There were 16 more frogs in Green Pond than in Blue Pond. All the frogs from Blue Pond jumped into Green Pond. Now the total number of frogs in Green Pond is 80. How many frogs were there originally in Green Pond?",
     "answer": 48,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-09",
     "question": "An alarm clock is slow. It falls behind 4 minutes every 24 hours. If the clock was showing the correct time at 6 : 00 this morning, how many seconds ahead was the clock at 10 : 00 last night?",
     "answer": 80,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3655,136 +6549,273 @@ const moemsBank = [
     "topics": [
       "measurement",
       "time"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-10",
     "question": "Twenty comic book fans started a club. The next day and every day after that, three new members joined the fan club. On November 30th, the club had 71 members at the end of the day. On what date in November was the fan club formed?",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-11",
     "question": "Aladdin found a cave filled with boxes of gold, measuring 2 inches × 2 inches × 2 inches, and boxes of silver, measuring 1 inch × 1 inch × 1 inch. However, Aladdin brought only one box measuring 6 inches × 6 inches × 7 inches with him. He filled it with as many boxes of gold as would fit, then put as many boxes of silver as would fit in the remaining space. How many boxes of treasure did Aladdin take?",
     "answer": 63,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-12",
     "question": "Sheila collects Pokemon cards. As of 2018, she has a Mewtwo card that is twice as old as her Snorlax card. Two years ago, her rare Raichu card was five times as old as the Snorlax card. If the Raichu card is seven years older than the Mewtwo card, in what year was the Raichu card made?",
     "answer": 2001,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-13",
     "question": "A cabinet has two sliding doors of different sizes. When the cabinet is fully closed, they overlap by two-fifths of the width of the smaller door. When both doors are slid to one side, the part of the longer door that is not behind the shorter one is half as wide as the original overlap, and the open portion of the cabinet is 36 inches wide. What is the width of the whole cabinet?",
     "answer": 108,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g5-14",
     "question": "Queen Laetitia is sorting her gem collection. She starts by placing some of her diamonds into two boxes. In every box after the first two, the Queen puts as many diamonds as in the previous two boxes combined. If there are 30 diamonds in the fourth box, and 128 diamonds in the seventh box, how many diamonds did Queen Laetitia place in the tenth box?",
     "answer": 542,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-01",
     "question": "A cat and dog sing a song. The dog sings \"Woof!\" five times for every two times the cat sings \"Meow!\" If the cat sings \"Meow!\" 28 times, how many times did the dog sing \"Woof!\"?",
     "answer": 70,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-03",
     "question": "Harry and Luna together ate 56 Chocolate Frogs. Harry ate 6 more Chocolate Frogs than Luna. How many Chocolate Frogs did Luna eat? 1",
     "answer": 25,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-05",
     "question": "A boy has 140 toy soldiers. He put 14 soldiers in the fortress and divided the rest of the soldiers into 14 equal groups. If he used 3 of the groups as attackers, how many toy soldiers are attackers?",
     "answer": 27,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-07",
     "question": "Five years ago, David was three times as old as Julia was. In 2 years, David will be twice as old as Julia will be. How old is David now?",
     "answer": 26,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-09",
     "question": "Mandy arranged 1 ft × 1 ft ×1 ft boxes in a stack that is 5 ft × 5 ft × 5 ft. Andy took all the boxes from the top layer of the stack. Then, Sandy took all the boxes from the rightmost side of the remaining stack. How many boxes are left in the stack?",
     "answer": 80,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-10",
     "question": "Hogwarts students stand in a row. Harry noted that 22 students are to his left side. Hermione noted that 11 students, including Harry, are to her right side. How many students are between Harry and Hermione if there are 27 students in the row?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-11",
     "question": "How many 2 × 4 LEGO bricks do you need to cover two 14 × 16 LEGO building plates? 3 1",
     "answer": 56,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-12",
     "question": "Tom Sawyer painted of a fence with of a canister of paint. How many 5 3 milliliters of this paint did he use to paint the whole fence, if the canister contains 990 milliliters of paint?",
     "answer": 550,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3792,12 +6823,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-13",
     "question": "Two faulty tennis ball machines start to shoot balls from opposite sides of a 25 meter by 10 meter tennis court. The green ball machine shoots green balls that stop on the court 5 meters to 20 meters from the green machine's side. The yellow ball machine shoots yellow balls that stop on the court 2 meters to 16 meters from the yellow machine's side. Find the area of the tennis court that has balls of either color on it.",
     "answer": 110,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3805,108 +6845,210 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g5-14",
     "question": "Two brothers, Jim and John, had a straight log in their backyard. Jim wanted the log cut into 24 equal parts. He painted red lines on the log and called to a lumberjack to cut the log by the painted lines. John wanted the log cut too, but into 18 equal parts. He painted yellow lines on the log with some yellow lines painted over red lines. The lumberjack came and cut the log by the painted lines. How many cuts did the lumberjack make?",
     "answer": 35,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-01",
     "question": "A young wizard knows this many spells: 60 ÷ 2 × 10. An old wizard knows twice as many. How many spells does the old wizard know?",
     "answer": 600,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-03",
     "question": "A snail can crawl 12 inches in 3 hours. How many inches can it crawl in 5 hours?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-04",
     "question": "If the sum of two numbers is 46 and the difference is 10, what is the larger number?",
     "answer": 28,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-05",
     "question": "Find the value of x, if: 3x − 23 = 10",
     "answer": 11,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-06",
     "question": "Sina trained for the RSM Olympiad. On the first day of her training she solved 20 problems. Each day she solved one more problem than the day before. On her last day of training she solved 80 problems. How many days did Sina train for the Olympiad?",
     "answer": 61,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-07",
     "question": "We have so much chocolate prepared for the party that we had to put it all in boxes and arrange the boxes in this pile, which is 4 boxes high, 5 boxes wide, and 5 boxes long: Soon we saw that some boxes of chocolate were missing−someone just loved our chocolate! How many boxes of chocolate do we have now?",
     "answer": 92,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-09",
     "question": "Jackie is 8 years older than Mona. If 9 years ago she was three times as old as Mona was, how old is Jackie now?",
     "answer": 21,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-10",
     "question": "Kate's math team meets every 3rd day. For example, they met on Monday, January 4th. Next time, they met on Thursday, January 7th. After that, they met on Sunday, January 10th. When in January did they again meet on Monday?",
     "answer": 25,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-11",
     "question": "How many square tiles with sides of length 2 feet does one need to cover the floor of a room 30 feet long and 20 feet wide?",
     "answer": 150,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3914,22 +7056,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-12",
     "question": "If Sammy eats 6/7 of a pizza in 2/21 of an hour, how many pizzas will he eat in one hour?",
     "answer": 9,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-13",
     "question": "A Magic Carpet is 12 feet long and 10 feet wide. However, only the purple part of the Magic Carpet has magic power. If the magic part is 2 feet wide, find the area of the magic part of the Magic Carpet.",
     "answer": 72,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3937,58 +7099,105 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g5-14",
     "question": "Once upon a time, on an island in the middle of an ocean, several tribes lived and fought with each other. A time came when all the tribes agreed to everlasting peace. So, they decided to build a giant monument to celebrate this Peace Treaty. The monument required a certain number of logs, and the tribes had to agree on the number of logs that each tribe was to provide. Had there been two fewer tribes on the island, this number of logs would have been 6. Had there been one more tribe on the island, this number would have been 5. Unfortunately, the tribes could not agree on what number of logs would be fair for the actual number of tribes. So the tribes announced an eternal war - and were not heard from ever again. How many tribes were on the island?",
     "answer": 17,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-01",
     "question": "What is the smallest number can you get when you subtract a one-digit number from 50 and then double the result? x−3 18",
     "answer": 82,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-03",
     "question": "In the film, Zeke the Zombie Slayer Versus the Zombies from Space, Zeke slayed 140 zombies. In the sequel, Zeke the Zombie Slayer Versus the Zombies from Space, Part 2, he slayed 5% more zombies. How many zombies were slain by Zeke in the sequel?",
     "answer": 147,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-06",
     "question": "Chelsea is a chess champion. She's played 132 games; her ratio of wins to draws to losses is 6 : 3 : 2. How many games has she won?",
     "answer": 72,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-08",
     "question": "Ben, Fran and Stan are posting funny memes online. Ben's funny memes got 40% more likes than Stan's. Fran's got 20% fewer likes than Stan's. By what percentage did Ben get more likes than Fran? 2",
     "answer": 75,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -3996,24 +7205,42 @@ const moemsBank = [
     "topics": [
       "percents",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-09",
     "question": "Any time Speedy the Sloth is not sleeping, she drinks chamomile tea at a steady rate of 2/7 of a cup per hour. Yesterday, she drank 1 cup. If today she drank 17/42 of a cup more than yesterday, how long (in minutes) did she stay awake today?",
     "answer": 295,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-10",
     "question": "If you double all edges of a cube, by what percent will the volume of this cube increase?",
     "answer": 700,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4023,22 +7250,42 @@ const moemsBank = [
       "geometry",
       "money",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-12",
     "question": "AB ∥ DE ¯ ¯ , C is the point of intersection of AE ¯ and DB . m ∠1 = 80°, m ∠2 : m ∠3 = 2 : 3. Find m ∠2.",
     "answer": 104,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-13",
     "question": "What is the largest three-digit palindrome divisible by 18? (A palindrome is an integer that remains the same when its digits are reversed. For example, 77, 151, 8338, and etc .)",
     "answer": 828,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4046,22 +7293,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2019-g6-14",
     "question": "Six of King Arthur's knights are sitting around the Round Table eating peanuts. Since each knight suspected the others of not sharing fairly, each one secretly counted his two neighbors' peanuts and summed them up, with the following results (in order): 20, 28, 36, 44, 52, 60. How many peanuts does the knight who counted 52 have?",
     "answer": 38,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2019",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-02",
     "question": "Tom is 40 inches tall. The sign next to the Superman Roller Coaster says: \"You must be 48 inches to ride!\". By what percent does Tom have to grow to be able to ride the roller coaster?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4069,12 +7336,21 @@ const moemsBank = [
     "topics": [
       "percents",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-06",
     "question": "The top of a square table is covered with four equal square tiles. If the side length of each tile is decreased by 50%, how many tiles of the new size would be needed to cover the same table?",
     "answer": 16,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4082,46 +7358,84 @@ const moemsBank = [
     "topics": [
       "percents",
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-07",
     "question": "Before hosting their annual Chess Tournament and Spelling Bee, a school received 7 boxes of honorary medals: one medal for every participant. After the Chess Tournament, two boxes were empty and the rest were still closed. After the Spelling Bee, which had twice as many participants, there were 72 medals left. How many people competed in the Chess Tournament?",
     "answer": 144,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-09",
     "question": "Dana sent her mom 60 texts in July, which is 60% fewer texts than her mom sent Dana that month. How many total texts did they exchange in July?",
     "answer": 210,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-10",
     "question": "A witch made two bowls of potion. The first bowl contains 28.5 ounces of potion, and the second bowl contains 3 ounces of potion. She poured ¾ ounces from the second bowl into the first one. How many times as much potion is in the first bowl as in the second",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-11",
     "question": "The measures of the angles of a triangle are in the ratio 2 : 3 : 4. The simplified ratio of the measures of the exterior angles of the triangle is a : b : c. Find a + b + c.",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4129,46 +7443,84 @@ const moemsBank = [
     "topics": [
       "ratio_proportion",
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-12",
     "question": "Mia and Luke made 85 origami together. Mia made 4 pieces of origami every 3 minutes. Luke made 3 pieces of origami every 4 minutes, but Luke spent 5 minutes more than Mia. How many pieces of origami did Mia make?",
     "answer": 52,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-13",
     "question": "The Charleston family has less than 500 Dalmatians. There are six times as many Dalmatians with black spots on their right ears as Dalmatians without these spots. After giving away 6% of their Dalmatians, how many do the Charlestons have left?",
     "answer": 329,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2018-g6-14",
     "question": "A blogger who is just starting out made three videos. So far, she has 312 subscribers, who watched one, two, or all three videos. The three videos got 740 total views all together. Assuming each subscriber only viewed a particular video once, how many more people watched all three videos than only one video?",
     "answer": 116,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2018",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-02",
     "question": "The measures of the acute angles of a right triangle are in the ratio 1 : 5. Find the measure of the larger acute angle of the triangle.",
     "answer": 75,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4176,66 +7528,126 @@ const moemsBank = [
     "topics": [
       "ratio_proportion",
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-03",
     "question": "This year, Slytherin got 5% less House points than the winner Gryffindor. What is the minimum number of House points Slytherin needed more to win if Gryffindor got 420 House points? 3",
     "answer": 22,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-05",
     "question": "A grasshopper makes 6 jumps per 15 seconds. Each jump covers 2 inches. After 40 seconds of straight-forward jumping, the grasshopper stopped. How far (in inches) did the grasshopper jump? 8",
     "answer": 32,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-06",
     "question": "How many times larger than the number (1 − ) is the number 15 2 (1.2 + )? 3",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-07",
     "question": "Ron made a mistake casting a spell, and 25 frogs start to appear each second in the classroom. After 10 seconds, Hermione cast another spell, and 35 frogs start to disappear as 25 frogs appear each second. For how many seconds was there at least one frog in the classroom?",
     "answer": 35,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-08",
     "question": "John beat his previous high score in the Favorite game by 28%. If his new high score is 288 points, what was his previous high score?",
     "answer": 225,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-09",
     "question": "If you increase the length of the rectangle by 50% and the width of the rectangle by 100%, by what percent will the area of this rectangle increase? 0.1 1",
     "answer": 200,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4244,12 +7656,21 @@ const moemsBank = [
       "percents",
       "geometry",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-11",
     "question": "A rectangular playing field that is 20 meters long and 15 meters wide was cleaned by 22 boys and 18 girls. The field was divided into equal parts for each child. What area of the field was cleaned by boys?",
     "answer": 165,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4257,36 +7678,63 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-12",
     "question": "Mary went up the Old Tower taking 3 steps per second. Then she carefully came down from the tower taking 2 steps per second. It took Mary 25 seconds longer to come down than to go up. How many steps does the Old Tower have?",
     "answer": 150,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-13",
     "question": "This year, the Start-of-Term feast had three desserts: chocolate eclairs, raspberry tarts, and jam doughnuts. On the dessert table, there were two doughnuts for every three eclairs, and six eclairs for every five tarts. How many tarts were on the dessert table if there were a total of 1320 desserts? 1",
     "answer": 440,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2017-g6-14",
     "question": "A man took a trip, traveling by train. He looked out the window during the first 3 1 of the trip. He then slept for 5 of the remaining distance. When he woke up, he 1 read a book for 2 of the remaining distance. If the train traveled 17.6 km more while he read than while he slept, how many kilometers did the train travel?",
     "answer": 132,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4294,12 +7742,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2017",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-02",
     "question": "The measures of the angles of a triangle are in the ratio 3 : 4 : 5. What is the measure of the largest angle of this triangle?",
     "answer": 75,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4307,12 +7764,21 @@ const moemsBank = [
     "topics": [
       "ratio_proportion",
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-03",
     "question": "Harry wants to buy a new magic wand that costs 40 coins. How many coins will Harry save if he buys this wand when it is on sale at 10% off?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4320,46 +7786,84 @@ const moemsBank = [
     "topics": [
       "percents",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-05",
     "question": "Jeremy makes $300 in 35 days. If he is paid the same amount every day, how much money will he make in 42 days?",
     "answer": 360,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-07",
     "question": "A certain number of special spells must be cast to protect the secret hiding place of the Order of the Phoenix. Each member of the Order is capable of casting the same number of these spells per hour. If two wizards were to join the Order, casting the protection spells can be completed in three hours instead of four hours. How many wizards are in the Order?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-08",
     "question": "While on a journey to find giants, Hagrid lost 64% of his weight. If he now weighs 2016 lb, what did he weigh before the journey?",
     "answer": 5600,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-09",
     "question": "If you double all the sides of a square, by what percent will the area of this square increase?",
     "answer": 300,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4368,24 +7872,42 @@ const moemsBank = [
       "percents",
       "geometry",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-11",
     "question": "Together, Hermione and Luna bought 2016 Chocolate Frogs for Harry. If Hermione paid 98 coins and Luna paid 28 coins, for how many Chocolate Frogs did Hermione pay?",
     "answer": 1568,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-12",
     "question": "Andrew is about to leave for school. If he walks at a speed of 50 meters per minute, he will arrive 3 minutes after the bell rings. If he runs at a speed of 80 meters per minute, he will arrive 3 minutes before the bell rings. In how many minutes will the bell ring?",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4394,12 +7916,21 @@ const moemsBank = [
       "geometry",
       "measurement",
       "time"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "user-imc-2016-g6-13",
     "question": "A rope that is 245 cm long is cut into three pieces. The ratio of the lengths of the first piece to the second piece is 2 : 3, and the ratio of the lengths of the second piece to the third piece is 4 : 5. What is the length of the longest of the three pieces?",
     "answer": 105,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4408,34 +7939,63 @@ const moemsBank = [
       "ratio_proportion",
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
+    "year": "2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": null,
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o2-a",
     "question": "Compute the sum of all nine 2-digit numbers with a ones digit of 6.",
     "answer": 504,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o2-b",
     "question": "Compute 123 × 45 + 246 × 30 + 369 × 15.",
     "answer": 18450,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o2-c",
     "question": "Nat is thinking of a four-digit counting number. The thousands digit and the hundreds digit are the same. The sum of all 4 digits is 28. The four-digit number is an odd multiple of 5. Exactly two digits are even. What is Nat's number?",
     "answer": 8875,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4443,24 +8003,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o2-d",
     "question": "A player can move from point to point only in a direction that includes a downward motion (slanted or not). In how many distinct ways can a player move from the top to bottom?",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o2-e",
     "question": "Point B is halfway between A and C. The distance from C to D is the same as the distance from D to E, which is the same as the distance from E to F. The area of triangle ACF is 180 cm2. How many square centimeters is the shaded area of triangle BCE? F E D A B C",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -4469,76 +8047,147 @@ const moemsBank = [
       "geometry",
       "measurement",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o3-a",
     "question": "What number replaces ☺ to make the sentence true? 1 + 3 + 4 + 6 + 6 + 8 + 9 + 11 = 4 × ☺.",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o3-b",
     "question": "To figure out a special number, Tammi's mother was supposed to double her age and then add 4. Instead, Tammi's mother added 4 to her age and then doubled that number. Tammi's mother thought the special number was 80. What was the special number supposed to be?",
     "answer": 76,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o3-c",
     "question": "Joshua took a math contest with 25 questions. Each correct answer earned 6 points while each incorrect answer deducted 4 points. Joshua answered every question and earned 100 points. How many questions did Joshua answer correctly?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o3-d",
     "question": "There are 4 cups in a row from left to right. The green cup is somewhere between the yellow and blue cups. The red cup is somewhere left of the yellow cup. Based on that information, how many different arrangements of these cups could there be?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o3-e",
     "question": "In the figure, QUAD is a quadrilateral. QUAD is \"enclosed\" by the rectangle RECT. This means that each vertex of QUAD is on a side of rectangle RECT. Segment QA is parallel to two of the sides of the rectangle. The length of QA is 18 and the length of EC is 13. What is the area of QUAD? U R A Q T E D C",
     "answer": 117,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o5-a",
     "question": "What is the value of 47 × 12 + 12 × 53 + 53 × 8 + 8 × 47?",
     "answer": 2000,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o5-b",
     "question": "A rectangle has perimeter 26 cm, and the length and width are both whole numbers. What is the greatest possible area this rectangle may have in square cm? 3 of her water into Barbara's empty bottle. 4 3 Barbara then pours of her water into Charlie's empty 5 1 bottle. Charlie then pours of his water into David's empty 2 bottle. If David now has 18 ounces of water, how many ounces does Amanda still have?",
     "answer": 42,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4547,12 +8196,21 @@ const moemsBank = [
       "geometry",
       "measurement",
       "logic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o5-d",
     "question": "A perfect square is the product of any positive whole number used as a factor exactly two times. [Example: 49 is a perfect square because 7 × 7 = 49] The positive whole number N, when multiplied by 150, is a perfect square. What is the least possible positive whole number value for the number N?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4562,12 +8220,21 @@ const moemsBank = [
       "number_sense",
       "geometry",
       "logic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o5-e",
     "question": "What is the greatest possible value for STATS in the cryptarithm shown here given that V = 1? [Different letters represent different digits, and no leading digit can equal 0.] ROTOR +LEVEL STATS",
     "answer": 97879,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4576,46 +8243,84 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o1-a",
     "question": "Which whole number is equal to 1000 - 531 - 315 - 153?",
     "answer": 1,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o1-b",
     "question": "How many stars '*' are there in the pattern shown?",
     "answer": 38,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o1-c",
     "question": "The New York Nicks had a streaky season. They began by winning 4 games in a row, and then they lost 12 games in a row. After those 12 losses, they won every game, finishing with 3 wins for every 2 losses overall. How many games did they win after the first 16 games?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o1-d",
     "question": "The least prime that is the sum of four different prime numbers is 17 because 17 = 2 + 3 + 5 + 7. What is the least prime greater than 17 that is the sum of four different prime numbers?",
     "answer": 23,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4623,32 +8328,63 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o1-e",
     "question": "In a video game, Brian collects unbreakable gems, each of which has its own value. He earns 21 points when he collects 2 red gems and 3 yellow gems. He earns 31 points when he collects 2 yellow gems and 3 blue gems. He earns 23 points when he collects 2 blue gems and 3 red gems. When Brian collects 2 red gems, 2 yellow gems, and 2 blue gems, how many points does he earn?",
     "answer": 30,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o2-a",
     "question": "Evaluate 1357 + 3571 + 5713 + 7135.",
     "answer": 17776,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o2-b",
     "question": "In the figure, four squares are placed on a grid whose small squares are each 1 × 1. What is the perimeter of the shaded figure?",
     "answer": 48,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -4656,22 +8392,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o2-c",
     "question": "On Main Street in Springfield, the first house is numbered 13, and each house number is 4 more than the house right before it. Jenny lives in the last house on the street. Her house number is 221. How many houses are on Main Street?",
     "answer": 53,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o2-d",
     "question": "Exactly seven years ago, Sam was 5 times the age of Janet. Exactly two years ago, Sam was 3 times the age of Janet. What is the sum of their ages today?",
     "answer": 44,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4679,12 +8435,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o2-e",
     "question": "The counting number ABAB is a multiple of 36. If different letters represent different digits, what is the greatest value ABAB can have? -Page may be folded along dotted line",
     "answer": 7272,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4693,46 +8458,84 @@ const moemsBank = [
       "arithmetic",
       "number_sense",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o3-a",
     "question": "What whole number is equal to 2 × 3 × 4 × 5 × 7 × 25?",
     "answer": 21000,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o3-b",
     "question": "Sarah wrote the whole numbers from 1 to 85 on a sheet of paper. How many times did Sarah write the digit 7?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o3-c",
     "question": "Bert and Ernie are looking at their paper clip collections. Bert has 5 paper clips for every 3 paper clips that Ernie has. If Bert gives Ernie 12 paper clips, they will have the same number of paper clips. How many paper clips did Bert have before he gave any to Ernie?",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "ratio_proportion"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o3-d",
     "question": "A rectangle that measures 12 inches × 18 inches is cut into six identical squares by making three cuts. How many inches is the perimeter of one of those six squares?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4740,44 +8543,84 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o3-e",
     "question": "Suppose that WARM - COLD = 6591 and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM? -Page may be folded along dotted line",
     "answer": 7643,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o4-a",
     "question": "Evaluate 987 - 876 + 765 - 654 + 543 - 432 + 321 - 210.",
     "answer": 444,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o4-b",
     "question": "More than twenty people came to a sticker exchange. Every person brought the same number of stickers. Every person brought more than one sticker. In all, there were 141 stickers at the exchange. How many people came to the exchange?",
     "answer": 47,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o4-c",
     "question": "The Fibonacci sequence 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, … is formed by summing two consecutive numbers to get the next number. The number after 55 is 34 + 55 = 89. A Fibonacci game cube has a different Fibonacci number on each face selected from the set {1, 2, 3, 5, 8, 13}. One red and one blue Fibonacci game cube are tossed together. How many of the 36 possible outcomes show a pair of numbers on the tops of the cubes whose sum is also a Fibonacci number?",
     "answer": 11,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4785,12 +8628,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o4-d",
     "question": "Jan is making a logo for her company. She begins with a 6-cm-by-12-cm rectangle. Two points along the bottom side divide that side into three equal pieces. A point on the top side divides that side into two equal pieces. The logo itself is the total shaded area, as shown. What is the area of the shaded logo, in square cm?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -4798,44 +8650,84 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o4-e",
     "question": "A palindromic number is a number that reads the same forwards as it does backwards (example: 282 or 51715). How many 5-digit palindromic numbers have digits that add up to 14?",
     "answer": 25,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o5-a",
     "question": "Evaluate 99 + 11 + 88 + 22 + 77 + 33 + 66 + 44 + 55.",
     "answer": 495,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o5-b",
     "question": "How much greater than 212 is 222 ?",
     "answer": 43,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o5-c",
     "question": "In a cryptarithm, each letter is assigned its own unique digit. In the cryptarithm shown (where MATH is 3 times FUN), FUN is a 3-digit number with its digits in consecutive and increasing order. What 3-digit number is FUN? [No leading digit can be 0.] FUN FUN +FUN MATH",
     "answer": 678,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4844,12 +8736,21 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o5-d",
     "question": "Start with a square as shown, whose perimeter is 800 inches. Penelope folds this in half along the horizontal dotted line. She then folds the result in half along the vertical dotted line shown, and so on, for some number of similar alternating folds (horizontal then vertical). How many folding-in-half steps does Penelope need to do in order to get the perimeter of the resulting quadrilateral to be 100 inches?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4857,58 +8758,105 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2021-22-o5-e",
     "question": "Express the given fraction below in simplest form.",
     "answer": "9/10",
+    "answerType": "fraction",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "fractions"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
+    "year": "2021-2022",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o1-a",
     "question": "What whole number is equal to 222 + 2022 + 2202 + 2220?",
     "answer": 6666,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o1-b",
     "question": "At Todd Morton's donut shop, mini-donuts are sold in boxes of 5, 10, and 20. What is the least number of boxes that must be bought to acquire exactly 95 mini-donuts?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o1-c",
     "question": "What is the greatest counting number that is a factor of both 96 and 120 but has no common factor with 105 other than 1?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o1-d",
     "question": "The figure shown was created when five rectangles were placed side by side. Each rectangle has a base of 2 cm. The heights of the five rectangles are 1 cm, 2 cm, 4 cm, 6 cm, and 8 cm. Compute the perimeter of the figure, in cm.",
     "answer": 36,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -4916,46 +8864,84 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o1-e",
     "question": "The digits a, b, c, and d are used to form the 4-digit number abcd. How many 4-digit numbers have the following three properties? (1) The digits a and d are the same. (2) The digit b is less than any of the other digits (3) The digit c has a value that is halfway between the digits b and d. For example: 7357 is such a number. - Page may be folded along dotted line.",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o2-a",
     "question": "Evaluate: 6789 - 678 + 5678 - 567 + 4567 - 456.",
     "answer": 15333,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o2-b",
     "question": "Maria is placing stakes in her garden in a straight line. The 10 stakes are equally spaced. The first and fourth stakes are 10 feet apart. How far apart, in feet, are the first and tenth stakes? [Ignore the width of the stakes.]",
     "answer": 30,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o2-c",
     "question": "Ellie's favorite number is the least 3-digit number greater than 200 that satisfies the following conditions: (1) it is a multiple of 6 (2) the sum of the digits is 9 What is Ellie's favorite number?",
     "answer": 216,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4964,32 +8950,63 @@ const moemsBank = [
       "arithmetic",
       "number_sense",
       "logic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o2-d",
     "question": "At the Orb Theater, there are 30 rows of seats. The first row has 20 seats, and each row behind the first has 2 seats more than the row in front of it. The last row has 78 seats. What is the total number of seats in the Orb Theater?",
     "answer": 1470,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o3-a",
     "question": "Ann and Andy are asked to evaluate 9 - (5 - 2). Ann evaluates the expression correctly. Andy evaluates incorrectly by ignoring the parentheses. Ann's answer is greater than Andy's answer by the number N. What is the value of N?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o3-b",
     "question": "The number 2022 is a multiple of 6. Including 2022, how many 4-digit counting numbers of the form B0BB, where B is a digit and the second digit is zero, are divisible by 6?",
     "answer": 4,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4997,22 +9014,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o3-c",
     "question": "Lenny sold lemonade at a lemonade stand for $1.25 per cup. He had some change in the drawer at the beginning of the day, and that change was less than the price of one lemonade. At the end of the day, Lenny had $29.22 in the drawer. How many lemonades did Lenny sell that day?",
     "answer": 23,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o3-d",
     "question": "What fraction of the figure shown is shaded? [Note: The figure is composed entirely of 1 × 1 squares.] - Page may be folded along dotted line.",
     "answer": "32/81",
+    "answerType": "fraction",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -5020,34 +9057,63 @@ const moemsBank = [
     "topics": [
       "fractions",
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o3-e",
     "question": "Given the following diagram, how many different paths are there starting at A and ending at B while traveling along the given lines? Each step must move to the next lower row. - Page may be folded along dotted line.",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o4-a",
     "question": "Find the following sum: 4321 5432 6543 7654 8765 +9876",
     "answer": 42591,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o4-b",
     "question": "Jimmy, Kimmy, and Timmy are each thinking of a prime number. The product of Jimmy's and Kimmy's primes is 34. Kimmy's and Timmy's primes multiply to 85. What is the sum of their three prime numbers?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5055,22 +9121,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o4-c",
     "question": "What is 1/2 of 2/3 of 3/4 of 2400?",
     "answer": 600,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o4-d",
     "question": "Part of a 10 × 10 grid is shown in the following diagram. If the pattern shown is continued for the remaining grid, N percent of the entire figure will be shaded. Find the value of the whole number N. [Do not include the percent sign.]",
     "answer": 55,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -5079,56 +9165,105 @@ const moemsBank = [
       "percents",
       "sequences",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o4-e",
     "question": "Use the following 3 equations to determine the value of the last expression.",
     "answer": 25,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "algebra"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o5-a",
     "question": "Find the following sum: 525252 52525 5252 525 52 + 5",
     "answer": 583611,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o5-b",
     "question": "When the expression 2 × 4 × 5 × 8 × 25 × 125 is written as a whole number, how many zeroes does that whole number have?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o5-c",
     "question": "At the Grub Shrub, the following orders were placed: 3 burgers and 6 fries, which cost $30 in total 3 burgers and 2 fries, which cost $18 in total Find the cost, in dollars, of 2 burgers and 3 fries.",
     "answer": 17,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o5-d",
     "question": "Nicolas has 60 inches of wire that he will use to create the edges of a cube with the greatest possible volume. What is the volume of that cube in cubic inches? To accomplish this, the wire will have to be cut into several pieces.",
     "answer": 125,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5136,68 +9271,126 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o5-e",
     "question": "The Elementary School Bowl is a tournament where all the schools play each other exactly once. Springfield Elementary School is one of the schools in the tournament. If there are a total of 28 games in the tournament, how many games does Springfield Elementary School play? - Page may be folded along dotted line.",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o1-a",
     "question": "Compute the product: 2 × 4 × 5 × 15 × 25.",
     "answer": 15000,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o1-b",
     "question": "Jacob has a lucky number, and Emma wants to know it. Jacob tells Emma that if she takes his lucky number, triples it, and adds 95, the result will be 2024. What is Jacob's lucky number?",
     "answer": 643,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o1-c",
     "question": "Emily is playing the video game Super Marlo Sisters. During her game, she collects 8 boxes, each of which has either a coin (worth 100 points) or a flower (worth 250 points). The total score from the 8 boxes is 1250 points. How many of Emily's boxes have flowers?",
     "answer": 3,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o1-d",
     "question": "Nicole has $4.95 in quarters and dimes. If the dimes were quarters and the quarters were dimes, she would have $0.45 less. How many quarters does Nicole have?",
     "answer": 15,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o1-e",
     "question": "A cardboard box with a lid has a volume of 672 in3. The dimensions of the bottom of the box are 8 inches and 12 inches. The box is unfolded to form a flat piece of cardboard, as seen in the diagram. Calculate the number of inches in the perimeter of the decagon (10-sided shape). [The diagram is drawn to scale.] Bottom of Box",
     "answer": 112,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -5206,32 +9399,63 @@ const moemsBank = [
       "geometry",
       "measurement",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o2-a",
     "question": "9753 8642 7531 + 6420",
     "answer": 32346,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o2-b",
     "question": "Elton adds the daily high temperatures at Crocodile Rock from Monday through Friday and then divides the sum by 5. Elton's result is 80°. The next day, John adds the high temperatures at Crocodile Rock from Monday through Saturday and then divides that sum by 6. John's result is 82°. What was the number of degrees for the high temperature on Saturday?",
     "answer": 92,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o2-c",
     "question": "The sum of the digits in each row of the cryptarithm shown is 15. Find the maximum sum for the given cryptarithm. (Recall that in a cryptarithm each of the different letters represents a different digit and no leading digit can be 0.) KLM TU V +XY Z",
     "answer": 2556,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5240,46 +9464,84 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o2-d",
     "question": "Jayden has a collection of 4 by 5 rectangular tiles, and he puts several of them together to make a larger rectangle. Madison has a collection of 8 by 9 rectangular tiles, and she puts several of them together to make a larger rectangle. No part of any of the tiles overlap. Each of their large rectangles has the same area. What is the number of square units in the least possible area for Madison's large rectangle?",
     "answer": 360,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o2-e",
     "question": "The total cost of a lunch bill is equal to twice the money that Art has. The total cost of the bill is triple the money that Bart has. The bill is eight-thirds of the money that Carl has. Assume that everyone has a positive whole number of dollars. After they pay the bill, what is the least possible number of dollars left among the 3 persons?",
     "answer": 942,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o3-a",
     "question": "Compute 200 - 188 + 175 - 163 + 150 - 138 + 125 - 113 + 100 - 88 + 75 - 63 + 50 - 38 + 25 - 13.",
     "answer": 96,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o3-b",
     "question": "Sarah's mystery 4-digit number has consecutive digits in strictly increasing order from left to right. It is also prime. What is her number?",
     "answer": 4567,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5287,22 +9549,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o3-c",
     "question": "The Smith family drove 180 miles to a reunion. They drove the first 60 miles at 30 miles per hour, then the next 60 miles at 40 miles per hour, and finally the last 60 miles at 60 miles per hour. What was their average speed for the whole trip, in miles per hour? [Note: Average rate equals total distance divided by total time.]",
     "answer": 40,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o3-d",
     "question": "How many different counting numbers will leave a remainder of 3 when divided into 178, and a remainder of 2 when divided into 107?",
     "answer": 3,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5310,12 +9592,21 @@ const moemsBank = [
     "topics": [
       "number_sense",
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o3-e",
     "question": "A 2 × 2 × 2 wooden cube is painted red on all faces, including the bottom. The cube is divided into eight 1 × 1 × 1 cubes, and these smaller cubes are rearranged into a 4 × 2 × 1 solid prism. Some, but not all, of the surface area of the 4 × 2 × 1 solid prism will be red. What is the greatest possible number of square units of surface area of the 4 × 2 × 1 solid prism that can be red?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5323,46 +9614,84 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o4-a",
     "question": "What whole number is equal to (3 × 10 + 2 × 10) × (7 × 4 - 2 × 4)?",
     "answer": 1000,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o4-b",
     "question": "Ken began his day with $100. He purchased 100 hotdogs which came in packages of 5 hotdogs. He paid $4.00 for each package. Ken sold the hotdogs at 2 for $5.00. By the end of the day, he sold all the hotdogs except for 4 of them. How many dollars did Ken have at the end of the day?",
     "answer": 260,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o4-c",
     "question": "Dwight, George, and Norman are arranging their toy soldiers in lines. Dwight has 176 toy soldiers. George has 275 toy soldiers. Norman has 396 toy soldiers. The number of toy soldiers in each of their lines is the same, and that number is a prime. How many lines of toy soldiers are there altogether?",
     "answer": 77,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o4-d",
     "question": "The top four layers of a pyramid built with unit cubes is shown. This pattern continues for 6 additional layers below the fourth layer. The 10-layer pyramid is dipped into red paint and then disassembled back into unit cubes. How many unit cubes have no red paint?",
     "answer": 140,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5371,12 +9700,21 @@ const moemsBank = [
       "geometry",
       "sequences",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o4-e",
     "question": "In the cryptarithm shown, different letters represent different digits. What is the greatest five-digit number that THREE could represent given that R = 0? F I VE + FOUR THREE",
     "answer": 17055,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5385,34 +9723,63 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o5-a",
     "question": "Calculate 516 + 625 + 536 + 645 + 556 + 665 + 576 + 685.",
     "answer": 4804,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o5-b",
     "question": "Sandy made the design number '52', as seen in the diagram, by overlapping ten 5 × 2 rectangular tiles. How many square units of area is covered by the design number '52'?",
     "answer": 68,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o5-c",
     "question": "The 4-digit number shown is a multiple of 9. How many 4-digit numbers are possible? 3 4",
     "answer": 11,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5420,12 +9787,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o5-d",
     "question": "How many 3-digit numbers are multiples of 24 and have a 2 as the ones digit?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5433,12 +9809,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2024-25-o5-e",
     "question": "In the given cryptarithm, how many distinct solutions for CD are possible? [Recall that in a cryptarithm each of the different letters represents a different numeral, and no leading digit can be zero.] AB AB AB AB +AB CD",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5447,34 +9832,63 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
+    "year": "2024-2025",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o1-a",
     "question": "What whole number is equal to 73 + 34 + 28 + 27 + 66 + 12?",
     "answer": 240,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o1-b",
     "question": "Sixteen 1 × 1 unit squares form the 4 × 4 grid shown. Four congruent triangles are cut from the corners of the grid, forming an octagon. What is the number of square units in the area of the octagon?",
     "answer": 14,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o1-c",
     "question": "How many 3-digit numbers are multiples of both 20 and 35?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5482,58 +9896,105 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o1-d",
     "question": "Michael started with 5 times as many dollars as Isabella. After Michael gives Isabella $36, Isabella has twice as much money as Michael. How many dollars did Michael start with?",
     "answer": 60,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o1-e",
     "question": "Jayden is working with the set of numbers {0, 1, 2, 4, 8, 16}. By adding 2 or more different numbers from this set, Jayden can make different sums. A few examples are: 0 + 8 = 8, 1 + 4 + 8 = 13, and 8 + 16 = 24. He cannot repeat a number in any one sum. How many different sums are possible? - Page may be folded along dotted line.",
     "answer": 31,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o2-a",
     "question": "What whole number is equal to (91 + 73 + 55 + 37 + 19) - (89 + 67 + 45 + 23 + 1)?",
     "answer": 50,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o2-b",
     "question": "In the diagram shown, the pegs in the geoboard are 1 unit apart horizontally and 1 unit apart vertically. What is the number of square units in the area of the polygon on the geoboard?",
     "answer": 36,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o2-c",
     "question": "The only letter in the number M03M5 is the letter 'M'. The number M03M5 is a multiple of 3 but it is neither a multiple of 9 nor a multiple of 75. What digit does the letter M represent?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5541,24 +10002,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o2-d",
     "question": "In a cartoon scene, Wascal Wabbit is splitting a stack of 44 coins with Elmer Dudd. Wascal begins by putting 1 coin in each of their piles. Then Wascal puts 1 coin in Elmer's pile (raising his total to 2) but adds 2 coins to her own pile (raising her total to 3). This continues, with Wascal putting 1 coin in Elmer's pile and adding the total number of coins from Elmer's pile to her own pile. When all 44 coins have been split into the two piles, how many will be in Wascal's pile?",
     "answer": 36,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o2-e",
     "question": "Ella has a favorite even 4-digit number. The middle two digits are the same. The first digit and last digit are different primes. The product of the digits is between 340 and 350, inclusive. What is Ella's favorite even 4-digit number?",
     "answer": 7552,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5566,12 +10045,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o3-b",
     "question": "Three prime numbers add to 14. What is the product when those three prime numbers are multiplied?",
     "answer": 70,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5580,12 +10068,21 @@ const moemsBank = [
       "arithmetic",
       "number_sense",
       "logic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o3-c",
     "question": "In a cryptarithm, different letters represent different digits, and no leading digit is 0. What is the greatest possible value of the sum 'TWO' in the cryptarithm shown? ONE ONE +ONE TW O",
     "answer": 963,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5594,12 +10091,21 @@ const moemsBank = [
       "arithmetic",
       "algebra",
       "cryptarithm"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o3-d",
     "question": "Kelly glues unit cubes together by matching a 1 × 1 face to another 1 × 1 face to create the open-top box shown. The box has a bottom made of 1 × 1 cubes. What is the total number of cubes used to create this box?",
     "answer": 96,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5607,32 +10113,63 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o3-e",
     "question": "A bug sits on vertex A of a 1 × 2 × 3 rectangular prism. The bug moves along the edges (lines between corners) of the prism, visiting every corner (vertex) of the prism exactly once and returning to vertex A. The bug never retraces any part of an edge. What is the length of the longest path the bug may take to do this? - Page may be folded along dotted line.",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o4-a",
     "question": "Aiden's teacher tells him to pick a secret number. She then tells Aiden to double that secret number and add 11 to that result. Aiden ended up with 2023. What was Aiden's secret number?",
     "answer": 1006,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o4-b",
     "question": "How many two-digit whole numbers are multiples of 7?",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5640,12 +10177,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o4-d",
     "question": "A cubedge box is constructed using 1 × 1 × 1 unit cubes glued entire face to entire face. There are 72 unit cubes in the 6 × 7 × 9 cubedge box shown. How many unit cubes would be needed to build the 4 × 7 × 10 cubedge box?",
     "answer": 68,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5653,12 +10199,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o4-e",
     "question": "The pattern 1 × 2 × 3 × 4 × … × 30 produces a 33-digit number that ends with a group of digits that are all '0'. How many terminal '0' digits in a row are in this ending group? [Example: The number 1000 has 3 terminal zeroes.]",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5666,32 +10221,63 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o5-a",
     "question": "Compute the sum shown at the right. 111 333 555 777 +999",
     "answer": 2775,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o5-b",
     "question": "What whole number is equal to the following: 47 × 11 + 24 × 9 + 53 × 13 + 32 × 7 + 23 × 9 + 21 × 7?",
     "answer": 2000,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o5-c",
     "question": "The first four figures in a geometric pattern are shown below. Starting with the single white square and continuing throughout, each next square is built by increasing one unit of width and one unit of height. Each increase of area alternates between shaded and unshaded. In the 20th shape in this pattern, how many more shaded squares than unshaded squares will there be?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -5699,22 +10285,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "sequences"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o5-d",
     "question": "Ava is a girl who has as many brothers as sisters. Her brother, Aidan, has twice as many sisters as brothers. Including Ava and Aidan, how many children are in their family?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2023-24-o5-e",
     "question": "The following 2 pieces, constructed out of 1 × 1 × 1 unit cubes, can fit together perfectly so that there is no empty space between the pieces. The resulting shape is a rectangular prism. What is the number of square units in the surface area of the prism? (The surface area is the sum of the areas of all the outside faces of the prism.) - Page may be folded along dotted line.",
     "answer": 66,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5723,140 +10329,252 @@ const moemsBank = [
       "arithmetic",
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
+    "year": "2023-2024",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-practice-2026-04-01",
     "question": "Evaluate the sum: 51 - 33 + 42 - 33 + 24 - 33 + 15 - 33.",
     "answer": 0,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-practice-2026-04-03",
     "question": "A square tablecloth covers an area of 256 in². It is folded in half some number of times until the area that it covers is 8 in². How many times was it folded in half?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-practice-2026-04-04",
     "question": "The \"digit sum\" of a whole number is the total of its individual digits (e.g., the digit sum of \"123\" is 6). How many 3-digit numbers have a digit sum of 4? (Note: The hundreds digit cannot be 0).",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-practice-2026-04-05",
     "question": "In a warehouse, a group of identical robots fills orders. In 10 minutes, 5 robots can fill 20 orders. If 8 robots worked at that same rate for an hour, how many orders would they fill?",
     "answer": 192,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-practice-2026-04-07",
     "question": "In the list of numbers 3, 8, 13, 18, ..., 98, there are 20 numbers, and each number after the first is five more than the previous number. All of the numbers are added together to give a sum. What is the units digit of the sum?",
     "answer": 0,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-practice-2026-04-09",
     "question": "Find the sum of the following nine products: 1 x (10 - 1), 2 x (10 - 2), 3 x (10 - 3), ..., 9 x (10 - 9).",
     "answer": 165,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-practice-2026-04-10",
     "question": "Suppose that WARM - COLD = 6591 and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM?",
     "answer": 7643,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
+    "year": "2025-2026",
+    "contest": null,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2020-21-o5-c",
     "question": "Amanda pours 3/4 of her water into Barbara's empty bottle. Barbara then pours 3/5 of her water into Charlie's empty bottle. Charlie then pours 1/2 of his water into David's empty bottle. If David now has 18 ounces of water, how many ounces does Amanda still have?",
     "answer": 20,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "logic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
+    "year": "2020-2021",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-contest-2022-23-o2-e",
     "question": "How many rectangles (including squares) are in this diagram?",
     "answer": 27,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
+    "year": "2022-2023",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i1",
     "question": "Jenna has a secret number. Jenna says, \"If you multiply my number by 3 and then add 7, the result is 130.\" What is Jenna's secret number?",
     "answer": 41,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I1",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i2",
     "question": "What whole number would fill in the blank to make the following statement true? 23 × 14 + 27 × 14 + 23 × 26 + 27 × 26 = 50 ×",
     "answer": 40,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I2",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i3",
     "question": "How many two-digit even numbers contain the digit 4?",
     "answer": 13,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5864,22 +10582,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I3",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i4",
     "question": "At a baseball game, the Adams family buys 3 hot dogs and 4 pretzels for $43.75. At the same game, the Winslow family buys 5 hot dogs and 7 pretzels for $74.75. At the same game, the Chung family buys 4 hot dogs and 6 pretzels. How much money does the Chung family pay for their food?",
     "answer": 62,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I4",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i5",
     "question": "The number A429AAA2 is divisible by 44. What digit is A?",
     "answer": 1,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5887,12 +10625,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I5",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i6",
     "question": "A rectangular piece of cardboard is 10 cm by 8 cm. From each corner, squares of side length 2 cm are cut out. Then, the cardboard is folded to form a rectangular box with no top. What is the greatest number of cubes of side length 1 cm that can fit in the box without going higher than the sides of the box?",
     "answer": 48,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5901,46 +10648,84 @@ const moemsBank = [
       "geometry",
       "measurement",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I6",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i7",
     "question": "Florence runs a flower shop. She wants to display 216 tulips in white vases, 390 carnations in blue vases, and 462 roses in purple vases. She wants each vase to have the same number of flowers. What is the total number of vases Florence needs?",
     "answer": 178,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I7",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i8",
     "question": "Each student in Mrs. Mast's math class rolls a standard six-sided die. No four of the students roll the same number displayed on top. The sum of all the numbers displayed on the tops of the dice is 56. What is the difference between the greatest number of students that could be in Mrs. Mast's math class and the least possible number of students that could be in Mrs. Mast's math class?",
     "answer": 3,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I8",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i9",
     "question": "In the diagram, the large rectangle is 7 units by 8 units. The pentagon in the diagram has all of its vertices (corners) at points where gridlines intersect. What is the area of the pentagon?",
     "answer": 35,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I9",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-i10",
     "question": "In the diagram shown, rectangle ABCD is made up of three squares of side length 12 cm. Annie the Ant and Benny the Bug both start at point A, and they leave point A at the same time. Annie walks from A to B at 8 cm per second, then from B to C at 6 cm per second, and then from C to D at a constant speed. Benny walks directly from A to D at a constant rate of 4 cm per second. Annie and Benny reach point D at the same time. What is Annie's walking speed from point C to point D, in cm per second?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
@@ -5948,34 +10733,63 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I10",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t1",
     "question": "What is the 2025th digit to the right of the decimal point in the decimal expansion of 3/7?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T1",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t2",
     "question": "Darren, Emma, and Finn are playing a game. They have a total of 29 points. Darren and Emma have the same number of points. Finn has 1 more than Darren and Emma combined. How many points does Emma have?",
     "answer": 7,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T2",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t3",
     "question": "A four-sided polygon has an area of 2025 cm2. What is the least perimeter, in cm, the polygon may have?",
     "answer": 180,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -5983,34 +10797,63 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T3",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t4",
     "question": "What whole number is equal to 888 × 222 - 555 × 333?",
     "answer": 12321,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T4",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t5",
     "question": "Call a four-digit positive integer up-up if the second digit is greater than the first and if the fourth digit is greater than the third. Examples of up-up integers are 1625, 4689, and 6879. How many four-digit up-up integers can be formed using the digits in {1, 3, 5, 7} each exactly once in each number?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T5",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t6",
     "question": "The octagon shown has right angles at every corner. It was formed by overlapping two 3 × 5 rectangles. The octagon has area 26, and the overlap region is a square. What is the perimeter of the octagon?",
     "answer": 24,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6018,34 +10861,63 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T6",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t7",
     "question": "Four girls have pooled their stickers and are planning to share their stickers evenly. They find that when they try to share the stickers among the four of them, everybody gets some stickers, but there is 1 extra sticker. Then, a fifth girl joins the group. She doesn't have any new stickers to contribute. The group of five girls finds that there are 2 extra stickers after everybody gets the same number of stickers. Then, a sixth girl joins the group, and she contributes 9 more stickers to the set. The group is then able to divide all of the stickers evenly among the six girls. What is the least number of stickers the four original girls could have had?",
     "answer": 57,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T7",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t8",
     "question": "The Springfield Elementary School encouraged students to wear school colors for a parade. In Mrs. Lopez's class, 3/4 of the students wore school colors on the day of the parade. In Mrs. Dillon's class, 4/5 of the students wore school colors on the day of the parade. When it was time for the parade, each person wearing school colors from Mrs. Lopez's class walked side-by-side with a student from Mrs. Dillon's class who was wearing school colors. What fraction of all students from both classes were wearing school colors?",
     "answer": "24/31",
+    "answerType": "fraction",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "fractions"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T8",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t9",
     "question": "In a game, the goal is to place a prime number or the number '1' in each box so the 15 product of the numbers in each row is the number at the right of the row and the 154 product of the numbers in each column is the number at the bottom of the column. Each box has a different number. Find the sum of the four numbers in the corner 4199 boxes of the grid? 78 187",
     "answer": 40,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6053,12 +10925,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T9",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-t10",
     "question": "From each of the 8 corners of a 3 × 3 × 4 red wooden block, a 1 × 1 × 1 cube is removed. Then, that block is painted blue on all faces (including the bottom). That block is cut into twenty-eight 1 × 1 × 1 cubes, and those cubes are rearranged into a 2 × 2 × 7 rectangular block. What is the greatest possible surface area, in square units, of that rectangular block that could be blue?",
     "answer": 50,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6066,12 +10947,21 @@ const moemsBank = [
     "topics": [
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Team T10",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-tb1",
     "question": "Beth's secret passcode is the 5-digit number ABCDE. All of the digits are different. She gives two clues to her secret passcode. (1) A + B = C (2) A + B + C = 10D + E, which means that DE is a 2-digit number. What is the least counting number that could be Beth's secret passcode?",
     "answer": 23510,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6079,122 +10969,231 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB1",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-tb2",
     "question": "Hannah starts a list of counting numbers at 20 and counts by 4s. The first four numbers in Hannah's list are 20, 24, 28, 32. If the list continues, what is the 2025th number in Hannah's list?",
     "answer": 8116,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB2",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-tb3",
     "question": "Sheila went shopping. She spent 3/5 of her money on a hat, and then she spent 3/4 of her remaining money on a shirt. After those two purchases, Sheila had $10. How many dollars did Sheila have at the start of the shopping trip?",
     "answer": 100,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB3",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-tb4",
     "question": "Ben, Gwen, Jen, and Ken are asked to sit in a row from left to right. Ben and Ken are best friends who ask to sit together. In how many ways can they all sit in a row with Ben and Ken next to each other?",
     "answer": 12,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB4",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2025-tb5",
     "question": "What counting number N makes this sentence true? 2020 + 4040 + 6060 + 8080 + N = 2025 + 4050 + 6075 +",
     "answer": 50,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB5",
+    "year": "2024-2025",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i1",
     "question": "For what whole number N is it true that 44 × 46 = 11 × N?",
     "answer": 184,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I1",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i2",
     "question": "What whole number is equal to 107 + 63 - 91 + 137 - 59 + 93?",
     "answer": 250,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I2",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i3",
     "question": "A group of Taylor Fast fan clubs planned a bus trip to one of her concerts. Six fan clubs had 10 members each. Eight fan clubs had 16 members each. Four fan clubs had 20 members each. Each bus could carry up to 50 people. What is the least number of buses the group would need?",
     "answer": 6,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I3",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i4",
     "question": "A sequence begins 9, 15, 21, 27, and so on, with each number 6 more than the previous number in the sequence. How many numbers in the sequence are less than 2024?",
     "answer": 336,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I4",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i5",
     "question": "How many rectangles (of all sizes) are formed using the lines (solid and dotted) in the diagram?",
     "answer": 8,
+    "answerType": "number",
     "hasFigure": true,
     "solvableWithoutFigure": false,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I5",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i6",
     "question": "In a game of Settlers of Baton Rouge, players pay their debts with sheep (worth $840 each) and goats (worth $440 each). For example, if a player owed $360, the player could pay 2 sheep (worth $1680) and receive 3 goats (worth $1320) as \"change\". What is the least debt greater than $1 that could be paid in this way?",
     "answer": 40,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I6",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i7",
     "question": "Isabella is planning a poster by making a scale version of it first. In the scale version of the poster, there is an equilateral triangle with sides of length 24 inches and a rectangle with dimensions 40 inches by 18 inches. When the poster is made full-size, the equilateral triangle will have sides of length 60 inches. Find the area of the full-size rectangle in square inches.",
     "answer": 4500,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6202,68 +11201,126 @@ const moemsBank = [
     "topics": [
       "geometry",
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I7",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i9",
     "question": "A group of senior citizens is planning a trip. The total cost of the trip is $3000, and this cost will be split evenly among everyone in the group. Then the group admitted 15 more people, and the cost per person dropped by $45. How many people will go on the trip?",
     "answer": 40,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I9",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-i10",
     "question": "Sam cuts 3 × 3 squares from each of the four corners of a 16 × 24 piece of cardboard and folds the cardboard to create a rectangular box without a top. Then, Sam fills the box with as many 2 × 2 × 3 blocks as Sam can fit. What is the greatest number of 2 × 2 × 3 blocks Sam can fit in the box without exceeding the height of the box?",
     "answer": 45,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I10",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t1",
     "question": "What is the greatest multiple of 24 that is less than 2000?",
     "answer": 1992,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T1",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t2",
     "question": "What whole number is equal to (263 + 198 + 384 + 495) - (113 + 48 + 234 + 345)?",
     "answer": 600,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T2",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t3",
     "question": "In the Springfield Math Circle, there are 60 students. There are 5 times as many right-handed students as left-handed students. How many left-handed students are there in the Math Circle?",
     "answer": 10,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T3",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t4",
     "question": "The four-digit number ABBB is divisible by 72. If B is not zero, what is A + B?",
     "answer": 11,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6271,24 +11328,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T4",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t5",
     "question": "Emma is ordering a Kiddie Meal at the Burger Bell. She can choose a hamburger or a cheeseburger or a bacon burger. She can choose French fries or apple slices. She can choose a milk or a juice or a bottle of water. If Emma must select 1 item from each of the 3 categories how many different Kiddie Meals could Emma order?",
     "answer": 18,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "counting_combinatorics"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T5",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t6",
     "question": "Three squares have positive integer side lengths. The squares have a total area of 35 square cm. They are glued together at their edges to form a polygon of area 35 square cm. What is the number of cm in the least possible perimeter the polygon may have?",
     "answer": 26,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6296,24 +11371,42 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T6",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t7",
     "question": "The Springfield Math Club is using the digits in the set {0, 2, 4, 6, 8}, each exactly once, to make a three-digit number and a two-digit number with the greatest possible product. What is this greatest possible product?",
     "answer": 52480,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T7",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t8",
     "question": "Each person in a group is holding one card with a different whole number from the set {1, 2, 3, …, 25}. No sum of any two of the integers is a multiple of 5. What is the greatest number of people who could be in the group?",
     "answer": 11,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6321,12 +11414,21 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T8",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t9",
     "question": "Mrs. Kraft's eight art students each have 108 unit cubes. Each student glues together their unit cubes to form a rectangular solid where the length is longer than the width and the width is longer than the height. Each student's resulting rectangular solid has a different surface area. Find the positive difference between the solid with the greatest surface area minus the solid with the least surface area.",
     "answer": 178,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6335,24 +11437,42 @@ const moemsBank = [
       "arithmetic",
       "geometry",
       "spatial"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T9",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-t10",
     "question": "Sophia is writing a list, in increasing order, of the positive integers that don't contain an 8 or a 9 as any digit. The list begins 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, and so on. What is the 2024th number in Sophia's list?",
     "answer": 3750,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T10",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-tb2",
     "question": "What is the least seven-digit counting number that is a multiple of 99?",
     "answer": 1000098,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6360,24 +11480,42 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB2",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-tb3",
     "question": "Four friends ordered a large pizza and some chicken wings. They split the cost evenly, with each friend paying $7.50. If two more friends had joined them and all friends split the cost evenly, how many dollars would each friend have paid?",
     "answer": 5,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB3",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-tb4",
     "question": "There are three different prime factors of 627. Find the sum of these three primes.",
     "answer": 33,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6385,32 +11523,63 @@ const moemsBank = [
     "topics": [
       "arithmetic",
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB4",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "e-tourn-2023-24-tb5",
     "question": "What whole number is equal to 2022 + 2023 + 2024 + 2025 + 2026?",
     "answer": 10120,
+    "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB5",
+    "year": "2023-2024",
+    "contest": "Tournament",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-01",
     "question": "Compute: 18 + 21 + 24 + 27 + 30 (A) 100 (B) 105 (C) 110 (D) 115 (E) 120",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-02",
     "question": "A square has a perimeter of 16 cm. What is its area? (A) 4 cm2 (B) 8 cm2 (C) 16 cm2 (D) 64 cm2 (E) 256 cm2",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6418,200 +11587,378 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-03",
     "question": "When it is 11:45 AM in Virginia, it is 5:30 AM in the Chatham Islands, New Zealand. If the time difference is always the same, what time is it in Virginia when it is 8:30 PM in the Chatham Islands? (A) 8:45 PM (B) 2:45 PM (C) 1:45 PM (D) 8:15 AM (E) 2:45 AM",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "time"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-04",
     "question": "Aurelia writes each value from the set 1.085, 1 , 185%, , 1.58 onto each of five cards. What is the median value of Aurelia's five cards? (A) 1.085 (B) 1 (C) 185% (D) (E) 1.58",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "A",
     "topics": [
       "percents"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "A",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-05",
     "question": "At an arcade, Mona and Lisa played a game of Hungry Hippo with 400 marbles on the field. At the end of the game, Mona had collected 50 more marbles than Lisa did, and 40 marbles remained on the field. How many marbles did Lisa collect? (A) 110 (B) 130 (C) 135 (D) 155 (E) 170",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-06",
     "question": "How many integers greater than 36 but less than 99 are multiples of 9? (A) 5 (B) 6 (C) 7 (D) 8 (E) 9",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "number_sense"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-07",
     "question": "Kenneth measured daily temperature in his backyard. He recorded each day's temperature change (°F) compared to the previous day, as shown in the chart below. If the temperature measured on Friday was 55 °F, what was the temperature measured on Tuesday? Day of Week Monday Tuesday Wednesday Thursday Friday Change from Previous Day (°F) −5 +10 +5 −10 −15 (A) 45 °F (B) 50 °F (C) 60 °F (D) 65 °F (E) 75 °F",
     "answer": null,
+    "answerType": null,
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-08",
     "question": "A four-sided star figure is drawn on a 7 × 7 dot grid. The distance between any two closest neighboring dots is 2. What is the area of this figure? (A) 12 (B) 18 (C) 24 (D) 48 (E) 72",
     "answer": null,
+    "answerType": null,
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "B",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "B",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-09",
     "question": "Baker Becky prepared a square tray of brownies and wants to cut it into 48 equal rectangular pieces. Each cut must be a single straight line that goes from one edge of the tray to the opposite edge. What is the minimum number of cuts required? (A) 12 (B) 14 (C) 16 (D) 24 (E) 47",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "geometry"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-10",
     "question": "A fair coin is flipped four times. Each head scores 1 point, and each tail scores 2 points. What is the probability that the total score is exactly 6 points? (A) (B) (C) (D) (E)",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-11",
     "question": "It costs 15 dollars to buy 2 watermelons and 5 oranges. It costs 27 dollars to buy 5 watermelons and 2 oranges. How many dollars does it cost to buy 1 watermelon and 1 orange?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
     "topics": [
       "money"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-12",
     "question": "Brad the Grad placed 8 rows of 6 chairs, 16 rows of 12 chairs, and 24 rows of 14 chairs for a graduation ceremony event. The event manager asked Brad to rearrange the chairs so that each row will have an equal number of chairs. The total number of rows must remain the same as before. How many chairs in each row should the new seating layout have?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "C",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "C",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-13",
     "question": "In a commodity game marketplace, 25 gold blocks are worth 40 silver blocks, and 25 bronze blocks are worth 12 silver blocks. How many bronze blocks are worth 150 gold blocks in the marketplace?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-14",
     "question": "How many unique ways are there to arrange the letters in MAMTS ?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-15",
     "question": "Endy creates an endless list of numbers according to the following rules. If the current number is even, the next number equals the current number plus the sum of its digits. If the current number is odd, the next number equals the current number minus the sum of its digits. For example, if the current number is 26, then the next number will be 26 + (2 + 6) = 34. The first number of Endy's endless list is 2026. What is the 2026th number of the list?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
     "topics": [
       "arithmetic"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-16",
     "question": "At a math camp with 30 students, 28 students studied algebra, 22 students studied geometry, and 15 students studied probability. If each student studied at least two of these subjects, how many students studied all three subjects?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "D",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "D",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-17",
     "question": "Three little pigs took turns building a house by using bricks from a pile of bricks. In the morning, the first pig used one-third of the bricks in the pile. In the afternoon, the second pig used one-third of the bricks remaining in the pile. In the evening, the third pig used one-third of the bricks remaining in the pile after that. If there were 16 bricks le in the pile at the end of the day, what was the total number of bricks used by the three little pigs?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-18",
     "question": "Watson is participating in a read-a-thon to read two more pages than the previous day. On the first day of the read-a-thon, Watson begins reading a 170-page book. On the fi h day, Watson reads 16 pages. How many days of read-a-thon does it take Watson to finish the book?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
-    "topics": []
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-19",
     "question": "It takes Rosa and Lee 40 minutes to shovel a driveway together. It takes Carter 60 minutes to shovel the same driveway. If Rosa, Lee, and Carter all work together, how many minutes will it take them to shovel the driveway?",
     "answer": null,
+    "answerType": null,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": "E",
     "topics": [
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   },
   {
     "id": "mamts-2026-e-20",
     "question": "A micro-triangle is an equilateral triangle with side length of 1 unit. A mega-triangle is a larger equilateral triangle formed by joining micro-triangles edge-to-edge without gaps. For example, the largest mega-triangle that can be formed with 12 micro-triangles has a side length of 3 units, as shown below. If Megan has 2026 micro-triangles, what is the perimeter of the largest mega-triangle she can form? 3 10 11 largest mega-triangle 2 4 3 le over micro-triangles 6 8 5 7 9 12",
     "answer": null,
+    "answerType": null,
     "hasFigure": true,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -6619,6 +11966,14 @@ const moemsBank = [
     "topics": [
       "geometry",
       "measurement"
-    ]
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
+    "year": "2025-2026",
+    "contest": "Championship",
+    "solution": null,
+    "schema": "v2",
+    "difficultyLabel": "E",
+    "difficultyTier": null
   }
 ];

@@ -67,7 +67,7 @@
         <button type="button" id="next-btn" onclick="loadNextQuestion()">Next Question</button>
     </div>
 
-    <!-- Structured bank: keep moemsBank.js and figures/ next to this HTML -->
+    <!-- Structured bank from schema v2 (problems.v2.json → moemsBank.js). Keep moemsBank.js + figures/ next to this HTML. -->
     <script src="moemsBank.js"></script>
     <script>
         let pool = [];
@@ -411,7 +411,13 @@
             const bits = [];
             if (pick.id) bits.push(pick.id);
             bits.push(sourceFamily(pick.id));
-            if (pick.difficulty) bits.push("Level " + pick.difficulty);
+            const diff = pick.difficultyLabel || pick.difficulty;
+            if (diff) bits.push("Level " + diff);
+            else if (pick.difficultyTier != null) bits.push("Tier " + pick.difficultyTier);
+            if (pick.year) bits.push(String(pick.year));
+            if (pick.topics && pick.topics.length && pick.topics[0] !== "Uncategorized") {
+                bits.push(pick.topics[0]);
+            }
             if (pick.figure) bits.push("diagram");
             else if (pick.hasFigure) bits.push("diagram missing");
             document.getElementById("meta-line").textContent = bits.join(" · ");
