@@ -3,73 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOEMS Question Bank</title>
+    <title>MOEMS Practice App</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-        }
-        #questions-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .question-card {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .question {
-            font-weight: bold;
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-        .answer {
-            color: #d9534f;
-            font-weight: bold;
-        }
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; text-align: center; color: #333; }
+        #app-container { max-width: 600px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .stats-board { display: flex; justify-content: space-around; margin-bottom: 20px; padding: 15px; background: #e9ecef; border-radius: 8px; font-weight: bold; }
+        #question-display { font-size: 1.2em; margin: 20px 0; min-height: 60px; }
+        input[type="text"] { padding: 10px; font-size: 1em; width: 60%; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 4px; }
+        button:hover { background-color: #0056b3; }
+        #feedback { margin: 15px 0; font-weight: bold; font-size: 1.1em; min-height: 25px; }
+        #next-btn { display: none; background-color: #28a745; margin-top: 10px; }
+        #next-btn:hover { background-color: #218838; }
     </style>
 </head>
 <body>
 
-    <h1>MOEMS Question Bank (Answered Only)</h1>
-    <div id="questions-container"></div>
+    <div id="app-container">
+        <h1>MOEMS Practice</h1>
+        
+        <div class="stats-board">
+            <div>Solved: <span id="stat-solved">0</span></div>
+            <div>Accuracy: <span id="stat-accuracy">0%</span></div>
+            <div>Avg Time: <span id="stat-time">0s</span></div>
+        </div>
 
-    <!-- Ensure moemsBank.js is in the same directory as this index.html file -->
+        <div id="question-display">Loading question...</div>
+        
+        <input type="text" id="answer-input" placeholder="Enter your answer..." autocomplete="off">
+        <br>
+        <button id="submit-btn" onclick="checkAnswer()">Submit</button>
+        
+        <div id="feedback"></div>
+        <button id="next-btn" onclick="loadNextQuestion()">Next Question</button>
+    </div>
+
+    <!-- Ensure moemsBank.js is in the same directory -->
     <script src="moemsBank.js"></script>
     <script>
+        let validQuestions = [];
+        let currentQuestion = null;
+        let startTime = 0;
+        let totalTime = 0; // in seconds
+        let problemsAttempted = 0;
+        let problemsSolved = 0;
+
         document.addEventListener("DOMContentLoaded", () => {
-            const container = document.getElementById('questions-container');
-
-            // Filter the moemsBank array to only include questions with non-null answers
-            const answeredQuestions = moemsBank.filter(item => item.answer !== null);
-
-            // Generate HTML for each filtered question
-            answeredQuestions.forEach((item, index) => {
-                const card = document.createElement('div');
-                card.className = 'question-card';
-
-                const questionEl = document.createElement('div');
-                questionEl.className = 'question';
-                questionEl.textContent = `${index + 1}. ${item.question}`;
-
-                const answerEl = document.createElement('div');
-                answerEl.className = 'answer';
-                answerEl.textContent = `Answer: ${item.answer}`;
-
-                card.appendChild(questionEl);
-                card.appendChild(answerEl);
-                container.appendChild(card);
+            // Filter out any questions without answers
+            validQuestions = moemsBank.filter(q => q.answer !== null);
+            loadNextQuestion();
+            
+            // Allow pressing 'Enter' to submit
+            document.getElementById("answer-input").addEventListener("keypress", function(event) {
+                if (event.key === "Enter" && document.getElementById("submit-btn").style.display !== "none") {
+                    event.preventDefault();
+                    checkAnswer();
+                } else if (event.key === "Enter" && document.getElementById("next-btn").style.display !== "none") {
+                    event.preventDefault();
+                    loadNextQuestion();
+                }
             });
         });
+
+        function loadNextQuestion() {
+            const randomIndex = Math.floor(Math.random() * validQuestions.length);
+            currentQuestion = validQuestions[randomIndex];
+            
+            document.getElementById('question-display').textContent = currentQuestion.question;
+            document.getElementById('answer-input').value = '';
+            document.getElementById('answer-input').disabled = false;
+            document.getElementById('feedback').textContent = '';
+            document.getElementById('next-btn').style.display = 'none';
+            document.getElementById('submit-btn').style.display = 'inline-block';
+            
+            document.getElementById('answer-input').focus();
+            startTime = Date.now();
+        }
+
+        function checkAnswer() {
+            const userAnswer = document.getElementById('answer-input').value.trim();
+            if (userAnswer === "") return; // Prevent empty submissions
+
+            const timeTaken = (Date.now() - startTime) / 1000; 
+            totalTime += timeTaken;
+            problemsAttempted++;
+
+            // Convert both to strings and lowercase for a forgiving comparison
+            const isCorrect = userAnswer.toLowerCase() === String(currentQuestion.answer).toLowerCase().trim();
+
+            const feedbackEl = document.getElementById('feedback');
+            if (isCorrect) {
+                problemsSolved++;
+                feedbackEl.textContent = "Correct! Great job.";
+                feedbackEl.style.color = "green";
+            } else {
+                feedbackEl.textContent = `Incorrect. The correct answer was: ${currentQuestion.answer}`;
+                feedbackEl.style.color = "red";
+            }
+
+            updateStats();
+            
+            // Toggle buttons and input state
+            document.getElementById('answer-input').disabled = true;
+            document.getElementById('submit-btn').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'inline-block';
+            document.getElementById('next-btn').focus();
+        }
+
+        function updateStats() {
+            const accuracy = Math.round((problemsSolved / problemsAttempted) * 100);
+            const avgTime = Math.round(totalTime / problemsAttempted);
+
+            document.getElementById('stat-solved').textContent = problemsSolved;
+            document.getElementById('stat-accuracy').textContent = `${accuracy}%`;
+            document.getElementById('stat-time').textContent = `${avgTime}s`;
+        }
     </script>
 </body>
 </html>
