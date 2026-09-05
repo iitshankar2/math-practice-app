@@ -2660,7 +2660,7 @@ const moemsBank = [
   },
   {
     "id": "user-feb17-row-2",
-    "question": "The School Bus (Logical Constraints) Three friends-Abby, Ben, and Chloe-are sitting in a row of three seats on a bus. Abby refuses to sit next to Chloe. In how many different ways can the three friends be seated?",
+    "question": "The School Bus (Logical Constraints) Three friends—Abby, Ben, and Chloe—are sitting in a row of three seats on a bus. Abby refuses to sit next to Chloe. In how many different ways can the three friends be seated?",
     "answer": 2,
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -4000,7 +4000,7 @@ const moemsBank = [
   },
   {
     "id": "user-imc-2019-g6-09",
-    "question": "Any time Speedy the Sloth is not sleeping, she drinks chamomile tea at a steady rate of 7 of a 17 cup per hour. Yesterday, she drank 1 cup. If today she drank 42 of a cup more than yesterday, how long (in minutes) did she stay awake today?",
+    "question": "Any time Speedy the Sloth is not sleeping, she drinks chamomile tea at a steady rate of 2/7 of a cup per hour. Yesterday, she drank 1 cup. If today she drank 17/42 of a cup more than yesterday, how long (in minutes) did she stay awake today?",
     "answer": 295,
     "hasFigure": false,
     "solvableWithoutFigure": true,
