@@ -8,7 +8,7 @@
         body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; text-align: center; color: #333; }
         #app-container { max-width: 600px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
         .stats-board { display: flex; justify-content: space-around; margin-bottom: 20px; padding: 15px; background: #e9ecef; border-radius: 8px; font-weight: bold; }
-        #question-display { font-size: 1.2em; margin: 20px 0; min-height: 60px; }
+        #question-display { font-size: 1.2em; margin: 20px 0; min-height: 60px; text-align: left; }
         input[type="text"] { padding: 10px; font-size: 1em; width: 60%; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
         button { padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 4px; }
         button:hover { background-color: #0056b3; }
@@ -32,10 +32,10 @@
         
         <input type="text" id="answer-input" placeholder="Enter your answer..." autocomplete="off">
         <br>
-        <button id="submit-btn" onclick="checkAnswer()">Submit</button>
+        <button type="button" id="submit-btn" onclick="checkAnswer()">Submit</button>
         
         <div id="feedback"></div>
-        <button id="next-btn" onclick="loadNextQuestion()">Next Question</button>
+        <button type="button" id="next-btn" onclick="loadNextQuestion()">Next Question</button>
     </div>
 
     <!-- Ensure moemsBank.js is in the same directory -->
@@ -47,51 +47,276 @@
         let totalTime = 0; // in seconds
         let problemsAttempted = 0;
         let problemsSolved = 0;
+        let lastIndex = -1;
+
+        /** Kid-friendly cleanup before parsing. */
+        function cleanKidInput(raw) {
+            let s = String(raw).trim().toLowerCase();
+            if (!s) return "";
+
+            // strip common lead-ins kids type
+            s = s.replace(/^(the\s+)?(correct\s+)?answer\s*(is|=|:)?\s*/i, "");
+            s = s.replace(/^(ans|a|x|y|n)\s*[=:]\s*/i, "");
+
+            // unwrap parentheses / quotes around the whole thing
+            s = s.replace(/^[\("'\[{]+/, "").replace(/[\)"'\]}]+$/, "");
+            s = s.replace(/[!?.]+$/g, "");
+
+            // money / percent
+            s = s.replace(/\$/g, "");
+            s = s.replace(/%/g, "");
+
+            // common units and labels (leave the number)
+            s = s.replace(/\b(square\s+)?(centimeters?|centimetres?|cm|meters?|metres?|kilometers?|kilometres?|km|inches|inch|in|feet|foot|ft|yards?|yd|miles?)\b/g, "");
+            s = s.replace(/\b(sq\.?\s*)?(cm|m|ft|in)(\^?2|²)?\b/g, "");
+            s = s.replace(/\b(minutes?|mins?|hours?|hrs?|seconds?|secs?|degrees?|deg)\b/g, "");
+            s = s.replace(/\b(dollars?|cents?|pounds?|lbs?|ounces?|oz)\b/g, "");
+            s = s.replace(/\b(students?|people|kids?|children|coins?|marbles?|cubes?|tiles?|pages?|bags?|ways?|times?|units?|rungs?|cakes?|apples?|books?|pencils?|years?|days?|weeks?|games?|points?|members?)\b/g, "");
+
+            // degree symbol
+            s = s.replace(/°/g, "");
+
+            // thousand separators: 29,997 → 29997 (but keep list commas via later split)
+            // only collapse commas between digits when it's a thousands pattern
+            s = s.replace(/(\d),(\d{3})\b/g, "$1$2");
+            s = s.replace(/(\d),(\d{3})\b/g, "$1$2"); // twice for 1,234,567
+
+            s = s.replace(/\s+/g, " ").trim();
+            return s;
+        }
+
+        /** Clock time → HHMM number matching the bank encoding (7:53 AM → 753). */
+        function parseClockToHHMM(s) {
+            let m = s.match(/^(\d{1,2})\s*:\s*(\d{2})\s*(a\.?m\.?|p\.?m\.?)?$/i);
+            if (m) {
+                let hh = Number(m[1]);
+                const mm = Number(m[2]);
+                const ap = (m[3] || "").toLowerCase().replace(/\./g, "");
+                if (ap === "pm" && hh !== 12) hh += 12;
+                if (ap === "am" && hh === 12) hh = 0;
+                if (mm > 59 || hh > 23) return null;
+                return hh * 100 + mm;
+            }
+            m = s.match(/^(\d{1,2})\s*(a\.?m\.?|p\.?m\.?)$/i);
+            if (m) {
+                let hh = Number(m[1]);
+                const ap = m[2].toLowerCase().replace(/\./g, "");
+                if (ap === "pm" && hh !== 12) hh += 12;
+                if (ap === "am" && hh === 12) hh = 0;
+                return hh * 100;
+            }
+            return null;
+        }
+
+        /** Parse a single token into a comparable number, or null if not numeric. */
+        function parseNumericToken(token) {
+            let s = cleanKidInput(token);
+            if (!s) return null;
+
+            const clock = parseClockToHHMM(s);
+            if (clock !== null) return clock;
+
+            // mixed number: "1 1/2"
+            let mixed = s.match(/^(-?\d+)\s+(\d+)\s*\/\s*(\d+)$/);
+            if (mixed) {
+                const whole = Number(mixed[1]);
+                const a = Number(mixed[2]);
+                const b = Number(mixed[3]);
+                if (!b) return null;
+                const frac = a / b;
+                return whole >= 0 ? whole + frac : whole - frac;
+            }
+
+            // fraction: "7/10" or "-3/4"
+            let frac = s.match(/^(-?\d+)\s*\/\s*(-?\d+)$/);
+            if (frac) {
+                const a = Number(frac[1]);
+                const b = Number(frac[2]);
+                if (!b) return null;
+                return a / b;
+            }
+
+            // plain number: "0.6", ".6", "753", "-5"
+            if (/^-?\d*\.?\d+$/.test(s) || /^-?\d+\.\d*$/.test(s)) {
+                const n = Number(s);
+                return Number.isFinite(n) ? n : null;
+            }
+
+            // last resort: extract a lone number from leftover words ("14 cakes" after partial clean)
+            const nums = s.match(/-?\d*\.?\d+/g);
+            if (nums && nums.length === 1) {
+                const n = Number(nums[0]);
+                return Number.isFinite(n) ? n : null;
+            }
+
+            return null;
+        }
+
+        /** Split multi-value answers on commas / "and" / "or", or spaces between numbers. */
+        function splitParts(raw) {
+            let s = cleanKidInput(raw);
+            if (!s) return [];
+            if (/[,;]|\band\b|\bor\b/.test(s)) {
+                return s.split(/\s*(?:,|;|\band\b|\bor\b)\s*/).map(p => p.trim()).filter(Boolean);
+            }
+            // Keep single values that contain spaces: "7 / 10", "1 1/2", "7:53 am"
+            if (parseNumericToken(s) !== null) {
+                return [s];
+            }
+            // "5 6" or "58 59 60"
+            if (/\s/.test(s) && /^[\d\s.\/:\-apm]+$/i.test(s)) {
+                const parts = s.split(/\s+/).filter(Boolean);
+                if (parts.every(p => parseNumericToken(p) !== null)) {
+                    return parts;
+                }
+            }
+            return [s];
+        }
+
+        /** Normalize a single part for exact string fallback. */
+        function normalizePartString(part) {
+            return cleanKidInput(part)
+                .replace(/\s*\/\s*/g, "/")
+                .replace(/\s+/g, "");
+        }
+
+        function numbersClose(a, b) {
+            if (Math.abs(a - b) < 1e-9) return true;
+            // allow slight decimal rounding kids type for non-integer answers (0.67 ≈ 2/3)
+            const correctIsInt = Math.abs(b - Math.round(b)) < 1e-9;
+            if (!correctIsInt && Math.abs(a - b) < 0.005) return true;
+            return false;
+        }
+
+        /**
+         * Kid-friendly answer check:
+         * - ignores units, $, %, "answer is", extra words
+         * - times like 7:53 AM match bank HHMM
+         * - multi-answers order-independent
+         * - fractions ↔ decimals, .6 == 0.6
+         * - mild decimal rounding tolerance for non-integers
+         */
+        function answersMatch(userRaw, correctRaw) {
+            const userParts = splitParts(userRaw);
+            const correctParts = splitParts(correctRaw);
+
+            if (userParts.length === 0 || correctParts.length === 0) return false;
+
+            // If kid typed one blob but correct is multi (or vice versa), still try numeric extract
+            const userNums = userParts.map(parseNumericToken);
+            const correctNums = correctParts.map(parseNumericToken);
+
+            if (userParts.length === correctParts.length &&
+                userNums.every(n => n !== null) && correctNums.every(n => n !== null)) {
+                const remaining = correctNums.slice();
+                for (const u of userNums) {
+                    const idx = remaining.findIndex(c => numbersClose(u, c));
+                    if (idx === -1) return false;
+                    remaining.splice(idx, 1);
+                }
+                return true;
+            }
+
+            // Single kid input that contains the same numbers as a multi answer
+            if (userParts.length === 1 && correctParts.length > 1) {
+                const extracted = (cleanKidInput(userRaw).match(/-?\d+\.?\d*|\d*\.\d+/g) || [])
+                    .map(Number)
+                    .filter(n => Number.isFinite(n));
+                if (extracted.length === correctNums.length && correctNums.every(n => n !== null)) {
+                    const remaining = correctNums.slice();
+                    for (const u of extracted) {
+                        const idx = remaining.findIndex(c => numbersClose(u, c));
+                        if (idx === -1) return false;
+                        remaining.splice(idx, 1);
+                    }
+                    return true;
+                }
+            }
+
+            if (userParts.length !== correctParts.length) return false;
+
+            // Fallback: normalized string multiset
+            const remaining = correctParts.map(normalizePartString);
+            for (const u of userParts.map(normalizePartString)) {
+                const idx = remaining.indexOf(u);
+                if (idx === -1) return false;
+                remaining.splice(idx, 1);
+            }
+            return true;
+        }
 
         document.addEventListener("DOMContentLoaded", () => {
-            // Filter out any questions without answers
-            validQuestions = moemsBank.filter(q => q.answer !== null);
+            if (typeof moemsBank === "undefined") {
+                document.getElementById("question-display").textContent =
+                    "Could not load moemsBank.js. Put it in the same folder as this HTML file.";
+                document.getElementById("submit-btn").disabled = true;
+                document.getElementById("answer-input").disabled = true;
+                return;
+            }
+
+            validQuestions = moemsBank.filter(q =>
+                q && q.question && q.answer !== null && q.answer !== undefined && String(q.answer).trim() !== ""
+            );
+
+            if (validQuestions.length === 0) {
+                document.getElementById("question-display").textContent = "No questions with answers found.";
+                document.getElementById("submit-btn").disabled = true;
+                document.getElementById("answer-input").disabled = true;
+                return;
+            }
+
             loadNextQuestion();
-            
-            // Allow pressing 'Enter' to submit
-            document.getElementById("answer-input").addEventListener("keypress", function(event) {
-                if (event.key === "Enter" && document.getElementById("submit-btn").style.display !== "none") {
-                    event.preventDefault();
+
+            document.getElementById("answer-input").addEventListener("keydown", function(event) {
+                if (event.key !== "Enter") return;
+                event.preventDefault();
+                const submitVisible = document.getElementById("submit-btn").style.display !== "none";
+                const nextVisible = document.getElementById("next-btn").style.display !== "none";
+                if (submitVisible && !document.getElementById("submit-btn").disabled) {
                     checkAnswer();
-                } else if (event.key === "Enter" && document.getElementById("next-btn").style.display !== "none") {
-                    event.preventDefault();
+                } else if (nextVisible) {
                     loadNextQuestion();
                 }
             });
         });
 
         function loadNextQuestion() {
-            const randomIndex = Math.floor(Math.random() * validQuestions.length);
+            if (!validQuestions.length) return;
+
+            let randomIndex;
+            if (validQuestions.length === 1) {
+                randomIndex = 0;
+            } else {
+                do {
+                    randomIndex = Math.floor(Math.random() * validQuestions.length);
+                } while (randomIndex === lastIndex);
+            }
+            lastIndex = randomIndex;
             currentQuestion = validQuestions[randomIndex];
-            
-            document.getElementById('question-display').textContent = currentQuestion.question;
-            document.getElementById('answer-input').value = '';
-            document.getElementById('answer-input').disabled = false;
-            document.getElementById('feedback').textContent = '';
-            document.getElementById('next-btn').style.display = 'none';
-            document.getElementById('submit-btn').style.display = 'inline-block';
-            
-            document.getElementById('answer-input').focus();
+
+            document.getElementById("question-display").textContent = currentQuestion.question;
+            document.getElementById("answer-input").value = "";
+            document.getElementById("answer-input").disabled = false;
+            document.getElementById("feedback").textContent = "";
+            document.getElementById("next-btn").style.display = "none";
+            document.getElementById("submit-btn").style.display = "inline-block";
+            document.getElementById("submit-btn").disabled = false;
+
+            document.getElementById("answer-input").focus();
             startTime = Date.now();
         }
 
         function checkAnswer() {
-            const userAnswer = document.getElementById('answer-input').value.trim();
-            if (userAnswer === "") return; // Prevent empty submissions
+            const userAnswer = document.getElementById("answer-input").value.trim();
+            if (userAnswer === "" || !currentQuestion) return;
 
-            const timeTaken = (Date.now() - startTime) / 1000; 
+            const timeTaken = (Date.now() - startTime) / 1000;
             totalTime += timeTaken;
             problemsAttempted++;
 
-            // Convert both to strings and lowercase for a forgiving comparison
-            const isCorrect = userAnswer.toLowerCase() === String(currentQuestion.answer).toLowerCase().trim();
+            const isCorrect = answersMatch(userAnswer, currentQuestion.answer);
 
-            const feedbackEl = document.getElementById('feedback');
+            const feedbackEl = document.getElementById("feedback");
             if (isCorrect) {
                 problemsSolved++;
                 feedbackEl.textContent = "Correct! Great job.";
@@ -102,21 +327,20 @@
             }
 
             updateStats();
-            
-            // Toggle buttons and input state
-            document.getElementById('answer-input').disabled = true;
-            document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'inline-block';
-            document.getElementById('next-btn').focus();
+
+            document.getElementById("answer-input").disabled = true;
+            document.getElementById("submit-btn").style.display = "none";
+            document.getElementById("next-btn").style.display = "inline-block";
+            document.getElementById("next-btn").focus();
         }
 
         function updateStats() {
             const accuracy = Math.round((problemsSolved / problemsAttempted) * 100);
             const avgTime = Math.round(totalTime / problemsAttempted);
 
-            document.getElementById('stat-solved').textContent = problemsSolved;
-            document.getElementById('stat-accuracy').textContent = `${accuracy}%`;
-            document.getElementById('stat-time').textContent = `${avgTime}s`;
+            document.getElementById("stat-solved").textContent = problemsSolved;
+            document.getElementById("stat-accuracy").textContent = `${accuracy}%`;
+            document.getElementById("stat-time").textContent = `${avgTime}s`;
         }
     </script>
 </body>
