@@ -7,10 +7,14 @@
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; text-align: center; color: #333; }
         #app-container { max-width: 640px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { margin: 0 0 4px; }
+        #pool-stats { font-size: 0.9em; color: #666; margin-bottom: 12px; }
         .stats-board { display: flex; justify-content: space-around; margin-bottom: 16px; padding: 15px; background: #e9ecef; border-radius: 8px; font-weight: bold; }
         .mode-row { display: flex; justify-content: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
         .mode-row label { font-size: 0.92em; background: #f8f9fa; padding: 6px 10px; border-radius: 6px; cursor: pointer; border: 1px solid #dee2e6; }
         .mode-row input { margin-right: 4px; }
+        .source-row { display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; font-size: 0.92em; }
+        .source-row select { padding: 6px 10px; border-radius: 6px; border: 1px solid #dee2e6; font-size: 0.95em; }
         #meta-line { font-size: 0.85em; color: #666; text-align: left; min-height: 1.2em; margin-bottom: 6px; }
         #figure-wrap { display: none; margin: 10px 0 4px; }
         #figure-wrap img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; background: #fafafa; }
@@ -28,10 +32,22 @@
 
     <div id="app-container">
         <h1>MOEMS Practice</h1>
+        <div id="pool-stats">Pool: — · Bank: —</div>
         <div class="mode-row">
             <label><input type="radio" name="mode" value="text" checked> Text-only</label>
             <label><input type="radio" name="mode" value="figures"> With figures</label>
             <label><input type="radio" name="mode" value="all"> All</label>
+        </div>
+        <div class="source-row">
+            <label for="source-filter">Source</label>
+            <select id="source-filter">
+                <option value="all">All</option>
+                <option value="Contests">Contests</option>
+                <option value="Tournaments">Tournaments</option>
+                <option value="Practice+Samples">Practice + Samples</option>
+                <option value="User">User</option>
+                <option value="MAMTS">MAMTS</option>
+            </select>
         </div>
         <div class="stats-board">
             <div>Solved: <span id="stat-solved">0</span></div>
@@ -62,9 +78,38 @@
         let problemsSolved = 0;
         let lastId = null;
 
+        function sourceFamily(id) {
+            const s = String(id || "");
+            if (s.startsWith("e-contest-")) return "Contests";
+            if (s.startsWith("e-tourn-")) return "Tournaments";
+            if (s.startsWith("mamts-")) return "MAMTS";
+            if (s.startsWith("e-practice-")) return "Practice";
+            if (s.startsWith("e-sample-")) return "Samples";
+            if (s.startsWith("user-")) return "User";
+            return "Other";
+        }
+
         function currentMode() {
             const el = document.querySelector('input[name="mode"]:checked');
             return el ? el.value : "text";
+        }
+
+        function currentSource() {
+            const el = document.getElementById("source-filter");
+            return el ? el.value : "all";
+        }
+
+        function matchesSource(q, src) {
+            if (src === "all") return true;
+            const fam = sourceFamily(q.id);
+            if (src === "Practice+Samples") return fam === "Practice" || fam === "Samples";
+            return fam === src;
+        }
+
+        function updatePoolStats() {
+            const bankSize = (typeof moemsBank !== "undefined" && moemsBank) ? moemsBank.length : 0;
+            document.getElementById("pool-stats").textContent =
+                "Pool: " + pool.length + " · Bank: " + bankSize;
         }
 
         function rebuildPool() {
@@ -73,21 +118,26 @@
                     "Could not load moemsBank.js. Put it (and the figures/ folder) next to this HTML.";
                 document.getElementById("submit-btn").disabled = true;
                 document.getElementById("answer-input").disabled = true;
+                updatePoolStats();
                 return false;
             }
             const mode = currentMode();
+            const src = currentSource();
             pool = moemsBank.filter(q =>
                 q && q.question && q.answer !== null && q.answer !== undefined && String(q.answer).trim() !== ""
             );
+            pool = pool.filter(q => matchesSource(q, src));
             if (mode === "text") {
                 // Prefer problems kids can solve without a missing diagram
                 pool = pool.filter(q => q.solvableWithoutFigure !== false);
             } else if (mode === "figures") {
                 pool = pool.filter(q => q.figure);
             }
+            updatePoolStats();
             if (!pool.length) {
                 document.getElementById("question-display").textContent = "No questions in this mode.";
                 document.getElementById("submit-btn").disabled = true;
+                document.getElementById("meta-line").textContent = "";
                 return false;
             }
             document.getElementById("submit-btn").disabled = false;
@@ -325,6 +375,9 @@
                     if (rebuildPool()) loadNextQuestion();
                 });
             });
+            document.getElementById("source-filter").addEventListener("change", () => {
+                if (rebuildPool()) loadNextQuestion();
+            });
 
             document.getElementById("answer-input").addEventListener("keydown", function(event) {
                 if (event.key !== "Enter") return;
@@ -357,6 +410,7 @@
 
             const bits = [];
             if (pick.id) bits.push(pick.id);
+            bits.push(sourceFamily(pick.id));
             if (pick.difficulty) bits.push("Level " + pick.difficulty);
             if (pick.figure) bits.push("diagram");
             else if (pick.hasFigure) bits.push("diagram missing");

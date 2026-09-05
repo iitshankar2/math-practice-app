@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOEMS Bank Review</title>
+<style>
+  :root { --bg:#f4f4f9; --card:#fff; --border:#e2e5ea; --muted:#667085; --accent:#007bff; }
+  * { box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; background: var(--bg); color: #222; margin: 0; padding: 20px; }
+  header { max-width: 900px; margin: 0 auto 16px; background: var(--card); padding: 18px 22px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,.06); }
+  h1 { margin: 0 0 8px; font-size: 1.4rem; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; }
+  .toolbar input[type="search"] { flex: 1; min-width: 180px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 1em; }
+  .toolbar select, .toolbar label { font-size: 0.95em; }
+  .toolbar label { display: flex; align-items: center; gap: 4px; background: #f8f9fa; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--border); }
+  #stats { color: var(--muted); font-size: 0.9em; margin-top: 8px; line-height: 1.45; }
+  #list { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+  .card { background: var(--card); border-radius: 10px; padding: 16px 18px; box-shadow: 0 2px 6px rgba(0,0,0,.05); border: 1px solid var(--border); }
+  .card.hidden { display: none; }
+  .meta { font-size: 0.82em; color: var(--muted); margin-bottom: 8px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .badge { background: #eef2ff; color: #3730a3; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+  .badge.fig { background: #ecfdf5; color: #065f46; }
+  .badge.warn { background: #fff7ed; color: #9a3412; }
+  .badge.level { background: #f1f5f9; color: #334155; }
+  .badge.source { background: #ede9fe; color: #5b21b6; }
+  .badge.missing { background: #fef2f2; color: #991b1b; }
+  .qnum { font-weight: 700; color: #111; }
+  .question { font-size: 1.05em; line-height: 1.45; margin: 0 0 10px; white-space: pre-wrap; }
+  .figure { margin: 8px 0 12px; }
+  .figure img { max-width: 100%; height: auto; border: 1px solid var(--border); border-radius: 6px; background: #fafafa; }
+  .answer { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 10px 12px; font-size: 1.05em; }
+  .answer strong { color: #166534; }
+  .answer.missing-ans { background: #fef2f2; border-color: #fecaca; }
+  .answer.missing-ans strong { color: #991b1b; }
+  .topics { margin-top: 8px; font-size: 0.85em; color: var(--muted); }
+  @media print {
+    body { background: #fff; padding: 0; }
+    header { box-shadow: none; border: 1px solid #ccc; }
+    .card { break-inside: avoid; box-shadow: none; }
+    .toolbar { display: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>MOEMS question bank — review</h1>
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Search question text, id, answer, source…">
+    <label>Filter
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="figures">Has figure image</option>
+        <option value="needs-fig">Needs figure (no image)</option>
+        <option value="text">Text-only safe</option>
+      </select>
+    </label>
+    <label>Source
+      <select id="source">
+        <option value="all">All</option>
+        <option value="Contests">Contests</option>
+        <option value="Tournaments">Tournaments</option>
+        <option value="Practice+Samples">Practice + Samples</option>
+        <option value="User">User</option>
+        <option value="MAMTS">MAMTS</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+    <label>Answer
+      <select id="answer-filter">
+        <option value="all">All</option>
+        <option value="has">Has answer</option>
+        <option value="missing">Missing answer</option>
+      </select>
+    </label>
+    <label>Level
+      <select id="level">
+        <option value="all">All</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="E">E</option>
+        <option value="none">No level</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="show-figs" checked> Show images</label>
+  </div>
+  <div id="stats">Loading…</div>
+</header>
+<div id="list"></div>
+
+<script src="moemsBank.js"></script>
+<script>
+  const listEl = document.getElementById("list");
+  const statsEl = document.getElementById("stats");
+
+  function sourceFamily(id) {
+    const s = String(id || "");
+    if (s.startsWith("e-contest-")) return "Contests";
+    if (s.startsWith("e-tourn-")) return "Tournaments";
+    if (s.startsWith("mamts-")) return "MAMTS";
+    if (s.startsWith("e-practice-")) return "Practice";
+    if (s.startsWith("e-sample-")) return "Samples";
+    if (s.startsWith("user-")) return "User";
+    return "Other";
+  }
+
+  function hasAnswer(item) {
+    return item.answer !== null && item.answer !== undefined && String(item.answer).trim() !== "";
+  }
+
+  function matchesSourceFilter(fam, src) {
+    if (src === "all") return true;
+    if (src === "Practice+Samples") return fam === "Practice" || fam === "Samples";
+    return fam === src;
+  }
+
+  function esc(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function formatAnswer(a) {
+    if (a === null || a === undefined || String(a).trim() === "") return "—";
+    if (typeof a === "string") return esc(a);
+    return esc(JSON.stringify(a));
+  }
+
+  function bankBreakdown() {
+    const counts = {};
+    if (typeof moemsBank === "undefined") return counts;
+    moemsBank.forEach(item => {
+      const f = sourceFamily(item.id);
+      counts[f] = (counts[f] || 0) + 1;
+    });
+    return counts;
+  }
+
+  function render() {
+    if (typeof moemsBank === "undefined") {
+      statsEl.textContent = "Could not load moemsBank.js — keep this file next to moemsBank.js and figures/.";
+      return;
+    }
+
+    const q = document.getElementById("search").value.trim().toLowerCase();
+    const filter = document.getElementById("filter").value;
+    const source = document.getElementById("source").value;
+    const answerFilter = document.getElementById("answer-filter").value;
+    const level = document.getElementById("level").value;
+    const showFigs = document.getElementById("show-figs").checked;
+
+    let shown = 0;
+    const frag = document.createDocumentFragment();
+
+    moemsBank.forEach((item, i) => {
+      const hasImg = !!item.figure;
+      const needsFig = item.hasFigure && !item.figure;
+      const textSafe = item.solvableWithoutFigure !== false;
+      const fam = sourceFamily(item.id);
+      const answered = hasAnswer(item);
+
+      if (filter === "figures" && !hasImg) return;
+      if (filter === "needs-fig" && !needsFig) return;
+      if (filter === "text" && !textSafe) return;
+
+      if (!matchesSourceFilter(fam, source)) return;
+
+      if (answerFilter === "has" && !answered) return;
+      if (answerFilter === "missing" && answered) return;
+
+      if (level === "none" && item.difficulty) return;
+      if (level !== "all" && level !== "none" && item.difficulty !== level) return;
+
+      const hay = [
+        item.id, item.question, String(item.answer ?? ""),
+        (item.topics || []).join(" "), item.difficulty, fam
+      ].join(" ").toLowerCase();
+      if (q && !hay.includes(q)) return;
+
+      shown++;
+      const card = document.createElement("article");
+      card.className = "card";
+      card.dataset.idx = String(i + 1);
+
+      const badges = [];
+      badges.push(`<span class="badge qnum">#${i + 1}</span>`);
+      if (item.id) badges.push(`<span class="badge">${esc(item.id)}</span>`);
+      badges.push(`<span class="badge source">${esc(fam)}</span>`);
+      if (item.difficulty) badges.push(`<span class="badge level">Level ${esc(item.difficulty)}</span>`);
+      if (hasImg) badges.push(`<span class="badge fig">figure</span>`);
+      else if (item.hasFigure) badges.push(`<span class="badge warn">figure missing</span>`);
+      if (!answered) badges.push(`<span class="badge missing">no answer</span>`);
+
+      let figHtml = "";
+      if (showFigs && hasImg) {
+        figHtml = `<div class="figure"><img src="${esc(item.figure)}" alt="Figure for ${esc(item.id || "problem")}" loading="lazy"></div>`;
+      }
+
+      const topics = (item.topics && item.topics.length)
+        ? `<div class="topics">Topics: ${esc(item.topics.join(", "))}</div>`
+        : "";
+
+      const ansClass = answered ? "answer" : "answer missing-ans";
+      card.innerHTML = `
+        <div class="meta">${badges.join("")}</div>
+        <div class="question">${esc(item.question)}</div>
+        ${figHtml}
+        <div class="${ansClass}"><strong>Answer:</strong> ${formatAnswer(item.answer)}</div>
+        ${topics}
+      `;
+      frag.appendChild(card);
+    });
+
+    listEl.innerHTML = "";
+    listEl.appendChild(frag);
+
+    const counts = bankBreakdown();
+    const order = ["User", "Contests", "Tournaments", "MAMTS", "Samples", "Practice", "Other"];
+    const parts = order.filter(k => counts[k]).map(k => `${k} ${counts[k]}`);
+    statsEl.textContent = `Showing ${shown} of ${moemsBank.length} · ` + parts.join(" · ");
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    ["search", "filter", "source", "answer-filter", "level", "show-figs"].forEach(id => {
+      document.getElementById(id).addEventListener("input", render);
+      document.getElementById(id).addEventListener("change", render);
+    });
+    render();
+  });
+</script>
+</body>
+</html>
