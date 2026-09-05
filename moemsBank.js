@@ -1,5 +1,5 @@
 // MOEMS Elementary question bank
-// 568 questions; answers are numeric only (units/words stripped)
+// 555 questions; answers numeric; question text validated
 
 const moemsBank = [
   {
@@ -499,7 +499,7 @@ const moemsBank = [
     answer: 120
   },
   {
-    question: "A movie ticket costs $4 for children, $6 for senior citizens, and $10 for all others. If 7 people buy tickets, which of the following total sales figures is possible?\n$26, $37, $48, $57, $68, $75",
+    question: "A movie ticket costs $4 for children, $6 for senior citizens, and $10 for all others. If 7 people buy tickets, which of the following total sales figures is possible? $26, $37, $48, $57, $68, $75",
     answer: 48
   },
   {
@@ -523,23 +523,23 @@ const moemsBank = [
     answer: 960
   },
   {
-    question: "Amanda, Beth, and Sarah run three races. In each race, one of them earns 5 points, one of them earns 3 points, and one of them earns 1 point. After the three races Beth has the highest point total.\n\nWhat is the smallest total score that Beth can have?",
+    question: "Amanda, Beth, and Sarah run three races. In each race, one of them earns 5 points, one of them earns 3 points, and one of them earns 1 point. After the three races Beth has the highest point total. What is the smallest total score that Beth can have?",
     answer: 11
   },
   {
-    question: "A single story house is to be built on a rectangular lot 70 feet wide by 100 feet deep. The shorter side of the lot is along the street. The house must be set back 30 feet from the street. It also must be 20 feet from the back lot line and 10 feet from each side lot line.\n\nWhat is the greatest area that the house can have, in sq ft?",
+    question: "A single story house is to be built on a rectangular lot 70 feet wide by 100 feet deep. The shorter side of the lot is along the street. The house must be set back 30 feet from the street. It also must be 20 feet from the back lot line and 10 feet from each side lot line. What is the greatest area that the house can have, in sq ft?",
     answer: 2500
   },
   {
-    question: "Jessie has $5.10 worth of stamps. She has equal numbers of 50-cent, 20-cent, 10-cent, and 5-cent stamps. She has no other stamps.\n\nHow many 50-cent stamps does she have?",
+    question: "Jessie has $5.10 worth of stamps. She has equal numbers of 50-cent, 20-cent, 10-cent, and 5-cent stamps. She has no other stamps. How many 50-cent stamps does she have?",
     answer: 6
   },
   {
-    question: "A fenced rectangular garden is 10 m wide and 20 m long. When one side is moved outward and two other sides are increased in length, the area increases by 40 sq m.\n\nWhat is the fewest number of meters of additional fencing needed to form the larger rectangular garden?",
+    question: "A fenced rectangular garden is 10 m wide and 20 m long. When one side is moved outward and two other sides are increased in length, the area increases by 40 sq m. What is the fewest number of meters of additional fencing needed to form the larger rectangular garden?",
     answer: 4
   },
   {
-    question: "A gumball machine contains red, green, yellow, and purple gumballs. You cannot control which color you get. Anna wants three gumballs of any one color.\n\nAt 5¢ each, what is the minimum number of cents that guarantees in advance three gumballs of the same color?",
+    question: "A gumball machine contains red, green, yellow, and purple gumballs. You cannot control which color you get. Anna wants three gumballs of any one color. At 5¢ each, what is the minimum number of cents that guarantees in advance three gumballs of the same color?",
     answer: 45
   },
   {
@@ -547,135 +547,135 @@ const moemsBank = [
     answer: 7
   },
   {
-    question: "At Hudson High School, the first class starts at 8:26 AM and the fourth class ends at 11:26 AM. There are 4 minutes between classes and each class is the same length.\n\nHow many minutes are there in one class period?",
+    question: "At Hudson High School, the first class starts at 8:26 AM and the fourth class ends at 11:26 AM. There are 4 minutes between classes and each class is the same length. How many minutes are there in one class period?",
     answer: 42
   },
   {
-    question: "Dr. Bolton was born in an interesting year. The tens digit was twice the thousands digit, the ones digit was three times the tens digit, and the hundreds digit was equal to the sum of the other three digits.\n\nIn what year was she born?",
+    question: "Dr. Bolton was born in an interesting year. The tens digit was twice the thousands digit, the ones digit was three times the tens digit, and the hundreds digit was equal to the sum of the other three digits. In what year was she born?",
     answer: 1926
   },
   {
-    question: "A quart of milk can feed either 6 cats or 10 kittens. Suppose there are 3 quarts of milk and 15 cats.\n\nAfter all the cats are fed, how many kittens can be fed with the leftover milk?",
+    question: "A quart of milk can feed either 6 cats or 10 kittens. Suppose there are 3 quarts of milk and 15 cats. After all the cats are fed, how many kittens can be fed with the leftover milk?",
     answer: 5
   },
   {
-    question: "The cold water faucet of a bathtub can fill the tub in 15 minutes. The drain, when opened, can empty the full tub in 20 minutes. Suppose the tub is empty and the faucet and drain are both opened at the same time.\n\nHow long will it take to fill the tub?",
+    question: "The cold water faucet of a bathtub can fill the tub in 15 minutes. The drain, when opened, can empty the full tub in 20 minutes. Suppose the tub is empty and the faucet and drain are both opened at the same time. How long will it take to fill the tub?",
     answer: 60
   },
   {
-    question: "Below is a 3 by 3 by 3 cube. Not all of the cubes are visible. Suppose the entire outside of the cube is painted red including the bottom.\n\nHow many different 2 by 2 by 2 cubes with exactly three red faces can be found in the shown cube?",
+    question: "Below is a 3 by 3 by 3 cube. Not all of the cubes are visible. Suppose the entire outside of the cube is painted red including the bottom. How many different 2 by 2 by 2 cubes with exactly three red faces can be found in the shown cube?",
     answer: 8
   },
   {
-    question: "A package weighs P pounds, P being a whole number. To ship this package by express costs $1.65 for the first five pounds and 12¢ for each additional pound. The total shipping cost was $3.45.\n\nHow many pounds did the package weigh?",
+    question: "A package weighs P pounds, P being a whole number. To ship this package by express costs $1.65 for the first five pounds and 12¢ for each additional pound. The total shipping cost was $3.45. How many pounds did the package weigh?",
     answer: 20
   },
   {
-    question: "Starting at the same time on opposite shores of a lake, two boats cross back and forth for 35 minutes without stopping. One boat needs 5 minutes to cross the lake. The other boat needs 7 minutes.\n\nWhat is the number of times during the 35 minutes that the faster boat passes the slower boat going in the same or opposite direction?",
+    question: "Starting at the same time on opposite shores of a lake, two boats cross back and forth for 35 minutes without stopping. One boat needs 5 minutes to cross the lake. The other boat needs 7 minutes. What is the number of times during the 35 minutes that the faster boat passes the slower boat going in the same or opposite direction?",
     answer: 7
   },
   {
-    question: "A sports arena has a total capacity of 20,000 fans and ushers. One usher is required for every 30 fans.\n\nWhat is the greatest number of fans that can be in attendance?",
+    question: "A sports arena has a total capacity of 20,000 fans and ushers. One usher is required for every 30 fans. What is the greatest number of fans that can be in attendance?",
     answer: 19354
   },
   {
-    question: "A bookseller has 15 different novels: 4 are in German, 5 are in Spanish, and 6 are in French. Emma buys two novels. they are written in two different languages.\n\nIn how many different ways can this be done? *Ignore the order in which she buys them*",
+    question: "A bookseller has 15 different novels: 4 are in German, 5 are in Spanish, and 6 are in French. Emma buys two novels. they are written in two different languages. In how many different ways can this be done? *Ignore the order in which she buys them*",
     answer: 74
   },
   {
-    question: "Ali and Ben have a total of 36 CDs. After Ali gives ben 40% of her CDs, Ben has twice as many as Ali.\n\nHow many cds did Ali have originally?",
+    question: "Ali and Ben have a total of 36 CDs. After Ali gives ben 40% of her CDs, Ben has twice as many as Ali. How many cds did Ali have originally?",
     answer: 20
   },
   {
-    question: "Lou eats 1 jelly bean on September 1st, 3 on September 2nd, 5 on September 3rd, and so on, through the 30 days of the month. Each day he eats 2 more than the day before.\n\nIn all, how many jelly beans does Lou eat in September?",
+    question: "Lou eats 1 jelly bean on September 1st, 3 on September 2nd, 5 on September 3rd, and so on, through the 30 days of the month. Each day he eats 2 more than the day before. In all, how many jelly beans does Lou eat in September?",
     answer: 900
   },
   {
-    question: "Mr. Alvarez gives each of his students 4 sheets of paper and 16 sheets are left over. But if two students were absent, each of the remaining students would receive 5 sheets, with only 3 sheets left over.\n\nHow many sheets of paper does Mr. Alvarez have?",
+    question: "Mr. Alvarez gives each of his students 4 sheets of paper and 16 sheets are left over. But if two students were absent, each of the remaining students would receive 5 sheets, with only 3 sheets left over. How many sheets of paper does Mr. Alvarez have?",
     answer: 108
   },
   {
-    question: "Three friends play a series of 8 games. For each game, the winner scores 8 points, the friend in second place scores 3 points, and the friend in last place scores 0 points. At the end of 8 games, Keri's score is 20 points.\n\nIn how many of the games did Keri finish last?",
+    question: "Three friends play a series of 8 games. For each game, the winner scores 8 points, the friend in second place scores 3 points, and the friend in last place scores 0 points. At the end of 8 games, Keri's score is 20 points. In how many of the games did Keri finish last?",
     answer: 3
   },
   {
-    question: "A piles of coins sits on a table. Sarah takes half of the coins plus 4 more. Then Nick takes 2. Then Joe takes 2 more than half of what is left. Finally Selena takes 5. Four coins remain on the table.\n\nHow many coins were on the table to start with?",
+    question: "A piles of coins sits on a table. Sarah takes half of the coins plus 4 more. Then Nick takes 2. Then Joe takes 2 more than half of what is left. Finally Selena takes 5. Four coins remain on the table. How many coins were on the table to start with?",
     answer: 56
   },
   {
-    question: "Janine's number has three digits. One digit is a prime number. Another digit is a square number. The other digit is neither prime nor square. Her number is NOT divisible by 3.\n\nWhat is the greatest possible value of Janine's number?",
+    question: "Janine's number has three digits. One digit is a prime number. Another digit is a square number. The other digit is neither prime nor square. Her number is NOT divisible by 3. What is the greatest possible value of Janine's number?",
     answer: 985
   },
   {
-    question: "A square with an area of 18 square centimeters is inscribed in a circle as shown.\n\nUsing the approximation π ≈ 3.14, find the area of the shaded region to the nearest square centimeter.",
+    question: "A square with an area of 18 square centimeters is inscribed in a circle as shown. Using the approximation π ≈ 3.14, find the area of the shaded region to the nearest square centimeter.",
     answer: 10
   },
   {
-    question: "In a hotel, 40 people occupy exactly 26 rooms. Each room is occupied by either one or two people.\n\nHow many rooms are occupied by exactly one person?",
+    question: "In a hotel, 40 people occupy exactly 26 rooms. Each room is occupied by either one or two people. How many rooms are occupied by exactly one person?",
     answer: 12
   },
   {
-    question: "In the following, different letters represent different digits.\n\nWhat digit does the letter O represent?",
+    question: "In the following, different letters represent different digits. What digit does the letter O represent?",
     answer: 3
   },
   {
-    question: "There are 2 red cars and 3 blue cars. The 5 cars contain a total of 12 people. No car has more than 4 people. Every car has at least 1 person. The only cars with the same number of people are the red cars.\n\nHow many people are in 1 red car?",
+    question: "There are 2 red cars and 3 blue cars. The 5 cars contain a total of 12 people. No car has more than 4 people. Every car has at least 1 person. The only cars with the same number of people are the red cars. How many people are in 1 red car?",
     answer: 2
   },
   {
-    question: "Jess runs an outdoor stand at City Stadium. When it rains, Jess earns $1500 selling umbrellas. But when it doesn't rain, she earns $400 selling sunglasses. On any given day, the chance of rain is 40%.\n\nOn the average, how much can Jess expect to earn daily?",
+    question: "Jess runs an outdoor stand at City Stadium. When it rains, Jess earns $1500 selling umbrellas. But when it doesn't rain, she earns $400 selling sunglasses. On any given day, the chance of rain is 40%. On the average, how much can Jess expect to earn daily?",
     answer: 840
   },
   {
-    question: "This year, 1 out of every 55 adults started a new business. This rate represented an increase of 20% over last year's rate of 1 new business start-up out of every N adults.\n\nFind N.",
+    question: "This year, 1 out of every 55 adults started a new business. This rate represented an increase of 20% over last year's rate of 1 new business start-up out of every N adults. Find N.",
     answer: 66
   },
   {
-    question: "Kim was elected class president. She received 3 votes for every 2 that Amy got. No one else ran. However, if 8 people who voted for Kim had voted for Amy instead, Kim would have received only one vote for every two that Amy would have gotten.\n\nHow many people voted?",
+    question: "Kim was elected class president. She received 3 votes for every 2 that Amy got. No one else ran. However, if 8 people who voted for Kim had voted for Amy instead, Kim would have received only one vote for every two that Amy would have gotten. How many people voted?",
     answer: 30
   },
   {
-    question: "In one complete day, a man binds 100 books and his helper binds one-fourth as many books. If they take turns working complete days,\n\nhow many days would it take them to bind 500 books?",
+    question: "In one complete day, a man binds 100 books and his helper binds one-fourth as many books. If they take turns working complete days, how many days would it take them to bind 500 books?",
     answer: 8
   },
   {
-    question: "One light flashes every 2 minutes and another light flashes every 7 minutes. If both lights flash together at 1 PM,\n\nWhat is the first time after 3 PM that both lights flash together?",
+    question: "One light flashes every 2 minutes and another light flashes every 7 minutes. If both lights flash together at 1 PM, What is the first time after 3 PM that both lights flash together?",
     answer: 1506
   },
   {
-    question: "In this diagram, each \"path\" spells the word OLYMPIAD correctly.\n\nHow many different paths exist in the diagram?",
+    question: "In this diagram, each \"path\" spells the word OLYMPIAD correctly. How many different paths exist in the diagram?",
     answer: 48
   },
   {
-    question: "The figure below is a \"magic square\" with missing entries. When complete, the sum of the four entries in each column, each row, and each diagonal is the same.\n\nFind the value of A and the value of B.",
+    question: "The figure below is a \"magic square\" with missing entries. When complete, the sum of the four entries in each column, each row, and each diagonal is the same. Find the value of A and the value of B.",
     answer: "1, 13"
   },
   {
-    question: "A circular track is 1000 yards in circumference. Cyclists A, B, and C start at the same place and time, and race around the track at the following rates per minute: A at 700 yards, B at 800 yards, and C at 900 yards.\n\nWhat is the least number of minutes it must take for all three to be together again?",
+    question: "A circular track is 1000 yards in circumference. Cyclists A, B, and C start at the same place and time, and race around the track at the following rates per minute: A at 700 yards, B at 800 yards, and C at 900 yards. What is the least number of minutes it must take for all three to be together again?",
     answer: 10
   },
   {
-    question: "Alice started a Math Club during the first week of school. As the only member, she decided to recruit two new members during the following week of school. Each new member, during the week following the week when he or she became a member, recruits two new members.\n\nHow many members will the club have at the end of five weeks?",
+    question: "Alice started a Math Club during the first week of school. As the only member, she decided to recruit two new members during the following week of school. Each new member, during the week following the week when he or she became a member, recruits two new members. How many members will the club have at the end of five weeks?",
     answer: 31
   },
   {
-    question: "Twenty-four meters of fencing is used to fence a rectangular garden. Let M represents the number of square meters in the area of the garden.\n\nWhat is the largest value that M could have?",
+    question: "Twenty-four meters of fencing is used to fence a rectangular garden. Let M represents the number of square meters in the area of the garden. What is the largest value that M could have?",
     answer: 36
   },
   {
-    question: "Two students are needed to work in the school store during the lunch hour every day, and four students volunteer for this work.\n\nWhat is the greatest number of days that can be arranged in which no pair of the four students works together more than once?",
+    question: "Two students are needed to work in the school store during the lunch hour every day, and four students volunteer for this work. What is the greatest number of days that can be arranged in which no pair of the four students works together more than once?",
     answer: 6
   },
   {
-    question: "A purse contains 4 pennies, 2 nickes, 1 dime, and 1 quarter. Different values can be obtained by using one or more coins in the purse.\n\nHow many different values can be obtained?",
+    question: "A purse contains 4 pennies, 2 nickes, 1 dime, and 1 quarter. Different values can be obtained by using one or more coins in the purse. How many different values can be obtained?",
     answer: 49
   },
   {
-    question: "When it is 7 AM in New York, it is noon in London. A plane leaves London at 12 PM (noon) London time and arrives in New York at 11 AM New York time the same day. A second plane leaves New York at 12 PM (noon) New York time for London.\n\nWhat time in London is it when the second plane arrives? *Assume both planes fly for the same number of hours*",
+    question: "When it is 7 AM in New York, it is noon in London. A plane leaves London at 12 PM (noon) London time and arrives in New York at 11 AM New York time the same day. A second plane leaves New York at 12 PM (noon) New York time for London. What time in London is it when the second plane arrives? *Assume both planes fly for the same number of hours*",
     answer: 2100
   },
   {
-    question: "Ashley's locker number is a three-digit multiple of 5. The tens digit is the sum of the hundreds digit and the ones digit. The sum of all three digits is 16. No two digits are the same.\n\nWhat is Ashley's locker number?",
+    question: "Ashley's locker number is a three-digit multiple of 5. The tens digit is the sum of the hundreds digit and the ones digit. The sum of all three digits is 16. No two digits are the same. What is Ashley's locker number?",
     answer: 385
   },
   {
@@ -683,15 +683,15 @@ const moemsBank = [
     answer: 120
   },
   {
-    question: "Six girls of differing heights are arranged in 2 rows of 3 each. Each girl is taller than the girl in front of her and also taller than the girl to her right.\n\nHow many arrangements of the six girls are possible?",
+    question: "Six girls of differing heights are arranged in 2 rows of 3 each. Each girl is taller than the girl in front of her and also taller than the girl to her right. How many arrangements of the six girls are possible?",
     answer: 5
   },
   {
-    question: "The price of a candy bar has increased 20%.\n\nHow many candy bars can now be purchased for the amount of money that used to buy 42 candy bars?",
+    question: "The price of a candy bar has increased 20%. How many candy bars can now be purchased for the amount of money that used to buy 42 candy bars?",
     answer: 35
   },
   {
-    question: "Boris and Natasha start at the same place and at the same time on a 200 meter circular track and run in the same direction. Boris runs at 5 meters per second and Natasha runs at 3 meters per second.\n\nHow many meters has Natasha run when they first meet after starting?",
+    question: "Boris and Natasha start at the same place and at the same time on a 200 meter circular track and run in the same direction. Boris runs at 5 meters per second and Natasha runs at 3 meters per second. How many meters has Natasha run when they first meet after starting?",
     answer: 300
   },
   {
@@ -875,7 +875,7 @@ const moemsBank = [
     answer: 20
   },
   {
-    question: "Maya transforms 11 into 41 and 19 into 65. What is Leo's number if Maya turns it into 53? MOEMS-Style Math Challenge Packet",
+    question: "Maya transforms 11 into 41 and 19 into 65. What is Leo's number if Maya turns it into 53?",
     answer: 15
   },
   {
@@ -895,7 +895,7 @@ const moemsBank = [
     answer: 14
   },
   {
-    question: "A closet has 9 red, 11 blue, and 7 green shirts. What is the least number of shirts you must grab to guarantee you have at least 3 shirts of the same color? MOEMS-Style Math Challenge Packet",
+    question: "A closet has 9 red, 11 blue, and 7 green shirts. What is the least number of shirts you must grab to guarantee you have at least 3 shirts of the same color?",
     answer: 7
   },
   {
@@ -1023,23 +1023,23 @@ const moemsBank = [
     answer: 15
   },
   {
-    question: "Three colors of socks, one pair guaranteed A drawer has 8 red, 6 green, and 10 blue socks. You pull socks at random in the dark. What is the least number of socks you must pull to guarantee at least one matching pair? There are 3 colors. In the worst case, you pick 1 red, 1 green, 1 blue (3 socks, all different). The next sock must match one of these colors.",
+    question: "A drawer has 8 red, 6 green, and 10 blue socks. You pull socks at random in the dark. What is the least number of socks you must pull to guarantee at least one matching pair?",
     answer: 4
   },
   {
-    question: "Four colors of socks, one pair guaranteed A drawer contains 5 black, 7 white, 9 gray, and 4 brown socks. What is the least number of socks you must pull to guarantee at least one matching pair? There are 4 colors. Worst case: you pick 1 of each color (4 socks, all different). The next sock must match one of them.",
+    question: "A drawer contains 5 black, 7 white, 9 gray, and 4 brown socks. What is the least number of socks you must pull to guarantee at least one matching pair?",
     answer: 5
   },
   {
-    question: "Three colors of socks, two matching pairs A drawer has 14 red, 10 green, and 20 blue socks. What is the least number of socks you must pull to guarantee you have 2 matching pairs (e.g., 2 red pairs, or 1 red pair + 1 green pair, etc.)? Let r,g,b be the numbers drawn of each color. The number of pairs is ⌊r/2⌋+⌊g/2⌋+⌊b/2⌋. To avoid having 2 pairs, this total must be at most 1. The maximum socks you can have with at most 1 pair is when one color has 3 socks and the others have 1 each: (3,1,1)⇒5 socks and only 1 pair. So with 5 socks, you can still have just 1 pair; the next sock forces at least 2 pairs.",
+    question: "A drawer has 14 red, 10 green, and 20 blue socks. What is the least number of socks you must pull to guarantee you have 2 matching pairs (e.g., 2 red pairs, or 1 red pair + 1 green pair, etc.)?",
     answer: 6
   },
   {
-    question: "Gloves instead of socks A drawer has 12 left-hand gloves and 12 right-hand gloves, all identical except for hand. You pull gloves at random in the dark. What is the least number of gloves you must pull to guarantee you can form at least 2 complete pairs (each pair is 1 left + 1 right)? To form 2 pairs, you need at least 2 left and 2 right. Worst case: you draw all of one hand first. You could draw all 12 left gloves before seeing a right glove. Then you start drawing right gloves: you need 2 of them to make 2 pairs. Total: 12 (all left) + 2 (two right) = 14.",
+    question: "A drawer has 12 left-hand gloves and 12 right-hand gloves, all identical except for hand. You pull gloves at random in the dark. What is the least number of gloves you must pull to guarantee you can form at least 2 complete pairs (each pair is 1 left + 1 right)?",
     answer: 14
   },
   {
-    question: "Shirts by color A closet has 9 red shirts, 11 blue shirts, and 7 green shirts. You grab shirts at random (without looking). What is the least number of shirts you must grab to guarantee you have at least 3 shirts of the same color? To avoid 3 of any color, you can take at most 2 of each color: 2 red+2 blue+2 green=6 shirts With 6 shirts, you might have exactly 2 of each color. The next shirt (the 7th) must make some color reach 3.",
+    question: "A closet has 9 red shirts, 11 blue shirts, and 7 green shirts. You grab shirts at random (without looking). What is the least number of shirts you must grab to guarantee you have at least 3 shirts of the same color?",
     answer: 7
   },
   {
@@ -1259,7 +1259,7 @@ const moemsBank = [
     answer: 108
   },
   {
-    question: "A two-digit number is 18 more than the number formed by reversing its digits. What is the di erence between the tens digit and the ones digit?",
+    question: "A two-digit number is 18 more than the number formed by reversing its digits. What is the difference between the tens digit and the ones digit?",
     answer: 2
   },
   {
@@ -1291,7 +1291,7 @@ const moemsBank = [
     answer: "0, 1"
   },
   {
-    question: "In the addition problem ABA + B = 600, where A and B are di erent digits, what is the value of the product A x B?",
+    question: "In the addition problem ABA + B = 600, where A and B are different digits, what is the value of the product A x B?",
     answer: 45
   },
   {
@@ -1843,7 +1843,7 @@ const moemsBank = [
     answer: 402
   },
   {
-    question: "Jane's mother left some cherries for her children. Jane ate 10 cherries, which was exactly 25 of all the cherries that her mother left. Her brother Sam ate all the remaining cherries. How many cherries did he eat?",
+    question: "Jane's mother left some cherries for her children. Jane ate 10 cherries, which was exactly 2/5 of all the cherries that her mother left. Her brother Sam ate all the remaining cherries. How many cherries did he eat?",
     answer: 15
   },
   {
@@ -1851,7 +1851,7 @@ const moemsBank = [
     answer: 2016
   },
   {
-    question: "There are 30 puppies, kittens, and mice altogether in the Pet Hotel. There are twice as many kittens' ears as puppies' tails. There are twice as many puppies' paws as mice's eyes. How many kittens are there in the l number of body parts)?",
+    question: "There are 30 puppies, kittens, and mice altogether in the Pet Hotel. There are twice as many kittens' ears as puppies' tails. There are twice as many puppies' paws as mice's eyes. How many kittens are there?",
     answer: 10
   },
   {
@@ -1891,14 +1891,6 @@ const moemsBank = [
     answer: 171
   },
   {
-    question: "Emily has four cards marked 2, 0, 1, and 9. What is the smallest four digit number that Emily can make with her cards? (2 3",
-    answer: "1029, 1026"
-  },
-  {
-    question: "Calculate: 5 5 − 5 ÷ 5 ) 4",
-    answer: 6
-  },
-  {
     question: "Mary cut a rectangular piece of paper into two triangles with sides 9, 40, and 41 cm. Find the area of the rectangular piece of paper before cutting. 1 1 1",
     answer: 360
   },
@@ -1909,10 +1901,6 @@ const moemsBank = [
   {
     question: "Adam the Ant and Anna the Ant dared each other to grab a moving bicycle wheel. Adam the Ant hung on for 20 seconds, in which time the wheel made 30 turns; then, he fell off. Anna the Ant hung on 12 seconds longer than Adam the Ant. How many times did she spin around on the bicycle wheel?",
     answer: 48
-  },
-  {
-    question: "Find the covered number:",
-    answer: "2038, 2038"
   },
   {
     question: "Fifteen elves made some identical cakes for a party. Each elf ate half of a cake, one-fifth of a cake, and a third piece, which was six times smaller than the second piece. Three cakes were left untouched. How many cakes did the elves make?",
@@ -1951,10 +1939,6 @@ const moemsBank = [
     answer: 8210
   },
   {
-    question: "Find the value of x, if :",
-    answer: 8
-  },
-  {
     question: "How long is the rectangle if its width is 6 inches and its area is 42 square inches?",
     answer: 7
   },
@@ -1969,10 +1953,6 @@ const moemsBank = [
   {
     question: "There were 16 more frogs in Green Pond than in Blue Pond. All the frogs from Blue Pond jumped into Green Pond. Now the total number of frogs in Green Pond is 80. How many frogs were there originally in Green Pond?",
     answer: 48
-  },
-  {
-    question: "Find the missing number:",
-    answer: 1817
   },
   {
     question: "An alarm clock is slow. It falls behind 4 minutes every 24 hours. If the clock was showing the correct time at 6 : 00 this morning, how many seconds ahead was the clock at 10 : 00 last night?",
@@ -2005,10 +1985,6 @@ const moemsBank = [
   {
     question: "Harry and Luna together ate 56 Chocolate Frogs. Harry ate 6 more Chocolate Frogs than Luna. How many Chocolate Frogs did Luna eat? 1",
     answer: 25
-  },
-  {
-    question: "Find the value of x, if x − 10 = 5 5",
-    answer: 75
   },
   {
     question: "A boy has 140 toy soldiers. He put 14 soldiers in the fortress and divided the rest of the soldiers into 14 equal groups. If he used 3 of the groups as attackers, how many toy soldiers are attackers?",
@@ -2067,10 +2043,6 @@ const moemsBank = [
     answer: 92
   },
   {
-    question: "Find the missing number: 2016 · 199 = 2016·? +2016 · 98",
-    answer: 101
-  },
-  {
     question: "Jackie is 8 years older than Mona. If 9 years ago she was three times as old as Mona was, how old is Jackie now?",
     answer: 21
   },
@@ -2099,20 +2071,12 @@ const moemsBank = [
     answer: 82
   },
   {
-    question: "Find x , if 15 = 5",
-    answer: 57
-  },
-  {
     question: "In the film, Zeke the Zombie Slayer Versus the Zombies from Space, Zeke slayed 140 zombies. In the sequel, Zeke the Zombie Slayer Versus the Zombies from Space, Part 2, he slayed 5% more zombies. How many zombies were slain by Zeke in the sequel?",
     answer: 147
   },
   {
     question: "Adam the Ant and Anna the Ant dared each other to grab a moving bicycle wheel. Adam the Ant hung on for 20 seconds, in which time the wheel made 30 turns; then, he fell off. Anna the Ant hung on 12 seconds longer than Adam the Ant. How many times did she spin around on the bicycle wheel? 2",
     answer: 48
-  },
-  {
-    question: "Calculate: 49 − 3 · ( − 3)3",
-    answer: 67
   },
   {
     question: "Chelsea is a chess champion. She's played 132 games; her ratio of wins to draws to losses is 6 : 3 : 2. How many games has she won?",
@@ -2141,10 +2105,6 @@ const moemsBank = [
   {
     question: "Six of King Arthur's knights are sitting around the Round Table eating peanuts. Since each knight suspected the others of not sharing fairly, each one secretly counted his two neighbors' peanuts and summed them up, with the following results (in order): 20, 28, 36, 44, 52, 60. How many peanuts does the knight who counted 52 have?",
     answer: 38
-  },
-  {
-    question: "Find x, if: [figure in source PDF]",
-    answer: 42
   },
   {
     question: "Tom is 40 inches tall. The sign next to the Superman Roller Coaster says: \"You must be 48 inches to ride!\". By what percent does Tom have to grow to be able to ride the roller coaster?",
@@ -2191,10 +2151,6 @@ const moemsBank = [
     answer: 22
   },
   {
-    question: "Calculate: 81 − · ( − 2)4 4",
-    answer: 69
-  },
-  {
     question: "A grasshopper makes 6 jumps per 15 seconds. Each jump covers 2 inches. After 40 seconds of straight-forward jumping, the grasshopper stopped. How far (in inches) did the grasshopper jump? 8",
     answer: 32
   },
@@ -2213,10 +2169,6 @@ const moemsBank = [
   {
     question: "If you increase the length of the rectangle by 50% and the width of the rectangle by 100%, by what percent will the area of this rectangle increase? 0.1 1",
     answer: 200
-  },
-  {
-    question: "Find x, if =− 0.06−0.03𝑥 6",
-    answer: 22
   },
   {
     question: "A rectangular playing field that is 20 meters long and 15 meters wide was cleaned by 22 boys and 18 girls. The field was divided into equal parts for each child. What area of the field was cleaned by boys?",
@@ -2269,9 +2221,5 @@ const moemsBank = [
   {
     question: "A rope that is 245 cm long is cut into three pieces. The ratio of the lengths of the first piece to the second piece is 2 : 3, and the ratio of the lengths of the second piece to the third piece is 4 : 5. What is the length of the longest of the three pieces?",
     answer: 105
-  },
-  {
-    question: "Rory's number is 0.3 larger than Lori's number, and the sum of their numbers is",
-    answer: 336
   }
 ];
