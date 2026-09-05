@@ -1578,14 +1578,15 @@ const moemsBank = [
   },
   {
     "id": "user-jan25-03",
-    "question": "If you multiply out the expression 24 X 32 X 53, how many zeros are at the end of the resulting number?",
+    "question": "If you multiply out the expression 2^4 × 3^2 × 5^3, how many zeros are at the end of the resulting number?",
     "answer": 3,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
-      "arithmetic"
+      "arithmetic",
+      "number_sense"
     ]
   },
   {
@@ -1735,26 +1736,28 @@ const moemsBank = [
   },
   {
     "id": "user-jan25-16",
-    "question": "What is the smallest positive integer n such that 150 \\X n results in a perfect square?",
+    "question": "What is the smallest positive integer n such that 150 × n results in a perfect square?",
     "answer": 6,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
-      "geometry"
+      "number_sense",
+      "arithmetic"
     ]
   },
   {
     "id": "user-jan25-17",
-    "question": "What is the units (last) digit of the number 320?",
+    "question": "What is the units (last) digit of the number 3^20?",
     "answer": 1,
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
     "difficulty": null,
     "topics": [
-      "arithmetic"
+      "arithmetic",
+      "number_sense"
     ]
   },
   {
