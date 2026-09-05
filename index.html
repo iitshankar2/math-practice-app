@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOEMS Question Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+        }
+        #questions-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .question-card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .answer {
+            color: #d9534f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MOEMS Question Bank (Answered Only)</h1>
+    <div id="questions-container"></div>
+
+    <!-- Ensure moemsBank.js is in the same directory as this index.html file -->
+    <script src="moemsBank.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.getElementById('questions-container');
+
+            // Filter the moemsBank array to only include questions with non-null answers
+            const answeredQuestions = moemsBank.filter(item => item.answer !== null);
+
+            // Generate HTML for each filtered question
+            answeredQuestions.forEach((item, index) => {
+                const card = document.createElement('div');
+                card.className = 'question-card';
+
+                const questionEl = document.createElement('div');
+                questionEl.className = 'question';
+                questionEl.textContent = `${index + 1}. ${item.question}`;
+
+                const answerEl = document.createElement('div');
+                answerEl.className = 'answer';
+                answerEl.textContent = `Answer: ${item.answer}`;
+
+                card.appendChild(questionEl);
+                card.appendChild(answerEl);
+                container.appendChild(card);
+            });
+        });
+    </script>
+</body>
+</html>
