@@ -1,10 +1,10 @@
 // MOEMS Elementary question bank
-// 594 questions with answers (nulls removed)
+// 568 questions; answers are numeric only (units/words stripped)
 
 const moemsBank = [
   {
     question: "A digital clock shows 2:35. This is the first time after midnight when all three digits are different prime numbers. What is the last time before noon when all three digits on the clock are different prime numbers?",
-    answer: "7:53 AM"
+    answer: 753
   },
   {
     question: "The only way that 10 can be written as the sum of 4 different counting numbers is 1 + 2 + 3 + 4. In how many different ways can 15 be written as the sum of 4 different counting numbers?",
@@ -20,7 +20,7 @@ const moemsBank = [
   },
   {
     question: "The L-shape pictured is formed from three squares, each 1 cm on a side. Five of these L-shapes are placed next to each other to form a figure. What is the least possible perimeter of the figure they form, in cm?",
-    answer: "16 cm"
+    answer: 16
   },
   {
     question: "Add: 531 + 642 + 753 + 864 + 975.",
@@ -32,7 +32,7 @@ const moemsBank = [
   },
   {
     question: "Ashley has a rectangle made out of paper that is 8 cm by 12 cm. She folds it in half twice, first vertically and then horizontally. The new rectangle looks just like the original rectangle but smaller. What is the area of the new smaller rectangle in square cm?",
-    answer: "24 cm^2"
+    answer: 24
   },
   {
     question: "In the figure, the whole numbers from 1 through 7 are to be placed, one per square. The sum of the numbers in the left column, the sum of the numbers in the right column, and the sum of the numbers in each diagonal are the same. What is the least possible product of the numbers across the gray row?",
@@ -44,23 +44,15 @@ const moemsBank = [
   },
   {
     question: "The structure below is made of unit cubes piled on top of each other. Some cubes are not visible. What is the number of cubes in the structure?",
-    answer: 20
+    answer: 38
   },
   {
     question: "The complete outside (including the bottom) of a wooden 4 inch cube was painted purple. The painted cube was then cut into 1 inch cubes. How many of the 1 inch cubes do not have purple paint on any face?",
     answer: 8
   },
   {
-    question: "Suppose all the counting numbers are arranged in columns as shown at below. Columns A-G; row1: 1-7, row2: 8-14, row3: 15-19, ... Under what column/letter will 1000 appear?",
-    answer: "F"
-  },
-  {
     question: "Each of the three diagrams below shows a balance of weights using different objects. Diagram 1: 1 circle = 1 triangle + 2 squares. Diagram 2: 1 circle + 1 square = 1 triangle + 1 trapezoid. Diagram 3: 1 triangle = 1 trapezoid + 1 square. How many squares will balance a circle?",
     answer: 6
-  },
-  {
-    question: "Below there are three views of the same cube. What letter is on the face opposite (1) H, (2) X, (3) Y?",
-    answer: "E, A, N"
   },
   {
     question: "A group of 21 people went to the county fair with 9 people on a stagecoach and 3 people in each buggy. On the return trip, 4 people rode in each buggy. How many people returned on the stagecoach?",
@@ -76,7 +68,7 @@ const moemsBank = [
   },
   {
     question: "When Frankenstein, Dracula, and a mummy compared the amount of candy they got on halloween, they discovered that Frankenstein and Dracula together had 12 pieces, Dracula and the mummy together had 18 and Frankenstein and the mummy together had 10. Who has the least amount of candy, and how much is it.",
-    answer: "Frankenstein with 2"
+    answer: 2
   },
   {
     question: "ABCD is a square with diagonal AC 8 units long. How many square units are in the area of the square?",
@@ -100,7 +92,7 @@ const moemsBank = [
   },
   {
     question: "A jar filled with water weighs 10 pounds. When one half of the water is poured out, the jar and the remaining water weigh 5 3/4 lbs. How much does the jar weigh?",
-    answer: "1 1/2"
+    answer: 1.5
   },
   {
     question: "Consecutive numbers are whole numbers that follow in order such as 7, 8, 9, 10, 11, 12. Find three consecutive numbers such that the sum of the first and third is 118.",
@@ -112,7 +104,7 @@ const moemsBank = [
   },
   {
     question: "A4273B is a six-digit number in which A and B are digits, and the number is divisible by 72 with no remainder. Find the value of A and B.",
-    answer: "A=5, B=6"
+    answer: "5, 6"
   },
   {
     question: "In a small country, \"OC\" means 8 sticks. \"OCTA\" means a bundle of 8 OCs, \"OCTIL\" means a bundle of 8 OCTAs and \"OCTILLA\" means a bundle of 8 OCTILs. How many sticks are in an OCTILLA?",
@@ -136,7 +128,7 @@ const moemsBank = [
   },
   {
     question: "Peter had a 12:00 noon appointment that was 60 miles from his home. He drove from his home at an average rate of 40 miles per hour and arrived 15 minutes late. At what time did Peter leave home for the appointment?",
-    answer: "10:45"
+    answer: 1045
   },
   {
     question: "An acute angle is an angle whose measure is between 0 and 90 degrees. Using the rays in the diagram, how many different acute angles can be found?",
@@ -148,15 +140,11 @@ const moemsBank = [
   },
   {
     question: "I have exactly ten coins whose total value is $1. If three of the coins are quarters, what are the remaining coins?",
-    answer: "2 dimes and 5 pennies"
+    answer: "2, 5"
   },
   {
     question: "In the figure below, there are two large congruent squares with sides 7 units long and four small congruent squares with sides of 3 units long. If the shaded figure is also a square, what is its area in square units?",
     answer: 25
-  },
-  {
-    question: "The month of January has 31 days. Suppose January 1st occurs on a Monday. What day of the week is February 22 of the next month?",
-    answer: "Thursday"
   },
   {
     question: "Consecutive numbers are numbers that follow in order. For example: 7, 8, 9, 10, ... Suppose the average of 15 consecutive numbers is 15. What is the average of the first five numbers?",
@@ -172,11 +160,11 @@ const moemsBank = [
   },
   {
     question: "The small boxes in figures A and B are congruent squares. The perimeter of figure A is 48 inches. What is the perimeter of Figure B?",
-    answer: 40
+    answer: 60
   },
   {
     question: "A train traveling at 30 miles per hour reaches a tunnel which is 9 times as long as the train. If the train takes 2 minutes to completely clear the tunnel, how long is the train?",
-    answer: "1/10 mile"
+    answer: 0.1
   },
   {
     question: "The square below is dividied into four congruent rectangles. The perimeter of each of the four congruent rectangles is 25 units. How many units are there in the perimeter of the square?",
@@ -232,11 +220,7 @@ const moemsBank = [
   },
   {
     question: "The product of two whole numbers is 10,000. If neither number contains a zero digit, what are the two numbers?",
-    answer: "16 and 625"
-  },
-  {
-    question: "If two days ago was Sunday, what day of the week will 365 days from today then be?",
-    answer: "Wednesday"
+    answer: "16, 625"
   },
   {
     question: "Six people participated in a checker tournament. Each participant played exactly three games with each of the other participants. How many games were played in all?",
@@ -257,10 +241,6 @@ const moemsBank = [
   {
     question: "Three squares each have sides of length 6 units and overlap each other as shown at the right. The points where the sides cross are midpoints. Find the area of the shaded figure in square units.",
     answer: 90
-  },
-  {
-    question: "Suppose all the counting numbers are arranged in columns as shown below. Under what column/letter will 300 appear?",
-    answer: "D"
   },
   {
     question: "How many times does x appear in the diagram below?",
@@ -285,10 +265,6 @@ const moemsBank = [
   {
     question: "13 plums weigh as much as two apples and one pear. Four plums and one apple have the same weight as one pear. How many plums have the weight of one pear?",
     answer: 7
-  },
-  {
-    question: "Glen, Harry, and Kim each have a different favorite sport among tennis, baseball, and soccer. Glen does not like baseball or soccer. Hary does not like baseball. Name the favorite sport of each person.",
-    answer: "Glen tennis, Harry soccer, Kim baseball"
   },
   {
     question: "A restaurant has 30 tables which are of two types. The first type seats two people and the second seats five people. A total of 81 people are seated when all seats are occupied. How many tables for two are there?",
@@ -344,7 +320,7 @@ const moemsBank = [
   },
   {
     question: "On a standard 12-hour clock, the numerals 12 and 6 are opposite each other. On the planet Bajor, they used a circular ten-hour clock with the numerals 1 to 10 equally spaced. What pair of opposite numerals on a Bajorian clock has a sum of 11?",
-    answer: "3 and 8"
+    answer: "3, 8"
   },
   {
     question: "In a class of 26 students, 15 like vanilla ice cream and 16 like chocolate ice cream. However, 3 students do not like either. How many students like vanilla and chocolate ice cream?",
@@ -352,7 +328,7 @@ const moemsBank = [
   },
   {
     question: "Linda wants to buy 20 crayons. Toyworld sells crayons at 4 for 25 cents, and Gameland sells crayons at 5 for 30 cents. Which of the two stores sells 20 crayons for less, and by how much more?",
-    answer: "Gameland by 5 cents"
+    answer: 5
   },
   {
     question: "In the number 203,500, the last two zeroes are called terminal zeros. If 30 x 40 x 50 x 60 x 70 is done, how many terminal zeros would the product have?",
@@ -371,16 +347,12 @@ const moemsBank = [
     answer: 299
   },
   {
-    question: "List all counting numbers which leave a remainder of 4 when divided by 22.",
-    answer: "22k+4"
-  },
-  {
     question: "Admission to the local movie theater is $3 for each child and $7 for each adult. A group of 12 people pay $64 admission. How many children are in this group?",
     answer: 5
   },
   {
     question: "Suppose a standard twelve-hour clock now shows a time of 10:45. What will the clock show 100 hours from now?",
-    answer: "2:45"
+    answer: 245
   },
   {
     question: "Robert throws 5 darts at the target shown. Each dart lands in a region of the target, scoring the points shown. Of the following total scores, list all that are not possible. 6, 14, 17, 38, 42, 58",
@@ -408,7 +380,7 @@ const moemsBank = [
   },
   {
     question: "A standard clock is set correctly at 1:00 PM. If it loses 3 minutes every hour, what will the clock show when the correct time is 10:00 AM the next day?",
-    answer: "8:57 AM"
+    answer: 857
   },
   {
     question: "Fred read nine consecutive pages from a a certain book. The sum of the page numbers he read is 378. What is the page number of the middle page he read?",
@@ -447,10 +419,6 @@ const moemsBank = [
     answer: 60
   },
   {
-    question: "The figure below is cut out on the outer edges and folded on the the inner lines to form a cube. Which letter will be on the face of the cube opposite the letter T?",
-    answer: "M"
-  },
-  {
     question: "Last week, Jessica beat Emily at checkers in 20% of their matches. Emily won 12 matches. How many matches did Jessica win?",
     answer: 3
   },
@@ -481,10 +449,6 @@ const moemsBank = [
   {
     question: "The large rectangle shown is composed of 5 congruent smaller rectangles, each with whole number dimensions. If the perimeter of each smaller rectangle is 20 cm, find the area of the entire large rectangle in sq cm.",
     answer: 80
-  },
-  {
-    question: "Suppose 120 days ago was a Friday. What day of the week will it be 86 days from now?",
-    answer: "Monday"
   },
   {
     question: "What number is 3/4 of the way from -11 to -3?",
@@ -552,7 +516,7 @@ const moemsBank = [
   },
   {
     question: "A grocer bought 15 dozen oranges at $1.00 a dozen. She threw away 20 rotten oranges, and then sold the rest at 8 oranges for 85 cents. How much profit did the grocer make, in dollars and cents?",
-    answer: "$2.00"
+    answer: 2
   },
   {
     question: "The September price of a computer was $1000. Later, an October price was obtained by raising the September price by 20%. Then a November price was obtained by lowering the October price by 20%. What was the November price in dollars?",
@@ -564,7 +528,7 @@ const moemsBank = [
   },
   {
     question: "A single story house is to be built on a rectangular lot 70 feet wide by 100 feet deep. The shorter side of the lot is along the street. The house must be set back 30 feet from the street. It also must be 20 feet from the back lot line and 10 feet from each side lot line.\n\nWhat is the greatest area that the house can have, in sq ft?",
-    answer: "2500 sq ft"
+    answer: 2500
   },
   {
     question: "Jessie has $5.10 worth of stamps. She has equal numbers of 50-cent, 20-cent, 10-cent, and 5-cent stamps. She has no other stamps.\n\nHow many 50-cent stamps does she have?",
@@ -572,11 +536,11 @@ const moemsBank = [
   },
   {
     question: "A fenced rectangular garden is 10 m wide and 20 m long. When one side is moved outward and two other sides are increased in length, the area increases by 40 sq m.\n\nWhat is the fewest number of meters of additional fencing needed to form the larger rectangular garden?",
-    answer: "4 m"
+    answer: 4
   },
   {
     question: "A gumball machine contains red, green, yellow, and purple gumballs. You cannot control which color you get. Anna wants three gumballs of any one color.\n\nAt 5¢ each, what is the minimum number of cents that guarantees in advance three gumballs of the same color?",
-    answer: "45 cents"
+    answer: 45
   },
   {
     question: "Each of three darts lands in a numbered region of the dart board, scoring the number of points shown. How many different sums are possible for the three darts?",
@@ -596,7 +560,7 @@ const moemsBank = [
   },
   {
     question: "The cold water faucet of a bathtub can fill the tub in 15 minutes. The drain, when opened, can empty the full tub in 20 minutes. Suppose the tub is empty and the faucet and drain are both opened at the same time.\n\nHow long will it take to fill the tub?",
-    answer: "60 minutes"
+    answer: 60
   },
   {
     question: "Below is a 3 by 3 by 3 cube. Not all of the cubes are visible. Suppose the entire outside of the cube is painted red including the bottom.\n\nHow many different 2 by 2 by 2 cubes with exactly three red faces can be found in the shown cube?",
@@ -643,12 +607,8 @@ const moemsBank = [
     answer: 985
   },
   {
-    question: "In the repeating pattern below, what will be the 78th letter written?\n\nABBCCD ABBCCD... (and so on)",
-    answer: "D"
-  },
-  {
     question: "A square with an area of 18 square centimeters is inscribed in a circle as shown.\n\nUsing the approximation π ≈ 3.14, find the area of the shaded region to the nearest square centimeter.",
-    answer: "10 sq cm"
+    answer: 10
   },
   {
     question: "In a hotel, 40 people occupy exactly 26 rooms. Each room is occupied by either one or two people.\n\nHow many rooms are occupied by exactly one person?",
@@ -664,7 +624,7 @@ const moemsBank = [
   },
   {
     question: "Jess runs an outdoor stand at City Stadium. When it rains, Jess earns $1500 selling umbrellas. But when it doesn't rain, she earns $400 selling sunglasses. On any given day, the chance of rain is 40%.\n\nOn the average, how much can Jess expect to earn daily?",
-    answer: "$840"
+    answer: 840
   },
   {
     question: "This year, 1 out of every 55 adults started a new business. This rate represented an increase of 20% over last year's rate of 1 new business start-up out of every N adults.\n\nFind N.",
@@ -680,7 +640,7 @@ const moemsBank = [
   },
   {
     question: "One light flashes every 2 minutes and another light flashes every 7 minutes. If both lights flash together at 1 PM,\n\nWhat is the first time after 3 PM that both lights flash together?",
-    answer: "3:06 PM"
+    answer: 1506
   },
   {
     question: "In this diagram, each \"path\" spells the word OLYMPIAD correctly.\n\nHow many different paths exist in the diagram?",
@@ -688,7 +648,7 @@ const moemsBank = [
   },
   {
     question: "The figure below is a \"magic square\" with missing entries. When complete, the sum of the four entries in each column, each row, and each diagonal is the same.\n\nFind the value of A and the value of B.",
-    answer: "A=1, B=13"
+    answer: "1, 13"
   },
   {
     question: "A circular track is 1000 yards in circumference. Cyclists A, B, and C start at the same place and time, and race around the track at the following rates per minute: A at 700 yards, B at 800 yards, and C at 900 yards.\n\nWhat is the least number of minutes it must take for all three to be together again?",
@@ -712,7 +672,7 @@ const moemsBank = [
   },
   {
     question: "When it is 7 AM in New York, it is noon in London. A plane leaves London at 12 PM (noon) London time and arrives in New York at 11 AM New York time the same day. A second plane leaves New York at 12 PM (noon) New York time for London.\n\nWhat time in London is it when the second plane arrives? *Assume both planes fly for the same number of hours*",
-    answer: "9 pm"
+    answer: 2100
   },
   {
     question: "Ashley's locker number is a three-digit multiple of 5. The tens digit is the sum of the hundreds digit and the ones digit. The sum of all three digits is 16. No two digits are the same.\n\nWhat is Ashley's locker number?",
@@ -723,20 +683,12 @@ const moemsBank = [
     answer: 120
   },
   {
-    question: "Five students sit around a circular table. Their chairs are numbered in order from 1 through 5. Abby sits next to both Ben and Colin. Dalia sits next to both Ben and Sarah. The numbers on Abby's and Colin's chairs add up to 6.\n\nWho sits in chair number 3?",
-    answer: "Dalia"
-  },
-  {
     question: "Six girls of differing heights are arranged in 2 rows of 3 each. Each girl is taller than the girl in front of her and also taller than the girl to her right.\n\nHow many arrangements of the six girls are possible?",
     answer: 5
   },
   {
     question: "The price of a candy bar has increased 20%.\n\nHow many candy bars can now be purchased for the amount of money that used to buy 42 candy bars?",
     answer: 35
-  },
-  {
-    question: "Maxie lies on Fridays, Saturdays, and Sundays, while he tells the truth on all other days. Minnie lies on Tuesdays, Wednesdays, and Thursdays, but she is truthful on all other days.\n\nOn what day of the week could they both say, \"Tomorrow, I will lie.\"?",
-    answer: "Thursday"
   },
   {
     question: "Boris and Natasha start at the same place and at the same time on a 200 meter circular track and run in the same direction. Boris runs at 5 meters per second and Natasha runs at 3 meters per second.\n\nHow many meters has Natasha run when they first meet after starting?",
@@ -756,7 +708,7 @@ const moemsBank = [
   },
   {
     question: "Calculate: 8883 + 8838 + 8388 + 3888.",
-    answer: "29,997"
+    answer: 29997
   },
   {
     question: "What is the units digit of the total sum of the sequence 3, 8, 13, 18, ..., 98? (There are 20 numbers in the sequence).",
@@ -788,11 +740,7 @@ const moemsBank = [
   },
   {
     question: "Anik bought 3 apples and 2 oranges for $2.40. Later, he bought 2 apples and 3 oranges for $2.10. What is the cost of one apple?",
-    answer: "$0.60"
-  },
-  {
-    question: "Three friends-Alice, Bob, and Charlie-are in a race. Alice did not come in first. Bob came in 10 seconds behind the winner. Charlie finished 5 seconds ahead of Bob. Who won the race?",
-    answer: "Charlie"
+    answer: 0.6
   },
   {
     question: "A square tablecloth with an area of 256 sq in. is folded in half repeatedly until it covers 8 sq in. How many times was it folded?",
@@ -800,11 +748,11 @@ const moemsBank = [
   },
   {
     question: "A rectangle measures 12 inches by 18 inches. It is cut into 6 identical squares. What is the perimeter of one square?",
-    answer: "24 in."
+    answer: 24
   },
   {
     question: "A cube has a volume of 64 cubic centimeters. What is the total surface area of the cube?",
-    answer: "96 cm²"
+    answer: 96
   },
   {
     question: "A rectangular floor is 10 feet by 12 feet. It is being tiled with square tiles that are 2 feet on each side. How many tiles are needed?",
@@ -812,7 +760,7 @@ const moemsBank = [
   },
   {
     question: "The perimeter of a rectangle is 30 cm. If the length is twice the width, what is the area of the rectangle?",
-    answer: "50 cm²"
+    answer: 50
   },
   {
     question: "Suppose WARM − COLD = 6591, and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM?",
@@ -839,20 +787,12 @@ const moemsBank = [
     answer: 21
   },
   {
-    question: "A pattern of shapes repeats: Circle, Square, Triangle, Star. What is the 50th shape in the pattern?",
-    answer: "Square"
-  },
-  {
     question: "A 3-digit number has digits in increasing order. The sum of the digits is 9, and the number is a multiple of 15. What is the number?",
     answer: 135
   },
   {
     question: "In the cryptarithm 5A9 + 5A9 + 5A9 = PLAN, each letter is a different digit. None of the letters can be 5 or 9. Find the sum PLAN.",
     answer: 1647
-  },
-  {
-    question: "Four cups are in a row: Green, Yellow, Blue, and Red. The Green cup is between Yellow and Blue. The Red cup is to the left of the Yellow cup. The Blue cup is not the last cup. What is the left-to-right order?",
-    answer: "Red, Blue, Green, Yellow"
   },
   {
     question: "Kayla's 3-digit palindrome is divisible by 18 and is one less than a multiple of 5. What is the number?",
@@ -880,7 +820,7 @@ const moemsBank = [
   },
   {
     question: "Three apples and two bananas weigh 28 ounces. Two apples and three bananas weigh 27 ounces. What is the weight of one apple? Page 1 MATH OLYMPIADS (Division E) - Practice Set",
-    answer: "6 ounces"
+    answer: 6
   },
   {
     question: "The 7-digit numbers 47A5A20 and 47B5B20 are divisible by 24. Given that A > B, find the value of (A+B)(A-B).",
@@ -1000,15 +940,15 @@ const moemsBank = [
   },
   {
     question: "Eight congruent rectangles are arranged to form a large rectangle with an area of 120 square cm, as shown in the diagram. The dimensions of each small rectangle are whole numbers. What is the number of centimeters in the perimeter of the large given rectangle?",
-    answer: "52 cm"
+    answer: 52
   },
   {
     question: "Nine congruent rectangles are arranged to form a large rectangle with an area of 108 square cm, as shown in the diagram. The dimensions of each small rectangle are whole numbers. What is the number of centimeters in the perimeter of the large given rectangle?",
-    answer: "42 cm"
+    answer: 42
   },
   {
     question: "Five congruent rectangles are arranged to form a large rectangle with an area of 75 square cm, as shown in the diagram. The dimensions of each small rectangle are whole numbers. What is the number of centimeters in the perimeter of the large given rectangle?",
-    answer: "40 cm"
+    answer: 40
   },
   {
     question: "In a grid of 1 x 1 squares, Asha starts shading some 1 x1 squares. She will not shade a square that would share anything, including a corner, with any other shaded 1 x 1 square. What is the maximum number of 1 x 1 squares that could be shaded in a 12 x 16 grid? ❓",
@@ -1220,7 +1160,7 @@ const moemsBank = [
   },
   {
     question: "The shape in the diagram was formed by removing one 3×3 square from the center of a 12×12 square. What is the greatest number of 4×3 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
-    answer: 11
+    answer: 10
   },
   {
     question: "The shape in the diagram was formed by removing one 2×1 rectangle from the interior of a 7×7 square. What is the greatest number of 3×1 tiles that can be placed on the shape without overlapping, without covering the empty rectangle, and without going beyond the border of the square?",
@@ -1260,7 +1200,7 @@ const moemsBank = [
   },
   {
     question: "The shape in the diagram below was formed by removing one 2 x 2 square from the corner of an 8 x 8 square. What is the greatest number of 4 x1 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
-    answer: 15
+    answer: 14
   },
   {
     question: "The shape in the diagram below was formed by removing one 3 x 3 square from the center of a 9 x 9 square. What is the greatest number of 3 x 1 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
@@ -1348,7 +1288,7 @@ const moemsBank = [
   },
   {
     question: "THE 99 RULE: Find the digits A and B such that the 5-digit number 7A28B is divisible by 99. Write your answer as the 2-digit number AB.",
-    answer: "01 ( A=0, B=1 )"
+    answer: "0, 1"
   },
   {
     question: "In the addition problem ABA + B = 600, where A and B are di erent digits, what is the value of the product A x B?",
@@ -1373,10 +1313,6 @@ const moemsBank = [
   {
     question: "A printer uses individual metal stamps for digits to number the pages of a book from 1 to 150. How many total digit stamps were used?",
     answer: 342
-  },
-  {
-    question: "If today is Sunday, what day of the week will it be exactly 100 days from now?",
-    answer: "Tuesday"
   },
   {
     question: "The product of three consecutive integers is 120. What is the sum of these three integers?",
@@ -1487,10 +1423,6 @@ const moemsBank = [
     answer: 23
   },
   {
-    question: "Ages: Adam's age is the sum of Beth's and Carol's. Four years ago, David's age was the sum of Beth's and Carol's ages then. Eight years ago, Adam was twice as old as David. Who is the oldest?",
-    answer: "Adam"
-  },
-  {
     question: "Seating Rows: A theater has 30 rows. The first row has 20 seats, and each row after has 2 more seats than the one before. How many seats are in the last row?",
     answer: 78
   },
@@ -1504,7 +1436,7 @@ const moemsBank = [
   },
   {
     question: "The String of Digits: A very large number N is created by writing the numbers from 1 to 15 in a row: N = 123456789101112131415. Is N divisible by 3? Explain why or why not.",
-    answer: "yes"
+    answer: 1
   },
   {
     question: "The Common Multiple: What is the smallest 4-digit number that is divisible by 2, 3, 4, 5, and 6?",
@@ -1512,7 +1444,7 @@ const moemsBank = [
   },
   {
     question: "The Mystery Digit: In the 3-digit number 8R4, R represents a missing digit. If the number is divisible by 7, what digit does R represent?",
-    answer: "5 (number 854)"
+    answer: 5
   },
   {
     question: "The Team Captain: A gym teacher has a group of students. The students can be divided into equal teams of 3, 4, or 5 with no students left over. What is the smallest possible number of students in the group?",
@@ -1540,7 +1472,7 @@ const moemsBank = [
   },
   {
     question: "The Palindrome Search A palindrome is a number that reads the same forwards and backwards (like 121). What is the largest three-digit palindrome that is divisible by 15?",
-    answer: 990
+    answer: 585
   },
   {
     question: "The Missing Digit The five-digit number 47,A28 is divisible by 9. What is the value of the digit A?",
@@ -1568,7 +1500,7 @@ const moemsBank = [
   },
   {
     question: "The Printer Race Printer A can finish a school newsletter job in 10 minutes. Printer B is slower and takes 15 minutes for the same job. If both printers are started at exactly 2:00 PM, at what time will the newsletter job be completed?",
-    answer: "2:06 PM"
+    answer: 1406
   },
   {
     question: "The Leaky Pool A backyard pool can be filled by a high-pressure hose in 6 hours. However, the pool has a small drainage valve at the bottom that can empty a full pool in 10 hours. If the pool starts empty and both the hose and the drainage valve are opened at the same time, how many hours will it take to fill the pool?",
@@ -1580,7 +1512,7 @@ const moemsBank = [
   },
   {
     question: "The Garage Marathon Sam can clean half of a garage in 3 hours. Jordan can clean the other half of the garage in 5 hours. If they decide to work together to clean the entire garage from start to finish, how many minutes will it take them?",
-    answer: "225 minutes"
+    answer: 225
   },
   {
     question: "The Lawn Division Aiden can mow the lawn in 2 hours, and Lily can mow the same lawn in 3 hours. They start mowing the lawn together at 1:00 PM. What fraction of the lawn is still left to be mowed at 2:00 PM?",
@@ -1588,15 +1520,15 @@ const moemsBank = [
   },
   {
     question: "The Cookie Factory Maria can bake a full batch of cookies in 60 minutes. Zoe is a bit slower and takes 90 minutes to bake the same batch. If they work together using two separate ovens, how many full batches of cookies can they complete in 6 hours?",
-    answer: "10 batches"
+    answer: 10
   },
   {
     question: "The Filling Fiasco Hose A can fill a pool in 8 hours. Hose B can fill the same pool in 12 hours. If both hoses are turned on at the same time, but Hose A is turned off after exactly 2 hours, how many additional hours will it take Hose B to finish filling the pool?",
-    answer: "9 hours"
+    answer: 9
   },
   {
     question: "The Painting Deadline Ella can paint a fence in 3 hours, and Max can paint it in 4 hours. They start painting together at 10:00 AM. To the nearest whole minute, at what time will they finish the job? 💡",
-    answer: "11:43 AM"
+    answer: 1143
   },
   {
     question: "The Smallest Sum. In the cryptarithm below, each letter represents a different digit from 0 to 9. No word can start with the digit 0. Find the smallest possible sum for this addition.",
@@ -1639,22 +1571,6 @@ const moemsBank = [
     answer: 40
   },
   {
-    question: "Friends at a Table: Six friends (Ava, Ben, Cara, Diego, Elena, and Finn) sit equally spaced around a circular table. Ava sits directly across from Ben. Cara sits immediately to the left of Diego. Elena is not sitting next to Ava. Who can sit directly across from Cara?",
-    answer: "Finn or Elena"
-  },
-  {
-    question: "Coworkers at a Table: Six coworkers (Hannah, Isaac, Jenna, Kyle, Leo, and Maya) sit around a circular table. Hannah sits directly across from Leo. Jenna sits immediately to the right of Kyle. Isaac is not sitting next to Hannah or Leo. Who sits directly across from Jenna?",
-    answer: "Isaac or Maya"
-  },
-  {
-    question: "Players at a Table: Six players (Sam, Tori, Umar, Violet, Will, and Zara) sit around a circular table. Sam sits directly across from Violet. Tori sits immediately between Umar and Sam. Zara is not sitting next to Sam. Who can sit directly across from Zara?",
-    answer: "Tori"
-  },
-  {
-    question: "Kids at a Table: Six kids (Brian, Chloe, Dylan, Emma, Felix, and Grace) sit around a circular table. Brian sits directly across from Emma. Chloe sits immediately to the left of Felix. Grace is not sitting next to Brian. Who sits directly across from Chloe?",
-    answer: "Dylan or Grace"
-  },
-  {
     question: "What is the least prime number that can be added to 10 so that the sum is also a prime number?",
     answer: 3
   },
@@ -1680,7 +1596,7 @@ const moemsBank = [
   },
   {
     question: "Solve the addition problem ACT + DOG = COP given that: The digits 1, 4, and 7 are not used. All letters stand for distinct digits. No number starts with 0.",
-    answer: "903 or 960"
+    answer: "903, 960"
   },
   {
     question: "The Pizza Party A pizza parlor charges a delivery fee plus a cost for each pizza ordered. An order of 3 pizzas costs $41. An order of 5 pizzas costs $63. What is the delivery fee?",
@@ -1704,23 +1620,19 @@ const moemsBank = [
   },
   {
     question: "The Concert Hall (Arithmetic Series) In the \"Star Theater,\" the first row has 15 seats. Every row behind it has 3 more seats than the row in front of it. If the theater has 12 rows, how many seats are in the 12th row?",
-    answer: "48 seats"
+    answer: 48
   },
   {
     question: "The School Bus (Logical Constraints) Three friends-Abby, Ben, and Chloe-are sitting in a row of three seats on a bus. Abby refuses to sit next to Chloe. In how many different ways can the three friends be seated?",
-    answer: "2 ways"
+    answer: 2
   },
   {
     question: "The Banquet Table (Pattern Growth) A square table can seat 4 people (1 person on each side). If you push two square tables together to form a long rectangle, you can seat 6 people. If you push 10 square tables together in a single long row, how many people can be seated?",
-    answer: "22 people"
-  },
-  {
-    question: "The Mystery Row (Logic & Deductive Reasoning) Five students (A, B, C, D, and E) are sitting in a row of five chairs. C is in the exact middle. A is sitting at one of the ends. B is sitting immediately to the right of C. D is not sitting next to A. Which student is sitting in the chair furthest to the right?",
-    answer: "Student D"
+    answer: 22
   },
   {
     question: "The Stadium Section (Total Sums) A small section of a stadium has 5 rows. The first row has 10 seats, the second has 12, the third has 14, and so on. What is the total number of seats in this entire section?",
-    answer: "70 seats"
+    answer: 70
   },
   {
     question: "Let a @ b = a / (2a + b). What is the value of 5 @ 3? Express your answer as a common fraction.",
@@ -1772,7 +1684,7 @@ const moemsBank = [
   },
   {
     question: "A taxi charges $3.25 for the first mile and $0.45 for each additional 1/4 mile thereafter. At most, how many miles can a passenger travel using $13.60? Express your answer as a mixed number.",
-    answer: "6 3/4"
+    answer: 6.75
   },
   {
     question: "Kali is mixing soil for a container garden. If she mixes 2 m3 of soil containing 35% sand with 6 m3 of soil containing 15% sand, what percent of the new mixture is sand?",
@@ -1799,10 +1711,6 @@ const moemsBank = [
     answer: 721
   },
   {
-    question: "Diagonal XZ of rectangle WXYZ is divided into three segments each of length 2 units by points M and N as shown. Segments MW and NY are parallel and are both perpendicular to XZ. What is the area of WXYZ? Express your answer in simplest radical form. 2 2 2",
-    answer: "12√2"
-  },
-  {
     question: "A spinner is divided into 5 sectors as shown. Each of the central 1 5 angles of sectors 1 through 3 measures 60° while each of the 2 central angles of sectors 4 and 5 measures 90°. If the spinner is 4 3 spun twice, what is the probability that at least one spin lands on an even number? Express your answer as a common fraction.",
     answer: "95/144"
   },
@@ -1820,7 +1728,7 @@ const moemsBank = [
   },
   {
     question: "There are twelve different mixed numbers that can be created by substituting three of the numbers 1, 2, 3 and 5 for a, b and c in the expression a b/c, where b < c. What is the mean of these twelve mixed numbers? Express your answer as a mixed number.",
-    answer: "2 3/5"
+    answer: 2.6
   },
   {
     question: "If 738 consecutive integers are added together, where the 178th number in the sequence is 4,256,815, what is the remainder when this sum is divided by 6?",
@@ -1839,10 +1747,6 @@ const moemsBank = [
     answer: 1899
   },
   {
-    question: "A 12-sided game die has the shape of a hexagonal bipyramid, which consists of two pyramids, each with a regular hexagonal base of side length 1 cm and with height 1 cm, glued together along their hexagons. When this game die is rolled and lands on one of its triangular faces, how high off the ground is the opposite face? Express your answer as a common fraction in simplest radical form.",
-    answer: "(2√21)/7"
-  },
-  {
     question: "If 20 + XY + 19 = 100, compute 20 + YX - 19. (X and Y represent the digits of the 2-digit numbers XY and YX.)",
     answer: 17
   },
@@ -1856,7 +1760,7 @@ const moemsBank = [
   },
   {
     question: "Numbers were written in 1000 boxes in a row, one number per box (only the first ten and the last five boxes are shown). For every four boxes in a row, the sum of their numbers was 12. Most of the numbers got erased over time, but three of them remain. What number was written in the last box on the right? 0 1 2 ...",
-    answer: 5
+    answer: 9
   },
   {
     question: "Four cats - Astro, Buttons, Calico, and Duchess - bought 30 mice altogether. Each of the four cats bought an odd number of mice. Buttons bought more mice than Astro, and Calico bought fewer mice than Duchess. What is the greatest number of mice that could have been bought by Astro and Calico altogether?",
@@ -1872,7 +1776,7 @@ const moemsBank = [
   },
   {
     question: "How many quadrilaterals of all sizes and positions are there in the diagram, including quadrilaterals that are made up of more than one shape? 9 Stretch and Shorty are friends. Every January 1st they get measured and they write down the date, Stretch's height, Shorty's height, their total height, and their height difference (the amount by which Stretch is taller than Shorty). From January 1st, 2018, to January 1st, 2019, Stretch grew 5%, Shorty grew 2%, their total height increased by 4%, and their height difference increased by X%. Compute the value of X.",
-    answer: 8
+    answer: 52
   },
   {
     question: "How many different whole numbers are there containing only the digits 1 and/or 2 (each of these digits can be used one or more times or not at all) such that for each of these numbers, the sum of all of its digits equals seven?",
@@ -1904,7 +1808,7 @@ const moemsBank = [
   },
   {
     question: "A metal letter R weighs 2 pounds, a metal letter S weighs 1 pound, and a metal letter M weighs 4 pounds. A certain 10-letter \"word\" containing only the metal letters R, S, and M can be split into three groups of letters weighing 9 pounds per group. How many letters M are in this word?",
-    answer: "4 or 5"
+    answer: "4, 5"
   },
   {
     question: "In a very long toy train, the first and last cars were blue. After each blue car (except the last one), there were two yellow cars. After each pair of yellow cars, there was a red car. After each red car, there was a blue car. The first five train cars are shown in the picture. Oleg picked a car and recolored all cars in front of it green. Then Joyce picked a car and recolored all cars behind it green. What is the greatest possible number of non-green cars in the recolored toy train if it contains 7 more yellow cars than blue cars?",
@@ -1988,7 +1892,7 @@ const moemsBank = [
   },
   {
     question: "Emily has four cards marked 2, 0, 1, and 9. What is the smallest four digit number that Emily can make with her cards? (2 3",
-    answer: "The smallest four digit number that Emily can make is 1029 or 1026 or 1,029 or 1,026."
+    answer: "1029, 1026"
   },
   {
     question: "Calculate: 5 5 − 5 ÷ 5 ) 4",
@@ -1996,55 +1900,55 @@ const moemsBank = [
   },
   {
     question: "Mary cut a rectangular piece of paper into two triangles with sides 9, 40, and 41 cm. Find the area of the rectangular piece of paper before cutting. 1 1 1",
-    answer: "The area of the rectangular piece of paper is 360 cm2."
+    answer: 360
   },
   {
     question: "Find the value of x , if 2 x + 5 2 = 14 2",
-    answer: "x = 18"
+    answer: 18
   },
   {
     question: "Adam the Ant and Anna the Ant dared each other to grab a moving bicycle wheel. Adam the Ant hung on for 20 seconds, in which time the wheel made 30 turns; then, he fell off. Anna the Ant hung on 12 seconds longer than Adam the Ant. How many times did she spin around on the bicycle wheel?",
-    answer: "Anna the Ant spun around the bicycle wheel 48 times."
+    answer: 48
   },
   {
     question: "Find the covered number:",
-    answer: "The covered number is 2038 or 2,038."
+    answer: "2038, 2038"
   },
   {
     question: "Fifteen elves made some identical cakes for a party. Each elf ate half of a cake, one-fifth of a cake, and a third piece, which was six times smaller than the second piece. Three cakes were left untouched. How many cakes did the elves make?",
-    answer: "The elves made 14 cakes."
+    answer: 14
   },
   {
     question: "One chocolate bar can be used to create one chocolate rabbit with some chocolate left over. The leftovers of seven bars can be used to create two chocolate rabbits without any chocolate left over. How many chocolate rabbits can be created from 35 chocolate bars?",
-    answer: "45 chocolate rabbits."
+    answer: 45
   },
   {
     question: "All cabins on the Giant Ferris Wheel are numbered in order starting from the number 1. Jack came and sat in cabin 48. Jim skipped the next 15 cabins and sat in cabin 2. How many cabins are there?",
-    answer: "There are 62 cabins."
+    answer: 62
   },
   {
     question: "Mother Goose's twin sons, Winken and Blinken, were born on the same day of the year as their mom. Two years ago, the sum of all their ages was 19. Today, Mother Goose is 3 times as old as Winken. How old is Blinken today?",
-    answer: "Blinken is 5 years old."
+    answer: 5
   },
   {
     question: "Alice used 9 cm × 9 cm × 9 cm cubes to build a tower which is 12 cubes tall, 4 cubes wide and 3 cubes long. Then, she decided to make her tower taller by taking apart one of the side layers to build a few more layers on the top of the tower. What is the smallest possible height, in centimeters, of the new tower?",
-    answer: "The smallest possible height is 144 centimeters."
+    answer: 144
   },
   {
     question: "All the unicorns on Rainbow Island are either green or yellow. Every time the clock strikes midnight, some of the unicorns change their color. Yesterday, there were 6 green unicorns for every 5 yellow ones. Today, there are 3 green ones for every 4 yellow ones. What is the smallest possible number of unicorns living on Rainbow Island?",
-    answer: "The smallest possible number of unicorns is 77."
+    answer: 77
   },
   {
     question: "As a present for Mother's Day, Mary wants to decorate a 1-inch-wide frame around a 6-inch by 9-inch photo of her mom. Mary paints each square inch with alternating striped and solid triangles, as shown. How many striped triangles will Mary paint?",
-    answer: "Mary paints 68 striped triangles."
+    answer: 68
   },
   {
     question: "The Ancient Wizard Albus owns 3 ancient Clocks of Perpetual Motion. Every day, Clock #1 runs 20 minutes fast; Clock #2 runs 30 minutes fast, and Clock #3 runs 40 minutes fast. He sets all three clocks to the correct time and leaves to visit his friend. After many days, he returns home and, to his surprise, finds all 3 clocks showing the correct time again! What is the fewest possible number of days Albus could have spent away from home?",
-    answer: "The fewest possible number of days is 72."
+    answer: 72
   },
   {
     question: "Rachel has four cards marked 2, 0, 1, and 8. What is the greatest four digit number that Rachel can make with her cards?",
-    answer: "The greatest four digit number that Rachel can make is 8210."
+    answer: 8210
   },
   {
     question: "Find the value of x, if :",
@@ -2052,59 +1956,59 @@ const moemsBank = [
   },
   {
     question: "How long is the rectangle if its width is 6 inches and its area is 42 square inches?",
-    answer: "The rectangle is 7 inches long."
+    answer: 7
   },
   {
     question: "A very hungry hippo can eat 25 kilograms of grass in 50 minutes. How many minutes will it take the hippo to eat 60 kilograms of grass?",
-    answer: "It will take 120 minutes."
+    answer: 120
   },
   {
     question: "Emily is playing a game where she receives 2 points as soon as she solves three puzzles correctly. For every ten correctly solved puzzles, Emily earns 3 additional points. How many points did Emily receive if she solved 30 puzzles in all?",
-    answer: "Emily received 29 points."
+    answer: 29
   },
   {
     question: "There were 16 more frogs in Green Pond than in Blue Pond. All the frogs from Blue Pond jumped into Green Pond. Now the total number of frogs in Green Pond is 80. How many frogs were there originally in Green Pond?",
-    answer: "There were 48 frogs in Green pond, originally"
+    answer: 48
   },
   {
     question: "Find the missing number:",
-    answer: "The missing number is 1817."
+    answer: 1817
   },
   {
     question: "An alarm clock is slow. It falls behind 4 minutes every 24 hours. If the clock was showing the correct time at 6 : 00 this morning, how many seconds ahead was the clock at 10 : 00 last night?",
-    answer: "The clock was 80 seconds ahead."
+    answer: 80
   },
   {
     question: "Twenty comic book fans started a club. The next day and every day after that, three new members joined the fan club. On November 30th, the club had 71 members at the end of the day. On what date in November was the fan club formed?",
-    answer: "The fan club was formed on November, 13."
+    answer: 13
   },
   {
     question: "Aladdin found a cave filled with boxes of gold, measuring 2 inches × 2 inches × 2 inches, and boxes of silver, measuring 1 inch × 1 inch × 1 inch. However, Aladdin brought only one box measuring 6 inches × 6 inches × 7 inches with him. He filled it with as many boxes of gold as would fit, then put as many boxes of silver as would fit in the remaining space. How many boxes of treasure did Aladdin take?",
-    answer: "Aladdin took 63 boxes of treasure."
+    answer: 63
   },
   {
     question: "Sheila collects Pokemon cards. As of 2018, she has a Mewtwo card that is twice as old as her Snorlax card. Two years ago, her rare Raichu card was five times as old as the Snorlax card. If the Raichu card is seven years older than the Mewtwo card, in what year was the Raichu card made?",
-    answer: "The Raichu card was made in the year 2001."
+    answer: 2001
   },
   {
     question: "A cabinet has two sliding doors of different sizes. When the cabinet is fully closed, they overlap by two-fifths of the width of the smaller door. When both doors are slid to one side, the part of the longer door that is not behind the shorter one is half as wide as the original overlap, and the open portion of the cabinet is 36 inches wide. What is the width of the whole cabinet?",
-    answer: "The width of the whole cabinet is 108 inches."
+    answer: 108
   },
   {
     question: "Queen Laetitia is sorting her gem collection. She starts by placing some of her diamonds into two boxes. In every box after the first two, the Queen puts as many diamonds as in the previous two boxes combined. If there are 30 diamonds in the fourth box, and 128 diamonds in the seventh box, how many diamonds did Queen Laetitia place in the tenth box?",
-    answer: "Queen Laetitia placed 542 diamonds in the tenth box."
+    answer: 542
   },
   {
     question: "A cat and dog sing a song. The dog sings \"Woof!\" five times for every two times the cat sings \"Meow!\" If the cat sings \"Meow!\" 28 times, how many times did the dog sing \"Woof!\"?",
-    answer: "70 times"
+    answer: 70
   },
   {
     question: "Harry and Luna together ate 56 Chocolate Frogs. Harry ate 6 more Chocolate Frogs than Luna. How many Chocolate Frogs did Luna eat? 1",
-    answer: "25 chocolate frogs"
+    answer: 25
   },
   {
     question: "Find the value of x, if x − 10 = 5 5",
-    answer: "x=75"
+    answer: 75
   },
   {
     question: "A boy has 140 toy soldiers. He put 14 soldiers in the fortress and divided the rest of the soldiers into 14 equal groups. If he used 3 of the groups as attackers, how many toy soldiers are attackers?",
@@ -2112,19 +2016,15 @@ const moemsBank = [
   },
   {
     question: "Five years ago, David was three times as old as Julia was. In 2 years, David will be twice as old as Julia will be. How old is David now?",
-    answer: "26 years old"
-  },
-  {
-    question: "Sir Cadogan likes to change his password three times per day (every eight hours). He uses his favorite password, \"RSM\", every fourth time. He used this password at 12 a.m. on January 1, 2017. What was the first day in January that he did not use this password?",
-    answer: "January 4, 2017"
+    answer: 26
   },
   {
     question: "Mandy arranged 1 ft × 1 ft ×1 ft boxes in a stack that is 5 ft × 5 ft × 5 ft. Andy took all the boxes from the top layer of the stack. Then, Sandy took all the boxes from the rightmost side of the remaining stack. How many boxes are left in the stack?",
-    answer: "80 boxes"
+    answer: 80
   },
   {
     question: "Hogwarts students stand in a row. Harry noted that 22 students are to his left side. Hermione noted that 11 students, including Harry, are to her right side. How many students are between Harry and Hermione if there are 27 students in the row?",
-    answer: "6 students"
+    answer: 6
   },
   {
     question: "How many 2 × 4 LEGO bricks do you need to cover two 14 × 16 LEGO building plates? 3 1",
@@ -2132,23 +2032,23 @@ const moemsBank = [
   },
   {
     question: "Tom Sawyer painted of a fence with of a canister of paint. How many 5 3 milliliters of this paint did he use to paint the whole fence, if the canister contains 990 milliliters of paint?",
-    answer: "550 milliliters"
+    answer: 550
   },
   {
     question: "Two faulty tennis ball machines start to shoot balls from opposite sides of a 25 meter by 10 meter tennis court. The green ball machine shoots green balls that stop on the court 5 meters to 20 meters from the green machine's side. The yellow ball machine shoots yellow balls that stop on the court 2 meters to 16 meters from the yellow machine's side. Find the area of the tennis court that has balls of either color on it.",
-    answer: "110 square meters"
+    answer: 110
   },
   {
     question: "Two brothers, Jim and John, had a straight log in their backyard. Jim wanted the log cut into 24 equal parts. He painted red lines on the log and called to a lumberjack to cut the log by the painted lines. John wanted the log cut too, but into 18 equal parts. He painted yellow lines on the log with some yellow lines painted over red lines. The lumberjack came and cut the log by the painted lines. How many cuts did the lumberjack make?",
-    answer: "35 cuts"
+    answer: 35
   },
   {
     question: "A young wizard knows this many spells: 60 ÷ 2 × 10. An old wizard knows twice as many. How many spells does the old wizard know?",
-    answer: "600 spells"
+    answer: 600
   },
   {
     question: "A snail can crawl 12 inches in 3 hours. How many inches can it crawl in 5 hours?",
-    answer: "20 inches"
+    answer: 20
   },
   {
     question: "If the sum of two numbers is 46 and the difference is 10, what is the larger number?",
@@ -2160,11 +2060,11 @@ const moemsBank = [
   },
   {
     question: "Sina trained for the RSM Olympiad. On the first day of her training she solved 20 problems. Each day she solved one more problem than the day before. On her last day of training she solved 80 problems. How many days did Sina train for the Olympiad?",
-    answer: "61 days"
+    answer: 61
   },
   {
     question: "We have so much chocolate prepared for the party that we had to put it all in boxes and arrange the boxes in this pile, which is 4 boxes high, 5 boxes wide, and 5 boxes long: Soon we saw that some boxes of chocolate were missing−someone just loved our chocolate! How many boxes of chocolate do we have now?",
-    answer: "92 boxes"
+    answer: 92
   },
   {
     question: "Find the missing number: 2016 · 199 = 2016·? +2016 · 98",
@@ -2176,39 +2076,39 @@ const moemsBank = [
   },
   {
     question: "Kate's math team meets every 3rd day. For example, they met on Monday, January 4th. Next time, they met on Thursday, January 7th. After that, they met on Sunday, January 10th. When in January did they again meet on Monday?",
-    answer: "Monday, January 25th"
+    answer: 25
   },
   {
     question: "How many square tiles with sides of length 2 feet does one need to cover the floor of a room 30 feet long and 20 feet wide?",
-    answer: "150 tiles"
+    answer: 150
   },
   {
     question: "If Sammy eats 6/7 of a pizza in 2/21 of an hour, how many pizzas will he eat in one hour?",
-    answer: "9 pizzas"
+    answer: 9
   },
   {
     question: "A Magic Carpet is 12 feet long and 10 feet wide. However, only the purple part of the Magic Carpet has magic power. If the magic part is 2 feet wide, find the area of the magic part of the Magic Carpet.",
-    answer: "72 square feet"
+    answer: 72
   },
   {
     question: "Once upon a time, on an island in the middle of an ocean, several tribes lived and fought with each other. A time came when all the tribes agreed to everlasting peace. So, they decided to build a giant monument to celebrate this Peace Treaty. The monument required a certain number of logs, and the tribes had to agree on the number of logs that each tribe was to provide. Had there been two fewer tribes on the island, this number of logs would have been 6. Had there been one more tribe on the island, this number would have been 5. Unfortunately, the tribes could not agree on what number of logs would be fair for the actual number of tribes. So the tribes announced an eternal war - and were not heard from ever again. How many tribes were on the island?",
-    answer: "17 tribes"
+    answer: 17
   },
   {
     question: "What is the smallest number can you get when you subtract a one-digit number from 50 and then double the result? x−3 18",
-    answer: "The smallest number is 82."
+    answer: 82
   },
   {
     question: "Find x , if 15 = 5",
-    answer: "x = 57"
+    answer: 57
   },
   {
     question: "In the film, Zeke the Zombie Slayer Versus the Zombies from Space, Zeke slayed 140 zombies. In the sequel, Zeke the Zombie Slayer Versus the Zombies from Space, Part 2, he slayed 5% more zombies. How many zombies were slain by Zeke in the sequel?",
-    answer: "Zeke slayed 147 zombies."
+    answer: 147
   },
   {
     question: "Adam the Ant and Anna the Ant dared each other to grab a moving bicycle wheel. Adam the Ant hung on for 20 seconds, in which time the wheel made 30 turns; then, he fell off. Anna the Ant hung on 12 seconds longer than Adam the Ant. How many times did she spin around on the bicycle wheel? 2",
-    answer: "Anna the Ant spun around the bicycle wheel 48 times."
+    answer: 48
   },
   {
     question: "Calculate: 49 − 3 · ( − 3)3",
@@ -2216,79 +2116,75 @@ const moemsBank = [
   },
   {
     question: "Chelsea is a chess champion. She's played 132 games; her ratio of wins to draws to losses is 6 : 3 : 2. How many games has she won?",
-    answer: "Chelsea won 72 games."
+    answer: 72
   },
   {
     question: "Ben, Fran and Stan are posting funny memes online. Ben's funny memes got 40% more likes than Stan's. Fran's got 20% fewer likes than Stan's. By what percentage did Ben get more likes than Fran? 2",
-    answer: "Ben got more likes than Fran by 75 percent."
+    answer: 75
   },
   {
     question: "Any time Speedy the Sloth is not sleeping, she drinks chamomile tea at a steady rate of 7 of a 17 cup per hour. Yesterday, she drank 1 cup. If today she drank 42 of a cup more than yesterday, how long (in minutes) did she stay awake today?",
-    answer: "Speedy the Sloth stayed awake for 295 minutes."
+    answer: 295
   },
   {
     question: "If you double all edges of a cube, by what percent will the volume of this cube increase?",
-    answer: "The volume will increase by 700 percent."
+    answer: 700
   },
   {
     question: "AB ∥ DE ¯ ¯ , C is the point of intersection of AE ¯ and DB . m ∠1 = 80°, m ∠2 : m ∠3 = 2 : 3. Find m ∠2.",
-    answer: "m∠2 = 104°"
+    answer: 104
   },
   {
     question: "What is the largest three-digit palindrome divisible by 18? (A palindrome is an integer that remains the same when its digits are reversed. For example, 77, 151, 8338, and etc .)",
-    answer: "828 is the greatest three-digit palindrome divisible by 18."
+    answer: 828
   },
   {
     question: "Six of King Arthur's knights are sitting around the Round Table eating peanuts. Since each knight suspected the others of not sharing fairly, each one secretly counted his two neighbors' peanuts and summed them up, with the following results (in order): 20, 28, 36, 44, 52, 60. How many peanuts does the knight who counted 52 have?",
-    answer: "The knight, who counted 52 peanuts, has 38 peanuts."
+    answer: 38
   },
   {
     question: "Find x, if: [figure in source PDF]",
-    answer: "x = 42."
+    answer: 42
   },
   {
     question: "Tom is 40 inches tall. The sign next to the Superman Roller Coaster says: \"You must be 48 inches to ride!\". By what percent does Tom have to grow to be able to ride the roller coaster?",
-    answer: "Tom has to grow by 20 percent."
-  },
-  {
-    question: "A turtle participates in a 40 meter race. She crawled 30 meters in 48 minutes. If the turtle crawled the entire race at the same speed, how many minutes did it take?",
-    answer: "The turtle crawled the entire race in"
+    answer: 20
   },
   {
     question: "The top of a square table is covered with four equal square tiles. If the side length of each tile is decreased by 50%, how many tiles of the new size would be needed to cover the same table?",
-    answer: "16 new tiles would be needed to cover the table."
+    answer: 16
   },
   {
     question: "Before hosting their annual Chess Tournament and Spelling Bee, a school received 7 boxes of honorary medals: one medal for every participant. After the Chess Tournament, two boxes were empty and the rest were still closed. After the Spelling Bee, which had twice as many participants, there were 72 medals left. How many people competed in the Chess Tournament?",
-    answer: "144 participants competed in the Chess tournament."
+    answer: 144
   },
   {
     question: "Dana sent her mom 60 texts in July, which is 60% fewer texts than her mom sent Dana that month. How many total texts did they exchange in July?",
-    answer: "They sent 210 messages in total."
+    answer: 210
   },
   {
     question: "A witch made two bowls of potion. The first bowl contains 28.5 ounces of potion, and the second bowl contains 3 ounces of potion. She poured ¾ ounces from the second bowl into the first one. How many times as much potion is in the first bowl as in the second",
-    answer: "There is 13 times as much potion in the first bowl."
+    answer: 13
   },
   {
     question: "The measures of the angles of a triangle are in the ratio 2 : 3 : 4. The simplified ratio of the measures of the exterior angles of the triangle is a : b : c. Find a + b + c.",
-    answer: "a + b + c = 18"
+    answer: 18
   },
   {
     question: "Mia and Luke made 85 origami together. Mia made 4 pieces of origami every 3 minutes. Luke made 3 pieces of origami every 4 minutes, but Luke spent 5 minutes more than Mia. How many pieces of origami did Mia make?",
-    answer: "Mia made 52 pieces of origami."
+    answer: 52
   },
   {
     question: "The Charleston family has less than 500 Dalmatians. There are six times as many Dalmatians with black spots on their right ears as Dalmatians without these spots. After giving away 6% of their Dalmatians, how many do the Charlestons have left?",
-    answer: "The Charlestons have 329 Dalmatians left."
+    answer: 329
   },
   {
     question: "A blogger who is just starting out made three videos. So far, she has 312 subscribers, who watched one, two, or all three videos. The three videos got 740 total views all together. Assuming each subscriber only viewed a particular video once, how many more people watched all three videos than only one video?",
-    answer: "116 more people watched all three videos than only one video."
+    answer: 116
   },
   {
     question: "The measures of the acute angles of a right triangle are in the ratio 1 : 5. Find the measure of the larger acute angle of the triangle.",
-    answer: "75 degrees"
+    answer: 75
   },
   {
     question: "This year, Slytherin got 5% less House points than the winner Gryffindor. What is the minimum number of House points Slytherin needed more to win if Gryffindor got 420 House points? 3",
@@ -2300,79 +2196,79 @@ const moemsBank = [
   },
   {
     question: "A grasshopper makes 6 jumps per 15 seconds. Each jump covers 2 inches. After 40 seconds of straight-forward jumping, the grasshopper stopped. How far (in inches) did the grasshopper jump? 8",
-    answer: "32 inches"
+    answer: 32
   },
   {
     question: "How many times larger than the number (1 − ) is the number 15 2 (1.2 + )? 3",
-    answer: "4 times larger"
+    answer: 4
   },
   {
     question: "Ron made a mistake casting a spell, and 25 frogs start to appear each second in the classroom. After 10 seconds, Hermione cast another spell, and 35 frogs start to disappear as 25 frogs appear each second. For how many seconds was there at least one frog in the classroom?",
-    answer: "35 seconds"
+    answer: 35
   },
   {
     question: "John beat his previous high score in the Favorite game by 28%. If his new high score is 288 points, what was his previous high score?",
-    answer: "225 points"
+    answer: 225
   },
   {
     question: "If you increase the length of the rectangle by 50% and the width of the rectangle by 100%, by what percent will the area of this rectangle increase? 0.1 1",
-    answer: "200%"
+    answer: 200
   },
   {
     question: "Find x, if =− 0.06−0.03𝑥 6",
-    answer: "x=22"
+    answer: 22
   },
   {
     question: "A rectangular playing field that is 20 meters long and 15 meters wide was cleaned by 22 boys and 18 girls. The field was divided into equal parts for each child. What area of the field was cleaned by boys?",
-    answer: "165 square meters"
+    answer: 165
   },
   {
     question: "Mary went up the Old Tower taking 3 steps per second. Then she carefully came down from the tower taking 2 steps per second. It took Mary 25 seconds longer to come down than to go up. How many steps does the Old Tower have?",
-    answer: "150 steps"
+    answer: 150
   },
   {
     question: "This year, the Start-of-Term feast had three desserts: chocolate eclairs, raspberry tarts, and jam doughnuts. On the dessert table, there were two doughnuts for every three eclairs, and six eclairs for every five tarts. How many tarts were on the dessert table if there were a total of 1320 desserts? 1",
-    answer: "440 tarts"
+    answer: 440
   },
   {
     question: "A man took a trip, traveling by train. He looked out the window during the first 3 1 of the trip. He then slept for 5 of the remaining distance. When he woke up, he 1 read a book for 2 of the remaining distance. If the train traveled 17.6 km more while he read than while he slept, how many kilometers did the train travel?",
-    answer: "132 kilometers"
+    answer: 132
   },
   {
     question: "The measures of the angles of a triangle are in the ratio 3 : 4 : 5. What is the measure of the largest angle of this triangle?",
-    answer: "75 degrees"
+    answer: 75
   },
   {
     question: "Harry wants to buy a new magic wand that costs 40 coins. How many coins will Harry save if he buys this wand when it is on sale at 10% off?",
-    answer: "4 coins"
+    answer: 4
   },
   {
     question: "Jeremy makes $300 in 35 days. If he is paid the same amount every day, how much money will he make in 42 days?",
-    answer: "$360"
+    answer: 360
   },
   {
     question: "A certain number of special spells must be cast to protect the secret hiding place of the Order of the Phoenix. Each member of the Order is capable of casting the same number of these spells per hour. If two wizards were to join the Order, casting the protection spells can be completed in three hours instead of four hours. How many wizards are in the Order?",
-    answer: "6 wizards"
+    answer: 6
   },
   {
     question: "While on a journey to find giants, Hagrid lost 64% of his weight. If he now weighs 2016 lb, what did he weigh before the journey?",
-    answer: "5600 lbs"
+    answer: 5600
   },
   {
     question: "If you double all the sides of a square, by what percent will the area of this square increase?",
-    answer: "300%"
+    answer: 300
   },
   {
     question: "Together, Hermione and Luna bought 2016 Chocolate Frogs for Harry. If Hermione paid 98 coins and Luna paid 28 coins, for how many Chocolate Frogs did Hermione pay?",
-    answer: "1568 chocolate frogs"
+    answer: 1568
   },
   {
     question: "Andrew is about to leave for school. If he walks at a speed of 50 meters per minute, he will arrive 3 minutes after the bell rings. If he runs at a speed of 80 meters per minute, he will arrive 3 minutes before the bell rings. In how many minutes will the bell ring?",
-    answer: "13 minutes"
+    answer: 13
   },
   {
     question: "A rope that is 245 cm long is cut into three pieces. The ratio of the lengths of the first piece to the second piece is 2 : 3, and the ratio of the lengths of the second piece to the third piece is 4 : 5. What is the length of the longest of the three pieces?",
-    answer: "105 cm"
+    answer: 105
   },
   {
     question: "Rory's number is 0.3 larger than Lori's number, and the sum of their numbers is",
