@@ -51,6 +51,7 @@
             </select>
         </div>
         <div class="stats-board">
+            <div>Attempted: <span id="stat-attempted">0</span></div>
             <div>Solved: <span id="stat-solved">0</span></div>
             <div>Accuracy: <span id="stat-accuracy">0%</span></div>
             <div>Avg Time: <span id="stat-time">0s</span></div>
@@ -476,9 +477,14 @@
         }
 
         function updateStats() {
-            const accuracy = Math.round((problemsSolved / problemsAttempted) * 100);
-            const avgTime = Math.round(totalTime / problemsAttempted);
+            const accuracy = problemsAttempted
+                ? Math.round((problemsSolved / problemsAttempted) * 100)
+                : 0;
+            const avgTime = problemsAttempted
+                ? Math.round(totalTime / problemsAttempted)
+                : 0;
 
+            document.getElementById("stat-attempted").textContent = problemsAttempted;
             document.getElementById("stat-solved").textContent = problemsSolved;
             document.getElementById("stat-accuracy").textContent = `${accuracy}%`;
             document.getElementById("stat-time").textContent = `${avgTime}s`;
