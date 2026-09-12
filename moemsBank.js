@@ -1,6 +1,6 @@
 // MOEMS Elementary structured practice bank
 // exported from schema v2 (problems.v2.json) · source of truth
-// generated 2026-09-12 · 585 problems
+// generated 2026-09-12 · 551 problems
 const moemsBank = [
   {
     "id": "e-sample-2009-4a",
@@ -224,69 +224,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-practice-25-01",
-    "question": "Evaluate the following sum: 51 − 33 + 42 − 33 + 24 − 33 + 15 − 33.",
-    "answer": 0,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "Uncategorized"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Group as (51-33) + (42-33) + (24-33) + (15-33) = 18 + 9 - 9 - 18.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-practice-25-02",
-    "question": "Sarah wrote the whole numbers from 1 to 85. How many times did she write the digit 7?",
-    "answer": 18,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75, 76, 77 (counts as 2), 78, 79. (Note: Only up to 85).",
-    "schema": "v2"
-  },
-  {
-    "id": "user-practice-25-03",
-    "question": "Find the sum of the following nine products: 1 × (10 − 1), 2 × (10 − 2), 3 × (10 − 3), ..., 9 × (10 − 9).",
-    "answer": 165,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Sums of: 9, 16, 21, 24, 25, 24, 21, 16, 9.",
-    "schema": "v2"
-  },
-  {
     "id": "user-practice-25-04",
     "question": "Calculate: 8883 + 8838 + 8388 + 3888.",
     "answer": 29997,
@@ -305,27 +242,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sum each column: (8+8+8+3) = 27. Carry values across place holders.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-practice-25-05",
-    "question": "What is the units digit of the total sum of the sequence 3, 8, 13, 18, ..., 98? (There are 20 numbers in the sequence).",
-    "answer": 0,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Units digits repeat 3, 8, 3, 8. 10 pairs of (3+8=11). 10 * 1 = 10. Units digit is 0.",
     "schema": "v2"
   },
   {
@@ -368,27 +284,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "(31 - 10) / 3 = 7.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-practice-25-08",
-    "question": "In 10 minutes, 5 identical robots can fill 20 orders. If 8 robots worked at that same rate for an hour, how many orders would they fill?",
-    "answer": 192,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "measurement"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "1 robot = 4 orders / 10 mins. 8 robots = 32 orders / 10 mins. 32 * 6 = 192.",
     "schema": "v2"
   },
   {
@@ -587,27 +482,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-practice-25-19",
-    "question": "Suppose WARM − COLD = 6591, and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM?",
-    "answer": 7643,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Largest digits possible under constraints.",
-    "schema": "v2"
-  },
-  {
     "id": "user-practice-25-20",
     "question": "The number 2A5A0A2 is divisible by 99. What is the digit A?",
     "answer": 9,
@@ -627,27 +501,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Sum of digits must be div by 9: 2+A+5+A+0+A+2 = 9 + 3A. If A=3, 6, or 9. Check 11 divisibility.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-practice-25-21",
-    "question": "In the problem 5A9 + 5A9 + 5A9 = PLAN, each letter is a different digit (none are 5 or 9). Determine the sum PLAN.",
-    "answer": 1647,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "3 * 5A9. A cannot be 5 or 9. If A=6, 3 * 569 = 1707.",
     "schema": "v2"
   },
   {
@@ -1637,28 +1490,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-missing-digit-3",
-    "question": "The 6-digit numbers 29A4A80 and 29B4B80 are divisible by 24. A > B. Find (A+B)(A-B).",
-    "answer": 60,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "number_sense",
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Missing digit / divisible by 24",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Step 1:Divisible by 8 Check A80: A A80 ÷8? 0 080 ✔️ 2 280 ✔️ 4 480 ✔️ 6 680 ✔️ 8 880 ✔️ List #1: 0, 2, 4, 6, 8 Step 2: Divisible by 3 Sum: 2+9+A+4+A+8+0=23+2A Test A: A 2A ÷3? 1 2 ❌ 4 8 ❌ 7 14 ❌ 3 6 ✔️ 6 12 ✔️ List #2: 3, 6 Step 3: Common digits Common: 6 So A = 6. B must be smaller → B = 3. Step 4: Final (6+3)(6−3)=9×3=27 🟪",
-    "schema": "v2"
-  },
-  {
     "id": "user-numberline-1",
     "question": "A and B are on a number line. The distance from A to 5 is twice the distance from A to 17. The distance from B to 5 is twice the distance from B to 17. A is to the left of B. Find A + B.",
     "answer": 42,
@@ -1725,155 +1556,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-numword-1",
-    "question": "Harper has a rule where she takes someone's number, multiplies it by her favorite one‑digit number, then adds her favorite two‑digit number. When Harper started with 16, she got 58. When she started with 22, she got 76. What is Milo's number if Harper would turn it into 40?",
-    "answer": 10,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "16a + b = 58 22a + b = 76 Subtract → 6a = 18 → a = 3 Plug in: 16(3) + b = 58 → 48 + b = 58 → b = 10 Solve: 3x + 10 = 40 → 3x = 30 → x = 10 Answer: Milo's number is 10",
-    "schema": "v2"
-  },
-  {
-    "id": "user-numword-2",
-    "question": "Evan has a rule where he takes someone's number, multiplies it by his favorite one‑digit number, then adds his favorite two‑digit number. When Evan started with 10, he got 43. When he started with 18, he got 67. What is Riley's number if Evan would turn it into 55?",
-    "answer": 14,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "10a + b = 43 18a + b = 67 Subtract → 8a = 24 → a = 3 Plug in: 10(3) + b = 43 → 30 + b = 43 → b = 13 Solve: 3x + 13 = 55 → 3x = 42 → x = 14 Answer: Riley's number is 14",
-    "schema": "v2"
-  },
-  {
-    "id": "user-numword-3",
-    "question": "Sofia has a rule where she takes someone's number, multiplies it by her favorite one‑digit number, then adds her favorite two‑digit number. When Sofia started with 12, she got 50. When she started with 20, she got 74. What is Jonah's number if Sofia would turn it into 38?",
-    "answer": 8,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "12a + b = 50 20a + b = 74 Subtract → 8a = 24 → a = 3 Plug in: 12(3) + b = 50 → 36 + b = 50 → b = 14 Solve: 3x + 14 = 38 → 3x = 24 → x = 8 Answer: Jonah's number is 8",
-    "schema": "v2"
-  },
-  {
-    "id": "user-numword-4",
-    "question": "Caleb has a rule where he takes someone's number, multiplies it by his favorite one‑digit number, then adds his favorite two‑digit number. When Caleb started with 15, he got 57. When he started with 25, he got 87. What is Nina's number if Caleb would turn it into 72?",
-    "answer": 20,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "15a + b = 57 25a + b = 87 Subtract → 10a = 30 → a = 3 Plug in: 15(3) + b = 57 → 45 + b = 57 → b = 12 Solve: 3x + 12 = 72 → 3x = 60 → x = 20 Answer: Nina's number is 20",
-    "schema": "v2"
-  },
-  {
-    "id": "user-numword-5",
-    "question": "Maya has a rule where she takes someone's number, multiplies it by her favorite one‑digit number, then adds her favorite two‑digit number. When Maya started with 11, she got 41. When she started with 19, she got 65. What is Leo's number if Maya would turn it into 53?",
-    "answer": 15,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Linear rule (ax+b) word problems",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "11a + b = 41 19a + b = 65 Subtract → 8a = 24 → a = 3 Plug in: 11(3) + b = 41 → 33 + b = 41 → b = 8 Solve: 3x + 8 = 53 → 3x = 45 → x = 15 Answer: Leo's number is 15",
-    "schema": "v2"
-  },
-  {
-    "id": "user-prob-1",
-    "question": "A drawer has 8 red, 6 green, and 10 blue socks. You pull socks at random in the dark. What is the least number of socks you must pull to guarantee at least one matching pair?",
-    "answer": 4,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "counting_combinatorics",
-      "probability"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Pigeonhole / socks-and-gloves counting",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "There are 3 colors. In the worst case, you pick 1 red, 1 green, 1 blue (3 socks, all different). The next sock must match one of these colors.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-prob-3",
-    "question": "A drawer has 14 red, 10 green, and 20 blue socks. What is the least number of socks you must pull to guarantee you have 2 matching pairs (e.g., 2 red pairs, or 1 red pair + 1 green pair, etc.)?",
-    "answer": 6,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "counting_combinatorics",
-      "probability"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Pigeonhole / socks-and-gloves counting",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Let r,g,b be the numbers drawn of each color. The number of pairs is ⌊r/2⌋+⌊g/2⌋+⌊b/2⌋. To avoid having 2 pairs, this total must be at most 1. The maximum socks you can have with at most 1 pair is when one color has 3 socks and the others have 1 each: (3,1,1)⇒5 socks and only 1 pair. So with 5 socks, you can still have just 1 pair; the next sock forces at least 2 pairs.",
-    "schema": "v2"
-  },
-  {
     "id": "user-prob-4",
     "question": "A drawer has 12 left-hand gloves and 12 right-hand gloves, all identical except for hand. You pull gloves at random in the dark. What is the least number of gloves you must pull to guarantee you can form at least 2 complete pairs (each pair is 1 left + 1 right)?",
     "answer": 14,
@@ -1893,28 +1575,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "To form 2 pairs, you need at least 2 left and 2 right. Worst case: you draw all of one hand first. You could draw all 12 left gloves before seeing a right glove. Then you start drawing right gloves: you need 2 of them to make 2 pairs. Total: 12 (all left) + 2 (two right) = 14.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-prob-5",
-    "question": "A closet has 9 red shirts, 11 blue shirts, and 7 green shirts. You grab shirts at random (without looking). What is the least number of shirts you must grab to guarantee you have at least 3 shirts of the same color?",
-    "answer": 7,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "counting_combinatorics",
-      "probability"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Pigeonhole / socks-and-gloves counting",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "To avoid 3 of any color, you can take at most 2 of each color: 2 red+2 blue+2 green=6 shirts With 6 shirts, you might have exactly 2 of each color. The next shirt (the 7th) must make some color reach 3.",
     "schema": "v2"
   },
   {
@@ -2023,27 +1683,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-dec-prep3-8",
-    "question": "Use a smart shortcut to find the value of: (14 x 55) - (14 x 45)",
-    "answer": 140,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "Uncategorized"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 3 (with answer key)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
     "id": "user-dec-prep3-9",
     "question": "Every student in the fourth grade at Maple Elementary contributed a nickel. The total collected was $8.35. How many students were there?",
     "answer": 167,
@@ -2065,93 +1704,9 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-dec-prep3-10",
-    "question": "Each student in the sixth grade donated a dime. The grade raised $12.40 in total. How many sixth graders are there?",
-    "answer": 124,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "money"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 3 (with answer key)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
-    "id": "user-dec-prep3-11",
-    "question": "Each student in the seventh grade donated a quarter. The grade raised $36.75. How many seventh graders are there?",
-    "answer": 147,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "money"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 3 (with answer key)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
     "id": "user-dec-prep3-12",
     "question": "Every student in the third grade donated a penny. The total collected was $3.21. How many third graders are there?",
     "answer": 321,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "money"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 3 (with answer key)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
-    "id": "user-dec-prep3-13",
-    "question": "Each student in the fifth grade donated a quarter to the class party fund. The fifth grade raised $21.75 in total. How many fifth graders are there?",
-    "answer": 87,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "money"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 3 (with answer key)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
-    "id": "user-dec-prep3-14",
-    "question": "Each student in the eighth grade donated 50 cents. The eighth grade raised $92.50. How many eighth graders are there?",
-    "answer": 185,
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -2237,27 +1792,6 @@ const moemsBank = [
     "id": "user-dec-prep3-18",
     "question": "A shape was formed by removing one 2 x 1 rectangle from the interior of a 7 x 7 square. What is the greatest number of 3 x 1 tiles that can be placed on the shape without overlapping?",
     "answer": 15,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "geometry"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 3 (with answer key)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
-    "id": "user-dec-prep3-19",
-    "question": "A shape was formed by removing one 2 x 2 square from the corner of an 8 x 8 square. What is the greatest number of 4 x 1 tiles that can be placed on the shape without overlapping?",
-    "answer": 14,
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -2379,27 +1913,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "92.50 dollars at 50 cents each means 185 students.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-dec-prep-13",
-    "question": "What is the result of the following calculation? (29 x 61) + (29 x 39) + (67 x 10)",
-    "answer": 3570,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "Uncategorized"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep worksheet + short quiz",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "29(61+39)+67·10=2900+670=3570.",
     "schema": "v2"
   },
   {
@@ -2593,27 +2106,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-dec-prep-quiz-9",
-    "question": "The shape in the diagram below was formed by removing one 2 x 2 square from the corner of an 8 x 8 square. What is the greatest number of 4 x1 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
-    "answer": 14,
-    "answerType": "number",
-    "hasFigure": true,
-    "solvableWithoutFigure": false,
-    "figure": "figures/user-dec-prep-quiz-9.png",
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "geometry"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep worksheet + short quiz",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "60/4=15",
-    "schema": "v2"
-  },
-  {
     "id": "user-dec-prep-quiz-10",
     "question": "The shape in the diagram below was formed by removing one 3 x 3 square from the center of a 9 x 9 square. What is the greatest number of 3 x 1 tiles that can be placed on the shape without overlapping, without covering the empty square, and without going beyond the border of the square?",
     "answer": 24,
@@ -2636,27 +2128,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-dec-prep2-3",
-    "question": "Each student in the sixth grade at Lincoln Middle School donated a dime to the school library fund. If the grade raised $12.40 in total, how many sixth graders are there?",
-    "answer": 124,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "money"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 2 (leveled)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Each dime is $0.10, so $12.40/0.10 = 124 students.",
-    "schema": "v2"
-  },
-  {
     "id": "user-dec-prep2-4",
     "question": "Each student in the fifth grade at Washington Elementary donated a quarter to the class party fund. If the grade raised $21.75 in total, how many fifth graders are there?",
     "answer": 87,
@@ -2675,27 +2146,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Each quarter is $0.25, so $21.75/0.25 = 87 students.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-dec-prep2-5",
-    "question": "Each student in the eighth grade at Riverdale Middle School donated 50 cents to the field trip fund. If the eighth grade raised $92.50, how many students are there?",
-    "answer": 185,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "money"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "December prep set 2 (leveled)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Each donation is $0.50, so $92.50/0.50 = 185 students.",
     "schema": "v2"
   },
   {
@@ -2882,28 +2332,6 @@ const moemsBank = [
     "difficultyTier": null,
     "topics": [
       "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
-    "id": "user-jan25-06",
-    "question": "The product of Jimmy's and Kimmy's secret prime numbers is 34. The product of Kimmy's and Timmy's secret prime numbers is 85. What is the sum of Jimmy's, Kimmy's, and Timmy's primes?",
-    "answer": 24,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic",
-      "number_sense"
     ],
     "sourceType": "user_folder",
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
@@ -3256,48 +2684,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-jan28-4",
-    "question": "The product of A and B is 34. The product of B and C is 85. What is A+B+C?",
-    "answer": 24,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Intended factors give B=17,A=2,C=5 so A+B+C=24 (as in prime twin problem).",
-    "schema": "v2"
-  },
-  {
-    "id": "user-jan28-5",
-    "question": "In the addition ABA+B=600, what is the value of A×B?",
-    "answer": 45,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "Uncategorized"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Challenge extras – Number Theory (Division E), Jan 28",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Matching source answer key for ABA+B=600 gives A×B=45 (A=5,B=9).",
-    "schema": "v2"
-  },
-  {
     "id": "user-jan28-6",
     "question": "A 4-digit number has consecutive digits (e.g., 1234). If the number is also prime, what is it?",
     "answer": 4567,
@@ -3383,27 +2769,6 @@ const moemsBank = [
     "schema": "v2"
   },
   {
-    "id": "user-jan2-1",
-    "question": "Summation: Find the value of: 8883 + 8838 + 8388 + 3888.",
-    "answer": 29997,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "Uncategorized"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS practice – Jan 2 2026",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "8883+8838+8388+3888=29997.",
-    "schema": "v2"
-  },
-  {
     "id": "user-jan2-2",
     "question": "Subtraction Patterns: Evaluate the following: 98 - 87 + 76 - 65 + 54 - 43 + 32 - 21.",
     "answer": 44,
@@ -3422,50 +2787,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "Pairing gives (98−87)+(76−65)+(54−43)+(32−21)=11+11+11+11=44.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-jan2-3",
-    "question": "Multiples: The number 2022 is a multiple of 6. Including 2022, how many 4-digit numbers of the form B0BB (where B is a digit) are divisible by 6?",
-    "answer": 4,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic",
-      "number_sense"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS practice – Jan 2 2026",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "B0BB=1011B is divisible by 6 iff B even; B∈{2,4,6,8} gives 4 numbers.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-jan2-4",
-    "question": "Product Logic: The product of Jimmy's and Kimmy's prime numbers is 34. The product of Kimmy's and Timmy's primes is 85. What is the sum of their three prime numbers?",
-    "answer": 24,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic",
-      "number_sense"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS practice – Jan 2 2026",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Primes: Jimmy=2, Kimmy=17, Timmy=5; sum is 24.",
     "schema": "v2"
   },
   {
@@ -3509,27 +2830,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "13×20−15×9+20×7−6×15=260−135+140−90=215.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-jan2-7",
-    "question": "Units Digit: In the list of numbers 3, 8, 13, 18, ... , 98, there are 20 numbers. What is the units digit of their sum?",
-    "answer": 0,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS practice – Jan 2 2026",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Sum of 20-term AP is 1010; units digit 0.",
     "schema": "v2"
   },
   {
@@ -10475,27 +9775,6 @@ const moemsBank = [
     "figure": null,
     "difficulty": "D",
     "difficultyLabel": "D",
-    "difficultyTier": null,
-    "topics": [
-      "arithmetic"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": null,
-    "schema": "v2"
-  },
-  {
-    "id": "e-practice-2026-04-10",
-    "question": "Suppose that WARM - COLD = 6591 and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM?",
-    "answer": 7643,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": "E",
-    "difficultyLabel": "E",
     "difficultyTier": null,
     "topics": [
       "arithmetic"
