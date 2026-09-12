@@ -3578,7 +3578,7 @@ const moemsBank = [
   },
   {
     "id": "user-jan2-9",
-    "question": "Square Areas: The area of a square is less than 200 cm2. The side length is a whole number. What is the greatest possible perimeter of this square?",
+    "question": "Square Areas: The area of a square is less than 200 cm². The side length is a whole number. What is the greatest possible perimeter of this square?",
     "answer": 56,
     "answerType": "number",
     "hasFigure": false,
@@ -5097,7 +5097,7 @@ const moemsBank = [
   },
   {
     "id": "user-mathcounts-2016-sprint-14",
-    "question": "Kali is mixing soil for a container garden. If she mixes 2 m3 of soil containing 35% sand with 6 m3 of soil containing 15% sand, what percent of the new mixture is sand?",
+    "question": "Kali is mixing soil for a container garden. If she mixes 2 m³ of soil containing 35% sand with 6 m³ of soil containing 15% sand, what percent of the new mixture is sand?",
     "answer": 20,
     "answerType": "number",
     "hasFigure": false,
@@ -8036,7 +8036,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2020-21-o2-e",
-    "question": "Point B is halfway between A and C. The distance from C to D is the same as the distance from D to E, which is the same as the distance from E to F. The area of triangle ACF is 180 cm2. How many square centimeters is the shaded area of triangle BCE? F E D A B C",
+    "question": "Point B is halfway between A and C. The distance from C to D is the same as the distance from D to E, which is the same as the distance from E to F. The area of triangle ACF is 180 cm². How many square centimeters is the shaded area of triangle BCE? F E D A B C",
     "answer": 60,
     "answerType": "number",
     "hasFigure": true,
@@ -8704,7 +8704,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2021-22-o5-b",
-    "question": "How much greater than 212 is 222 ?",
+    "question": "How much greater than 21^2 is 22^2 ?",
     "answer": 43,
     "answerType": "number",
     "hasFigure": false,
@@ -9388,7 +9388,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2024-25-o1-e",
-    "question": "A cardboard box with a lid has a volume of 672 in3. The dimensions of the bottom of the box are 8 inches and 12 inches. The box is unfolded to form a flat piece of cardboard, as seen in the diagram. Calculate the number of inches in the perimeter of the decagon (10-sided shape). [The diagram is drawn to scale.] Bottom of Box",
+    "question": "A cardboard box with a lid has a volume of 672 in³. The dimensions of the bottom of the box are 8 inches and 12 inches. The box is unfolded to form a flat piece of cardboard, as seen in the diagram. Calculate the number of inches in the perimeter of the decagon (10-sided shape). [The diagram is drawn to scale.] Bottom of Box",
     "answer": 112,
     "answerType": "number",
     "hasFigure": true,
@@ -10787,7 +10787,7 @@ const moemsBank = [
   },
   {
     "id": "e-tourn-2025-t3",
-    "question": "A four-sided polygon has an area of 2025 cm2. What is the least perimeter, in cm, the polygon may have?",
+    "question": "A four-sided polygon has an area of 2025 cm². What is the least perimeter, in cm, the polygon may have?",
     "answer": 180,
     "answerType": "number",
     "hasFigure": false,
@@ -11577,7 +11577,7 @@ const moemsBank = [
   },
   {
     "id": "mamts-2026-e-02",
-    "question": "A square has a perimeter of 16 cm. What is its area? (A) 4 cm2 (B) 8 cm2 (C) 16 cm2 (D) 64 cm2 (E) 256 cm2",
+    "question": "A square has a perimeter of 16 cm. What is its area? (A) 4 cm² (B) 8 cm² (C) 16 cm² (D) 64 cm² (E) 256 cm²",
     "answer": null,
     "answerType": null,
     "hasFigure": false,
