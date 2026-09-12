@@ -1,6 +1,6 @@
 // MOEMS Elementary structured practice bank
 // exported from schema v2 (problems.v2.json) · source of truth
-// generated 2026-09-05 · 559 problems
+// generated 2026-09-12 · 579 problems
 const moemsBank = [
   {
     "id": "e-sample-2009-4a",
@@ -11973,6 +11973,434 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o1-a",
+    "question": "Find the following sum: 7 77 777 7777 +77777 ?",
+    "answer": 86415,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o1-b",
+    "question": "Seven congruent rectangles are arranged to form a large rectangle with area 70 square cm, as shown in the diagram. The dimensions of each small rectangle are whole numbers. What is the number of cm in the perimeter of the large given rectangle?",
+    "answer": 34,
+    "answerType": "number",
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": null,
+    "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
+    "topics": [
+      "number_sense",
+      "geometry",
+      "measurement",
+      "money"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o1-c",
+    "question": "Ashley has twice as many stickers as Beth. Beth has 6 more stickers than Connie. Deb has triple the number of stickers that Connie has. Together, the four girls have 46 stickers. How many stickers does Beth have?",
+    "answer": 10,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o1-d",
+    "question": "A list of numbers begins with 20 and each following number is 24 more than the previous number: 20, 44, 68, 92, and so on. The last number is 1004. How many three-digit numbers are in the list?",
+    "answer": 37,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
+    "topics": [
+      "arithmetic"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o1-e",
+    "question": "In a grid of 1 × 1 squares, Melissa starts shading some 1 × 1 squares. She will not shade a square that would share anything, including a corner, with any other shaded 1 × 1 square. What is the maximum number of 1 × 1 squares that could be shaded in a 10 × 15 grid?",
+    "answer": 40,
+    "answerType": "number",
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": null,
+    "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
+    "topics": [
+      "geometry"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 1,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o2-a",
+    "question": "Each of the fifth-grade students at Springfield Elementary School donated a quarter to the fundraiser last week. The fifth grade raised $20.25 in the fundraiser. How many fifth graders are there at Springfield Elementary School?",
+    "answer": 81,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
+    "topics": [
+      "money"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o2-b",
+    "question": "What whole number is equal to (32 × 46) + (32 × 34) + (68 × 80)?",
+    "answer": 8000,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o2-c",
+    "question": "What is the least positive integer N such that 2025 + N is the area of a square with integer side lengths?",
+    "answer": 91,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
+    "topics": [
+      "geometry"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o2-d",
+    "question": "The shape in the diagram was formed by removing one 1 × 1 square from the interior of a 6 × 6 square. What is the greatest number of 4 × 1 tiles that can be placed on the shape without overlapping, without covering the empty square, and by not going beyond the border of the square?",
+    "answer": 8,
+    "answerType": "number",
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": null,
+    "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
+    "topics": [
+      "geometry"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o2-e",
+    "question": "What is the greatest three-digit number that leaves a remainder of 2 when divided by 3 and a remainder of 6 when divided by 7?",
+    "answer": 986,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
+    "topics": [
+      "arithmetic"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 2,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o4-a",
+    "question": "What is the least prime number that can be added to 20 such that the sum is also a prime number?",
+    "answer": 3,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
+    "topics": [
+      "number_sense"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o4-b",
+    "question": "At the zoo, groups from schools are charged a group fee to enter plus a fee per student in the group. Mrs. Washington's class has 15 students, and they paid a total of $140. Mrs. Taft's class has 22 students, and they paid a total of $168. What is the zoo's group fee? Teachers did not pay any fee to enter the zoo.",
+    "answer": 80,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
+    "topics": [
+      "arithmetic"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o4-c",
+    "question": "Six people are seated at the circular table shown, in equally spaced seats. Arianna sits directly across from Bob. There is 1 seat between Charlie and Devon. Eddie is not next to Arianna or Devon. Farad is not next to Arianna. Which person sits directly across from Charlie?",
+    "answer": "Farad",
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
+    "topics": [
+      "logic"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o4-d",
+    "question": "In the following diagram, there are some 1 × 1 × 1 unit cubes. The top tier has just one unit cube. The second tier is built out of four unit cubes. The third tier has nine unit cubes. The fourth and final tier has sixteen unit cubes. Calculate the total surface area of the shape.",
+    "answer": 72,
+    "answerType": "number",
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": null,
+    "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
+    "topics": [
+      "geometry",
+      "spatial"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o4-e",
+    "question": "In the given cryptarithm, each letter represents a different digit, and no leading digit can be 0. What is the value of GRAPE? [Hint: The 4 digits NOT needed to complete the cryptarithm are 1, 3, 4, and 6.] APP LE + PEAR GRAPE",
+    "answer": 90852,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
+    "topics": [
+      "arithmetic",
+      "algebra",
+      "cryptarithm"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 4,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o5-a",
+    "question": "Compute 5678 - 4567 + 3456 - 2345.",
+    "answer": 2222,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o5-b",
+    "question": "Arthur is pulling socks at random from a drawer that contains 14 red, 10 green, and 20 blue socks. Arthur must find 2 matching pairs of socks. What is the least number of socks Arthur must pull from the drawer to guarantee he finds 2 matching pairs of socks? [examples: 2 red pairs or 1 red pair and 1 green pair]",
+    "answer": 6,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o5-c",
+    "question": "Points A and B are on the given number line. The distance from A to 8 is twice the distance from A to 20. Similarly, the distance from B to 8 is twice the distance from B to 20. Compute A + B. 8 A 20",
+    "answer": 48,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o5-d",
+    "question": "Bella has a rule where she takes someone's number, multiplies it by her favorite one-digit number, then adds her favorite two-digit number. When Bella started with Kelsey's number, 14, she got 52. When Bella started with Kenny's number, 24, she got 82. What is Kira's number if Bella would turn it into 34?",
+    "answer": 8,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
+    "topics": [
+      "arithmetic",
+      "logic"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 5,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o5-e",
+    "question": "The 7-digit numbers 82A8A60 and 82B8B60 are each divisible by 24, where A > B. What is the product (A + B) × (A - B)?",
+    "answer": 72,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
+    "topics": [
+      "arithmetic",
+      "number_sense"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 5,
     "solution": null,
     "schema": "v2"
   }
