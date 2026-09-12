@@ -2471,8 +2471,8 @@ const moemsBank = [
   },
   {
     "id": "user-jan25-13",
-    "question": "In the addition problem ABA + B = 600, where A and B are different digits, what is the value of the product A x B?",
-    "answer": 45,
+    "question": "In the addition problem ABA + A = 600, where A and B are different digits, what is the value of the product A x B?",
+    "answer": "45",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -2487,7 +2487,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "ABA + A = 102A + 10B = 600. With A=5, 510 + 10B = 600 ⇒ B=9. Check: 595 + 5 = 600. Product A×B = 5×9 = 45. (Stem previously said ABA + B, which has no digit solutions; matched Jan28 key 45.)",
     "schema": "v2"
   },
   {
@@ -2829,7 +2829,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 2 2026",
     "year": "2025-2026",
     "contest": null,
-    "solution": "13×20−15×9+20×7−6×15=260−135+140−90=215.",
+    "solution": "13×20 − 15×9 + 20×7 − 6×15 = 260 − 135 + 140 − 90 = 175.",
     "schema": "v2"
   },
   {
@@ -3319,7 +3319,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 23 2026",
     "year": "2025-2026",
     "contest": null,
-    "solution": "largest 3-digit palindrome div15: 990",
+    "solution": "Divisible by 15 ⇒ by 3 and 5, so the palindrome is of form 5a5 and digit sum 10+a divisible by 3. Largest is a=8 → 585 (990 is divisible by 15 but is not a palindrome).",
     "schema": "v2"
   },
   {
