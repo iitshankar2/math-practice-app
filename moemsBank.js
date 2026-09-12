@@ -8197,7 +8197,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2022-23-o1-e",
-    "question": "The digits a, b, c, and d are used to form the 4-digit number abcd. How many 4-digit numbers have the following three properties? (1) The digits a and d are the same. (2) The digit b is less than any of the other digits (3) The digit c has a value that is halfway between the digits b and d. For example: 7357 is such a number. - Page may be folded along dotted line.",
+    "question": "The digits a, b, c, and d are used to form the 4-digit number abcd. How many 4-digit numbers have the following three properties? (1) The digits a and d are the same. (2) The digit b is less than any of the other digits (3) The digit c has a value that is halfway between the digits b and d. For example: 7357 is such a number.",
     "answer": 20,
     "answerType": "number",
     "hasFigure": false,
@@ -8368,7 +8368,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2022-23-o3-d",
-    "question": "What fraction of the figure shown is shaded? [Note: The figure is composed entirely of 1 × 1 squares.] - Page may be folded along dotted line.",
+    "question": "What fraction of the figure shown is shaded? [Note: The figure is composed entirely of 1 × 1 squares.]",
     "answer": "32/81",
     "answerType": "fraction",
     "hasFigure": true,
@@ -8498,12 +8498,12 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2022-23-o4-e",
-    "question": "Use the following 3 equations to determine the value of the last expression.",
+    "question": "Use the following 3 equations to determine the value of the last expression.\n\n□ + △ + ● + ● = 15\n□ + △ + △ + ● = 19\n□ + □ + △ + ● = 14\n\nWhat is the value of: △ + △ + △ + □ + □ ?",
     "answer": 25,
     "answerType": "number",
-    "hasFigure": false,
+    "hasFigure": true,
     "solvableWithoutFigure": true,
-    "figure": null,
+    "figure": "figures/e-contest-2022-23-o4-e.png",
     "difficulty": "E",
     "difficultyLabel": "E",
     "difficultyTier": null,
@@ -8604,7 +8604,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2022-23-o5-e",
-    "question": "The Elementary School Bowl is a tournament where all the schools play each other exactly once. Springfield Elementary School is one of the schools in the tournament. If there are a total of 28 games in the tournament, how many games does Springfield Elementary School play? - Page may be folded along dotted line.",
+    "question": "The Elementary School Bowl is a tournament where all the schools play each other exactly once. Springfield Elementary School is one of the schools in the tournament. If there are a total of 28 games in the tournament, how many games does Springfield Elementary School play?",
     "answer": 7,
     "answerType": "number",
     "hasFigure": false,
@@ -8819,7 +8819,7 @@ const moemsBank = [
   {
     "id": "e-contest-2024-25-o2-e",
     "question": "The total cost of a lunch bill is equal to twice the money that Art has. The total cost of the bill is triple the money that Bart has. The bill is eight-thirds of the money that Carl has. Assume that everyone has a positive whole number of dollars. After they pay the bill, what is the least possible number of dollars left among the 3 persons?",
-    "answer": 942,
+    "answer": "5",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -9098,7 +9098,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2024-25-o5-c",
-    "question": "The 4-digit number shown is a multiple of 9. How many 4-digit numbers are possible? 3 4",
+    "question": "The 4-digit number shown is a multiple of 9. How many 4-digit numbers are possible?\n\n3 □ □ 4",
     "answer": 11,
     "answerType": "number",
     "hasFigure": false,
