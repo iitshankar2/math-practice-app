@@ -11641,7 +11641,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2025-26-o5-c",
-    "question": "Points A and B are on the given number line. The distance from A to 8 is twice the distance from A to 20. Similarly, the distance from B to 8 is twice the distance from B to 20. Compute A + B. 8 A 20",
+    "question": "Points A and B are on the given number line. The distance from A to 8 is twice the distance from A to 20. Similarly, the distance from B to 8 is twice the distance from B to 20. Compute A + B.",
     "answer": 48,
     "answerType": "number",
     "hasFigure": false,
@@ -11727,7 +11727,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2025-26-o3-b",
-    "question": "The net in the diagram is folded to form a rectangular box with no top. The measurements, in inches, of several edges are shown in the diagram. What is the volume (in cubic inches) of the rectangular box? 5 4",
+    "question": "The net in the diagram is folded to form a rectangular box with no top. The measurements, in inches, of several edges are shown in the diagram. What is the volume (in cubic inches) of the rectangular box?",
     "answer": 120,
     "answerType": "number",
     "hasFigure": true,
