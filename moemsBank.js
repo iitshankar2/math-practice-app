@@ -5224,7 +5224,7 @@ const moemsBank = [
   },
   {
     "id": "user-mathcounts-2016-sprint-21",
-    "question": "A spinner is divided into 5 sectors as shown. Each of the central 1 5 angles of sectors 1 through 3 measures 60° while each of the 2 central angles of sectors 4 and 5 measures 90°. If the spinner is 4 3 spun twice, what is the probability that at least one spin lands on an even number? Express your answer as a common fraction.",
+    "question": "A spinner is divided into 5 sectors as shown. Each of the central angles of sectors 1 through 3 measures 60° while each of the central angles of sectors 4 and 5 measures 90°. If the spinner is spun twice, what is the probability that at least one spin lands on an even number? Express your answer as a common fraction.",
     "answer": "95/144",
     "answerType": "fraction",
     "hasFigure": true,
