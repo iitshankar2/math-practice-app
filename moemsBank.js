@@ -1,6 +1,6 @@
 // MOEMS Elementary structured practice bank
 // exported from schema v2 (problems.v2.json) · source of truth
-// generated 2026-09-12 · 579 problems
+// generated 2026-09-12 · 584 problems
 const moemsBank = [
   {
     "id": "e-sample-2009-4a",
@@ -12235,7 +12235,7 @@ const moemsBank = [
     "id": "e-contest-2025-26-o4-c",
     "question": "Six people are seated at the circular table shown, in equally spaced seats. Arianna sits directly across from Bob. There is 1 seat between Charlie and Devon. Eddie is not next to Arianna or Devon. Farad is not next to Arianna. Which person sits directly across from Charlie?",
     "answer": "Farad",
-    "answerType": "number",
+    "answerType": "text",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -12401,6 +12401,114 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
     "year": "2025-2026",
     "contest": 5,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o3-a",
+    "question": "What whole number is equal to 2025 - 212 - 516 - 272?",
+    "answer": 1025,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "A",
+    "difficultyLabel": "A",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o3-b",
+    "question": "The net in the diagram is folded to form a rectangular box with no top. The measurements, in inches, of several edges are shown in the diagram. What is the volume (in cubic inches) of the rectangular box? 5 4",
+    "answer": 120,
+    "answerType": "number",
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": null,
+    "difficulty": "B",
+    "difficultyLabel": "B",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o3-c",
+    "question": "Phoebe has a stack of $5 bills and $20 bills. She has 17 bills worth a total of $175. How many $20 bills are there in Phoebe's stack?",
+    "answer": 6,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "C",
+    "difficultyLabel": "C",
+    "difficultyTier": null,
+    "topics": [
+      "Uncategorized"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o3-d",
+    "question": "What is the greatest possible sum in the cryptarithm shown? Recall that in a cryptarithm, each letter represents a different digit and every time the same letter appears, it represents the same digit. No leading digit may equal zero. SEVEN SEVEN +SEVEN ?",
+    "answer": 296358,
+    "answerType": "number",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "D",
+    "difficultyLabel": "D",
+    "difficultyTier": null,
+    "topics": [
+      "arithmetic",
+      "number_sense",
+      "algebra",
+      "cryptarithm"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 3,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "e-contest-2025-26-o3-e",
+    "question": "Belle and Maggie are sisters sharing a room. From past experience, they know that Belle can paint her half of the room in 2 hours while it takes Maggie 3 hours to paint her half of the room. They begin painting their entire room at noon. When Belle finishes painting her half of the room, she helps Maggie paint her half of the room. They finish painting the room together. At what time do they finish painting the room?",
+    "answer": "2:24pm",
+    "answerType": "time",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": "E",
+    "difficultyLabel": "E",
+    "difficultyTier": null,
+    "topics": [
+      "measurement"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
+    "year": "2025-2026",
+    "contest": 3,
     "solution": null,
     "schema": "v2"
   }
