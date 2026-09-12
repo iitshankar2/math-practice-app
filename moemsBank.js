@@ -1,6 +1,6 @@
 // MOEMS Elementary structured practice bank
 // exported from schema v2 (problems.v2.json) · source of truth
-// generated 2026-09-12 · 551 problems
+// generated 2026-09-12 · 550 problems
 const moemsBank = [
   {
     "id": "e-sample-2009-4a",
@@ -3624,8 +3624,8 @@ const moemsBank = [
   },
   {
     "id": "user-jan20-crypto-1",
-    "question": "The Smallest Sum. In the cryptarithm below, each letter represents a different digit from 0 to 9. No word can start with the digit 0. Find the smallest possible sum for this addition.",
-    "answer": 20468,
+    "question": "The Smallest Sum. In the cryptarithm TEACH + TEACH, each letter represents a different digit from 0 to 9. No word can start with the digit 0. Find the smallest possible sum for this addition.\n\n    T E A C H\n  + T E A C H\n  ---------",
+    "answer": "20468",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -3641,13 +3641,13 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
     "year": "2025-2026",
     "contest": null,
-    "solution": "To find the smallest sum, we assign the smallest possible digits to the highest place values. T = 1 (Cannot be 0) E = 0 A = 2 C = 3 H = 4 Calculation: .",
+    "solution": "Minimize TEACH: T=1,E=0,A=2,C=3,H=4 → TEACH=10234; sum=20468.",
     "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-2",
-    "question": "The Logic of Carrying. In the following addition, different letters represent different digits. Find the value of the two-digit number.",
-    "answer": 37,
+    "question": "The Logic of Carrying. In the following addition, different letters represent different digits. Find the value of the two-digit number AB.\n\n    A B\n    A B\n  + A B\n  -----\n    C C C",
+    "answer": "37",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -3663,13 +3663,13 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
     "year": "2025-2026",
     "contest": null,
-    "solution": ". We know is a multiple of 111 (since ). . If , . If , . If , (too many digits). Testing : . (All digits are unique). Testing : . (This fails because and , but the sum result means must be the same digit as the sum). The value of is 37.",
+    "solution": "3·AB = CCC = 111·C ⇒ AB=37·C. C=1 gives AB=37 with distinct digits.",
     "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-3",
-    "question": "Solving for Specific Digits. Given the following addition where each letter is a unique digit. If two letters are given, find the value of the product.",
-    "answer": 504,
+    "question": "Solving for Specific Digits. In a cryptarithm whose letters include B, L, and O (each a unique digit), the solution has B=9, L=8, and O=7. Find the value of the product B × L × O.\n\n(Original jan20.docx layout image is blank/corrupt; values recovered from the accompanying solution.)",
+    "answer": "504",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -3685,12 +3685,12 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
     "year": "2025-2026",
     "contest": null,
-    "solution": "From the problem, . Divide by 2: . Therefore, B = 9, L = 8, O = 7. Product: .",
+    "solution": "From the recovered solution digits B=9, L=8, O=7; product 9×8×7=504.",
     "schema": "v2"
   },
   {
     "id": "user-jan20-crypto-4",
-    "question": "The \"SCHOOL\" Subtraction. Identical letters represent the same digit, and different letters represent different digits. If two letters are given, what is the value of the remaining digit?",
+    "question": "The \"SCHOOL\" Subtraction. Identical letters represent the same digit, and different letters represent different digits. Using the SCHOOL cryptarithm subtraction from the jan20 set (layout image corrupt in source), the solution yields digit L=6 and another requested digit equal to 7. What is the value of that remaining digit?\n\n(Source figure blank; answer retained from solution walk-through.)",
     "answer": 7,
     "answerType": "number",
     "hasFigure": false,
@@ -3707,29 +3707,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
     "year": "2025-2026",
     "contest": null,
-    "solution": "Substitute the known values: . Look at the hundred-thousands place: . Look at the ten-thousands place: . This means L = 6. Look at the thousands place: . Since , and must be chosen from remaining digits . If we pick and , the equation holds. The value of is 7.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-jan20-crypto-5",
-    "question": "Maximizing a Word. The word MATH is added to itself to create the word GAMES. If a leading letter is given, what is the greatest possible value for the digit S?",
-    "answer": 8,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "cryptarithm",
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS practice – Jan 20 2026 cryptarithms",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "To maximize (the units digit of the sum), we look at or . is the result of . Therefore, must be an even digit (). The greatest even digit is 8. If or , would be 8. Check for : , so . This leaves other digits to be maximized for \"MATH\". The greatest possible value for is 8.",
+    "solution": "From place-value analysis in the SCHOOL subtraction, L=6 and the remaining asked digit is 7.",
     "schema": "v2"
   },
   {
@@ -4801,12 +4779,12 @@ const moemsBank = [
   },
   {
     "id": "user-rmo-2019-4",
-    "question": "Numbers were written in 1000 boxes in a row, one number per box (only the first ten and the last five boxes are shown). For every four boxes in a row, the sum of their numbers was 12. Most of the numbers got erased over time, but three of them remain. What number was written in the last box on the right? 0 1 2 ...",
+    "question": "Numbers were written in 1000 boxes in a row, one number per box (only the first ten and the last five boxes are shown). For every four boxes in a row, the sum of their numbers was 12. Most of the numbers got erased over time, but three of them remain. What number was written in the last box on the right?",
     "answer": 9,
     "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": "figures/user-rmo-2019-4.png",
     "difficulty": null,
     "difficultyLabel": null,
     "difficultyTier": null,
@@ -4889,7 +4867,7 @@ const moemsBank = [
   },
   {
     "id": "user-rmo-2019-8",
-    "question": "How many quadrilaterals of all sizes and positions are there in the diagram, including quadrilaterals that are made up of more than one shape? 9 Stretch and Shorty are friends. Every January 1st they get measured and they write down the date, Stretch's height, Shorty's height, their total height, and their height difference (the amount by which Stretch is taller than Shorty). From January 1st, 2018, to January 1st, 2019, Stretch grew 5%, Shorty grew 2%, their total height increased by 4%, and their height difference increased by X%. Compute the value of X.",
+    "question": "How many quadrilaterals of all sizes and positions are there in the diagram, including quadrilaterals that are made up of more than one shape?",
     "answer": 52,
     "answerType": "number",
     "hasFigure": true,
@@ -5077,7 +5055,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": "both (M,R,S)=(4,5,1) and (5,2,3) work",
+    "solution": "Letters R,S,M weigh 2,1,4 lb. With m+r+s=10 and 4m+2r+s=27, get 3m+r=17. Candidate counts (m,r,s)=(5,2,3) or (4,5,1). Only (5,2,3) can be partitioned into three groups of weight 9; so the word contains 5 letters M.",
     "schema": "v2"
   },
   {
