@@ -1,6 +1,6 @@
 // MOEMS Elementary structured practice bank
 // exported from schema v2 (problems.v2.json) · source of truth
-// generated 2026-09-12 · 586 problems
+// generated 2026-09-12 · 585 problems
 const moemsBank = [
   {
     "id": "e-sample-2009-4a",
@@ -1634,28 +1634,6 @@ const moemsBank = [
     "year": "2025-2026",
     "contest": null,
     "solution": "11 x 17 Grid 1. Rows (11) In a grid with 11 rows, the alternating rows that can be shaded are: 1, 3, 5, 7, 9, 11. Number of alternating rows: 6 2. Columns (17) In a grid with 17 columns, the alternating columns that can be shaded are: 1, 3, 5, 7, 9, 11, 13, 15, 17. Number of alternating columns: 9 3. Maximum Shaded Squares 6 text rows x 9 text columns = 54 The maximum number of 1 x 1 squares that could be shaded is 54.",
-    "schema": "v2"
-  },
-  {
-    "id": "user-missing-digit-1",
-    "question": "The 6-digit numbers 47A5A20 and 47B5B20 are divisible by 24. A > B. Find (A+B)(A-B).",
-    "answer": 72,
-    "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
-    "difficulty": null,
-    "difficultyLabel": null,
-    "difficultyTier": null,
-    "topics": [
-      "number_sense",
-      "algebra"
-    ],
-    "sourceType": "user_folder",
-    "sourceTitle": "MOEMS prep – Missing digit / divisible by 24",
-    "year": "2025-2026",
-    "contest": null,
-    "solution": "Step 1:Divisible by 8 Check A20: A A20 ÷8? 1 120 ✔️ 3 320 ✔️ 5 520 ✔️ 7 720 ✔️ 9 920 ✔️ List #1 (8‑rule): 1, 3, 5, 7, 9 Step 2: Divisible by 3 Sum of digits: 4+7+A+5+A+2+0=18+2A Test A: A 2A ÷3? 0 0 ✔️ 3 6 ✔️ 6 12 ✔️ 9 18 ✔️ List #2 (3‑rule): 0, 3, 6, 9 Step 3: Common digits Common: 3 and 9 A > B → A = 9, B = 3 Step 4: Final (9+3)(9−3)=12×6=72 🟧",
     "schema": "v2"
   },
   {
