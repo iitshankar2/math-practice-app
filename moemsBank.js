@@ -5518,8 +5518,8 @@ const moemsBank = [
   },
   {
     "id": "user-imc-2019-g5-04",
-    "question": "Find the value of x , if 2 x + 5 2 = 14 2",
-    "answer": 18,
+    "question": "Find the value of x, if (1/2)x + 5 1/2 = 14 1/2.",
+    "answer": "18",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -5534,7 +5534,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "(1/2)x + 5 1/2 = 14 1/2 ⇒ (1/2)x = 9 ⇒ x = 18.",
     "schema": "v2"
   },
   {
