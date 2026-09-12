@@ -4160,7 +4160,7 @@ const moemsBank = [
   },
   {
     "id": "user-mathcounts-2016-sprint-4",
-    "question": "What is the median of the positive perfect squares less than 250? x+5 2",
+    "question": "What is the median of the positive perfect squares less than 250?",
     "answer": 64,
     "answerType": "number",
     "hasFigure": false,
@@ -4330,7 +4330,7 @@ const moemsBank = [
   },
   {
     "id": "user-mathcounts-2016-sprint-12",
-    "question": "What is the least possible denominator of a positive rational number whose repeating decimal representation is 0.AB , where A and B are distinct digits? 1",
+    "question": "What is the least possible denominator of a positive rational number whose repeating decimal representation is 0.AB , where A and B are distinct digits?",
     "answer": 11,
     "answerType": "number",
     "hasFigure": false,
@@ -4355,8 +4355,8 @@ const moemsBank = [
   {
     "id": "user-mathcounts-2016-sprint-13",
     "question": "A taxi charges $3.25 for the first mile and $0.45 for each additional 1/4 mile thereafter. At most, how many miles can a passenger travel using $13.60? Express your answer as a mixed number.",
-    "answer": 6.75,
-    "answerType": "number",
+    "answer": "6 3/4",
+    "answerType": "mixed_number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -4439,7 +4439,7 @@ const moemsBank = [
   },
   {
     "id": "user-mathcounts-2016-sprint-17",
-    "question": "A function f (x) is defined for all positive integers. If f (a) + f (b) = f (ab) for any two positive integers a and b and f (3) = 5, what is f (27)? A 6 B",
+    "question": "A function f (x) is defined for all positive integers. If f (a) + f (b) = f (ab) for any two positive integers a and b and f (3) = 5, what is f (27)?",
     "answer": 15,
     "answerType": "number",
     "hasFigure": false,
@@ -4567,7 +4567,7 @@ const moemsBank = [
   },
   {
     "id": "user-mathcounts-2016-sprint-23",
-    "question": "Initially, a chip is placed in the upper-left corner square of a 15 × 10 grid of squares as shown. The chip can move in an L-shaped pattern, moving two squares in one direction (up, right, down or left) and then moving one square in a corresponding perpendicular direction. What is the minimum number of L-shaped moves needed to move the chip from its initial location to the square marked \"X\"? x",
+    "question": "Initially, a chip is placed in the upper-left corner square of a 15 × 10 grid of squares as shown. The chip can move in an L-shaped pattern, moving two squares in one direction (up, right, down or left) and then moving one square in a corresponding perpendicular direction. What is the minimum number of L-shaped moves needed to move the chip from its initial location to the square marked \"X\"?",
     "answer": 9,
     "answerType": "number",
     "hasFigure": true,
@@ -4611,8 +4611,8 @@ const moemsBank = [
   {
     "id": "user-mathcounts-2016-sprint-25",
     "question": "There are twelve different mixed numbers that can be created by substituting three of the numbers 1, 2, 3 and 5 for a, b and c in the expression a b/c, where b < c. What is the mean of these twelve mixed numbers? Express your answer as a mixed number.",
-    "answer": "16/5",
-    "answerType": "number",
+    "answer": "3 1/5",
+    "answerType": "mixed_number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
