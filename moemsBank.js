@@ -1,6 +1,6 @@
 // MOEMS Elementary structured practice bank
 // exported from schema v2 (problems.v2.json) · source of truth
-// generated 2026-09-12 · 584 problems
+// generated 2026-09-12 · 586 problems
 const moemsBank = [
   {
     "id": "e-sample-2009-4a",
@@ -5223,6 +5223,27 @@ const moemsBank = [
     "schema": "v2"
   },
   {
+    "id": "user-mathcounts-2016-sprint-20",
+    "question": "Diagonal XZ of rectangle WXYZ is divided into three segments each of length 2 units by points M and N as shown. Segments MW and NY are parallel and are both perpendicular to XZ. What is the area of WXYZ? Express your answer in simplest radical form.",
+    "answer": "12√2",
+    "answerType": "radical",
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": "figures/user-mathcounts-2016-sprint-20.png",
+    "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
+    "topics": [
+      "geometry"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
     "id": "user-mathcounts-2016-sprint-21",
     "question": "A spinner is divided into 5 sectors as shown. Each of the central angles of sectors 1 through 3 measures 60° while each of the central angles of sectors 4 and 5 measures 90°. If the spinner is spun twice, what is the probability that at least one spin lands on an even number? Express your answer as a common fraction.",
     "answer": "95/144",
@@ -5406,6 +5427,28 @@ const moemsBank = [
     "difficultyTier": null,
     "topics": [
       "arithmetic"
+    ],
+    "sourceType": "user_folder",
+    "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
+    "year": "2015-2016",
+    "contest": null,
+    "solution": null,
+    "schema": "v2"
+  },
+  {
+    "id": "user-mathcounts-2016-sprint-30",
+    "question": "A 12-sided game die has the shape of a hexagonal bipyramid, which consists of two pyramids, each with a regular hexagonal base of side length 1 cm and with height 1 cm, glued together along their hexagons. When this game die is rolled and lands on one of its triangular faces, how high off the ground is the opposite face? Express your answer as a common fraction in simplest radical form.",
+    "answer": "2√21/7",
+    "answerType": "radical_fraction",
+    "hasFigure": false,
+    "solvableWithoutFigure": true,
+    "figure": null,
+    "difficulty": null,
+    "difficultyLabel": null,
+    "difficultyTier": null,
+    "topics": [
+      "geometry",
+      "3d"
     ],
     "sourceType": "user_folder",
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
