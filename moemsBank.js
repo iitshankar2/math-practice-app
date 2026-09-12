@@ -6282,12 +6282,12 @@ const moemsBank = [
   },
   {
     "id": "user-imc-2016-g5-07",
-    "question": "We have so much chocolate prepared for the party that we had to put it all in boxes and arrange the boxes in this pile, which is 4 boxes high, 5 boxes wide, and 5 boxes long: Soon we saw that some boxes of chocolate were missing−someone just loved our chocolate! How many boxes of chocolate do we have now?",
-    "answer": 92,
+    "question": "We have so much chocolate prepared for the party that we had to put it all in boxes and arrange the boxes in this pile, which is 4 boxes high, 5 boxes wide, and 5 boxes long (see figure, Before). Soon we saw that some boxes of chocolate were missing—someone just loved our chocolate! (see figure, After). How many boxes of chocolate do we have now?",
+    "answer": "92",
     "answerType": "number",
-    "hasFigure": false,
-    "solvableWithoutFigure": true,
-    "figure": null,
+    "hasFigure": true,
+    "solvableWithoutFigure": false,
+    "figure": "figures/user-imc-2016-g5-07.png",
     "difficulty": null,
     "difficultyLabel": null,
     "difficultyTier": null,
@@ -6298,7 +6298,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Full pile 4×5×5=100 boxes; after the missing cubes shown, 92 remain (100−8).",
     "schema": "v2"
   },
   {
