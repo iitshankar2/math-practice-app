@@ -5,8 +5,8 @@ const moemsBank = [
   {
     "id": "e-sample-2009-4a",
     "question": "A digital clock shows 2:35. This is the first time after midnight when all three digits are different prime numbers. What is the last time before noon when all three digits on the clock are different prime numbers?",
-    "answer": 753,
-    "answerType": "number",
+    "answer": "7:53",
+    "answerType": "time",
     "hasFigure": false,
     "solvableWithoutFigure": true,
     "figure": null,
@@ -7464,7 +7464,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2020-21-o3-e",
-    "question": "In the figure, QUAD is a quadrilateral. QUAD is \"enclosed\" by the rectangle RECT. This means that each vertex of QUAD is on a side of rectangle RECT. Segment QA is parallel to two of the sides of the rectangle. The length of QA is 18 and the length of EC is 13. What is the area of QUAD? U R A Q T E D C",
+    "question": "In the figure, QUAD is a quadrilateral. QUAD is \"enclosed\" by the rectangle RECT. This means that each vertex of QUAD is on a side of rectangle RECT. Segment QA is parallel to two of the sides of the rectangle. The length of QA is 18 and the length of EC is 13. What is the area of QUAD?",
     "answer": 117,
     "answerType": "number",
     "hasFigure": true,
@@ -7506,7 +7506,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2020-21-o5-b",
-    "question": "A rectangle has perimeter 26 cm, and the length and width are both whole numbers. What is the greatest possible area this rectangle may have in square cm? 3 of her water into Barbara's empty bottle. 4 3 Barbara then pours of her water into Charlie's empty 5 1 bottle. Charlie then pours of his water into David's empty 2 bottle. If David now has 18 ounces of water, how many ounces does Amanda still have?",
+    "question": "A rectangle has perimeter 26 cm, and the length and width are both whole numbers. What is the greatest possible area this rectangle may have in square cm?",
     "answer": 42,
     "answerType": "number",
     "hasFigure": false,
@@ -7768,7 +7768,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2021-22-o2-e",
-    "question": "The counting number ABAB is a multiple of 36. If different letters represent different digits, what is the greatest value ABAB can have? -Page may be folded along dotted line",
+    "question": "The counting number ABAB is a multiple of 36. If different letters represent different digits, what is the greatest value ABAB can have?",
     "answer": 7272,
     "answerType": "number",
     "hasFigure": false,
@@ -7876,7 +7876,7 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2021-22-o3-e",
-    "question": "Suppose that WARM - COLD = 6591 and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM? -Page may be folded along dotted line",
+    "question": "Suppose that WARM - COLD = 6591 and each letter represents a different digit from 0 through 7. What is the greatest four-digit number WARM?",
     "answer": 7643,
     "answerType": "number",
     "hasFigure": false,
@@ -8091,12 +8091,12 @@ const moemsBank = [
   },
   {
     "id": "e-contest-2021-22-o5-e",
-    "question": "Express the given fraction below in simplest form.",
+    "question": "Express the given fraction below in simplest form.\n\n  3\n-------\n 3 + 1/3",
     "answer": "9/10",
     "answerType": "fraction",
-    "hasFigure": false,
+    "hasFigure": true,
     "solvableWithoutFigure": true,
-    "figure": null,
+    "figure": "figures/e-contest-2021-22-o5-e.png",
     "difficulty": "E",
     "difficultyLabel": "E",
     "difficultyTier": null,
