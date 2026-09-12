@@ -26,6 +26,28 @@
         #feedback { margin: 15px 0; font-weight: bold; font-size: 1.1em; min-height: 25px; }
         #next-btn { display: none; background-color: #28a745; margin-top: 10px; }
         #next-btn:hover { background-color: #218838; }
+        #solution-box {
+            display: none;
+            margin-top: 14px;
+            padding: 14px 16px;
+            text-align: left;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #007bff;
+            border-radius: 6px;
+            font-size: 0.98em;
+            line-height: 1.45;
+            white-space: pre-wrap;
+        }
+        #solution-box .sol-label {
+            display: block;
+            font-size: 0.8em;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #475569;
+            margin-bottom: 6px;
+        }
     </style>
 </head>
 <body>
@@ -66,6 +88,10 @@
         <button type="button" id="submit-btn" onclick="checkAnswer()">Submit</button>
         
         <div id="feedback"></div>
+        <div id="solution-box" aria-live="polite">
+            <span class="sol-label">Solution</span>
+            <div id="solution-text"></div>
+        </div>
         <button type="button" id="next-btn" onclick="loadNextQuestion()">Next Question</button>
     </div>
 
@@ -440,6 +466,8 @@
             document.getElementById("answer-input").value = "";
             document.getElementById("answer-input").disabled = false;
             document.getElementById("feedback").textContent = "";
+            document.getElementById("solution-box").style.display = "none";
+            document.getElementById("solution-text").textContent = "";
             document.getElementById("next-btn").style.display = "none";
             document.getElementById("submit-btn").style.display = "inline-block";
             document.getElementById("submit-btn").disabled = false;
@@ -469,6 +497,12 @@
             }
 
             updateStats();
+
+            const solBox = document.getElementById("solution-box");
+            const solText = document.getElementById("solution-text");
+            const sol = (currentQuestion.solution || "").trim();
+            solText.textContent = sol || "No written solution yet.";
+            solBox.style.display = "block";
 
             document.getElementById("answer-input").disabled = true;
             document.getElementById("submit-btn").style.display = "none";
