@@ -587,7 +587,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Digits increase and sum to 9; the number is a multiple of 15 (hence of 3 and 5). It must end in 5. The only such number is 135.",
     "schema": "v2"
   },
   {
@@ -610,7 +610,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 3×5A9 = PLAN. So 3×(500+10A+9)=3(509+10A)=1527+30A is a 4-digit PLAN with distinct letters ≠5,9. Trying A=0..8 gives A=4 → 1527+120=1647, which works.",
     "schema": "v2"
   },
   {
@@ -632,7 +632,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: A 3-digit palindrome ABA = 100A+10B+A=101A+10B is divisible by 18 and one less than a multiple of 5, so it ends in 4. Checking palindromes ending in 4 that are multiples of 18 yields 414.",
     "schema": "v2"
   },
   {
@@ -676,7 +676,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: A 3×3×3 cube has 12 edge cubes (not corners), and each edge cube has exactly two faces painted.",
     "schema": "v2"
   },
   {
@@ -697,7 +697,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 30−5=25 students like at least one subject. Then |M∩S|=|M|+|S|−25=18+15−25=8.",
     "schema": "v2"
   },
   {
@@ -718,7 +718,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Carol=5, Adam=13, so Beth=Adam−Carol=8. Ages: Adam 13, Beth 8, Carol 5. Second oldest is Beth; her twin David is also 8.",
     "schema": "v2"
   },
   {
@@ -739,7 +739,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Each term is one less than a power of 2: 2^n−1. After 31=2^5−1 comes 2^6−1=63.",
     "schema": "v2"
   },
   {
@@ -760,7 +760,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let a=apple, b=banana. Then 3a+2b=28 and 2a+3b=27. Multiply first by 3 and second by 2: 9a+6b=84, 4a+6b=54. Subtract: 5a=30, so a=6.",
     "schema": "v2"
   },
   {
@@ -782,7 +782,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Divisible by 24 means by 8 and 3. Last three digits A20 force A odd; digit sum forces A multiple of 3, so A∈{3,9}. Likewise B. With A>B, A=9,B=3 and (A+B)(A−B)=12·6=72.",
     "schema": "v2"
   },
   {
@@ -804,7 +804,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Same divisibility by 24 analysis on 29A4A80 / 29B4B80 yields possible digits A,B with A>B; then (A+B)(A−B)=60.",
     "schema": "v2"
   },
   {
@@ -825,7 +825,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: |x−5|=2|x−17| gives solutions x=13 and x=29. With A left of B, A+B=13+29=42.",
     "schema": "v2"
   },
   {
@@ -846,7 +846,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: |x+3|=3|x−9| gives solutions x=6 and x=15. Sum 21.",
     "schema": "v2"
   },
   {
@@ -867,7 +867,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: |x−12|=(1/2)|x−30| gives solutions x=−6 and x=18. Sum 12.",
     "schema": "v2"
   },
   {
@@ -888,7 +888,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: |x−2|=3|x−8| gives solutions x=6.5 and x=11. Sum 35/2.",
     "schema": "v2"
   },
   {
@@ -909,7 +909,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: |x−4|=2|x−10| gives solutions x=8 and x=16. Sum 24.",
     "schema": "v2"
   },
   {
@@ -931,7 +931,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Harper computes 3n+10 (from 16→58 and 22→76). Solving 3n+10=40 gives n=10.",
     "schema": "v2"
   },
   {
@@ -952,7 +952,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Evan computes 3n+13 (from 10→43 and 18→67). Solving 3n+13=55 gives n=14.",
     "schema": "v2"
   },
   {
@@ -994,7 +994,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Caleb computes 3n+12 (from 15→57 and 25→87). Solving 3n+12=72 gives n=20.",
     "schema": "v2"
   },
   {
@@ -1015,7 +1015,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Maya computes 3n+8 (from 11→41 and 19→65). Solving 3n+8=53 gives n=15.",
     "schema": "v2"
   },
   {
@@ -1099,7 +1099,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS-Style Math Challenge Packet (March Olympiad Practice Test)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Worst case: take all 12 of one hand and 1 of the other (only one pair), then one more of the scarce hand makes the second pair — 14 gloves.",
     "schema": "v2"
   },
   {
@@ -1595,7 +1595,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: n≡2 (mod 6) and n≡4 (mod 7). Solving the system gives n=42k+32. The greatest 3-digit value is 998.",
     "schema": "v2"
   },
   {
@@ -1616,7 +1616,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: n≡4 (mod 12) and n≡7 (mod 15) gives n=60k+52. The greatest 3-digit value is 952.",
     "schema": "v2"
   },
   {
@@ -1637,7 +1637,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Factor out 84: 84×(13+87)=84×100=8400.",
     "schema": "v2"
   },
   {
@@ -1658,7 +1658,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 15×(499+501)+475=15×1000+475=15,475.",
     "schema": "v2"
   },
   {
@@ -1679,7 +1679,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: (25×93)×4=100×93=9300, plus 100×107=10,700, totaling 20,000.",
     "schema": "v2"
   },
   {
@@ -1700,7 +1700,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: $8.35 is 835 cents. Each student gave a nickel (5 cents), so 835/5 = 167 students.",
     "schema": "v2"
   },
   {
@@ -1721,7 +1721,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: $3.21 is 321 pennies, so there are 321 third graders.",
     "schema": "v2"
   },
   {
@@ -1742,7 +1742,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The mutilated board has area 64−4=60. Each 3×2 tile covers 6, so at most 10 tiles; a careful packing achieves 10.",
     "schema": "v2"
   },
   {
@@ -1763,7 +1763,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Area left is 100−1=99. Each 5×2 tile covers 10, so at most 9 tiles fit (covering 90).",
     "schema": "v2"
   },
   {
@@ -1785,7 +1785,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Area left is 144−9=135, so at most 11 tiles of area 12, but the centered 3×3 hole blocks one more; the maximum packing is 10.",
     "schema": "v2"
   },
   {
@@ -1806,7 +1806,7 @@ const moemsBank = [
     "sourceTitle": "December prep set 3 (with answer key)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Area left is 49−2=47. Each 3×1 tile covers 3, so at most 15 tiles fit.",
     "schema": "v2"
   },
   {
@@ -2250,7 +2250,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Sum 1 through 20 equals 20·21/2=210.",
     "schema": "v2"
   },
   {
@@ -2272,7 +2272,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Count digit 7 in tens place (70–79: ten times) and ones place (7,17,…,97: ten times), total 20. (77 counted twice, correctly.)",
     "schema": "v2"
   },
   {
@@ -2294,7 +2294,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 2^4·3^2·5^3 provides min(4,3)=3 factors of 10, so three trailing zeros.",
     "schema": "v2"
   },
   {
@@ -2316,7 +2316,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: LCM of 4 and 9 is 36. Smallest 3-digit multiple of 36 is 108.",
     "schema": "v2"
   },
   {
@@ -2337,7 +2337,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let the number be 10a+b. Then 10a+b−(10b+a)=18 → 9a−9b=18 → a−b=2.",
     "schema": "v2"
   },
   {
@@ -2358,7 +2358,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: To minimize the number with digit sum 28, use as few digits as possible starting with 1 then 9s: 1+9+9+9=28 → 1999.",
     "schema": "v2"
   },
   {
@@ -2379,7 +2379,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: n≡9 (mod 10) and n≡8 (mod 9) means n+1 is a common multiple of 10 and 9, i.e. of 90. Smallest positive n is 89.",
     "schema": "v2"
   },
   {
@@ -2400,7 +2400,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 48=2^4·3^1 has (4+1)(1+1)=10 divisors.",
     "schema": "v2"
   },
   {
@@ -2422,7 +2422,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Largest 3-digit palindromes are 999,989,979,… Digit sum of 999 is 27 (not prime); 989 sums to 26; 979 to 25; 969 to 24; 959 sums to 23, which is prime.",
     "schema": "v2"
   },
   {
@@ -2444,7 +2444,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Alternating sum for 11: 1−2+A−4+5=A. Need A≡0 (mod 11), so A=0.",
     "schema": "v2"
   },
   {
@@ -2466,7 +2466,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Divisible by 99 means by 9 and 11. Digit sum 7+A+2+8+B=17+A+B ≡0 (mod 9). Alternating 7−A+2−8+B=1−A+B≡0 (mod 11). Solving gives A=1,B=0, so AB=10.",
     "schema": "v2"
   },
   {
@@ -2508,7 +2508,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: In SEND+MORE=MONEY the leading M of MONEY must be the carry from the thousands, so M=1.",
     "schema": "v2"
   },
   {
@@ -2529,7 +2529,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: n≡1 (mod 2,3,4,5,6) means n−1 is a multiple of lcm(2,3,4,5,6)=60. Smallest positive n is 61.",
     "schema": "v2"
   },
   {
@@ -2551,7 +2551,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 150=2·3·5². To make a square, multiply by 2·3=6.",
     "schema": "v2"
   },
   {
@@ -2573,7 +2573,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Units digits of powers of 3 cycle 3,9,7,1. Since 20÷4 has remainder 0, the units digit is 1.",
     "schema": "v2"
   },
   {
@@ -2595,7 +2595,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Digits used: 1–9 (9), 10–99 (90·2=180), 100–150 (51·3=153). Total 9+180+153=342.",
     "schema": "v2"
   },
   {
@@ -2616,7 +2616,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Challenge – Number Theory (Division E), Jan 25 2026 (answers in Jan28.docx)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Three consecutive integers multiplying to 120 are 4·5·6. Their sum is 15.",
     "schema": "v2"
   },
   {
@@ -3535,7 +3535,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Sam’s half-rate is 1/2 per 3 h → 1/6 garage/h. Jordan’s half-rate is 1/2 per 5 h → 1/10 garage/h. Together 1/6+1/10=4/15 per hour, so full garage takes 15/4 h = 225 minutes.",
     "schema": "v2"
   },
   {
@@ -3556,7 +3556,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: In one hour Aiden does 1/2 and Lily does 1/3, totaling 5/6. Fraction left is 1−5/6=1/6.",
     "schema": "v2"
   },
   {
@@ -3577,7 +3577,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Maria’s rate 1/60 batch/min, Zoe 1/90. Together 1/36 batch/min. In 6 h=360 min they finish 360/36=10 batches.",
     "schema": "v2"
   },
   {
@@ -3598,7 +3598,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: In 2 hours the hoses fill 2/8+2/12=1/4+1/6=5/12. Remaining 7/12 done by Hose B alone at 1/12 per hour takes 7 hours.",
     "schema": "v2"
   },
   {
@@ -3619,7 +3619,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS practice – Jan 20 2026 (rate/work + cryptarithms)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Combined rate 1/3+1/4=7/12 fence/h, so time is 12/7 h ≈ 1 h 42.9 min, rounding to 1 h 43 min. Finish at 11:43.",
     "schema": "v2"
   },
   {
@@ -4091,7 +4091,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Use the definition a @ b = a/(2a+b). Then 5 @ 3 = 5/(10+3) = 5/13.",
     "schema": "v2"
   },
   {
@@ -4112,7 +4112,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Count rectangles in the given grid by choosing two distinct horizontal and two distinct vertical grid lines (or by size). The figure yields 18 rectangles.",
     "schema": "v2"
   },
   {
@@ -4133,7 +4133,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: From 7x+13=328, get 7x=315 so x=45. Then 14x+13=630+13=643.",
     "schema": "v2"
   },
   {
@@ -4154,7 +4154,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Perfect squares less than 250 are 1² through 15² (15 numbers). The median is the 8th, which is 8²=64.",
     "schema": "v2"
   },
   {
@@ -4175,7 +4175,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Cross-multiply: 3(x+5)=2(x−2) → 3x+15=2x−4 → x=−19.",
     "schema": "v2"
   },
   {
@@ -4196,7 +4196,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Using WV=WX+XY+YV=7 and UV=6 with Z on TU as in the figure, triangles TXZ and UYZ have equal areas, so the absolute difference is 0.",
     "schema": "v2"
   },
   {
@@ -4218,7 +4218,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let g green marbles be added. Then (5+g)/(12+g)=3/4 → 20+4g=36+3g → g=16.",
     "schema": "v2"
   },
   {
@@ -4239,7 +4239,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Over 25,000 miles the trike uses 3 tires at a time, so 75,000 tire-miles. Shared among 4 tires, each travels 75,000/4 = 18,750 miles.",
     "schema": "v2"
   },
   {
@@ -4260,7 +4260,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: When Lucy was 15, dad was 45, so they differ by 30 years. Now dad is twice Lucy: L+30=2L → L=30.",
     "schema": "v2"
   },
   {
@@ -4282,7 +4282,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The primes end in 3, 3, and 7, and sum to 53. The only distinct 2-digit triple is 13+17+23. The greatest is 23.",
     "schema": "v2"
   },
   {
@@ -4303,7 +4303,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Add all three equations: 2(Ross+Max+Seth)=184+197+189=570, so the total is 285. Ross = 285 − (Max+Seth) = 285−189 = 96.",
     "schema": "v2"
   },
   {
@@ -4327,7 +4327,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 0.AB repeating equals AB/99. With A≠B, the largest possible gcd with 99 is 9, so the least denominator is 99/9 = 11.",
     "schema": "v2"
   },
   {
@@ -4348,7 +4348,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: After the first mile ($3.25), $10.35 remains. That buys 10.35/0.45 = 23 quarter-miles = 23/4 miles more. Total distance is 1+23/4 = 6 3/4 miles.",
     "schema": "v2"
   },
   {
@@ -4370,7 +4370,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Sand amount is 2·0.35 + 6·0.15 = 1.6 m³ in 8 m³ total, so 1.6/8 = 20%.",
     "schema": "v2"
   },
   {
@@ -4391,7 +4391,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Alex 88 s/lap, Becky 76 s/lap. Becky first passes Alex when she gains 1 lap: time 76·88/12. Alex’s laps then are 76/12 = 19/3, so he has completed 6 full laps.",
     "schema": "v2"
   },
   {
@@ -4412,7 +4412,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Of 3 equally likely pairings, Ducks play Beavers in the semis with probability 1/3. They meet in the final with probability (2/3)·(1/2)·(1/2)=1/6. Total probability 1/3+1/6=1/2.",
     "schema": "v2"
   },
   {
@@ -4433,7 +4433,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The rule f(a)+f(b)=f(ab) gives f(3^k)=k·f(3). So f(27)=f(3³)=3·5=15.",
     "schema": "v2"
   },
   {
@@ -4454,7 +4454,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Place A at (0,0), C at (6,5). Extending AC=CE puts E at (12,10). Then DE from D(0,5) to E(12,10) has length √(12²+5²)=13.",
     "schema": "v2"
   },
   {
@@ -4475,7 +4475,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Factor 91567 = 127×721. These are reverses of each other, and 721 is the larger, so the new integer is 721.",
     "schema": "v2"
   },
   {
@@ -4496,7 +4496,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The trisected diagonal has length 6. With MW and NY perpendicular to the diagonal, the rectangle’s sides and area work out to 12√2.",
     "schema": "v2"
   },
   {
@@ -4519,7 +4519,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: From the spinner degrees, compute P(odd) using the labeled sectors in the figure, then P(at least one even in two spins)=1−[P(odd)]²=95/144.",
     "schema": "v2"
   },
   {
@@ -4540,7 +4540,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Treat the four officers as one block, giving 5 units around a circle: (5−1)! arrangements. Officers can switch places inside the block in 4! ways. Total (5−1)!·4! = 24·24 = 576.",
     "schema": "v2"
   },
   {
@@ -4562,7 +4562,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: An L-move changes position by (±2,±1) or (±1,±2). From the upper-left corner to the marked X (opposite corner of the 15×10 grid), the minimum number of such moves is 9.",
     "schema": "v2"
   },
   {
@@ -4583,7 +4583,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let AB=BC=x and CD=DE=y. Then AD=2x+y=17 and BE=x+2y=21. Solving gives x=13/3, y=25/3, so AE=2x+2y=76/3.",
     "schema": "v2"
   },
   {
@@ -4604,7 +4604,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Choose any 3 of {1,2,3,5} for a,b,c with b<c (12 mixed numbers). Their average is 3.2 = 3 1/5.",
     "schema": "v2"
   },
   {
@@ -4625,7 +4625,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The sum of 738 consecutive integers is 738 times their average. Since 738≡0 (mod 6), only the triangular part 737·369 matters mod 6, which is ≡3. Remainder 3.",
     "schema": "v2"
   },
   {
@@ -4646,7 +4646,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Point X lies at an intersection of circles centered at A(−5,0) and B(5,0) with integer radii 1 through 10. Counting all valid intersections (including axis points) gives 119 points.",
     "schema": "v2"
   },
   {
@@ -4667,7 +4667,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: f(i)−f(j)=a(i!−j!). Taking i=3,j=1 gives 5a=20 so a=4. With b=1, f(1)=5, and f(3)−f(1)=20 as required.",
     "schema": "v2"
   },
   {
@@ -4688,7 +4688,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Digits 0–9 map to A–J, so CHAI means 2708. Sort the letter-strings for 1 through 9999 alphabetically; 1899 strings come before CHAI.",
     "schema": "v2"
   },
   {
@@ -4710,7 +4710,7 @@ const moemsBank = [
     "sourceTitle": "MATHCOUNTS 2016 State Competition Sprint Round (Problems 1–30)",
     "year": "2015-2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The die is two hexagonal pyramids of height 1 glued at a regular hexagon of side 1. Resting on a triangular face, the height to the opposite face is 2√21/7.",
     "schema": "v2"
   },
   {
@@ -4796,7 +4796,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Every four consecutive boxes sum to 12, so the sequence is periodic with period related to that window. Using the three unerased values from the figure, the last box must be 9.",
     "schema": "v2"
   },
   {
@@ -4839,7 +4839,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: In regular hexagon RASHMI, triangle AMI (alternate vertices) has area half the hexagon: 9102/2=4551.",
     "schema": "v2"
   },
   {
@@ -4883,7 +4883,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2019",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Count all quadrilaterals of every size and position in the given diagram, including those built from smaller shapes. The total is 52.",
     "schema": "v2"
   },
   {
@@ -5013,7 +5013,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: A ring is any pair of distinct circles (inner and outer) among the five shown. The number of ways to choose 2 of 5 circles is C(5,2)=10.",
     "schema": "v2"
   },
   {
@@ -5034,7 +5034,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Digits a≠b give numbers 10a+b and 10b+a summing to 11(a+b)<100, so a+b≤9. Maximize the smaller number min(10a+b,10b+a). Best is 45+54=99.",
     "schema": "v2"
   },
   {
@@ -5076,7 +5076,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The train repeats blue–yellow–yellow–red. With 7 more yellow cars than blue, choose the two recolor cut-points to leave the longest possible non-green block; that maximum is 34 cars.",
     "schema": "v2"
   },
   {
@@ -5098,7 +5098,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Search downward from 999999 for a multiple of 11 whose digits sum to 40. The largest is 999922.",
     "schema": "v2"
   },
   {
@@ -5120,7 +5120,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let x be the percent change/100. Then 100(1+x)=6·25(1−x) → 1+x=1.5(1−x) → x=0.2. The new dollar is 120 cents, so it holds 12 dimes.",
     "schema": "v2"
   },
   {
@@ -5141,7 +5141,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Start with {1001}. Each week add the least positive integer coprime to every number already chosen. The collection grows 1,2,3,5,17,19,23,29,31,37; week 10 adds 37.",
     "schema": "v2"
   },
   {
@@ -5165,7 +5165,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Consecutive digits 1–6 must occupy edge-adjacent cells of a 2×3 grid, i.e. the numbering is a Hamiltonian path on the grid graph. There are 16 such labelings.",
     "schema": "v2"
   },
   {
@@ -5187,7 +5187,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: From adjacent vertices A and B of a regular 100-gon, draw all diagonals. These chords partition the interior; counting the triangular regions in that arrangement gives 292 triangles.",
     "schema": "v2"
   },
   {
@@ -5209,7 +5209,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Treat each matching digit pair as a block (4 blocks). Arrange the blocks in 4! ways and color/order within each block in 2 ways: 24·2^4=384.",
     "schema": "v2"
   },
   {
@@ -5231,7 +5231,7 @@ const moemsBank = [
     "sourceTitle": "RSM Olympiad Grades 5–6 Final Round 2018",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Among 2-digit numbers, the maximum number of divisors is 12, achieved by 60,72,84,90,96. Their sum is 402.",
     "schema": "v2"
   },
   {
@@ -5513,7 +5513,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 9-40-41 is a right triangle (9²+40²=41²), so the rectangle is 9 by 40 with area 360.",
     "schema": "v2"
   },
   {
@@ -5555,7 +5555,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Adam: 30 turns in 20 s → 1.5 turns/s. Anna hangs on 32 s → 1.5×32=48 turns.",
     "schema": "v2"
   },
   {
@@ -5576,7 +5576,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Each elf eats 1/2 + 1/5 + (1/5)/6 = 1/2 + 1/5 + 1/30 = 15/30+6/30+1/30=22/30=11/15 of a cake. Fifteen elves eat 11 cakes; plus 3 untouched → 14 cakes.",
     "schema": "v2"
   },
   {
@@ -5597,7 +5597,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: One bar makes 1 rabbit plus leftover; 7 leftovers make 2 rabbits, so 7 bars → 7 rabbits + 2 = 9 rabbits. Then 35 bars = 5×7 → 5×9=45 rabbits.",
     "schema": "v2"
   },
   {
@@ -5618,7 +5618,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: From cabin 48 to cabin 2, Jim skipped 15 cabins, so there are 15 cabins between them. That gives n−47=15, so n=62 cabins.",
     "schema": "v2"
   },
   {
@@ -5639,7 +5639,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Twins same age w; mom m=3w today. Two years ago m−2+2(w−2)=19 → 3w−2+2w−4=19 → 5w=25 → w=5. Blinken is 5.",
     "schema": "v2"
   },
   {
@@ -5663,7 +5663,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Tower is 12×4×3 cubes. Remove a 12×3×1 side layer (36 cubes) and restack on top as 4 new layers on a 3×3 base. New height 16 cubes × 9 cm = 144 cm.",
     "schema": "v2"
   },
   {
@@ -5685,7 +5685,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Totals must be a multiple of both 11 (yesterday 6:5) and 7 (today 3:4). Smallest positive total is lcm(11,7)=77.",
     "schema": "v2"
   },
   {
@@ -5706,7 +5706,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: A 1-inch frame around the 6×9 photo makes an 8×11 outer rectangle (34 unit squares). The alternating triangle pattern places one striped triangle on each unit of the outer and inner boundaries: 2(8+11)+2(6+9)=68.",
     "schema": "v2"
   },
   {
@@ -5728,7 +5728,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: A clock that gains m minutes per day shows the correct time again after 720/m days (a 12-hour gain). Periods are 36, 24, and 18 days; lcm(36,24,18)=72.",
     "schema": "v2"
   },
   {
@@ -5749,7 +5749,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Arrange digits 2,0,1,8 from largest to smallest: 8210.",
     "schema": "v2"
   },
   {
@@ -5770,7 +5770,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Length = area/width = 42/6 = 7 inches.",
     "schema": "v2"
   },
   {
@@ -5791,7 +5791,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Rate is 25 kg / 50 min = 1/2 kg/min. For 60 kg: 60÷(1/2)=120 minutes.",
     "schema": "v2"
   },
   {
@@ -5812,7 +5812,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: From 30 puzzles: 30/3=10 times the 2-point bonus → 20 points, plus 30/10=3 times the 3-point bonus → 9 more. Total 29.",
     "schema": "v2"
   },
   {
@@ -5833,7 +5833,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let Blue have b; Green had b+16. After the jump, Green has (b+16)+b=80 → 2b=64 → b=32. Original Green = 48.",
     "schema": "v2"
   },
   {
@@ -5855,7 +5855,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: From 10:00 last night to 6:00 this morning is 8 hours. The slow clock loses 4 min per 24 h, so in 8 h it loses 4/3 min = 80 seconds — meaning at 10:00 last night it was 80 seconds ahead.",
     "schema": "v2"
   },
   {
@@ -5876,7 +5876,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: On day 0 there were 20 members; each later day adds 3. After d days beyond formation: 20+3d=71 → 3d=51 → d=17. Nov 30 is 17 days after formation, so formed on Nov 13.",
     "schema": "v2"
   },
   {
@@ -5897,7 +5897,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The 6×6×7 box holds a 3×3×3 = 27 gold cubes of side 2, using height 6 and leaving a 6×6×1 slab. That slab holds 36 silver 1-inch cubes. Total 27+36=63.",
     "schema": "v2"
   },
   {
@@ -5918,7 +5918,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let Snorlax age in 2018 be s; Mewtwo 2s; Raichu 2s+7. Two years ago Raichu was 5 times Snorlax: 2s+5=5(s−2) → 2s+5=5s−10 → 15=3s → s=5. Raichu age 17 in 2018 → made in 2001.",
     "schema": "v2"
   },
   {
@@ -5939,7 +5939,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let small door s and large L. Overlap (2/5)s; cabinet width W=s+L−(2/5)s. When both slide aside, open W−L=36 and L−s=(1/5)s. Then L=(6/5)s and W=L+36 gives s=60, W=108.",
     "schema": "v2"
   },
   {
@@ -5960,7 +5960,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Boxes follow a Fibonacci rule. With b4=30 and b7=128, the sequence starts 8,11,19,30,… and b10=542.",
     "schema": "v2"
   },
   {
@@ -5981,7 +5981,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Dog:cat woofs:meows = 5:2. If cat meows 28 times, dog woofs (5/2)×28=70 times.",
     "schema": "v2"
   },
   {
@@ -6002,7 +6002,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let Luna eat x; Harry eats x+6. Then 2x+6=56 → x=25.",
     "schema": "v2"
   },
   {
@@ -6023,7 +6023,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: After 14 in the fortress, 126 remain → 126/14=9 per group. Three attacker groups: 3×9=27.",
     "schema": "v2"
   },
   {
@@ -6044,7 +6044,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let Julia now be j; David d. Five years ago: d−5=3(j−5). In 2 years: d+2=2(j+2). From the second, d=2j+2. Into the first: 2j+2−5=3j−15 → 2j−3=3j−15 → j=12, d=26.",
     "schema": "v2"
   },
   {
@@ -6065,7 +6065,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Start with 5³=125 boxes. Remove top layer: 25 boxes → 100 left. Rightmost side of remaining 4×5×5 takes 4×5=20 more → 80 left.",
     "schema": "v2"
   },
   {
@@ -6086,7 +6086,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Harry has 22 students on his left, so he is in position 23 of 27. Hermione has exactly 11 students to her right including Harry, so she is in position 27−11=16. Students between them: 23−16−1=6.",
     "schema": "v2"
   },
   {
@@ -6107,7 +6107,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Two plates are 2×14×16=448 unit squares. Each 2×4 brick covers 8, so 448/8=56 bricks.",
     "schema": "v2"
   },
   {
@@ -6129,7 +6129,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: He painted 3/5 of the fence with 1/3 of the 990 mL can. Whole fence needs (1/3)/(3/5)×990 = 550 mL.",
     "schema": "v2"
   },
   {
@@ -6151,7 +6151,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Along the 25 m length, green covers 5–20 m from one end and yellow covers 2–16 m from the other (9–23 from the green end). Overlap along length is 9–20 = 11 m; times width 10 gives area 110.",
     "schema": "v2"
   },
   {
@@ -6172,7 +6172,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Cut points are the distinct interior marks at k/24 and m/18. There are 23 red marks and 17 yellow marks, with 5 coinciding, so 23+17−5=35 cuts.",
     "schema": "v2"
   },
   {
@@ -6193,7 +6193,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Compute left to right: 60÷2×10=30×10=300 spells for the young wizard. The old wizard knows twice as many: 600.",
     "schema": "v2"
   },
   {
@@ -6214,7 +6214,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Rate is 12 inches / 3 hours = 4 in/h. In 5 hours: 4×5=20 inches.",
     "schema": "v2"
   },
   {
@@ -6235,7 +6235,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Larger = (sum+difference)/2 = (46+10)/2 = 28.",
     "schema": "v2"
   },
   {
@@ -6256,7 +6256,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Add 23 to both sides of 3x−23=10 to get 3x=33, so x=11.",
     "schema": "v2"
   },
   {
@@ -6277,7 +6277,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: She solves 20,21,…,80 problems. That is 80−20+1=61 days.",
     "schema": "v2"
   },
   {
@@ -6319,7 +6319,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let Mona be m; Jackie is m+8. Nine years ago: m+8−9=3(m−9) → m−1=3m−27 → 26=2m → m=13. Jackie is 21.",
     "schema": "v2"
   },
   {
@@ -6340,7 +6340,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Meetings every 3 days; weekdays cycle every 7 meetings (21 days). From Monday Jan 4, add 21: Monday Jan 25.",
     "schema": "v2"
   },
   {
@@ -6362,7 +6362,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Room area 30×20=600 ft². Each tile is 2×2=4 ft², so 600/4=150 tiles.",
     "schema": "v2"
   },
   {
@@ -6383,7 +6383,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Rate is (6/7)÷(2/21)=(6/7)×(21/2)=9 pizzas per hour.",
     "schema": "v2"
   },
   {
@@ -6405,7 +6405,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: A 2-ft magic border around the 12×10 carpet leaves an inner 8×6 rectangle. Magic area = 120−48=72.",
     "schema": "v2"
   },
   {
@@ -6426,7 +6426,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 5 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The fair share per tribe is an integer that equals 6 for (t−2) tribes and 5 for (t+1) tribes, so total logs L=6(t−2)=5(t+1). Then 6t−12=5t+5 → t=17.",
     "schema": "v2"
   },
   {
@@ -6447,7 +6447,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: To minimize 2(50−d) for a one-digit d, take the largest digit d=9: 2(41)=82.",
     "schema": "v2"
   },
   {
@@ -6468,7 +6468,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 5% more than 140 is 140×1.05=147 zombies.",
     "schema": "v2"
   },
   {
@@ -6489,7 +6489,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Wins:draws:losses = 6:3:2 → 11 parts. Wins are 6/11 of 132 = 72.",
     "schema": "v2"
   },
   {
@@ -6511,7 +6511,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let Stan have s likes. Ben has 1.4s and Fran has 0.8s. Ben/Fran = 1.4/0.8=1.75, so Ben has 75% more likes than Fran.",
     "schema": "v2"
   },
   {
@@ -6532,7 +6532,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Today she drank 1+17/42=59/42 cups at 2/7 cup per hour: time (59/42)/(2/7)=(59/42)×(7/2)=59/12 hours = 59/12×60=295 minutes.",
     "schema": "v2"
   },
   {
@@ -6556,7 +6556,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Doubling edges multiplies volume by 8, so volume becomes 800% of original — an increase of 700%.",
     "schema": "v2"
   },
   {
@@ -6577,7 +6577,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: AB∥DE with AE and DB crossing at C. From the figure, ∠1=80° at C and m∠2:m∠3=2:3. Using parallel-line angle relations in the figure yields m∠2=104°.",
     "schema": "v2"
   },
   {
@@ -6599,7 +6599,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 3-digit palindromes ABA=100A+10B+A must be divisible by 18 (by 2 and 9). Largest candidates from 999 downward that are palindromes divisible by 18 give 828.",
     "schema": "v2"
   },
   {
@@ -6620,7 +6620,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2019 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2019",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Neighbor-sums add to 240, so the six knights have 120 peanuts total. The three alternating neighbor-sums 28+44+60=132 show those three knights hold 66 peanuts; the knight who counted 52 then has 66−28=38.",
     "schema": "v2"
   },
   {
@@ -6642,7 +6642,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Tom needs 8 more inches on a base of 40, which is 8/40=20%.",
     "schema": "v2"
   },
   {
@@ -6664,7 +6664,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Halving each tile’s side cuts tile area to 1/4, so 4 times as many tiles are needed: 4×4=16.",
     "schema": "v2"
   },
   {
@@ -6685,7 +6685,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Chess used 2 boxes. Spelling Bee had twice as many people, so used 4 boxes, with 72 medals left from the remaining 7−2−4=1 box? Total 7 boxes. After chess, 5 closed. Spelling used some of those; 72 left. Let one box hold m medals. Chess participants c=2m. Spelling 2c=4m. Medals used 6m, left 7m−6m=m=72. Chess had 2×72=144.",
     "schema": "v2"
   },
   {
@@ -6706,7 +6706,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Dana’s 60 texts are 40% of mom’s texts, so mom sent 60/0.4=150. Total exchanged 60+150=210.",
     "schema": "v2"
   },
   {
@@ -6727,7 +6727,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: After pouring 0.75 oz, first bowl has 29.25 and second has 2.25. Ratio 29.25/2.25=13.",
     "schema": "v2"
   },
   {
@@ -6749,7 +6749,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Interior angles 2x,3x,4x with 9x=180°, so x=20° → 40°,60°,80°. Exterior angles are 140°,120°,100°, ratio 7:6:5. Sum 7+6+5=18.",
     "schema": "v2"
   },
   {
@@ -6770,7 +6770,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let Mia work m minutes; Luke m+5. Mia makes (4/3)m and Luke (3/4)(m+5), totaling 85. Multiply by 12: 16m+9(m+5)=1020 → 25m+45=1020 → 25m=975 → m=39. Mia made (4/3)·39=52.",
     "schema": "v2"
   },
   {
@@ -6791,7 +6791,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Spotted:unspotted = 6:1, so total is a multiple of 7 under 500. After giving away 6%, 94% remain, so total must be a multiple of 50 for a whole number left? 94% of 7k is whole → try k=50 → 350; 0.94×350=329. And 350<500.",
     "schema": "v2"
   },
   {
@@ -6812,7 +6812,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2018 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2018",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let x watch 1 video, y watch 2, z watch 3. Then x+y+z=312 and x+2y+3z=740. Subtract: y+2z=428. Want z−x. From x=312−y−z and z−x=z−(312−y−z)=2z+y−312=428−312=116.",
     "schema": "v2"
   },
   {
@@ -6834,7 +6834,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Acute angles x and 5x with x+5x=90° → 6x=90 → x=15. Larger acute angle is 75°.",
     "schema": "v2"
   },
   {
@@ -6855,7 +6855,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Gryffindor 420; Slytherin had 5% less: 0.95×420=399. They needed 420−399=21 more to tie, so 22 to win.",
     "schema": "v2"
   },
   {
@@ -6876,7 +6876,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Rate is 6 jumps / 15 s = 0.4 jumps/s, each 2 inches. In 40 s: 0.4×40=16 jumps → 32 inches.",
     "schema": "v2"
   },
   {
@@ -6897,7 +6897,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Evaluating the two expressions from the stem (reconstructed as 1.2+2/15 and 1−2/3) gives 4/3 and 1/3. Their ratio is 4.",
     "schema": "v2"
   },
   {
@@ -6918,7 +6918,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: First 10 s: +25 frogs/s → 250 frogs. Then net −10 frogs/s. Time to clear 250 is 25 s more. Total 10+25=35 seconds.",
     "schema": "v2"
   },
   {
@@ -6939,7 +6939,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: New score is 128% of old: 1.28x=288 → x=288/1.28=225.",
     "schema": "v2"
   },
   {
@@ -6962,7 +6962,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: New area factor is 1.5×2=3 times original, so area increases by 200%.",
     "schema": "v2"
   },
   {
@@ -6984,7 +6984,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Field area 20×15=300. Boys are 22 of 40 children, so they cleaned (22/40)×300=165.",
     "schema": "v2"
   },
   {
@@ -7005,7 +7005,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let s be the number of steps. Up time s/3, down s/2, and s/2−s/3=25 → s/6=25 → s=150.",
     "schema": "v2"
   },
   {
@@ -7026,7 +7026,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Doughnuts:eclairs = 2:3 and eclairs:tarts = 6:5, so D:E:T = 4:6:5. Parts 15 into 1320 give 88 each; tarts = 5×88=440.",
     "schema": "v2"
   },
   {
@@ -7048,7 +7048,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2017 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2017",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: He looks for the first 1/3, sleeps 1/5 of the rest (2/15 of the trip), then reads 1/2 of what remains (4/15). Read−sleep = 2/15 of D equals 17.6, so D=132 km.",
     "schema": "v2"
   },
   {
@@ -7070,7 +7070,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Angles 3x,4x,5x sum to 180°, so 12x=180 and x=15. Largest angle is 5×15=75°.",
     "schema": "v2"
   },
   {
@@ -7092,7 +7092,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 10% of 40 coins is 4 coins saved.",
     "schema": "v2"
   },
   {
@@ -7113,7 +7113,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Daily pay is 300/35. In 42 days: (300/35)×42=300×6/5=360.",
     "schema": "v2"
   },
   {
@@ -7134,7 +7134,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let n wizards each cast at rate r. Work nr·4=(n+2)r·3 → 4n=3n+6 → n=6.",
     "schema": "v2"
   },
   {
@@ -7155,7 +7155,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: He kept 36% of his weight, so 0.36w=2016 → w=2016/0.36=5600 lb.",
     "schema": "v2"
   },
   {
@@ -7178,7 +7178,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Doubling sides multiplies area by 4, so area becomes 400% of original — an increase of 300%.",
     "schema": "v2"
   },
   {
@@ -7199,7 +7199,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Hermione paid 98/(98+28)=98/126=7/9 of the cost, so she paid for (7/9)×2016=1568 frogs.",
     "schema": "v2"
   },
   {
@@ -7222,7 +7222,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Let t be minutes until the bell and d the distance. Then d=50(t+3)=80(t−3). Solving 50t+150=80t−240 gives 30t=390, so t=13.",
     "schema": "v2"
   },
   {
@@ -7245,7 +7245,7 @@ const moemsBank = [
     "sourceTitle": "IMC 2016 Grade 6 (Russian School of Mathematics International Math Contest)",
     "year": "2016",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: First:second = 2:3 and second:third = 4:5, so first:second:third = 8:12:15. Parts 8+12+15=35 into 245 give 7 cm each; longest is 15×7=105 cm.",
     "schema": "v2"
   },
   {
@@ -7266,7 +7266,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
     "year": "2020-2021",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: The nine 2-digit numbers with ones digit 6 are 16, 26, 36, 46, 56, 66, 76, 86, and 96. Their tens digits sum to 1+2+…+9=45, so the total is 10×45+9×6=450+54=504. Answer is 504.",
     "schema": "v2"
   },
   {
@@ -7287,7 +7287,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
     "year": "2020-2021",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Factor out 123: note 246=2×123 and 369=3×123. Then 123×45+246×30+369×15=123×(45+2×30+3×15)=123×(45+60+45)=123×150=18450. Answer is 18450.",
     "schema": "v2"
   },
   {
@@ -7309,7 +7309,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
     "year": "2020-2021",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: An odd multiple of 5 ends in 5. The form is AAB5 with digit sum 2A+B+5=28, so 2A+B=23, and exactly two digits even. Trying A even forces B odd; only A=8, B=7 works, giving 8875. Answer is 8875.",
     "schema": "v2"
   },
   {
@@ -7330,7 +7330,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
     "year": "2020-2021",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Using the given path diagram, count routes from the top point to the bottom that only move along edges with a downward component. Enumerating the allowed downward/slanted paths yields 12 distinct ways. Answer is 12.",
     "schema": "v2"
   },
   {
@@ -7353,7 +7353,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2020-2021)",
     "year": "2020-2021",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: B is the midpoint of AC, so BC=½ AC. Points C,D,E,F are equally spaced, so CE=⅔ CF. Triangles BCE and ACF are similar right triangles (same angle at C), and area ratio is (½)×(⅔)=⅓. Thus shaded area is 180/3=60. Answer is 60.",
     "schema": "v2"
   },
   {
@@ -7374,7 +7374,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
     "year": "2020-2021",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Add the left side: 1+3+4+6+6+8+9+11=48. Then 48=4×☺, so ☺=12. Answer is 12.",
     "schema": "v2"
   },
   {
@@ -7395,7 +7395,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
     "year": "2020-2021",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: The mother computed 2(age+4)=80, so age+4=40 and age=36. The correct special number is 2×36+4=76. Answer is 76.",
     "schema": "v2"
   },
   {
@@ -7416,7 +7416,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
     "year": "2020-2021",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Let c be correct answers. Then 6c−4(25−c)=100, so 6c−100+4c=100, hence 10c=200 and c=20. Answer is 20.",
     "schema": "v2"
   },
   {
@@ -7437,7 +7437,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
     "year": "2020-2021",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: List the 24 permutations of the four cups and keep those where G lies between Y and B and R is left of Y. Exactly 4 arrangements satisfy both conditions. Answer is 4.",
     "schema": "v2"
   },
   {
@@ -7458,7 +7458,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2020-2021)",
     "year": "2020-2021",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: From the figure, QUAD sits inside rectangle RECT with each vertex on a side and QA∥ sides of the rectangle with QA=18 and EC=13. Subtract the four right-triangular corner regions from the rectangle area to obtain area(QUAD)=117. Answer is 117.",
     "schema": "v2"
   },
   {
@@ -7479,7 +7479,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
     "year": "2020-2021",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Group as 12(47+53)+8(53+47)=12×100+8×100=1200+800=2000. Answer is 2000.",
     "schema": "v2"
   },
   {
@@ -7502,7 +7502,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
     "year": "2020-2021",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Perimeter 26 means length+width=13 with whole-number sides. Possible areas are 1×12, 2×11, 3×10, 4×9, 5×8, 6×7; the greatest is 6×7=42. Answer is 42.",
     "schema": "v2"
   },
   {
@@ -7526,7 +7526,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
     "year": "2020-2021",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Factor 150=2×3×5². For N×150 to be a square, the exponents of 2 and 3 must become even, so the least N is 2×3=6. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -7549,7 +7549,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
     "year": "2020-2021",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: With V=1 in the given cryptarithm and distinct digits/no leading zeros, maximize STATS by testing the largest feasible digit assignments consistent with the addition/structure shown. The greatest value of STATS is 97879. Answer is 97879.",
     "schema": "v2"
   },
   {
@@ -7570,7 +7570,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
     "year": "2021-2022",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Compute 531+315+153=999, so 1000−999=1. Answer is 1.",
     "schema": "v2"
   },
   {
@@ -7591,7 +7591,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
     "year": "2021-2022",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Count stars by rows in the given 7×8 pattern: 8+6+4+2+4+6+8=38. Answer is 38.",
     "schema": "v2"
   },
   {
@@ -7612,7 +7612,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
     "year": "2021-2022",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Overall wins:losses=3:2 and all losses are the 12 early ones, so losses=12=2k ⇒ k=6 and wins=18. After the first 16 games they already had 4 wins, so they won 18−4=14 more. Answer is 14.",
     "schema": "v2"
   },
   {
@@ -7634,7 +7634,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
     "year": "2021-2022",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: A sum of four distinct primes that is an odd prime must include 2. The next candidate after 2+3+5+7=17 is 2+3+5+13=23, which is prime. Answer is 23.",
     "schema": "v2"
   },
   {
@@ -7655,7 +7655,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2021-2022)",
     "year": "2021-2022",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Let R,Y,B be the gem values. Adding 2R+3Y=21, 2Y+3B=31, and 2B+3R=23 gives 5(R+Y+B)=75, so R+Y+B=15. Then 2R+2Y+2B=30. Answer is 30.",
     "schema": "v2"
   },
   {
@@ -7676,7 +7676,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
     "year": "2021-2022",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Add place by place: 1357+3571+5713+7135. Each digit 1,3,5,7 appears once in each place value, so each place sums to 16; carrying gives 17776. Answer is 17776.",
     "schema": "v2"
   },
   {
@@ -7698,7 +7698,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
     "year": "2021-2022",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: On the unit grid, trace the outer boundary of the four shaded squares. Counting each exposed unit edge around the shaded region gives perimeter 48. Answer is 48.",
     "schema": "v2"
   },
   {
@@ -7719,7 +7719,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
     "year": "2021-2022",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: House numbers form an arithmetic sequence 13, 17, …, 221 with common difference 4. Then 13+(n−1)×4=221 ⇒ (n−1)×4=208 ⇒ n−1=52 ⇒ n=53. Answer is 53.",
     "schema": "v2"
   },
   {
@@ -7741,7 +7741,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
     "year": "2021-2022",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Let S and J be today’s ages. Then S−7=5(J−7) and S−2=3(J−2). Solving: S=5J−28 and S=3J−4, so 5J−28=3J−4 ⇒ 2J=24 ⇒ J=12, S=32. Sum=44. Answer is 44.",
     "schema": "v2"
   },
   {
@@ -7764,7 +7764,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2021-2022)",
     "year": "2021-2022",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: ABAB=101×(10A+B) and must be a multiple of 36. Since 101 and 36 are coprime, 10A+B must be a multiple of 36. The greatest 2-digit multiple of 36 is 72, so ABAB=7272. Answer is 7272.",
     "schema": "v2"
   },
   {
@@ -7785,7 +7785,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
     "year": "2021-2022",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Compute 2×3×4×5×7×25. First 4×25=100, then 2×3×5×7×100=210×100=21000. Answer is 21000.",
     "schema": "v2"
   },
   {
@@ -7806,7 +7806,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
     "year": "2021-2022",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Count digit 7 from 1 to 85: ones place gives 7,17,27,37,47,57,67,77 (8 times, with 77 once so far) plus tens place 70–79 (10 more, but 77’s tens already extra)—carefully: ones: 8 times; tens in 70–79: 10 times; total 18. Answer is 18.",
     "schema": "v2"
   },
   {
@@ -7827,7 +7827,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
     "year": "2021-2022",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Let Bert have 5k and Ernie 3k. After Bert gives 12, 5k−12=3k+12 ⇒ 2k=24 ⇒ k=12, so Bert had 60. Answer is 60.",
     "schema": "v2"
   },
   {
@@ -7849,7 +7849,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
     "year": "2021-2022",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: A 12×18 rectangle tiles into six identical squares of side 6 (a 2-by-3 array). Each square has perimeter 4×6=24. Answer is 24.",
     "schema": "v2"
   },
   {
@@ -7870,7 +7870,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2021-2022)",
     "year": "2021-2022",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Letters W,A,R,M,C,O,L,D use each digit 0–7 once, and WARM−COLD=6591. Searching distinct assignments with nonzero leading digits, the greatest WARM is 7643 (with COLD=1052). Answer is 7643.",
     "schema": "v2"
   },
   {
@@ -7891,7 +7891,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
     "year": "2021-2022",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Pair terms: (987−876)+(765−654)+(543−432)+(321−210)=111+111+111+111=444. Answer is 444.",
     "schema": "v2"
   },
   {
@@ -7912,7 +7912,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
     "year": "2021-2022",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: The number of people divides 141 and is greater than 20, with each person bringing more than one sticker. Factors of 141 are 1, 3, 47, and 141; the only factor >20 with stickers-per-person >1 is 47 people (3 each). Answer is 47.",
     "schema": "v2"
   },
   {
@@ -7934,7 +7934,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
     "year": "2021-2022",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Faces are {1,2,3,5,8,13}. Of the 36 outcomes, count those whose sum is a Fibonacci number (2,3,5,8,13,21). Checking all pairs yields 11 such outcomes. Answer is 11.",
     "schema": "v2"
   },
   {
@@ -7956,7 +7956,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
     "year": "2021-2022",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Start with a 6×12 rectangle (area 72). Using the figure’s division points (trisecting the bottom and bisecting the top), compute the shaded polygonal logo by subtracting the unshaded triangular regions; the shaded area is 24 cm². Answer is 24.",
     "schema": "v2"
   },
   {
@@ -7977,7 +7977,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2021-2022)",
     "year": "2021-2022",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: A 5-digit palindrome has form ABCBA with 2A+2B+C=14, A from 1–9 and B,C from 0–9. Counting the integer solutions gives 25 such numbers. Answer is 25.",
     "schema": "v2"
   },
   {
@@ -7998,7 +7998,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
     "year": "2021-2022",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Pair as (99+11)+(88+22)+(77+33)+(66+44)+55=110+110+110+110+55=495. Answer is 495.",
     "schema": "v2"
   },
   {
@@ -8019,7 +8019,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
     "year": "2021-2022",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Use a²−b²=(a−b)(a+b): 22²−21²=(22−21)(22+21)=1×43=43. Answer is 43.",
     "schema": "v2"
   },
   {
@@ -8042,7 +8042,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
     "year": "2021-2022",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: FUN is a 3-digit number with consecutive increasing digits, and MATH=3×FUN is 4 digits with all letters distinct. Candidates are 345,456,567,678,789; checking letter-distinctness, FUN=678 gives MATH=2034 with seven distinct digits. Answer is 678.",
     "schema": "v2"
   },
   {
@@ -8064,7 +8064,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
     "year": "2021-2022",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: A square of perimeter 800 has side 200. Alternating half-folds give perimeters 600,400,300,200,150,100 after 1 through 6 folds. It takes 6 folds to reach perimeter 100. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -8085,7 +8085,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2021-2022)",
     "year": "2021-2022",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Simplify 3/(3+1/3). First 3+1/3=10/3, so 3÷(10/3)=3×3/10=9/10. Answer is 9/10.",
     "schema": "v2"
   },
   {
@@ -8106,7 +8106,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
     "year": "2022-2023",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Add 222+2022+2202+2220. Each place value sums cleanly: ones 2+2+2+0=6, tens 2+2+0+2=6, hundreds 2+0+2+2=6, thousands 0+2+2+2=6, so the total is 6666. Answer is 6666.",
     "schema": "v2"
   },
   {
@@ -8127,7 +8127,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
     "year": "2022-2023",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Use as many 20s as possible without overshooting, then fill with 10s and 5s: 4×20+1×10+1×5=95 uses 6 boxes. No combination uses fewer than 6. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -8148,7 +8148,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
     "year": "2022-2023",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Common factors of 96 and 120 are the divisors of gcd(96,120)=24. Among 1,2,3,4,6,8,12,24, those coprime to 105=3×5×7 are 1,2,4,8. The greatest is 8. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -8170,7 +8170,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
     "year": "2022-2023",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Five side-by-side rectangles each of base 2 have total width 10. Ordering heights 1,2,4,6,8, the perimeter is bottom 10 + left 1 + right 8 + top horizontals 10 + vertical steps |2−1|+|4−2|+|6−4|+|8−6|=6, totaling 36. Answer is 36.",
     "schema": "v2"
   },
   {
@@ -8191,7 +8191,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2022-2023)",
     "year": "2022-2023",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Numbers abcd with a=d, b less than a,c,d, and c the average of b and a. So 2c=a+b with b<a and b<c. Counting digit solutions for a=1..9 gives 20 such numbers. Answer is 20.",
     "schema": "v2"
   },
   {
@@ -8212,7 +8212,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
     "year": "2022-2023",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Group as (6789−678)+(5678−567)+(4567−456)=6111+5111+4111=15333. Answer is 15333.",
     "schema": "v2"
   },
   {
@@ -8233,7 +8233,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
     "year": "2022-2023",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Ten equally spaced stakes make 9 equal gaps. Stakes 1 to 4 span 3 gaps = 10 ft, so each gap is 10/3 ft. Stakes 1 to 10 span 9 gaps = 30 ft. Answer is 30.",
     "schema": "v2"
   },
   {
@@ -8256,7 +8256,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
     "year": "2022-2023",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Need the least 3-digit multiple of 6 greater than 200 whose digits sum to 9. Checking candidates, 216 is divisible by 6 and 2+1+6=9. Answer is 216.",
     "schema": "v2"
   },
   {
@@ -8277,7 +8277,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
     "year": "2022-2023",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Seats form an AP of 30 terms from 20 to 78. Sum = 30/2 × (20+78) = 15×98 = 1470. Answer is 1470.",
     "schema": "v2"
   },
   {
@@ -8298,7 +8298,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
     "year": "2022-2023",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Ann computes 9−(5−2)=6. Andy ignores parentheses: 9−5−2=2. The difference N is 6−2=4. Answer is 4.",
     "schema": "v2"
   },
   {
@@ -8320,7 +8320,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
     "year": "2022-2023",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: B0BB=1011B must be divisible by 6, so B is even. For a 4-digit number, B∈{2,4,6,8}, giving four values (including 2022). Answer is 4.",
     "schema": "v2"
   },
   {
@@ -8341,7 +8341,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
     "year": "2022-2023",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Let n cups be sold at $1.25 with starting change c<1.25. Then 1.25n+c=29.22. In cents, 125n+c=2922 with 0≤c<125. Since 125×23=2875 and remainder 47<125, he sold 23 lemonades. Answer is 23.",
     "schema": "v2"
   },
   {
@@ -8363,7 +8363,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
     "year": "2022-2023",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: The figure is a grid of 1×1 squares. Count the shaded unit squares and divide by the total number of unit squares; the shaded fraction simplifies to 32/81. Answer is 32/81.",
     "schema": "v2"
   },
   {
@@ -8384,7 +8384,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2022-2023)",
     "year": "2022-2023",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: On the given path diagram, count routes from A to B that only move to the next lower row. Enumerating the downward choices at each junction yields 8 paths. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -8405,7 +8405,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
     "year": "2022-2023",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Add 4321+5432+6543+7654+8765+9876 place by place (or notice each column sums in a regular pattern) to get 42591. Answer is 42591.",
     "schema": "v2"
   },
   {
@@ -8427,7 +8427,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
     "year": "2022-2023",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Jimmy×Kimmy=34=2×17 and Kimmy×Timmy=85=5×17, so Kimmy=17, Jimmy=2, Timmy=5. Sum is 2+17+5=24. Answer is 24.",
     "schema": "v2"
   },
   {
@@ -8448,7 +8448,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
     "year": "2022-2023",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Compute ½×⅔×¾×2400. The 2 and 3 cancel, leaving ¼×2400=600. Answer is 600.",
     "schema": "v2"
   },
   {
@@ -8471,7 +8471,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
     "year": "2022-2023",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Continue the shading pattern over the full 10×10 grid. Count shaded cells; 55 of the 100 squares are shaded, so N=55. Answer is 55.",
     "schema": "v2"
   },
   {
@@ -8492,7 +8492,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2022-2023)",
     "year": "2022-2023",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: From the three equations, subtract to get △−●=4 and □−●=−1. Substituting into the first equation yields ●=3, △=7, □=2. Then 3△+2□=21+4=25. Answer is 25.",
     "schema": "v2"
   },
   {
@@ -8513,7 +8513,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
     "year": "2022-2023",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Add 525252+52525+5252+525+52+5 carefully by place value to obtain 583611. Answer is 583611.",
     "schema": "v2"
   },
   {
@@ -8534,7 +8534,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
     "year": "2022-2023",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Factor 2×4×5×8×25×125 into primes: there are six factors of 2 and six factors of 5, making six factors of 10, hence six trailing zeros. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -8555,7 +8555,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
     "year": "2022-2023",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: From 3B+6F=30 and 3B+2F=18, subtract to get 4F=12 so F=3, then B=4. Thus 2B+3F=8+9=17. Answer is 17.",
     "schema": "v2"
   },
   {
@@ -8577,7 +8577,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
     "year": "2022-2023",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: A cube has 12 equal edges. Cutting 60 inches of wire into 12 edges gives edge length 5, so volume 5³=125. Answer is 125.",
     "schema": "v2"
   },
   {
@@ -8598,7 +8598,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2022-2023)",
     "year": "2022-2023",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: With n schools, C(n,2)=28 ⇒ n(n−1)=56 ⇒ n=8. Springfield plays each of the other 7 schools once. Answer is 7.",
     "schema": "v2"
   },
   {
@@ -8619,7 +8619,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
     "year": "2024-2025",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Compute 2×4×5×15×25. Group 4×25=100 and 2×5=10, then 10×100×15=15000. Answer is 15000.",
     "schema": "v2"
   },
   {
@@ -8640,7 +8640,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
     "year": "2024-2025",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: If the lucky number is x, then 3x+95=2024, so 3x=1929 and x=643. Answer is 643.",
     "schema": "v2"
   },
   {
@@ -8661,7 +8661,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
     "year": "2024-2025",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Let f be flower boxes and 8−f coin boxes. Then 250f+100(8−f)=1250 ⇒ 150f+800=1250 ⇒ 150f=450 ⇒ f=3. Answer is 3.",
     "schema": "v2"
   },
   {
@@ -8682,7 +8682,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
     "year": "2024-2025",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Let q quarters and d dimes: 25q+10d=495 and 10q+25d=450. Solving the system yields q=15 (and d=12). Answer is 15.",
     "schema": "v2"
   },
   {
@@ -8705,7 +8705,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2024-2025)",
     "year": "2024-2025",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Volume 672 with base 8×12 gives height 7. Using the unfolded decagon net in the diagram, add the outer edge lengths to get perimeter 112. Answer is 112.",
     "schema": "v2"
   },
   {
@@ -8726,7 +8726,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
     "year": "2024-2025",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Add 9753+8642+7531+6420 place by place to obtain 32346. Answer is 32346.",
     "schema": "v2"
   },
   {
@@ -8747,7 +8747,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
     "year": "2024-2025",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Monday–Friday sum to 5×80=400. Monday–Saturday sum to 6×82=492. Saturday’s high is 492−400=92°. Answer is 92.",
     "schema": "v2"
   },
   {
@@ -8770,7 +8770,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
     "year": "2024-2025",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: In the cryptarithm each row’s digits sum to 15 with distinct letters/no leading zero. Maximize the overall sum under those constraints to get 2556. Answer is 2556.",
     "schema": "v2"
   },
   {
@@ -8791,7 +8791,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
     "year": "2024-2025",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Jayden’s tiles have area 20 and Madison’s have area 72. The least common multiple of 20 and 72 is 360, which both can tile as a rectangle, so the least shared area is 360. Answer is 360.",
     "schema": "v2"
   },
   {
@@ -8812,7 +8812,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2024-2025)",
     "year": "2024-2025",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Bill W equals 2A=3B=(8/3)C, so W is a multiple of 24. Total money is (29/24)W, leaving (5/24)W after paying. Least W=24 leaves 5 dollars. Answer is 5.",
     "schema": "v2"
   },
   {
@@ -8833,7 +8833,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
     "year": "2024-2025",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Pair terms: (200−188)+(175−163)+…+(25−13). Each of the 8 pairs equals 12, so the sum is 96. Answer is 96.",
     "schema": "v2"
   },
   {
@@ -8855,7 +8855,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
     "year": "2024-2025",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Four-digit numbers with consecutive strictly increasing digits are 1234,2345,3456,4567,5678,6789. Among these only 4567 is prime. Answer is 4567.",
     "schema": "v2"
   },
   {
@@ -8876,7 +8876,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
     "year": "2024-2025",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Times for the three 60-mile segments are 2 h, 1.5 h, and 1 h, totaling 4.5 h. Average speed is 180/4.5=40 mph. Answer is 40.",
     "schema": "v2"
   },
   {
@@ -8898,7 +8898,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
     "year": "2024-2025",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Such a divisor d divides both 178−3=175 and 107−2=105, so d divides gcd(175,105)=35. Divisors of 35 greater than the remainders are 5, 7, and 35 — three numbers. Answer is 3.",
     "schema": "v2"
   },
   {
@@ -8920,7 +8920,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2024-2025)",
     "year": "2024-2025",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Each of the eight unit cubes from the painted 2×2×2 has three red faces. Rearrange into a 4×2×1 prism (total surface 28) so as many exposed faces as possible are red; the maximum red area is 20. Answer is 20.",
     "schema": "v2"
   },
   {
@@ -8941,7 +8941,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
     "year": "2024-2025",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Factor: (3×10+2×10)×(7×4−2×4)=50×(28−8)=50×20=1000. Answer is 1000.",
     "schema": "v2"
   },
   {
@@ -8962,7 +8962,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
     "year": "2024-2025",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Ken spends 20×$4=$80 on packages, leaving $20. He sells 96 hotdogs as 48 pairs at $5, earning $240. End total: 20+240=260. Answer is 260.",
     "schema": "v2"
   },
   {
@@ -8983,7 +8983,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
     "year": "2024-2025",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: The common line size is the prime gcd(176,275,396)=11. Lines: 176/11+275/11+396/11=16+25+36=77. Answer is 77.",
     "schema": "v2"
   },
   {
@@ -9006,7 +9006,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
     "year": "2024-2025",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Continue the square-pyramid pattern to 10 layers and dip it in paint. Cubes with no paint are those not on the outer surface; counting the fully interior cubes gives 140. Answer is 140.",
     "schema": "v2"
   },
   {
@@ -9029,7 +9029,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2024-2025)",
     "year": "2024-2025",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: With R=0 in the given cryptarithm and distinct digits, maximize the five-digit value THREE. The greatest assignment yields THREE=17055. Answer is 17055.",
     "schema": "v2"
   },
   {
@@ -9050,7 +9050,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
     "year": "2024-2025",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Add 516+625+536+645+556+665+576+685. Pairing (516+685)+(625+576)+(536+665)+(645+556) gives four sums of 1201, totaling 4804. Answer is 4804.",
     "schema": "v2"
   },
   {
@@ -9071,7 +9071,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
     "year": "2024-2025",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Ten 5×2 tiles have total area 100, but overlaps in the ‘52’ design reduce the covered area. From the diagram, the union covers 68 square units. Answer is 68.",
     "schema": "v2"
   },
   {
@@ -9093,7 +9093,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
     "year": "2024-2025",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: For 3□□4 to be a multiple of 9, digit sum 7+a+b must be a multiple of 9, so a+b=2 or 11. There are 3+8=11 such digit pairs. Answer is 11.",
     "schema": "v2"
   },
   {
@@ -9115,7 +9115,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
     "year": "2024-2025",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: 3-digit multiples of 24 ending in 2 correspond to 24k∈[100,999] with k≡3 (mod 5). The valid k are 8,13,18,23,28,33,38 — seven numbers. Answer is 7.",
     "schema": "v2"
   },
   {
@@ -9138,7 +9138,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2024-2025)",
     "year": "2024-2025",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Five copies of AB sum to 2-digit CD, so AB is 10–19. Requiring distinct digits for A,B,C,D leaves six values: 12,13,14,16,17,18. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -9159,7 +9159,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
     "year": "2023-2024",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Add 73+34+28+27+66+12. Pairing (73+27)+(34+66)+(28+12)=100+100+40=240. Answer is 240.",
     "schema": "v2"
   },
   {
@@ -9180,7 +9180,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
     "year": "2023-2024",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: The 4×4 grid has area 16. Four congruent right triangles with legs of length 1 each have area ½, totaling 2. Octagon area is 16−2=14. Answer is 14.",
     "schema": "v2"
   },
   {
@@ -9202,7 +9202,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
     "year": "2023-2024",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Multiples of both 20 and 35 are multiples of LCM(20,35)=140. The 3-digit multiples are 140,280,…,980 — seven of them. Answer is 7.",
     "schema": "v2"
   },
   {
@@ -9223,7 +9223,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
     "year": "2023-2024",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Let Isabella start with I; Michael starts with 5I. After giving $36: I+36=2(5I−36). Then I+36=10I−72 ⇒ 108=9I ⇒ I=12, so Michael started with 60. Answer is 60.",
     "schema": "v2"
   },
   {
@@ -9244,7 +9244,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2023-2024)",
     "year": "2023-2024",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: The nonzero elements {1,2,4,8,16} make every sum from 1 to 31 uniquely. Using two or more numbers (including optional 0) yields every integer from 1 through 31, so 31 different sums. Answer is 31.",
     "schema": "v2"
   },
   {
@@ -9265,7 +9265,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
     "year": "2023-2024",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Pair corresponding terms: (91−89)+(73−67)+(55−45)+(37−23)+(19−1)=2+6+10+14+18=50. Answer is 50.",
     "schema": "v2"
   },
   {
@@ -9286,7 +9286,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
     "year": "2023-2024",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: On the unit geoboard, find the area of the polygon using Pick’s theorem or by dividing into unit squares/triangles as shown. The area is 36 square units. Answer is 36.",
     "schema": "v2"
   },
   {
@@ -9308,7 +9308,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
     "year": "2023-2024",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Digit sum 2M+8 must be divisible by 3 but not by 9, and M03M5 must not be divisible by 75. Testing M≡2 (mod 3), only M=8 satisfies all conditions. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -9329,7 +9329,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
     "year": "2023-2024",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Elmer’s pile grows 1,2,3,… while Wascal’s pile is the triangular numbers. When the total reaches 44, Elmer has 8 and Wascal has 36. Answer is 36.",
     "schema": "v2"
   },
   {
@@ -9351,7 +9351,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2023-2024)",
     "year": "2023-2024",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: The even 4-digit form ABBC has first and last digits different primes, so the last digit is 2. Digit product in [340,350] forces A=7, B=5, giving 7552. Answer is 7552.",
     "schema": "v2"
   },
   {
@@ -9374,7 +9374,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
     "year": "2023-2024",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Three primes summing to 14 must include 2 (for an even sum of an odd count of odds otherwise). Then 2+5+7=14, and the product is 70. Answer is 70.",
     "schema": "v2"
   },
   {
@@ -9397,7 +9397,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
     "year": "2023-2024",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: In the given cryptarithm, assign distinct digits with no leading zero to maximize TWO. The greatest achievable value of TWO is 963. Answer is 963.",
     "schema": "v2"
   },
   {
@@ -9419,7 +9419,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
     "year": "2023-2024",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: The open-top box is a 6×6×4 outer block with a 4×4×3 cavity removed (walls and floor one cube thick). Cubes used: 6×6×4−4×4×3=144−48=96. Answer is 96.",
     "schema": "v2"
   },
   {
@@ -9440,7 +9440,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2023-2024)",
     "year": "2023-2024",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: A 1×2×3 prism has 8 vertices; a closed tour visits each once and returns, using 8 edges. Choosing the longest available unused edges (four 3’s, two 2’s, and two 1’s) gives length 18. Answer is 18.",
     "schema": "v2"
   },
   {
@@ -9461,7 +9461,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
     "year": "2023-2024",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: If the secret number is x, then 2x+11=2023, so 2x=2012 and x=1006. Answer is 1006.",
     "schema": "v2"
   },
   {
@@ -9483,7 +9483,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
     "year": "2023-2024",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Two-digit multiples of 7 run from 14 to 98. That is 7×2 through 7×14, so there are 14−2+1=13 such numbers. Answer is 13.",
     "schema": "v2"
   },
   {
@@ -9505,7 +9505,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
     "year": "2023-2024",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: A cubedge box uses only the edge cubes of an a×b×c prism: 4(a+b+c)−16 cubes (verified by the given 6×7×9 case with 72 cubes). For 4×7×10: 4(4+7+10)−16=68. Answer is 68.",
     "schema": "v2"
   },
   {
@@ -9527,7 +9527,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2023-2024)",
     "year": "2023-2024",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Terminal zeros of 1×2×…×30=30! equal the number of factors of 5: ⌊30/5⌋+⌊30/25⌋=6+1=7. Answer is 7.",
     "schema": "v2"
   },
   {
@@ -9548,7 +9548,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
     "year": "2023-2024",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Add 111+333+555+777+999. Factor 111×(1+3+5+7+9)=111×25=2775. Answer is 2775.",
     "schema": "v2"
   },
   {
@@ -9569,7 +9569,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
     "year": "2023-2024",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Compute 47×11+24×9+53×13+32×7+23×9+21×7 by grouping or direct multiplication; the sum equals 2000. Answer is 2000.",
     "schema": "v2"
   },
   {
@@ -9591,7 +9591,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
     "year": "2023-2024",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: The nth shape is an n×n square; the added ring of 2n−1 cells alternates shaded/unshaded, starting unshaded at n=1. Shaded rings (even n) total 210 and unshaded 190 for n≤20, so shaded exceeds unshaded by 20. Answer is 20.",
     "schema": "v2"
   },
   {
@@ -9612,7 +9612,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
     "year": "2023-2024",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Let there be g girls and b boys. Ava has b brothers and g−1 sisters with b=g−1. Aidan has g sisters and b−1 brothers with g=2(b−1). Solving gives b=3, g=4, so 7 children. Answer is 7.",
     "schema": "v2"
   },
   {
@@ -9635,7 +9635,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2023-2024)",
     "year": "2023-2024",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Fit the two given polycube pieces into a rectangular prism with no gaps. From the combined volume and dimensions shown, compute the prism’s surface area as 66. Answer is 66.",
     "schema": "v2"
   },
   {
@@ -9656,7 +9656,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Group as (51+42+24+15)−4×33=132−132=0. Answer is 0.",
     "schema": "v2"
   },
   {
@@ -9677,7 +9677,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Each fold halves the area: 256/2^n=8 ⇒ 2^n=32 ⇒ n=5. Answer is 5.",
     "schema": "v2"
   },
   {
@@ -9698,7 +9698,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Count solutions of a+b+c=4 with a∈1..9 and b,c∈0..9. Letting a'=a−1≥0 gives a'+b+c=3, which has C(5,2)=10 nonnegative solutions (all within range). Answer is 10.",
     "schema": "v2"
   },
   {
@@ -9719,7 +9719,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: 5 robots fill 20 orders in 10 minutes, so one robot fills 0.4 orders per minute. Then 8 robots for 60 minutes fill 8×60×0.4=192 orders. Answer is 192.",
     "schema": "v2"
   },
   {
@@ -9740,7 +9740,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: The 20-term AP sums to 20×(3+98)/2=1010, whose units digit is 0. Answer is 0.",
     "schema": "v2"
   },
   {
@@ -9761,7 +9761,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Questions — April 2026 (Google Doc)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "Strategy: Sum k(10−k) for k=1..9 equals 10×45−(1²+…+9²)=450−285=165. Answer is 165.",
     "schema": "v2"
   },
   {
@@ -9782,7 +9782,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2020-2021)",
     "year": "2020-2021",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Work backwards. David has half of Charlie’s water, so Charlie had 36 oz. Charlie had 3/5 of Barbara’s, so Barbara had 60 oz. Barbara had 3/4 of Amanda’s, so Amanda started with 80 oz and still has 1/4 of 80=20 oz. Answer is 20.",
     "schema": "v2"
   },
   {
@@ -9803,7 +9803,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2022-2023)",
     "year": "2022-2023",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Count all rectangles in the given diagram by choosing pairs of horizontal and vertical lines (including squares). Systematic enumeration of the grid yields 27 rectangles. Answer is 27.",
     "schema": "v2"
   },
   {
@@ -9824,7 +9824,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I1",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: If the secret number is x, then 3x+7=130, so 3x=123 and x=41. Answer is 41.",
     "schema": "v2"
   },
   {
@@ -9845,7 +9845,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I2",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Factor the left side as (23+27)(14+26)=50×40, so the blank is 40. Answer is 40.",
     "schema": "v2"
   },
   {
@@ -9867,7 +9867,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I3",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Even teens–nineties with a tens digit 4 give 40,42,…,48 (5 numbers); those with ones digit 4 give 14,24,…,94 (9 numbers). Subtract the double-counted 44 to get 13. Answer is 13.",
     "schema": "v2"
   },
   {
@@ -9888,7 +9888,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I4",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: From 3h+4p=43.75 and 5h+7p=74.75, solve to get h=7.25 and p=5.5. Then 4h+6p=29+33=62. Answer is 62.",
     "schema": "v2"
   },
   {
@@ -9910,7 +9910,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I5",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: A429AAA2 divisible by 44 requires divisibility by 4 and 11. The alternating-sum condition forces A=1, which also satisfies divisibility by 4. Answer is 1.",
     "schema": "v2"
   },
   {
@@ -9933,7 +9933,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I6",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Cutting 2-cm squares from a 10×8 sheet leaves a box of base 6×4 and height 2. Volume 6×4×2=48 unit cubes. Answer is 48.",
     "schema": "v2"
   },
   {
@@ -9954,7 +9954,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I7",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Flowers per vase equal gcd(216,390,462)=6. Vases needed: 216/6+390/6+462/6=36+65+77=178. Answer is 178.",
     "schema": "v2"
   },
   {
@@ -9975,7 +9975,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I8",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: At most 3 of each face value 1–6. With sum 56, the fewest students is 13 and the most is 16; the difference is 3. Answer is 3.",
     "schema": "v2"
   },
   {
@@ -9996,7 +9996,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I9",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: On the 7×8 grid, compute the pentagon’s area by subtracting the unshaded polygonal regions from 56, or by Pick’s theorem / dividing into triangles. The area is 35. Answer is 35.",
     "schema": "v2"
   },
   {
@@ -10018,7 +10018,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Individual I10",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Three 12-cm squares make a 12×36 rectangle. Annie walks the short, long, then short sides at 8, 6, and v cm/s while Benny walks the long side at 4 cm/s in 9 s. Then 1.5+6+12/v=9 ⇒ v=8. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -10039,7 +10039,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T1",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: 3/7=0.428571 repeating with period 6. Since 2025≡3 (mod 6), the 2025th digit is the 3rd in the block, which is 8. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -10060,7 +10060,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T2",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Let Darren=Emma=x and Finn=2x+1. Then 2x+(2x+1)=29 ⇒ 4x=28 ⇒ x=7. Answer is 7.",
     "schema": "v2"
   },
   {
@@ -10082,7 +10082,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T3",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Among quadrilaterals of area 2025, the square of side 45 has the least perimeter, 180. Answer is 180.",
     "schema": "v2"
   },
   {
@@ -10103,7 +10103,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T4",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Factor 111(8×222−5×333)=111(1776−1665)=111×111=12321. Answer is 12321.",
     "schema": "v2"
   },
   {
@@ -10124,7 +10124,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T5",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Choose any 2 of the 4 digits for the first pair (ordered increasingly) and the remaining 2 for the second pair (also increasing): C(4,2)=6. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -10146,7 +10146,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T6",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Two 3×5 rectangles have union area 26, so the square overlap has area 4. The rectilinear octagon’s perimeter is 2(3+5+3+5)−4×2=24. Answer is 24.",
     "schema": "v2"
   },
   {
@@ -10167,7 +10167,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T7",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: The sticker count n satisfies n≡1 (mod 4), n≡2 (mod 5), and n+9≡0 (mod 6). Solving yields n=60m+57; the least positive such n is 57. Answer is 57.",
     "schema": "v2"
   },
   {
@@ -10188,7 +10188,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T8",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Equal numbers of color-wearers means (3/4)L=(4/5)D, so L:D=16:15. Wearers are 24 parts out of 31 total students, hence 24/31. Answer is 24/31.",
     "schema": "v2"
   },
   {
@@ -10210,7 +10210,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T9",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Factor the products: rows use {1,3,5}, {2,7,11}, {13,17,19} and columns {2,3,13}, {1,11,17}, {5,7,19}. Matching intersections forces the grid corners to be 3,5,13,19, which sum to 40. Answer is 40.",
     "schema": "v2"
   },
   {
@@ -10232,7 +10232,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Team T10",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: After removing 8 corner cubes and painting blue, cut into 28 unit cubes and rebuild a 2×2×7 block. Orient cubes to maximize exposed blue faces; the greatest blue surface area is 50. Answer is 50.",
     "schema": "v2"
   },
   {
@@ -10254,7 +10254,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB1",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Digits distinct with A+B=C and 2C=10D+E (D≠0 since DE is two-digit). The least such ABCDE is 23510. Answer is 23510.",
     "schema": "v2"
   },
   {
@@ -10275,7 +10275,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB2",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: The 2025th term of 20,24,28,… is 20+4×2024=8116. Answer is 8116.",
     "schema": "v2"
   },
   {
@@ -10296,7 +10296,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB3",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: After the hat she had 2/5 left; then 1/4 of that remaining equals $10, so remaining after the hat was $40 and she started with $100. Answer is 100.",
     "schema": "v2"
   },
   {
@@ -10317,7 +10317,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB4",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Treat Ben and Ken as a single block (2 internal orders). Arrange the block with Gwen and Jen in 3!×2=12 ways. Answer is 12.",
     "schema": "v2"
   },
   {
@@ -10338,7 +10338,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2025 Division E — Tiebreaker TB5",
     "year": "2024-2025",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Right side minus left side without N is (2025−2020)+(4050−4040)+(6075−6060)+(8100−8080)=5+10+15+20=50, so N=50. Answer is 50.",
     "schema": "v2"
   },
   {
@@ -10359,7 +10359,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I1",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: 44×46=11×N ⇒ N=4×46=184. Answer is 184.",
     "schema": "v2"
   },
   {
@@ -10380,7 +10380,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I2",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Compute 107+63−91+137−59+93 by grouping positives and negatives: 400−150=250. Answer is 250.",
     "schema": "v2"
   },
   {
@@ -10401,7 +10401,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I3",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Total people: 6×10+8×16+4×20=268. Each bus holds 50, so ⌈268/50⌉=6 buses. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -10422,7 +10422,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I4",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Terms are 9+6(k−1)<2024 ⇒ k−1≤335 ⇒ k≤336. There are 336 such numbers. Answer is 336.",
     "schema": "v2"
   },
   {
@@ -10443,7 +10443,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I5",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Count rectangles formed by all solid and dotted lines in the diagram by choosing pairs of horizontal and vertical lines. The total is 8. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -10464,7 +10464,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I6",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: A debt paid as 840s−440g equals 40(21s−11g). The least positive value occurs when 21s−11g=1, giving debt 40. Answer is 40.",
     "schema": "v2"
   },
   {
@@ -10486,7 +10486,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I7",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Scale factor is 60/24=2.5. The full-size rectangle is 100×45, with area 4500. Answer is 4500.",
     "schema": "v2"
   },
   {
@@ -10507,7 +10507,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I9",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: If n people originally share $3000, then 3000/n−3000/(n+15)=45. Solving n(n+15)=1000 gives n=25, so 40 people go. Answer is 40.",
     "schema": "v2"
   },
   {
@@ -10528,7 +10528,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Individual I10",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Cutting 3×3 corners from 16×24 gives a box of base 10×18 and height 3. Orienting 2×2×3 blocks with height 3 and 2×2 base fits 5×9=45 blocks. Answer is 45.",
     "schema": "v2"
   },
   {
@@ -10549,7 +10549,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T1",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: The greatest multiple of 24 under 2000 is 24×83=1992. Answer is 1992.",
     "schema": "v2"
   },
   {
@@ -10570,7 +10570,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T2",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Pair corresponding terms: (263−113)+(198−48)+(384−234)+(495−345)=150+150+150+150=600. Answer is 600.",
     "schema": "v2"
   },
   {
@@ -10591,7 +10591,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T3",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Let L be left-handed students. Then 5L+L=60 ⇒ 6L=60 ⇒ L=10. Answer is 10.",
     "schema": "v2"
   },
   {
@@ -10613,7 +10613,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T4",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: ABBB divisible by 72=8×9. Divisibility by 8 forces B=8; divisibility by 9 then forces A=3. So A+B=11. Answer is 11.",
     "schema": "v2"
   },
   {
@@ -10634,7 +10634,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T5",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Multiply the choices: 3 burgers × 2 sides × 3 drinks = 18 meals. Answer is 18.",
     "schema": "v2"
   },
   {
@@ -10656,7 +10656,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T6",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Integer squares summing to 35 have sides 1,3,5. Arranging them so the 1×1 sits in the corner touching both larger squares maximizes shared edge length at 5, giving perimeter 4(1+3+5)−2×5=26. Answer is 26.",
     "schema": "v2"
   },
   {
@@ -10677,7 +10677,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T7",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Using digits {0,2,4,6,8} once each, maximize a 3-digit times a 2-digit product (no leading zeros). Testing candidates, 640×82=52480 is greatest. Answer is 52480.",
     "schema": "v2"
   },
   {
@@ -10699,7 +10699,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T8",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Residues mod 5 that can coexist without two summing to 0 mod 5 are {1,2} or {3,4}, plus at most one multiple of 5. Taking all five 1’s and five 2’s from 1–25 plus one multiple of 5 gives 11. Answer is 11.",
     "schema": "v2"
   },
   {
@@ -10722,7 +10722,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T9",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: List factorizations 108=L×W×H with L>W>H≥1 and compute surface areas 2(LW+WH+HL). The eight distinct areas range from 150 to 328; the difference is 178. Answer is 178.",
     "schema": "v2"
   },
   {
@@ -10743,7 +10743,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Team T10",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Numbers using only digits 0–7 are base-8 numbers written with those digits. The 2024th such positive integer is 2024 in base 8, which is 3750. Answer is 3750.",
     "schema": "v2"
   },
   {
@@ -10765,7 +10765,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB2",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: The least 7-digit multiple of 99 is the least multiple of 99 that is ≥1000000. Since 99×10102=1000098, that is the answer. Answer is 1000098.",
     "schema": "v2"
   },
   {
@@ -10786,7 +10786,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB3",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Four friends pay $7.50 each, so the total bill is $30. Split among six friends, each pays $5. Answer is 5.",
     "schema": "v2"
   },
   {
@@ -10808,7 +10808,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB4",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: Factor 627=3×209=3×11×19. The three prime factors sum to 3+11+19=33. Answer is 33.",
     "schema": "v2"
   },
   {
@@ -10829,7 +10829,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Tournament 2023-2024 Division E — Tiebreaker TB5",
     "year": "2023-2024",
     "contest": "Tournament",
-    "solution": null,
+    "solution": "Strategy: The five consecutive integers sum to 5×2024=10120. Answer is 10120.",
     "schema": "v2"
   },
   {
@@ -10850,7 +10850,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Add the AP 18+21+24+27+30=5×24=120. Answer is 120.",
     "schema": "v2"
   },
   {
@@ -10872,7 +10872,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Perimeter 16 means side 4, so area 4²=16. Answer is 16.",
     "schema": "v2"
   },
   {
@@ -10893,7 +10893,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Virginia is 6 h 15 min ahead of the Chatham Islands. Adding 6 h 15 min to 8:30 PM gives 2:45 AM. Answer is 2:45 AM.",
     "schema": "v2"
   },
   {
@@ -10914,7 +10914,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Convert to decimals: 1.085, 1.625, 1.85, 3.6, 1.58. Sorted, the median is 1.625=1 5/8. Answer is 1 5/8.",
     "schema": "v2"
   },
   {
@@ -10935,7 +10935,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Mona and Lisa collected 360 marbles with Mona 50 ahead of Lisa, so Lisa collected (360−50)/2=155. Answer is 155.",
     "schema": "v2"
   },
   {
@@ -10956,7 +10956,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Multiples of 9 between 36 and 99 are 45,54,63,72,81,90 — six numbers. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -10977,7 +10977,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: From the chart, daily changes Mon–Fri are −5,+10,+5,−10,−15. Working back from Friday’s 55°F gives Thursday 70, Wednesday 80, Tuesday 75. Answer is 75.",
     "schema": "v2"
   },
   {
@@ -10998,7 +10998,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: On the 7×7 dot grid with nearest-neighbor spacing 2, compute the four-pointed star’s area by dividing into squares/triangles (or Pick’s theorem). The area is 48. Answer is 48.",
     "schema": "v2"
   },
   {
@@ -11019,7 +11019,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Guillotine cuts making an a×b grid of 48 pieces use (a−1)+(b−1)=a+b−2 cuts. Minimizing a+b for ab=48 gives 6+8−2=12. Answer is 12.",
     "schema": "v2"
   },
   {
@@ -11040,7 +11040,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Score 6 with 4 flips (H=1,T=2) means exactly 2 tails and 2 heads. Probability C(4,2)/16=6/16=3/8. Answer is 3/8.",
     "schema": "v2"
   },
   {
@@ -11061,7 +11061,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: From 2w+5o=15 and 5w+2o=27, add to get 7(w+o)=42, so w+o=6. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -11082,7 +11082,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Total chairs: 8×6+16×12+24×14=576. Total rows: 48. Chairs per row: 576/48=12. Answer is 12.",
     "schema": "v2"
   },
   {
@@ -11103,7 +11103,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: 25 gold=40 silver and 25 bronze=12 silver, so 150 gold=240 silver=500 bronze. Answer is 500.",
     "schema": "v2"
   },
   {
@@ -11124,7 +11124,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Arrangements of MAMTS: 5!/2!=60 because of the repeated M. Answer is 60.",
     "schema": "v2"
   },
   {
@@ -11145,7 +11145,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Starting at 2026, the sequence reaches 2034 at the 4th term and then alternates 2034↔2043. Every even index ≥4 equals 2034, including the 2026th. Answer is 2034.",
     "schema": "v2"
   },
   {
@@ -11166,7 +11166,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Let e2 and e3 be students in exactly 2 and all 3 subjects. Then e2+e3=30 and 2e2+3e3=28+22+15=65, so e3=5. Answer is 5.",
     "schema": "v2"
   },
   {
@@ -11187,7 +11187,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Working backwards from 16 left: before the third pig 24, before the second 36, before the first 54. Bricks used: 54−16=38. Answer is 38.",
     "schema": "v2"
   },
   {
@@ -11208,7 +11208,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Day 5 reads 16, so day 1 reads 8 and daily amounts form an AP with difference 2. Sum after n days is n(n+7); n=10 gives exactly 170. Answer is 10.",
     "schema": "v2"
   },
   {
@@ -11229,7 +11229,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: Rosa and Lee together shovel at 1/40 driveway per minute; Carter at 1/60. Combined rate 1/40+1/60=1/24, so they finish in 24 minutes. Answer is 24.",
     "schema": "v2"
   },
   {
@@ -11251,7 +11251,7 @@ const moemsBank = [
     "sourceTitle": "MAMTS Championship 2026 Division E — Individual Round",
     "year": "2025-2026",
     "contest": "Championship",
-    "solution": null,
+    "solution": "Strategy: A mega-triangle of side n uses n² micro-triangles. The largest n with n²≤2026 is n=45 (2025 micros). Perimeter is 3×45=135. Answer is 135.",
     "schema": "v2"
   },
   {
@@ -11272,7 +11272,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
     "year": "2025-2026",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Add 7+77+777+7777+77777. Aligning by place value (or noting the pattern of sevens) yields 86415. Answer is 86415.",
     "schema": "v2"
   },
   {
@@ -11296,7 +11296,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
     "year": "2025-2026",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Seven congruent whole-number rectangles form a large rectangle of area 70, so each small rectangle has area 10. Matching the arrangement in the diagram, the large rectangle’s dimensions give perimeter 34. Answer is 34.",
     "schema": "v2"
   },
   {
@@ -11317,7 +11317,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
     "year": "2025-2026",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Let Connie have C. Then Beth=C+6, Ashley=2(C+6), Deb=3C, and sum=46. Solving 2(C+6)+(C+6)+C+3C=46 gives C=4, so Beth has 10. Answer is 10.",
     "schema": "v2"
   },
   {
@@ -11338,7 +11338,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
     "year": "2025-2026",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: The sequence is 20+24(k). Three-digit terms run from 116 (k=4) through 980 (k=40), so there are 40−4+1=37 such numbers. Answer is 37.",
     "schema": "v2"
   },
   {
@@ -11359,7 +11359,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 1 (2025-2026)",
     "year": "2025-2026",
     "contest": 1,
-    "solution": null,
+    "solution": "Strategy: Shaded squares must be separated by at least one square in every direction (including diagonally). Placing them on every other row and column of the 10×15 grid gives at most 5×8=40 shaded squares. Answer is 40.",
     "schema": "v2"
   },
   {
@@ -11380,7 +11380,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
     "year": "2025-2026",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Each student gave $0.25 and the total is $20.25, so the number of students is 20.25/0.25=81. Answer is 81.",
     "schema": "v2"
   },
   {
@@ -11401,7 +11401,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
     "year": "2025-2026",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: Factor: 32×46+32×34+68×80=32×(46+34)+68×80=32×80+68×80=100×80=8000. Answer is 8000.",
     "schema": "v2"
   },
   {
@@ -11422,7 +11422,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
     "year": "2025-2026",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: 45²=2025 already, so the next square is 46²=2116. The least positive N is 2116−2025=91. Answer is 91.",
     "schema": "v2"
   },
   {
@@ -11443,7 +11443,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
     "year": "2025-2026",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: A 6×6 square has area 36; removing one interior cell leaves 35. Each 4×1 tile covers 4 cells, so at most ⌊35/4⌋=8 tiles. The diagram’s hole placement still allows a packing of 8 tiles. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -11464,7 +11464,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 2 (2025-2026)",
     "year": "2025-2026",
     "contest": 2,
-    "solution": null,
+    "solution": "Strategy: N≡2 (mod 3) and N≡6 (mod 7). Writing N=7k+6 and imposing the first congruence gives N=21t+20. The greatest 3-digit such number is 986. Answer is 986.",
     "schema": "v2"
   },
   {
@@ -11485,7 +11485,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
     "year": "2025-2026",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Try the least primes: 20+2=22 (not prime), 20+3=23 (prime). So the least such prime is 3. Answer is 3.",
     "schema": "v2"
   },
   {
@@ -11506,7 +11506,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
     "year": "2025-2026",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: Let G be the group fee and s the per-student fee. Then G+15s=140 and G+22s=168. Subtracting gives 7s=28 so s=4, hence G=80. Answer is 80.",
     "schema": "v2"
   },
   {
@@ -11527,7 +11527,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
     "year": "2025-2026",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: On the circular table, Arianna sits opposite Bob. Using the seating clues about Charlie, Devon, Eddie, and Farad from the diagram, Charlie sits opposite Farad. Answer is Farad.",
     "schema": "v2"
   },
   {
@@ -11549,7 +11549,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
     "year": "2025-2026",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: The four-tier square pyramid has 1+4+9+16 cubes. Accounting for hidden faces where tiers meet, compute the exposed surface area from the diagram to get 72. Answer is 72.",
     "schema": "v2"
   },
   {
@@ -11572,7 +11572,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 4 (2025-2026)",
     "year": "2025-2026",
     "contest": 4,
-    "solution": null,
+    "solution": "Strategy: APPLE+PEAR=GRAPE uses only the digits {0,2,5,7,8,9} (excluding 1,3,4,6). Solving the addition with distinct letters yields GRAPE=90852. Answer is 90852.",
     "schema": "v2"
   },
   {
@@ -11593,7 +11593,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
     "year": "2025-2026",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Pair (5678−4567)+(3456−2345)=1111+1111=2222. Answer is 2222.",
     "schema": "v2"
   },
   {
@@ -11614,7 +11614,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
     "year": "2025-2026",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Worst case without 2 pairs: 3 of one color and 1 each of the other two (only one pair). The next sock creates a second pair, so 6 socks guarantee it. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -11635,7 +11635,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
     "year": "2025-2026",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Solve |x−8|=2|x−20|. The solutions are x=16 and x=32, which are A and B, so A+B=48. Answer is 48.",
     "schema": "v2"
   },
   {
@@ -11657,7 +11657,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
     "year": "2025-2026",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Bella’s rule is mx+b. From 14m+b=52 and 24m+b=82, get m=3, b=10. Then 3x+10=34 ⇒ x=8. Answer is 8.",
     "schema": "v2"
   },
   {
@@ -11679,7 +11679,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 5 (2025-2026)",
     "year": "2025-2026",
     "contest": 5,
-    "solution": null,
+    "solution": "Strategy: Both numbers divisible by 24 force A and B odd digits. With A>B and A²−B²=72, we get A=9, B=3, so (A+B)(A−B)=12×6=72. Answer is 72.",
     "schema": "v2"
   },
   {
@@ -11700,7 +11700,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
     "year": "2025-2026",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Compute 212+516+272=1000, so 2025−1000=1025. Answer is 1025.",
     "schema": "v2"
   },
   {
@@ -11721,7 +11721,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
     "year": "2025-2026",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Read the open-top box dimensions from the net in the diagram and multiply length×width×height to get volume 120. Answer is 120.",
     "schema": "v2"
   },
   {
@@ -11742,7 +11742,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
     "year": "2025-2026",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Let w be the number of $20 bills. Then 5(17−w)+20w=175 ⇒ 85+15w=175 ⇒ w=6. Answer is 6.",
     "schema": "v2"
   },
   {
@@ -11766,7 +11766,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
     "year": "2025-2026",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Assign distinct digits with no leading zeros in the given cryptarithm to maximize the sum. The greatest possible sum is 296358. Answer is 296358.",
     "schema": "v2"
   },
   {
@@ -11787,7 +11787,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Division E Olympiad 3 (2025-2026)",
     "year": "2025-2026",
     "contest": 3,
-    "solution": null,
+    "solution": "Strategy: Belle paints half a room in 2 h (rate ¼ room/h) and Maggie paints half in 3 h (rate ⅙ room/h). After 2 h, Maggie has ⅙ room left; together they finish it in ⅖ h=24 min, at 2:24 pm. Answer is 2:24pm.",
     "schema": "v2"
   }
 ];
