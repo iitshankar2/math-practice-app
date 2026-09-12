@@ -1976,7 +1976,7 @@ const moemsBank = [
     "sourceTitle": "December prep worksheet + short quiz",
     "year": "2025-2026",
     "contest": null,
-    "solution": "(144-9)/12=11.25 → 11",
+    "solution": "Remaining area is 12×12−3×3=135, and 135/12=11.25, so at most 11 tiles by area. With a centered 3×3 hole, a perfect packing of 11 is impossible; the maximum tiling is 10.",
     "schema": "v2"
   },
   {
