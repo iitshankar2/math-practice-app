@@ -484,7 +484,7 @@ const moemsBank = [
   {
     "id": "user-practice-25-20",
     "question": "The number 2A5A0A2 is divisible by 99. What is the digit A?",
-    "answer": 9,
+    "answer": "3",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -500,7 +500,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
     "year": "2025-2026",
     "contest": null,
-    "solution": "Sum of digits must be div by 9: 2+A+5+A+0+A+2 = 9 + 3A. If A=3, 6, or 9. Check 11 divisibility.",
+    "solution": "Divisible by 99 ⇒ by 9 and 11. Digit sum 9+3A ⇒ A∈{0,3,6,9} for ÷9; alternating sum test for ÷11 leaves only A=3 (2350302÷99).",
     "schema": "v2"
   },
   {
@@ -544,7 +544,7 @@ const moemsBank = [
     "sourceTitle": "MOEMS Practice Competition: Elementary Division (25 problems) + answer key",
     "year": "2025-2026",
     "contest": null,
-    "solution": "Cycle length 6. 2019 / 6 leaves remainder 3. 3rd digit is 8.",
+    "solution": "5/13=0.384615… with repeating cycle length 6. 2019÷6 leaves remainder 3; the 3rd digit of the cycle 384615 is 4.",
     "schema": "v2"
   },
   {
@@ -638,7 +638,7 @@ const moemsBank = [
   {
     "id": "user-feb13-5",
     "question": "In the problem 3 x FUN = HFUN, where different letters represent different digits, find the 3-digit number FUN.",
-    "answer": 450,
+    "answer": "500",
     "answerType": "number",
     "hasFigure": false,
     "solvableWithoutFigure": true,
@@ -654,7 +654,7 @@ const moemsBank = [
     "sourceTitle": "MATH OLYMPIADS (Division E) - Practice Set (Feb 13)",
     "year": "2025-2026",
     "contest": null,
-    "solution": null,
+    "solution": "3×FUN=HFUN means FUN is the last three digits of 3×FUN, so 3×FUN=1000H+FUN ⇒ 2×FUN=1000H. FUN=500, H=1 (3×500=1500).",
     "schema": "v2"
   },
   {
